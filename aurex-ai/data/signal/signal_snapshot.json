@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-09-02T09:51:38.097055+00:00",
+  "weights": {
+    "mega_cap_alignment": 0.3,
+    "market_regime": 0.15,
+    "vxn": 0.1,
+    "us10y": 0.15,
+    "dxy": 0.1,
+    "macro": 0.1,
+    "news_sentiment": 0.1
+  },
+  "factors": {
+    "mega_cap_alignment": {
+      "factor": "mega_cap_alignment",
+      "score": 100.0,
+      "status": "green",
+      "details": {
+        "AAPL": {
+          "change_pct": 0.0646,
+          "up": true
+        },
+        "MSFT": {
+          "change_pct": 0.0489,
+          "up": true
+        },
+        "NVDA": {
+          "change_pct": 0.2951,
+          "up": true
+        },
+        "AMZN": {
+          "change_pct": 0.2911,
+          "up": true
+        }
+      }
+    },
+    "market_regime": {
+      "factor": "market_regime",
+      "score": 50.0,
+      "status": "yellow",
+      "details": {
+        "regime": "NEUTRAL / TRANSITIONAL",
+        "last_price": 29077.22,
+        "sma50": 29225.85,
+        "sma200": 26962.65
+      }
+    },
+    "vxn": {
+      "factor": "vxn",
+      "score": 55.0,
+      "status": "yellow",
+      "details": {
+        "current_vxn": 21.87,
+        "percentile_vs_20d": 45.0
+      }
+    },
+    "us10y": {
+      "factor": "us10y",
+      "score": 22.93,
+      "status": "red",
+      "details": {
+        "current_yield_pct": 0.48,
+        "change_5d_pct": 3.384
+      }
+    },
+    "dxy": {
+      "factor": "dxy",
+      "score": 44.89,
+      "status": "yellow",
+      "details": {
+        "current_dxy": 99.8,
+        "change_5d_pct": 0.639
+      }
+    },
+    "macro": {
+      "factor": "macro",
+      "score": 50.0,
+      "status": "yellow",
+      "details": {
+        "beats": 0,
+        "misses": 0,
+        "neutral": 0,
+        "evaluated_events": []
+      }
+    },
+    "news_sentiment": {
+      "factor": "news_sentiment",
+      "score": 45.99,
+      "status": "yellow",
+      "details": {
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": -0.08,
+        "articles_analyzed": 23,
+        "top_headlines": [
+          {
+            "title": "Sumadhura Group to invest Rs 400 cr in industrial & logistics park in Chennai",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-01T09:47:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "TVK govt to recast mini stadium plan; outlay may rise to Rs 12 crore each",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-01T09:47:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Elon Musk's Tesla vs. Jamie Dimon's JPMorgan Chase: Which Stock Has Performed Better Over the Past 5 Years?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-01T09:45:01Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Tim Cook's Last Warning as Apple CEO Was That Memory Chip Shortages Won't Improve Any Time Soon. Here's What That Means for Apple's Margins Under John Ternus",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-01T09:44:50Z",
+            "sentiment": "Negative",
+            "compound": -0.66
+          },
+          {
+            "title": "Mamata Banerjee's niece Bristy Mukherjee found dead at Birbhum house; cops suspect suicide",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-01T09:44:19Z",
+            "sentiment": "Negative",
+            "compound": -0.9
+          },
+          {
+            "title": "Global-Leading Robobrain Firm Mech-Mind Robotics Lists on Hong Kong Stock Exchange",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-01T09:41:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          }
+        ]
+      }
+    }
+  },
+  "confirmation_score": 60.53,
+  "trade_probability": 56.32,
+  "market_regime": "NEUTRAL / TRANSITIONAL",
+  "final_decision": {
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
+  }
+}
