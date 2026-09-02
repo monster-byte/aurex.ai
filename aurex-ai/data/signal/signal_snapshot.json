@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T20:07:29.892458+00:00",
+  "generated_at": "2026-09-02T22:40:00.013565+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -40,8 +40,8 @@
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
         "last_price": 29143.33,
-        "sma50": 29221.77,
-        "sma200": 26983.4
+        "sma50": 29220.05,
+        "sma200": 26961.2
       }
     },
     "vxn": {
@@ -49,26 +49,26 @@
       "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 21.09,
+        "current_vxn": 21.13,
         "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 27.36,
+      "score": 22.93,
       "status": "red",
       "details": {
         "current_yield_pct": 4.796,
-        "change_5d_pct": 2.83
+        "change_5d_pct": 3.384
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.68,
+      "score": 44.69,
       "status": "yellow",
       "details": {
         "current_dxy": 99.58,
-        "change_5d_pct": 0.415
+        "change_5d_pct": 0.664
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.55,
+      "score": 50.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
-        "articles_analyzed": 25,
+        "avg_compound": 0.009,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Public Sector Digital Sovereignty Priorities Stall Between Assessment and Execution, Says Info-Tech Research Group",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-01T20:07:00Z",
+            "title": "Treasury Secretary Scott Bessent holds a news conference at the G20 meeting — 9/1/2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-01T22:39:30Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "HubSpot, Intuit, Asana, Snowflake, and Atlassian Shares Are Falling, What You Need To Know",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-01T22:37:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
+          },
+          {
+            "title": "Wall Street ends lower as higher yields, rising oil prices mark shaky start to September - Yahoo Finance",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-01T22:32:30Z",
             "sentiment": "Negative",
-            "compound": -0.202
+            "compound": -0.477
           },
           {
-            "title": "Palo Alto Networks Acquires Console to Agentify Security",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-01T20:05:00Z",
+            "title": "Stock market today: Live updates",
+            "source": "CNBC",
+            "publishedAt": "2026-09-01T22:25:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Lam Research, Monolithic Power Systems, Texas Instruments, FormFactor, and Amkor Shares Are Falling, What You Need To Know",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-01T22:22:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
+          },
+          {
+            "title": "Stock Market Today, Sept. 1: Fervo Energy Surges 28% on 396-Megawatt Google Power Deal",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-01T22:22:13Z",
             "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Palo Alto Networks Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-01T20:05:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "MongoDB, Inc. Announces Second Quarter Fiscal 2027 Financial Results",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-01T20:05:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "VINCI COMPASS COMPLETES THE ACQUISITION OF NAVI'S REAL ESTATE PLATFORM",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-01T20:02:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "COLLPLANT ANNOUNCES REVERSE SHARE SPLIT",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-01T20:01:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.33,
-  "trade_probability": 44.8,
+  "confirmation_score": 40.45,
+  "trade_probability": 44.27,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
