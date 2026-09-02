@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T09:51:38.097055+00:00",
+  "generated_at": "2026-09-02T10:08:59.357845+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -40,35 +40,35 @@
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
         "last_price": 29077.22,
-        "sma50": 29225.85,
-        "sma200": 26962.65
+        "sma50": 29244.13,
+        "sma200": 26943.07
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 55.0,
+      "score": 60.0,
       "status": "yellow",
       "details": {
         "current_vxn": 21.87,
-        "percentile_vs_20d": 45.0
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 22.93,
+      "score": 34.35,
       "status": "red",
       "details": {
-        "current_yield_pct": 0.48,
-        "change_5d_pct": 3.384
+        "current_yield_pct": 4.796,
+        "change_5d_pct": 1.956
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.89,
+      "score": 42.66,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.8,
-        "change_5d_pct": 0.639
+        "current_dxy": 99.83,
+        "change_5d_pct": 0.918
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.99,
+      "score": 57.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.08,
-        "articles_analyzed": 23,
+        "avg_compound": 0.144,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Sumadhura Group to invest Rs 400 cr in industrial & logistics park in Chennai",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-01T09:47:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "TVK govt to recast mini stadium plan; outlay may rise to Rs 12 crore each",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-01T09:47:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Elon Musk's Tesla vs. Jamie Dimon's JPMorgan Chase: Which Stock Has Performed Better Over the Past 5 Years?",
+            "title": "Euro zone inflation is back above 3%. Higher interest rates are likely to follow",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-01T09:45:01Z",
+            "publishedAt": "2026-09-01T10:08:22Z",
             "sentiment": "Positive",
-            "compound": 0.44
+            "compound": 0.459
           },
           {
-            "title": "Tim Cook's Last Warning as Apple CEO Was That Memory Chip Shortages Won't Improve Any Time Soon. Here's What That Means for Apple's Margins Under John Ternus",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-01T09:44:50Z",
+            "title": "Gaja Alternative Asset Management gets SEBI nod for new fund",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-01T10:08:17Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Losses at Krispy Kreme’s Irish business more than double to €3.07m",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-01T10:01:02Z",
             "sentiment": "Negative",
-            "compound": -0.66
+            "compound": -0.402
           },
           {
-            "title": "Mamata Banerjee's niece Bristy Mukherjee found dead at Birbhum house; cops suspect suicide",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-01T09:44:19Z",
+            "title": "Bank of Canada expected to hold interest rates steady, but renewed trade war muddies economic outlook",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-01T10:00:35Z",
             "sentiment": "Negative",
-            "compound": -0.9
+            "compound": -0.654
           },
           {
-            "title": "Global-Leading Robobrain Firm Mech-Mind Robotics Lists on Hong Kong Stock Exchange",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-01T09:41:00Z",
+            "title": "How Do You Get to Albany? Take a Left.",
+            "source": "Commercial Observer",
+            "publishedAt": "2026-09-01T10:00:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump says Iran is ‘DEAD’ — experts point to the real sign Tehran is nearing the brink",
+            "source": "Fox News",
+            "publishedAt": "2026-09-01T10:00:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 60.53,
-  "trade_probability": 56.32,
+  "confirmation_score": 63.64,
+  "trade_probability": 58.18,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
