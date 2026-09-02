@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T10:08:59.357845+00:00",
+  "generated_at": "2026-09-02T13:53:09.489379+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,23 +12,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0646,
+          "change_pct": 0.171,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0489,
-          "up": true
+          "change_pct": -0.2109,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.2951,
+          "change_pct": 0.0432,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.2911,
+          "change_pct": 0.0079,
           "up": true
         }
       }
@@ -39,36 +39,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29077.22,
-        "sma50": 29244.13,
-        "sma200": 26943.07
+        "last_price": 29001.78,
+        "sma50": 29217.22,
+        "sma200": 26960.49
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.87,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 21.86,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 34.35,
+      "score": 23.62,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.796,
-        "change_5d_pct": 1.956
+        "current_yield_pct": 4.792,
+        "change_5d_pct": 3.298
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.66,
+      "score": 46.93,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.83,
-        "change_5d_pct": 0.918
+        "current_dxy": 99.55,
+        "change_5d_pct": 0.384
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.2,
+      "score": 51.21,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.144,
-        "articles_analyzed": 24,
+        "avg_compound": 0.024,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Euro zone inflation is back above 3%. Higher interest rates are likely to follow",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-01T10:08:22Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Gaja Alternative Asset Management gets SEBI nod for new fund",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-01T10:08:17Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Losses at Krispy Kreme’s Irish business more than double to €3.07m",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-01T10:01:02Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Bank of Canada expected to hold interest rates steady, but renewed trade war muddies economic outlook",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-01T10:00:35Z",
-            "sentiment": "Negative",
-            "compound": -0.654
-          },
-          {
-            "title": "How Do You Get to Albany? Take a Left.",
-            "source": "Commercial Observer",
-            "publishedAt": "2026-09-01T10:00:14Z",
+            "title": "Stock Market Today: Dow, Nasdaq Futures Sink as Bond Selloff Intensifies — Live Updates - WSJ",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-01T13:52:36Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Trump says Iran is ‘DEAD’ — experts point to the real sign Tehran is nearing the brink",
-            "source": "Fox News",
-            "publishedAt": "2026-09-01T10:00:12Z",
+            "title": "US manufacturing PMI August final at 53.4, below expectations",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-01T13:51:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Stock Market Today (Sept. 1, 2026): Nasdaq slides on renewed U.S.-Iran conflict",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-01T13:50:16Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "D-Orbit Selects GomSpace Power Systems for Upcoming Space Logistics Missions",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-01T13:50:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US stocks today: Nasdaq crashes over 1% as bond selloff, oil rise fuel inflation anxiety",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-01T13:49:53Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "US stocks today: Nasdaq crashes over 1% as bond selloff, oil rise fuel inflation anxiety",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-01T13:49:53Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
           }
         ]
       }
     }
   },
-  "confirmation_score": 63.64,
-  "trade_probability": 58.18,
+  "confirmation_score": 53.86,
+  "trade_probability": 52.32,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
