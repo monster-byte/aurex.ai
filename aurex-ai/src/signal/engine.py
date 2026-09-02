@@ -107,7 +107,9 @@ def run():
     print("[3/3] حفظ النتيجة...")
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)print(f"\nConfirmation Score : {confirmation_score}%")
+                json.dump(result, f, ensure_ascii=False, indent=2)
+
+    print(f"\nConfirmation Score : {confirmation_score}%")  
     print(f"Trade Probability  : {trade_probability}%")
     print(f"Market Regime      : {regime_label}")
     print(f"Final Decision     : {decision['ai_status']} ({decision['directional_bias']})")
