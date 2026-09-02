@@ -27,10 +27,16 @@ jobs:
         working-directory: aurex-ai
         run: python -m src.data.run
 
+      - name: Run signal engine
+        working-directory: aurex-ai
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+        run: python -m src.signal.engine
+
       - name: Commit updated data
         run: |
           git config user.name "aurex-ai-bot"
           git config user.email "bot@users.noreply.github.com"
           git add aurex-ai/data/
-          git diff --quiet --cached || git commit -m "chore: auto-update market data [skip ci]"
+          git diff --quiet --cached || git commit -m "chore: auto-update market data + signal [skip ci]"
           git push
