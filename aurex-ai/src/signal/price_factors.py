@@ -120,8 +120,7 @@ def compute_us10y_factor() -> dict:
         "factor": "us10y",
         "score": score,
         "status": _status_from_score(score),
-        "details": {"current_yield_pct": round(float(close.iloc[-1]) / 10, 3), "change_5d_pct": round(pct_change_5d, 3)},
-    } 
+        "details": {"current_yield_pct": round(float(close.iloc[-1]), 3), "change_5d_pct": round(pct_change_5d, 3)},    } 
 def compute_dxy_factor() -> dict:
     hist = yf.Ticker("DX-Y.NYB").history(period="10d", interval="1d")
     if hist.empty or len(hist) < 6:
