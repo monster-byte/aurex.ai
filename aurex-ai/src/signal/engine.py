@@ -117,5 +117,5 @@ def run():
     print("=== انتهى ✅ ===")
 
 
-if name == "main":
+if __name__ == "__main__":
     run()
