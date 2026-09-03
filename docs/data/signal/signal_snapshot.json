@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T19:19:42.347304+00:00",
+  "generated_at": "2026-09-03T20:01:46.056459+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 0.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0336,
-          "up": true
+          "change_pct": -0.1248,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.089,
-          "up": true
+          "change_pct": -0.1732,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.1265,
-          "up": true
+          "change_pct": -0.0985,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0599,
-          "up": true
+          "change_pct": -0.0309,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.74,
+      "score": 72.62,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29494.61,
-        "sma50": 29227.27,
-        "sma200": 27005.83
+        "last_price": 29482.32,
+        "sma50": 29227.02,
+        "sma200": 27005.77
       }
     },
     "vxn": {
@@ -49,7 +49,7 @@
       "score": 80.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.49,
+        "current_vxn": 20.38,
         "percentile_vs_20d": 20.0
       }
     },
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.82,
+      "score": 51.52,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.93,
-        "change_5d_pct": -0.227
+        "current_dxy": 98.97,
+        "change_5d_pct": -0.19
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.68,
+      "score": 52.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.046,
+        "avg_compound": 0.052,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Nvidia now accounts for 8% of the entire S&P 500",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-02T19:12:14Z",
+            "title": "Goldman Sachs, BofA Among 21 Banks Planning Joint Dollar Stablecoin Launch",
+            "source": "Decrypt",
+            "publishedAt": "2026-09-02T20:01:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "George Clooney Gives Powerful Speech at Venice Film Festival 2026, Calls Out ‘Authoritarians’ While Being Honored with Golden Lion Award",
-            "source": "Just Jared",
-            "publishedAt": "2026-09-02T19:11:36Z",
-            "sentiment": "Positive",
-            "compound": 0.923
-          },
-          {
-            "title": "Traders are piling into this international stock market that just pulled ahead of the Nasdaq",
-            "source": "CNBC",
-            "publishedAt": "2026-09-02T19:11:07Z",
+            "title": "Neurocrine Biosciences to Present at Upcoming Investor Conferences in September",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-02T20:01:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Prediction: $1,104 Invested in Nvidia Today Will Be Worth This Much by 2030",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-02T19:09:56Z",
+            "title": "AMGEN TO PRESENT AT THE 2026 WELLS FARGO HEALTHCARE CONFERENCE",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-02T20:01:00Z",
             "sentiment": "Positive",
-            "compound": 0.226
+            "compound": 0.408
           },
           {
-            "title": "U.S. Diesel Prices Close In on April War Peak",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-09-02T19:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.599
+            "title": "Silver Will Rise Again",
+            "source": "Dailyreckoning.com",
+            "publishedAt": "2026-09-02T20:00:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Tennessee Bank Teller Accused of Draining $60,000 From Customer Accounts Using Old Withdrawal Slips",
-            "source": "The Daily Hodl",
-            "publishedAt": "2026-09-02T18:59:46Z",
-            "sentiment": "Negative",
-            "compound": -0.273
+            "title": "Did Krispy Kreme, Inc. Insiders Breach their Fiduciary Duties to Shareholders?",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-02T19:59:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Did Geron Corporation Insiders Breach their Fiduciary Duties to Shareholders?",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-02T19:58:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 69.05,
-  "trade_probability": 61.43,
+  "confirmation_score": 39.5,
+  "trade_probability": 43.7,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
