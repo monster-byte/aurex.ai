@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AUREX AI — NASDAQ-100 Intelligence</title>
+<title>AUREX AI - NASDAQ-100 Intelligence</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
 <style>
   :root{
@@ -59,7 +59,6 @@
     margin:0 0 12px 0;
     color:var(--muted);
     font-weight:600;
-    text-transform:none;
   }
   .big-number{
     font-family:var(--mono);
@@ -130,7 +129,7 @@
 <body>
 
 <header>
-  <h1>AUREX <span>AI</span> — NASDAQ-100 Intelligence</h1>
+  <h1>AUREX <span>AI</span> - NASDAQ-100 Intelligence</h1>
   <div class="sub" id="last-updated">جارِ التحميل...</div>
 </header>
 
@@ -138,216 +137,233 @@
   <div class="loading">جارِ تحميل البيانات...</div>
 </div>
 
-<footer>جميع البيانات متأخرة قليلاً (Delayed) — هذا ليس نصيحة استثمارية. AUREX AI Dashboard v0.1</footer>
+<footer>جميع البيانات متأخرة قليلاً (Delayed) - هذا ليس نصيحة استثمارية. AUREX AI Dashboard v0.1</footer>
 
 <script>
-const BASE = "./data";
+var BASE = "./data";
 
-async function fetchJSON(path) {
-  try {
-    const res = await fetch(path + "?t=" + Date.now());
-    if (!res.ok) return null;
-    return await res.json();
-  } catch (e) {
-    return null;
-  }
-}function fmt(n, digits=2) {
-  if (n === null  n === undefined  isNaN(n)) return "—";
+function fetchJSON(path) {
+  return fetch(path + "?t=" + Date.now())
+    .then(function(res) {
+      if (!res.ok) { return null; }
+      return res.json();
+    })
+    .catch(function(e) {
+      return null;
+    });
+}
+
+function pick(a, b) {
+  if (a === null) { return b; }
+  if (a === undefined) { return b; }
+  return a;
+}
+
+function fmt(n, digits) {
+  if (digits === undefined) { digits = 2; }
+  if (n === null) { return "-"; }
+  if (n === undefined) { return "-"; }
+  if (isNaN(n)) { return "-"; }
   return Number(n).toLocaleString('en-US', {minimumFractionDigits: digits, maximumFractionDigits: digits});
 }
 
 function changeClass(v) {
-  return v >= 0 ? "up" : "down";
+  if (v >= 0) { return "up"; }
+  return "down";
 }
 
 function statusDot(status) {
-  return <span class="dot ${status || 'yellow'}"></span>;
+  var s = pick(status, 'yellow');
+  return '<span class="dot ' + s + '"></span>';
 }
 
 function factorLabel(key) {
-  const labels = {
+  var labels = {
     mega_cap_alignment: "Mega-Cap Alignment",
     market_regime: "Market Regime",
     vxn: "VXN (Volatility)",
     us10y: "US 10Y Yield",
     dxy: "DXY (USD Strength)",
     macro: "Macro Environment",
-    news_sentiment: "News & Sentiment",
+    news_sentiment: "News and Sentiment"
   };
-  return labels[key] || key;
+  var lbl = labels[key];
+  return pick(lbl, key);
 }
 
 function decisionClass(status) {
-  if (!status) return "hold";
-  if (status.includes("APPROVED")) return "approved";
-  if (status.includes("REJECT")) return "reject";
+  if (!status) { return "hold"; }
+  if (status.indexOf("APPROVED") !== -1) { return "approved"; }
+  if (status.indexOf("REJECT") !== -1) { return "reject"; }
   return "hold";
 }
 
-async function render() {
-  const [priceData, signalData, riskData] = await Promise.all([
-    fetchJSON(${BASE}/prices/snapshot_1D.json),
-    fetchJSON(${BASE}/signal/signal_snapshot.json),
-    fetchJSON(${BASE}/risk/risk_snapshot.json),
-  ]);
+function render() {
+  Promise.all([
+    fetchJSON(BASE + "/prices/snapshot_1D.json"),
+    fetchJSON(BASE + "/signal/signal_snapshot.json"),
+    fetchJSON(BASE + "/risk/risk_snapshot.json")
+  ]).then(function(results) {
+    var priceData = results[0];
+    var signalData = results[1];
+    var riskData = results[2];
 
-  const dashboard = document.getElementById('dashboard');
+    var dashboard = document.getElementById('dashboard');
 
-  if (!priceData && !signalData && !riskData) {
-    dashboard.innerHTML = '<div class="error-msg">تعذّر تحميل البيانات. تأكد أن ملفات data/ محدّثة ومنشورة.</div>';
-    return;
-  }
-
-  document.getElementById('last-updated').textContent =
-    "آخر تحديث: " + new Date(signalData?.generated_at  riskData?.generated_at  Date.now()).toLocaleString('ar-EG');
-
-  let html = "";
-
-  // ===== Final Decision Banner =====
-  if (signalData?.final_decision) {
-    const d = signalData.final_decision;
-    const cls = decisionClass(d.ai_status);
-    html += 
-    <div class="decision-banner ${cls}">
-      <div>
-        <div style="color:var(--muted);font-size:0.85rem;">القرار النهائي (Final Decision)</div>
-        <div class="status">${d.ai_status} — ${d.directional_bias}</div>
-      </div>
-      <div class="row" style="border:none;gap:24px;">
-        <div><div class="label">Confirmation Score</div><div class="value big-number" style="font-size:1.3rem;">${fmt(signalData.confirmation_score)}%</div></div>
-        <div><div class="label">Trade Probability</div><div class="value big-number" style="font-size:1.3rem;">${fmt(signalData.trade_probability)}%</div></div>
-      </div>
-    </div>;
-  }
-
-  // ===== NASDAQ-100 Price Panel =====
-  if (priceData?.NASDAQ_100_INDEX) {
-    const idx = priceData.NASDAQ_100_INDEX;
-    html += 
-    <div class="panel" style="grid-column:span 2;">
-      <h2>NASDAQ-100 Index</h2>
-      <div class="big-number ${changeClass(idx.change_pct)}">${fmt(idx.last_price)}</div>
-      <div class="${changeClass(idx.change_pct)}" style="font-family:var(--mono);margin-bottom:10px;">
-        ${idx.change >= 0 ? '+' : ''}${fmt(idx.change)} (${idx.change_pct >= 0 ? '+' : ''}${fmt(idx.change_pct)}%)
-      </div>
-      <canvas id="priceChart"></canvas>
-    </div>;
-  }
-
-  // ===== Market Drivers =====
-  const drivers = ["AAPL","MSFT","NVDA","AMZN","VXN","US10Y","DXY"];
-  let driversRows = "";
-  drivers.forEach(sym => {
-    const d = priceData?.[sym];
-    if (!d) return;
-    driversRows += 
-      <div class="row">
-        <span class="label">${sym}</span>
-        <span class="value ${changeClass(d.change_pct)}">${fmt(d.last_price)} (${d.change_pct >= 0 ? '+' : ''}${fmt(d.change_pct)}%)</span>
-      </div>;
-  });
-  if (driversRows) {
-    html += <div class="panel"><h2>Market Drivers</h2>${driversRows}</div>;
-  }
-
-  // ===== AI Signal & Confirmation =====
-  if (signalData?.factors) {
-    let factorRows = "";
-    for (const [key, f] of Object.entries(signalData.factors)) {
-      factorRows += 
-        <div class="row">
-          <span class="label">${statusDot(f.status)}${factorLabel(key)}</span>
-          <span class="value">${fmt(f.score)}%</span>
-        </div>;
+    if (!priceData && !signalData && !riskData) {
+      dashboard.innerHTML = '<div class="error-msg">تعذر تحميل البيانات. تأكد أن ملفات data محدثة ومنشورة.</div>';
+      return;
     }
-    html += <div class="panel" style="grid-column:span 2;"><h2>AI Signal & Confirmation</h2>${factorRows}</div>;
-  }// ===== News Sentiment =====
-  const news = signalData?.factors?.news_sentiment;
-  if (news?.details?.top_headlines) {
-    let headlines = "";
-    news.details.top_headlines.slice(0,5).forEach(h => {
-      headlines += <div class="headline">${h.title}<br><span class="src">${h.source || ''} — ${h.sentiment}</span></div>;
-    });
-    html += 
-    <div class="panel">
-      <h2>News Sentiment — ${news.details.overall_sentiment || 'N/A'}</h2>
-      ${headlines}
-    </div>;
-  }
 
-  // ===== Risk Overview =====
-  if (riskData?.risk_overview) {
-    const r = riskData.risk_overview;
-    html += 
-    <div class="panel">
-      <h2>Risk Overview</h2>
-      <div class="row"><span class="label">Account Equity</span><span class="value">$${fmt(r.account_equity_usd,0)}</span></div>
-      <div class="row"><span class="label">Daily Risk Budget</span><span class="value">${fmt(r.daily_risk_budget_pct)}% ($${fmt(r.daily_risk_budget_usd,0)})</span></div>
-      <div class="row"><span class="label">VaR (95%)</span><span class="value">${fmt(r.var_95_pct)}% ($${fmt(r.var_95_usd,0)})</span></div>
-      <div class="row"><span class="label">Portfolio Beta</span><span class="value">${fmt(r.portfolio_beta)}</span></div>
-      <div class="row"><span class="label">Correlation Risk</span><span class="value">${r.correlation_risk}</span></div>
-      <div class="row"><span class="label">Liquidity</span><span class="value">${r.liquidity}</span></div>
-      <div class="row"><span class="label">Current Exposure</span><span class="value" style="font-size:0.75rem;">${r.current_exposure}</span></div>
-    </div>;
-  }
+    var genTime = Date.now();
+    if (signalData && signalData.generated_at) { genTime = signalData.generated_at; }
+    else if (riskData && riskData.generated_at) { genTime = riskData.generated_at; }
 
-  // ===== Position Sizing =====
-  if (riskData?.position_sizing) {
-    const p = riskData.position_sizing;
-    if (p.tradeable) {
-      html += 
-      <div class="panel" style="grid-column:span 2;">
-        <h2>Position Sizing — ${p.directional_bias}</h2>
-        <div class="row"><span class="label">Entry Price</span><span class="value">${fmt(p.entry_price)}</span></div>
-        <div class="row"><span class="label">Stop Loss</span><span class="value">${fmt(p.stop_loss_price)}</span></div>
-        <div class="row"><span class="label">Take Profit 1 / 2</span><span class="value">${fmt(p.take_profit_1)} / ${fmt(p.take_profit_2)}</span></div>
-        <div class="row"><span class="label">Recommended Size</span><span class="value">${p.recommended_size_contracts} ${p.instrument}</span></div>
-        <div class="row"><span class="label">Notional Value</span><span class="value">$${fmt(p.notional_value_usd,0)}</span></div>
-        <div class="row"><span class="label">Expected Value</span><span class="value">${p.expected_value_r}R</span></div>
-      </div>;
-    } else {
-      html += 
-      <div class="panel" style="grid-column:span 2;">
-        <h2>Position Sizing</h2>
-        <div class="headline">${p.reason}</div>
-      </div>;
+    document.getElementById('last-updated').textContent = "آخر تحديث: " + new Date(genTime).toLocaleString('ar-EG');
+
+    var html = "";
+
+    if (signalData && signalData.final_decision) {
+      var d = signalData.final_decision;
+      var cls = decisionClass(d.ai_status);
+      html += '<div class="decision-banner ' + cls + '">';
+      html += '<div>';
+      html += '<div style="color:var(--muted);font-size:0.85rem;">القرار النهائي</div>';
+      html += '<div class="status">' + d.ai_status + ' - ' + d.directional_bias + '</div>';
+      html += '</div>';
+      html += '<div class="row" style="border:none;gap:24px;">';
+      html += '<div><div class="label">Confirmation Score</div><div class="value big-number" style="font-size:1.3rem;">' + fmt(signalData.confirmation_score) + '%</div></div>';
+      html += '<div><div class="label">Trade Probability</div><div class="value big-number" style="font-size:1.3rem;">' + fmt(signalData.trade_probability) + '%</div></div>';
+      html += '</div>';
+      html += '</div>';
     }
-  }
 
-  dashboard.innerHTML = html;
+    if (priceData && priceData.NASDAQ_100_INDEX) {
+      var idx = priceData.NASDAQ_100_INDEX;
+      var cc = changeClass(idx.change_pct);
+      var changeSign = idx.change >= 0 ? '+' : '';
+      var pctSign = idx.change_pct >= 0 ? '+' : '';
+      html += '<div class="panel" style="grid-column:span 2;">';
+      html += '<h2>NASDAQ-100 Index</h2>';
+      html += '<div class="big-number ' + cc + '">' + fmt(idx.last_price) + '</div>';
+      html += '<div class="' + cc + '" style="font-family:var(--mono);margin-bottom:10px;">' + changeSign + fmt(idx.change) + ' (' + pctSign + fmt(idx.change_pct) + '%)</div>';
+      html += '<canvas id="priceChart"></canvas>';
+      html += '</div>';
+    }
 
-  // ===== Draw price chart =====
-  if (priceData?.NASDAQ_100_INDEX?.candles) {
-    const candles = priceData.NASDAQ_100_INDEX.candles;
-    const labels = candles.map(c => new Date(c.time).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'}));
-    const closes = candles.map(c => c.close);
-    const ctx = document.getElementById('priceChart');
-    if (ctx) {
-      new Chart(ctx, {
-        type: 'line',
-        data: {
-          labels: labels,
-          datasets: [{
-            data: closes,
-            borderColor: '#3ecf8e',
-            backgroundColor: 'rgba(62,207,142,0.08)',
-            borderWidth: 1.5,
-            pointRadius: 0,
-            fill: true,
-            tension: 0.15,
-          }]
-        },
-        options: {
-          responsive: true,
-          plugins: { legend: { display: false } },
-          scales: {
-            x: { display: false },
-            y: { ticks: { color: '#8b96a5', font: { family: 'Consolas' } }, grid: { color: '#1f2733' } }
+    var drivers = ["AAPL","MSFT","NVDA","AMZN","VXN","US10Y","DXY"];
+    var driversRows = "";
+    for (var i = 0; i < drivers.length; i++) {
+      var sym = drivers[i];
+      var dd = priceData ? priceData[sym] : null;
+      if (!dd) { continue; }
+      var dcc = changeClass(dd.change_pct);
+      var dsign = dd.change_pct >= 0 ? '+' : '';
+      driversRows += '<div class="row"><span class="label">' + sym + '</span><span class="value ' + dcc + '">' + fmt(dd.last_price) + ' (' + dsign + fmt(dd.change_pct) + '%)</span></div>';
+    }
+    if (driversRows) {
+      html += '<div class="panel"><h2>Market Drivers</h2>' + driversRows + '</div>';
+    }
+
+    if (signalData && signalData.factors) {
+      var factorRows = "";
+      for (var key in signalData.factors) {
+        var f = signalData.factors[key];
+        factorRows += '<div class="row"><span class="label">' + statusDot(f.status) + factorLabel(key) + '</span><span class="value">' + fmt(f.score) + '%</span></div>';
+      }
+      html += '<div class="panel" style="grid-column:span 2;"><h2>AI Signal and Confirmation</h2>' + factorRows + '</div>';
+    }
+
+    var news = null;
+    if (signalData && signalData.factors && signalData.factors.news_sentiment) {
+      news = signalData.factors.news_sentiment;
+    }
+    if (news && news.details && news.details.top_headlines) {
+      var headlines = "";
+      var list = news.details.top_headlines.slice(0,5);
+      for (var j = 0; j < list.length; j++) {
+        var h = list[j];
+        var src = pick(h.source, '');
+        headlines += '<div class="headline">' + h.title + '<br><span class="src">' + src + ' - ' + h.sentiment + '</span></div>';
+      }
+      var overall = pick(news.details.overall_sentiment, 'N/A');
+      html += '<div class="panel"><h2>News Sentiment - ' + overall + '</h2>' + headlines + '</div>';
+    }
+
+    if (riskData && riskData.risk_overview) {
+      var r = riskData.risk_overview;
+      html += '<div class="panel">';
+      html += '<h2>Risk Overview</h2>';
+      html += '<div class="row"><span class="label">Account Equity</span><span class="value">$' + fmt(r.account_equity_usd,0) + '</span></div>';
+      html += '<div class="row"><span class="label">Daily Risk Budget</span><span class="value">' + fmt(r.daily_risk_budget_pct) + '% ($' + fmt(r.daily_risk_budget_usd,0) + ')</span></div>';
+      html += '<div class="row"><span class="label">VaR 95%</span><span class="value">' + fmt(r.var_95_pct) + '% ($' + fmt(r.var_95_usd,0) + ')</span></div>';
+      html += '<div class="row"><span class="label">Portfolio Beta</span><span class="value">' + fmt(r.portfolio_beta) + '</span></div>';
+      html += '<div class="row"><span class="label">Correlation Risk</span><span class="value">' + r.correlation_risk + '</span></div>';
+      html += '<div class="row"><span class="label">Liquidity</span><span class="value">' + r.liquidity + '</span></div>';
+      html += '<div class="row"><span class="label">Current Exposure</span><span class="value" style="font-size:0.75rem;">' + r.current_exposure + '</span></div>';
+      html += '</div>';
+    }
+
+    if (riskData && riskData.position_sizing) {
+      var p = riskData.position_sizing;
+      if (p.tradeable) {
+        html += '<div class="panel" style="grid-column:span 2;">';
+        html += '<h2>Position Sizing - ' + p.directional_bias + '</h2>';
+        html += '<div class="row"><span class="label">Entry Price</span><span class="value">' + fmt(p.entry_price) + '</span></div>';
+        html += '<div class="row"><span class="label">Stop Loss</span><span class="value">' + fmt(p.stop_loss_price) + '</span></div>';
+        html += '<div class="row"><span class="label">Take Profit 1 and 2</span><span class="value">' + fmt(p.take_profit_1) + ' / ' + fmt(p.take_profit_2) + '</span></div>';
+        html += '<div class="row"><span class="label">Recommended Size</span><span class="value">' + p.recommended_size_contracts + ' ' + p.instrument + '</span></div>';
+        html += '<div class="row"><span class="label">Notional Value</span><span class="value">$' + fmt(p.notional_value_usd,0) + '</span></div>';
+        html += '<div class="row"><span class="label">Expected Value</span><span class="value">' + p.expected_value_r + 'R</span></div>';
+        html += '</div>';
+      } else {
+        html += '<div class="panel" style="grid-column:span 2;">';
+        html += '<h2>Position Sizing</h2>';
+        html += '<div class="headline">' + p.reason + '</div>';
+        html += '</div>';
+      }
+    }
+
+    dashboard.innerHTML = html;
+
+    if (priceData && priceData.NASDAQ_100_INDEX && priceData.NASDAQ_100_INDEX.candles) {
+      var candles = priceData.NASDAQ_100_INDEX.candles;
+      var labels = [];
+      var closes = [];
+      for (var k = 0; k < candles.length; k++) {
+        var c = candles[k];
+        var t = new Date(c.time);
+        labels.push(t.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'}));
+        closes.push(c.close);
+      }
+      var ctx = document.getElementById('priceChart');
+      if (ctx) {
+        new Chart(ctx, {
+          type: 'line',
+          data: {
+            labels: labels,
+            datasets: [{
+              data: closes,
+              borderColor: '#3ecf8e',
+              backgroundColor: 'rgba(62,207,142,0.08)',
+              borderWidth: 1.5,
+              pointRadius: 0,
+              fill: true,
+              tension: 0.15
+            }]
+          },
+          options: {
+            responsive: true,
+            plugins: { legend: { display: false } },
+            scales: {
+              x: { display: false },
+              y: { ticks: { color: '#8b96a5', font: { family: 'Consolas' } }, grid: { color: '#1f2733' } }
+            }
           }
-        }
-      });
+        });
+      }
     }
-  }
+  });
 }
 
 render();
@@ -355,5 +371,3 @@ render();
 
 </body>
 </html>
-  
-  
