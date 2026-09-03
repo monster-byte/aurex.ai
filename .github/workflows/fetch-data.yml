@@ -37,10 +37,17 @@ jobs:
         working-directory: aurex-ai
         run: python -m src.risk.engine
 
+      - name: Copy data for dashboard
+        run: |
+          mkdir -p docs/data/prices docs/data/signal docs/data/risk
+          cp aurex-ai/data/prices/snapshot_1D.json docs/data/prices/ || true
+          cp aurex-ai/data/signal/signal_snapshot.json docs/data/signal/ || true
+          cp aurex-ai/data/risk/risk_snapshot.json docs/data/risk/ || true
+
       - name: Commit updated data
         run: |
           git config user.name "aurex-ai-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add aurex-ai/data/
-          git diff --quiet --cached || git commit -m "chore: auto-update market data + signal + risk [skip ci]"
+          git add aurex-ai/data/ docs/data/
+          git diff --quiet --cached || git commit -m "chore: auto-update market data + signal + risk + dashboard [skip ci]"
           git push
