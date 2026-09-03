@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-03T09:41:07.440406+00:00",
+  "fetched_at": "2026-09-03T09:53:23.851027+00:00",
   "source": "forexfactory (unofficial public feed)",
   "events": [
     {
@@ -768,18 +768,9 @@
       "actual": null
     },
     {
-      "title": "PPI m/m",
-      "country": "EUR",
-      "date": "2026-09-03T05:00:00-04:00",
-      "impact": "Low",
-      "forecast": "1.2%",
-      "previous": "-0.3%",
-      "actual": null
-    },
-    {
       "title": "Spanish 10-y Bond Auction",
       "country": "EUR",
-      "date": "2026-09-03T05:03:00-04:00",
+      "date": "2026-09-03T04:43:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "3.54|2.4",
@@ -788,10 +779,19 @@
     {
       "title": "French 10-y Bond Auction",
       "country": "EUR",
-      "date": "2026-09-03T05:18:00-04:00",
+      "date": "2026-09-03T04:57:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "3.86|3.7",
+      "actual": null
+    },
+    {
+      "title": "PPI m/m",
+      "country": "EUR",
+      "date": "2026-09-03T05:00:00-04:00",
+      "impact": "Low",
+      "forecast": "1.2%",
+      "previous": "-0.3%",
       "actual": null
     },
     {

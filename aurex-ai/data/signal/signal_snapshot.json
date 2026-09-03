@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:41:08.979195+00:00",
+  "generated_at": "2026-09-03T09:53:25.409102+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 22.93,
+      "score": 27.36,
       "status": "red",
       "details": {
         "current_yield_pct": 4.796,
-        "change_5d_pct": 3.384
+        "change_5d_pct": 2.83
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.31,
+      "score": 49.44,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.25,
-        "change_5d_pct": 0.087
+        "current_dxy": 99.23,
+        "change_5d_pct": 0.071
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.08,
+      "score": 45.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.098,
+        "avg_compound": -0.085,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The AI arms race is throwing fuel on the global bond sell-off",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-02T09:50:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gold hits three-week low as stronger dollar, inflation fears weigh",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-02T09:47:29Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Canada’s economy is defying Trump",
+            "source": "Toronto Star",
+            "publishedAt": "2026-09-02T09:47:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US pounds Iran, Tehran strikes back at bases in biggest exchange since July",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-02T09:42:04Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
           {
             "title": "Japanese Credit Rating Agency upgrades India’s sovereign rating to A- from BBB+",
             "source": "The Times of India",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-02T09:36:58Z",
             "sentiment": "Neutral",
             "compound": 0.026
-          },
-          {
-            "title": "Bigscreen Drops ‘Beyond 2’ Headset Price to $959, Halo Mount Resumes Production",
-            "source": "Road to VR",
-            "publishedAt": "2026-09-02T09:34:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The action-bias window: Why waiting between major catalysts can be the hardest trade",
-            "source": "The Punch",
-            "publishedAt": "2026-09-02T09:31:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Treasury yields rise as global bond sell-off continues",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-02T09:28:00Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Sensex, Nifty trade in negative terrain; media shares decline",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-02T09:21:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
           }
         ]
       }
     }
   },
-  "confirmation_score": 39.88,
-  "trade_probability": 43.93,
+  "confirmation_score": 40.62,
+  "trade_probability": 44.37,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
