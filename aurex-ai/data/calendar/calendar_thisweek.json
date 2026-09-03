@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-03T14:13:07.407649+00:00",
+  "fetched_at": "2026-09-03T17:53:26.460890+00:00",
   "source": "forexfactory (unofficial public feed)",
   "events": [
     {
@@ -891,6 +891,15 @@
       "impact": "Low",
       "forecast": "30B",
       "previous": "15B",
+      "actual": null
+    },
+    {
+      "title": "MPC Member Pill Speaks",
+      "country": "GBP",
+      "date": "2026-09-03T11:00:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "",
       "actual": null
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T14:13:08.580571+00:00",
+  "generated_at": "2026-09-03T17:53:27.515880+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -16,59 +16,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0615,
-          "up": true
+          "change_pct": -0.0276,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.2074,
+          "change_pct": 0.201,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0,
-          "up": false
+          "change_pct": 0.3065,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0078,
+          "change_pct": -0.0123,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.21,
+      "score": 72.82,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29238.46,
-        "sma50": 29217.88,
-        "sma200": 26982.42
+        "last_price": 29501.7,
+        "sma50": 29227.41,
+        "sma200": 27005.87
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 75.0,
+      "score": 80.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.98,
-        "percentile_vs_20d": 25.0
+        "current_vxn": 20.47,
+        "percentile_vs_20d": 20.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 35.59,
+      "score": 35.62,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.748,
-        "change_5d_pct": 1.801
+        "current_yield_pct": 4.756,
+        "change_5d_pct": 1.798
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.23,
+      "score": 52.28,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.02,
-        "change_5d_pct": -0.153
+        "current_dxy": 98.88,
+        "change_5d_pct": -0.284
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.2,
+      "score": 51.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.024,
+        "avg_compound": 0.036,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Levi & Korsinsky Reminds Shareholders of a Lead Plaintiff Deadline of September 8, 2026 in Megan Holdings Limited Lawsuit - MGN",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-02T14:11:00Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Levi & Korsinsky Reminds Shareholders of a Lead Plaintiff Deadline of September 22, 2026 in Hertz Global Holdings, Inc. Lawsuit - HTZ",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-02T14:11:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Levi & Korsinsky Reminds Shareholders of a Lead Plaintiff Deadline of September 22, 2026 in PROCEPT BIOROBOTICS CORPORATION Lawsuit - PRCT",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-02T14:11:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Levi & Korsinsky Reminds Shareholders of a Lead Plaintiff Deadline of September 21, 2026 in COGENT COMMUNICATIONS HOLDINGS, INC. Lawsuit - CCOI",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-02T14:11:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "REGN Deadline Alert: Levi & Korsinsky Reminds Regeneron Pharmaceuticals (REGN) Investors of Securities Class Action Deadline on September 14, 2026",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-02T14:11:00Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "EQPT Shareholder Alert: EquipmentShare.com Inc. Securities Class Action Lawsuit - Investors With Losses May Contact Levi & Korsinsky",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-02T14:11:00Z",
+            "title": "Warsh's Jackson Hole encore may put Trump's inflation record under a microscope - Reuters",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-02T17:53:18Z",
             "sentiment": "Neutral",
-            "compound": -0.052
+            "compound": 0.0
+          },
+          {
+            "title": "Memecoin shenanigans spill into Nasdaq as microcap mushroom seller Farmmi surges 350%",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-02T17:51:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "'At a Breaking Point': Survey Shows Teachers Working Second Jobs, Spending Hundreds on Supplies",
+            "source": "Common Dreams",
+            "publishedAt": "2026-09-02T17:51:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Dutch central bank pulls 86 tonnes of gold from US and Canada amid geopolitical anxiety",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-02T17:44:09Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "Kuehn Law Encourages Investors of WEBTOON Entertainment Inc. to Contact Law Firm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-02T17:42:00Z",
+            "sentiment": "Positive",
+            "compound": 0.691
+          },
+          {
+            "title": "U.S. Debt, AI Borrowing Binge Spurs Bessent's Bond Market Gambit; Risks Rise For Stocks, Dollar",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-02T17:41:38Z",
+            "sentiment": "Negative",
+            "compound": -0.557
           }
         ]
       }
     }
   },
-  "confirmation_score": 53.61,
-  "trade_probability": 52.17,
+  "confirmation_score": 54.68,
+  "trade_probability": 52.81,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
