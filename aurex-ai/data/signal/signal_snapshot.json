@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T00:42:45.270544+00:00",
+  "generated_at": "2026-09-03T05:10:05.787886+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.76,
+      "score": 48.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.57,
-        "change_5d_pct": 0.655
+        "current_dxy": 99.41,
+        "change_5d_pct": 0.243
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.57,
+      "score": 51.9,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.029,
-        "articles_analyzed": 23,
+        "avg_compound": 0.038,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Beam Pump: Tiny, dual-purpose gadget serves as air pump and lantern",
-            "source": "Notebookcheck.net",
-            "publishedAt": "2026-09-02T00:39:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "FTN Cocoa, McNichols drive N26.5bn gain for investors",
-            "source": "The Punch",
-            "publishedAt": "2026-09-02T00:37:25Z",
+            "title": "Nifty Auto tanks 2%; Eicher, Hero Moto top losers: What's behind the fall?",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-02T05:08:28Z",
             "sentiment": "Positive",
-            "compound": 0.527
+            "compound": 0.572
           },
           {
-            "title": "Dow Jones Futures: Market Breaks Key Levels As Oil Prices Jump; Dell, Credo, Palo Alto Are Earnings Movers - Investor's Business Daily",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-02T00:33:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Firm launches in Nigeria to drive strategic execution",
-            "source": "The Punch",
-            "publishedAt": "2026-09-02T00:29:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "BOJ chief vows to keep raising rates, debate price risks this month",
-            "source": "CNA",
-            "publishedAt": "2026-09-02T00:28:36Z",
+            "title": "Europe looks old and broke to its lenders, but it’s not the only region with problems",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-02T05:00:01Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.665
           },
           {
-            "title": "SoftBank’s SB Energy AI infrastructure unit files to go public",
-            "source": "SiliconANGLE News",
-            "publishedAt": "2026-09-02T00:24:44Z",
+            "title": "Rays of Belief IPO Day 2: GMP holds at 16%; subscription hits 1.18x. Should you apply?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-02T04:54:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "ECB's Makhlouf: Must be ready for further hikes",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-02T04:54:45Z",
             "sentiment": "Positive",
-            "compound": 0.273
+            "compound": 0.361
+          },
+          {
+            "title": "Global Market: BOJ’s Ueda signals fresh rate hike discussion at September meeting",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-02T04:51:08Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "How Can AI-Native Engineering Improve Cloud Infrastructure Management?",
+            "source": "The-digital-reader.com",
+            "publishedAt": "2026-09-02T04:48:05Z",
+            "sentiment": "Positive",
+            "compound": 0.44
           }
         ]
       }
     }
   },
-  "confirmation_score": 40.27,
-  "trade_probability": 44.16,
+  "confirmation_score": 40.94,
+  "trade_probability": 44.56,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
