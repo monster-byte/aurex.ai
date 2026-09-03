@@ -52,15 +52,14 @@ def compute_risk_overview(mega_cap_symbols: list) -> dict:
     if index_hist.empty:
         return {"error": "insufficient_index_history"}
 
-    index_returns = index_hist["Close"].pct_change().dropna() * 100
-    var_95_pct = compute_var_95(index_returns.values)
+    index_returns = index_hist["Close"].pct_change().dropna()  # كسر عشري خام (مو نسبة مئوية)
+    var_95_pct = compute_var_95(index_returns.values) * 100  # يتحول لنسبة مئوية هون بس للعرض
     var_95_usd = round(ACCOUNT_EQUITY * (var_95_pct / 100), 2)
 
     beta = 1.0
     if not market_hist.empty:
         market_returns = market_hist["Close"].pct_change().dropna()
         beta = compute_beta(index_returns, market_returns)
-
     correlations = []
     for symbol in mega_cap_symbols:
         try:
