@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T20:39:43.177902+00:00",
+  "generated_at": "2026-09-03T22:49:55.078423+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.41,
+      "score": 51.27,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.99,
-        "change_5d_pct": -0.176
+        "current_dxy": 99.0,
+        "change_5d_pct": -0.158
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.18,
+      "score": 55.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.044,
+        "avg_compound": 0.107,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Republicans fail to ease one of Trump's greatest fears as Supreme Court measure collapses",
-            "source": "Fox News",
-            "publishedAt": "2026-09-02T20:39:17Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "7-day strike notice from Montreal blue collar workers coincides with major cycling event",
-            "source": "CBC News",
-            "publishedAt": "2026-09-02T20:33:52Z",
+            "title": "Obsession Star’s Oscar Campaign Revealed, And It Could Repeat a Shocking Win From 36 Years Ago",
+            "source": "ComicBook.com",
+            "publishedAt": "2026-09-02T22:43:20Z",
             "sentiment": "Neutral",
-            "compound": -0.128
+            "compound": -0.077
           },
           {
-            "title": "NetApp Helps Customers Accelerate Adoption of Latest VMware Cloud Foundation Innovations",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-02T20:33:41Z",
-            "sentiment": "Positive",
-            "compound": 0.382
+            "title": "Warning mortgage rates could soar after cost of UK borrowing hit a 28-year high",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-02T22:35:19Z",
+            "sentiment": "Negative",
+            "compound": -0.34
           },
           {
-            "title": "Scage Future Receives Nasdaq Notifications Regarding Market Value of Listed Securities and Market Value of Publicly Held Shares Requirements",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-02T20:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.802
-          },
-          {
-            "title": "Perseverance reached Mars for about $2.7 billion, while a crewed expedition could cost hundreds of billions because humans require years of life support, protection, supplies and a way home—although the frequently quoted $500 billion figure is only a rough historical estimate, not a settled NASA price tag.",
-            "source": "Space Daily",
-            "publishedAt": "2026-09-02T20:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "ePlus Achieves Exclusive Ambassador Partner Status with Everpure",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-02T20:30:00Z",
+            "title": "Olympus-backed Accelevation files for US IPO",
+            "source": "CNA",
+            "publishedAt": "2026-09-02T22:22:35Z",
             "sentiment": "Neutral",
-            "compound": 0.128
+            "compound": 0.0
+          },
+          {
+            "title": "Why wasn't Kawhi Leonard's contract wasn't voided? The differences vs. NBA's last major cap circumvention case",
+            "source": "CBS Sports",
+            "publishedAt": "2026-09-02T22:22:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stocks Settle Higher as Bond Yields Stabilize",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-02T22:10:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How St. Paul's Rent Control Experiment Backfired Spectacularly",
+            "source": "Reason",
+            "publishedAt": "2026-09-02T22:10:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 39.44,
-  "trade_probability": 43.66,
+  "confirmation_score": 39.74,
+  "trade_probability": 43.84,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
