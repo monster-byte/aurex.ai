@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-03T09:53:27.288304+00:00",
+  "generated_at": "2026-09-03T10:09:39.790645+00:00",
   "position_sizing": {
     "tradeable": false,
     "reason": "لا توجد صفقة قابلة للتنفيذ حالياً (directional_bias=AVOID)",
-    "entry_price": 29172.5
+    "entry_price": 29138.25
   },
   "risk_overview": {
     "account_equity_usd": 100000.0,
@@ -13,7 +13,7 @@
     "max_drawdown_ytd": "N/A — يتطلب سجل صفقات فعلي (غير مُفعّل بعد)",
     "var_95_pct": 1.919,
     "var_95_usd": 1919.13,
-    "portfolio_beta": 142.524,
+    "portfolio_beta": 1.425,
     "correlation_risk": "LOW",
     "avg_mega_cap_correlation": 0.433,
     "liquidity": "HIGH"
