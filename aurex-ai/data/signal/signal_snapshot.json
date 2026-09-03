@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T22:40:00.013565+00:00",
+  "generated_at": "2026-09-03T00:42:45.270544+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.69,
+      "score": 44.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.58,
-        "change_5d_pct": 0.664
+        "current_dxy": 99.57,
+        "change_5d_pct": 0.655
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.44,
+      "score": 48.57,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.009,
-        "articles_analyzed": 24,
+        "avg_compound": -0.029,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Treasury Secretary Scott Bessent holds a news conference at the G20 meeting — 9/1/2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-01T22:39:30Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "HubSpot, Intuit, Asana, Snowflake, and Atlassian Shares Are Falling, What You Need To Know",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-01T22:37:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
-          },
-          {
-            "title": "Wall Street ends lower as higher yields, rising oil prices mark shaky start to September - Yahoo Finance",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-01T22:32:30Z",
-            "sentiment": "Negative",
-            "compound": -0.477
-          },
-          {
-            "title": "Stock market today: Live updates",
-            "source": "CNBC",
-            "publishedAt": "2026-09-01T22:25:03Z",
+            "title": "Beam Pump: Tiny, dual-purpose gadget serves as air pump and lantern",
+            "source": "Notebookcheck.net",
+            "publishedAt": "2026-09-02T00:39:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Lam Research, Monolithic Power Systems, Texas Instruments, FormFactor, and Amkor Shares Are Falling, What You Need To Know",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-01T22:22:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
+            "title": "FTN Cocoa, McNichols drive N26.5bn gain for investors",
+            "source": "The Punch",
+            "publishedAt": "2026-09-02T00:37:25Z",
+            "sentiment": "Positive",
+            "compound": 0.527
           },
           {
-            "title": "Stock Market Today, Sept. 1: Fervo Energy Surges 28% on 396-Megawatt Google Power Deal",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-01T22:22:13Z",
+            "title": "Dow Jones Futures: Market Breaks Key Levels As Oil Prices Jump; Dell, Credo, Palo Alto Are Earnings Movers - Investor's Business Daily",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-02T00:33:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Firm launches in Nigeria to drive strategic execution",
+            "source": "The Punch",
+            "publishedAt": "2026-09-02T00:29:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "BOJ chief vows to keep raising rates, debate price risks this month",
+            "source": "CNA",
+            "publishedAt": "2026-09-02T00:28:36Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "SoftBank’s SB Energy AI infrastructure unit files to go public",
+            "source": "SiliconANGLE News",
+            "publishedAt": "2026-09-02T00:24:44Z",
             "sentiment": "Positive",
             "compound": 0.273
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 40.45,
-  "trade_probability": 44.27,
+  "confirmation_score": 40.27,
+  "trade_probability": 44.16,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
