@@ -27,17 +27,15 @@ def compute_var_95(returns) -> float:
 
 
 def compute_beta(asset_returns, market_returns) -> float:
-    if len(asset_returns) < 30 or len(market_returns) < 30:
+    """asset_returns و market_returns لازم يكونوا pandas Series بنفس نوع الفهرس (تاريخ)."""
+    aligned_asset, aligned_market = asset_returns.align(market_returns, join="inner")
+    if len(aligned_asset) < 30:
         return 1.0
-    aligned_len = min(len(asset_returns), len(market_returns))
-    asset_returns = asset_returns[-aligned_len:]
-    market_returns = market_returns[-aligned_len:]
-    covariance = np.cov(asset_returns, market_returns)[0][1]
-    market_variance = np.var(market_returns)
+    covariance = np.cov(aligned_asset.values, aligned_market.values)[0][1]
+    market_variance = np.var(aligned_market.values)
     if market_variance == 0:
         return 1.0
     return round(float(covariance / market_variance), 3)
-
 
 def classify_correlation(avg_corr: float) -> str:
     if avg_corr >= 0.8:
@@ -58,11 +56,10 @@ def compute_risk_overview(mega_cap_symbols: list) -> dict:
     var_95_pct = compute_var_95(index_returns.values)
     var_95_usd = round(ACCOUNT_EQUITY * (var_95_pct / 100), 2)
 
-    beta = 1.0
+   beta = 1.0
     if not market_hist.empty:
-        market_returns = market_hist["Close"].pct_change().dropna().values
-        beta = compute_beta(index_returns.values, market_returns)
-
+        market_returns = market_hist["Close"].pct_change().dropna()
+        beta = compute_beta(index_returns, market_returns)
     correlations = []
     for symbol in mega_cap_symbols:
         try:
