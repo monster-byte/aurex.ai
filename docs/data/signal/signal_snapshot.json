@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:01:22.949038+00:00",
+  "generated_at": "2026-09-04T13:15:55.033031+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 37.46,
+      "score": 38.81,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.794,
-        "change_5d_pct": 1.568
+        "current_yield_pct": 4.786,
+        "change_5d_pct": 1.398
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.84,
+      "score": 53.57,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.22,
-        "change_5d_pct": -0.48
+        "current_dxy": 99.25,
+        "change_5d_pct": -0.446
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.5,
+      "score": 54.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.09,
+        "avg_compound": 0.092,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Transamerica Asset Management Partners to Promote Managed Accounts",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T13:01:00Z",
-            "sentiment": "Positive",
-            "compound": 0.625
+            "title": "What Makes DoorDash (DASH) an Attractive Bet Amid AI Disruption Concerns",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-03T13:15:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
           },
           {
-            "title": "Microsoft and Meta Signed Multi-Decade Nuclear Power Deals. These 3 Stocks Supply That Power",
+            "title": "A Retiree With the Average $2,081 Check Needs Just $12,514 in Other Income Before the IRS Starts Taxing Social Security. That Line Hasn’t Moved Since 1984.",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T13:00:49Z",
+            "publishedAt": "2026-09-03T13:15:07Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Xiao-I Corporation Announces ADS Ratio Change with Marketplace Effective Date on September 8, 2026",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T13:15:00Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Fed's Christopher Waller signals rate hold at September meeting",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T13:13:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Why NetApp Stock Is Falling Despite A Big Earnings Beat",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-03T13:00:24Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Clippers will be irrelevant for years after NBA drops hammer on franchise",
-            "source": "New York Post",
-            "publishedAt": "2026-09-03T13:00:00Z",
+            "title": "Fed's Waller open to leaving rates unchanged this month if inflation cools",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T13:12:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Clippers will be irrelevant for years after NBA drops hammer on franchise",
-            "source": "New York Post",
-            "publishedAt": "2026-09-03T13:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Republic has just borrowed money at under 3.5 per cent – few other countries could do likewise",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-03T12:59:11Z",
+            "title": "Artisan Sold Cencora (COR) as Earnings Momentum Slowed",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-03T13:11:39Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 40.35,
-  "trade_probability": 44.21,
+  "confirmation_score": 40.53,
+  "trade_probability": 44.32,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
