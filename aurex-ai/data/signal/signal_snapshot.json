@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T17:37:01.761164+00:00",
+  "generated_at": "2026-09-04T17:45:54.223689+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -16,32 +16,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0078,
+          "change_pct": 0.0483,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.031,
-          "up": false
-        },
-        "NVDA": {
-          "change_pct": 0.0438,
+          "change_pct": 0.01,
           "up": true
         },
+        "NVDA": {
+          "change_pct": -0.0543,
+          "up": false
+        },
         "AMZN": {
-          "change_pct": -0.0117,
+          "change_pct": -0.0058,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.45,
+      "score": 72.22,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29466.58,
-        "sma50": 29227.54,
-        "sma200": 27029.1
+        "last_price": 29443.16,
+        "sma50": 29227.08,
+        "sma200": 27028.99
       }
     },
     "vxn": {
@@ -49,26 +49,26 @@
       "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.88,
+        "current_vxn": 20.02,
         "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 41.86,
+      "score": 41.19,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.768,
-        "change_5d_pct": 1.017
+        "current_yield_pct": 4.772,
+        "change_5d_pct": 1.102
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.53,
+      "score": 54.46,
       "status": "yellow",
       "details": {
         "current_dxy": 99.14,
-        "change_5d_pct": -0.566
+        "change_5d_pct": -0.558
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.07,
+      "score": 54.16,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.061,
+        "avg_compound": 0.083,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Standard Chartered Launches Spot Bitcoin, Ether Trading for UAE Institutions",
+            "source": "Cryptoprowl.com",
+            "publishedAt": "2026-09-03T17:43:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Exclusive — Chuck Flint: Congress Must Raise House Exemption, an 'Easy Fix' to Unfreeze the Housing Market",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-03T17:42:08Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "ChargePoint Skyrockets 74% as Revenue Beat and Narrower Loss Clear Estimates",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-03T17:41:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "US 30-year mortgage rate hits highest level in more than a year",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-03T17:40:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Saia’s tonnage growth steps higher in August as comps ease",
             "source": "Biztoc.com",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-03T17:34:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Dow rises 635 points on Fed rate-hold hopes, Sep. 3, 2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T17:34:23Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Bitcoin tops $80,000: 'Crypto winter is close to being over'",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-03T17:32:24Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Crude oil nears $97 a barrel, diesel at highest since 2022",
-            "source": "Quartz India",
-            "publishedAt": "2026-09-03T17:31:49Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "Trump turns to a dual economic and military approach in latest attempt to squeeze Iran",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-03T17:30:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 57.41,
-  "trade_probability": 54.45,
+  "confirmation_score": 57.37,
+  "trade_probability": 54.42,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
