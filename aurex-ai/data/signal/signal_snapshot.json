@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T20:45:51.540773+00:00",
+  "generated_at": "2026-09-04T21:01:15.881523+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.31,
+      "score": 54.28,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.16,
-        "change_5d_pct": -0.539
+        "current_dxy": 99.17,
+        "change_5d_pct": -0.536
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.91,
+      "score": 50.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.002,
-        "articles_analyzed": 25,
+        "avg_compound": 0.006,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "In 2019, former NFL quarterback Chris Simms bought a 1725 Connecticut farmhouse for $2.5 million; now the restored 4-acre property is listed for $6.9 million",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-03T20:39:26Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Wall Street ends sharply higher as Waller remarks ease rate hike fears",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T20:38:43Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
-          },
-          {
-            "title": "Prediction: Costco Could Be Worth More Than Home Depot and Lowe's Combined by 2030. Here's the Math",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T20:38:34Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "RXT Deadline: RXT Investors with Losses in Excess of $100K Have Opportunity to Lead Rackspace Technology, Inc. Securities Fraud Lawsuit",
+            "title": "Fly-E Group, Inc. Announces Receipt of Delinquency Notice from Nasdaq Regarding Delayed Form 10-Q",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-03T20:38:00Z",
+            "publishedAt": "2026-09-03T21:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.527
+            "compound": -0.226
           },
           {
-            "title": "Football: Alienated Faithful",
-            "source": "Addictedtoquack.com",
-            "publishedAt": "2026-09-03T20:37:55Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Trump's Beef Tariff Cut Accidentally Makes the Case for Free Trade",
-            "source": "Reason",
-            "publishedAt": "2026-09-03T20:35:17Z",
+            "title": "Tariffs Are Making Retailers Rethink How Much Choice They Give Shoppers",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-03T20:58:42Z",
             "sentiment": "Neutral",
-            "compound": -0.052
+            "compound": 0.0
+          },
+          {
+            "title": "Banks Rewrite Their BaaS Strategies Around Deposits and Fees",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-03T20:58:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Wix.com Ltd. (WIX) Investors: Securities Fraud Class Action Filed, Contact Hagens Berman Before September 22, 2026 Lead Plaintiff Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T20:58:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Pentair plc (PNR) Notice of October 2, 2026 Application Deadline for Class Action Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T20:57:00Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Burning Man has become a wrinkled sausage fest of aging millennial men, data shows",
+            "source": "New York Post",
+            "publishedAt": "2026-09-03T20:56:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.78,
-  "trade_probability": 45.07,
+  "confirmation_score": 41.81,
+  "trade_probability": 45.09,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
