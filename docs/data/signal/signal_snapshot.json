@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T00:50:17.524177+00:00",
+  "generated_at": "2026-09-04T05:37:07.366227+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -35,40 +35,40 @@
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.62,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
-        "regime": "BULLISH",
-        "last_price": 29482.32,
-        "sma50": 29227.02,
-        "sma200": 27005.77
+        "regime": "NEUTRAL / TRANSITIONAL",
+        "last_price": NaN,
+        "sma50": NaN,
+        "sma200": NaN
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 80.0,
+      "score": 85.0,
       "status": "green",
       "details": {
         "current_vxn": 20.26,
-        "percentile_vs_20d": 20.0
+        "percentile_vs_20d": 15.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 34.59,
+      "score": 27.36,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.762,
-        "change_5d_pct": 1.926
+        "current_yield_pct": 4.796,
+        "change_5d_pct": 2.83
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.23,
+      "score": 51.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.01,
-        "change_5d_pct": -0.154
+        "current_dxy": 99.03,
+        "change_5d_pct": -0.132
       }
     },
     "macro": {
@@ -84,62 +84,62 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.53,
+      "score": 60.32,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
-        "articles_analyzed": 25,
+        "overall_sentiment": "BULLISH",
+        "avg_compound": 0.206,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Best of BS Opinion: External, financial sectors need sustained engagement",
+            "title": "India services growth improves in August, but remains subdued",
             "source": "Business Standard",
-            "publishedAt": "2026-09-03T00:45:49Z",
+            "publishedAt": "2026-09-03T05:34:01Z",
             "sentiment": "Positive",
-            "compound": 0.802
+            "compound": 0.402
           },
           {
-            "title": "The primary is over now come the primetime mistakes",
-            "source": "Fox News",
-            "publishedAt": "2026-09-03T00:39:05Z",
-            "sentiment": "Negative",
-            "compound": -0.361
+            "title": "Davy staffer exits and it’s a good time to be an accountant",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-03T05:32:06Z",
+            "sentiment": "Positive",
+            "compound": 0.44
           },
           {
-            "title": "GMOs: Fake hybrids and the fight to own Nigeria’s food",
-            "source": "The Punch",
-            "publishedAt": "2026-09-03T00:38:14Z",
-            "sentiment": "Negative",
-            "compound": -0.691
+            "title": "India services PMI rises to 54.1 in August; job growth at 15-month high",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-03T05:25:03Z",
+            "sentiment": "Positive",
+            "compound": 0.382
           },
           {
-            "title": "Scienjoy to acquire a 29.9% stake in Leader Education Limited",
-            "source": "Thefly.com",
-            "publishedAt": "2026-09-03T00:35:57Z",
-            "sentiment": "Negative",
-            "compound": -0.226
+            "title": "Bonds gain as RBI forex inflows lift liquidity, spur short-term debt buying",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-03T05:23:01Z",
+            "sentiment": "Positive",
+            "compound": 0.226
           },
           {
-            "title": "Trump Twiddles Thumbs While The Balcony Solar Movement Takes Off",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-09-03T00:35:10Z",
+            "title": "India's growth story drawing global investor attention, but policy predictability key to unlocking more FDI: USIBC Prez Atul Keshap",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-03T05:21:22Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Gold jumps over 1%: What’s driving prices?",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-03T05:18:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Australian bond yields are back at 2011 levels. What does this mean for ASX shares?",
-            "source": "Motley Fool Australia",
-            "publishedAt": "2026-09-03T00:34:09Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
     }
   },
-  "confirmation_score": 39.26,
-  "trade_probability": 43.56,
-  "market_regime": "BULLISH",
+  "confirmation_score": 36.24,
+  "trade_probability": 41.74,
+  "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
     "directional_bias": "AVOID"
