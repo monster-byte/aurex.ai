@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T14:07:53.682543+00:00",
+  "generated_at": "2026-09-04T14:15:49.353426+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,63 +12,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0929,
-          "up": false
+          "change_pct": 0.165,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.0929,
-          "up": false
+          "change_pct": 0.0537,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.0638,
+          "change_pct": -0.1229,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1132,
-          "up": false
+          "change_pct": 0.0426,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 74.02,
+      "score": 73.87,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29622.55,
-        "sma50": 29230.66,
-        "sma200": 27029.88
+        "last_price": 29606.97,
+        "sma50": 29230.35,
+        "sma200": 27029.81
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 95.0,
+      "score": 100.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.91,
-        "percentile_vs_20d": 5.0
+        "current_vxn": 19.87,
+        "percentile_vs_20d": 0.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 41.53,
+      "score": 40.51,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.77,
-        "change_5d_pct": 1.059
+        "current_yield_pct": 4.776,
+        "change_5d_pct": 1.186
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.5,
+      "score": 54.22,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.14,
-        "change_5d_pct": -0.563
+        "current_dxy": 99.17,
+        "change_5d_pct": -0.528
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 64.0,
+      "score": 62.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "BULLISH",
-        "avg_compound": 0.28,
+        "avg_compound": 0.255,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US Fed's Christopher Waller appeals to 'give disinflation a chance', hold rates steady",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-03T14:15:36Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Oil prices climb amid Middle East tensions, Brent hits $94.65",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-03T14:13:37Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Intro for September 3, 2026",
+            "source": "LaineyGossip",
+            "publishedAt": "2026-09-03T14:10:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Oil prices rise on escalation in Middle East",
+            "source": "CNA",
+            "publishedAt": "2026-09-03T14:08:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Oil prices rise on escalation in Middle East",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-03T14:08:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "HTZ Shareholder Alert: Hertz Global Holdings, Inc. Securities Class Action Lawsuit - Investors With Losses May Contact SueWallSt",
             "source": "PRNewswire",
             "publishedAt": "2026-09-03T14:07:00Z",
             "sentiment": "Neutral",
             "compound": -0.052
-          },
-          {
-            "title": "SMPL Shareholder Alert: October 13, 2026 Lead Plaintiff Deadline in The Simply Good Foods Company Securities Class Action - Contact SueWallSt",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T14:07:00Z",
-            "sentiment": "Positive",
-            "compound": 0.743
-          },
-          {
-            "title": "SPRY UPCOMING DEADLINE: SueWallSt Alerts ARS Pharmaceuticals Inc. Stockholders of Securities Class Action - Contact the Firm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T14:07:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Morgan Stanley has a strong message for worried AI stock investors",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-03T14:07:00Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "WIX Shareholder Alert: Wix.com Ltd. Securities Class Action Lawsuit - Investors With Losses May Contact SueWallSt",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T14:07:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "ITOC, PTHL Investor Alert: iTonic Holdings Ltd (f/k/a Pheton Holdings Ltd) Securities Class Action Notice - Contact SueWallSt",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T14:07:00Z",
-            "sentiment": "Positive",
-            "compound": 0.527
           }
         ]
       }
     }
   },
-  "confirmation_score": 43.68,
-  "trade_probability": 46.21,
+  "confirmation_score": 66.35,
+  "trade_probability": 59.81,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "REJECT",
-    "directional_bias": "AVOID"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
