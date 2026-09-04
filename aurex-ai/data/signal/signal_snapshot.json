@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T14:01:18.199283+00:00",
+  "generated_at": "2026-09-04T14:07:53.682543+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,45 +12,45 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.2332,
+          "change_pct": -0.0929,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.2517,
+          "change_pct": -0.0929,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.145,
+          "change_pct": -0.0638,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0368,
-          "up": true
+          "change_pct": -0.1132,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 74.19,
+      "score": 74.02,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29639.32,
-        "sma50": 29231.0,
-        "sma200": 27029.97
+        "last_price": 29622.55,
+        "sma50": 29230.66,
+        "sma200": 27029.88
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 90.0,
+      "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.96,
-        "percentile_vs_20d": 10.0
+        "current_vxn": 19.91,
+        "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.85,
+      "score": 54.5,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.1,
-        "change_5d_pct": -0.607
+        "current_dxy": 99.14,
+        "change_5d_pct": -0.563
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.35,
+      "score": 64.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.087,
+        "overall_sentiment": "BULLISH",
+        "avg_compound": 0.28,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Widespread circulation of West Nile and Usutu viruses in sedentary and migratory avifauna: A two-year study (2024–2025) of active surveillance in South of France",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-03T14:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Predictive association between control measures and chikungunya fever incidence based on random forest and SHAP analysis",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-03T14:00:00Z",
+            "title": "HTZ Shareholder Alert: Hertz Global Holdings, Inc. Securities Class Action Lawsuit - Investors With Losses May Contact SueWallSt",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T14:07:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.052
           },
           {
-            "title": "The mechanism of fashion consciousness influencing Gen Z’s Willingness to continue using slow fashion apparel in a sustainable context",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-03T14:00:00Z",
+            "title": "SMPL Shareholder Alert: October 13, 2026 Lead Plaintiff Deadline in The Simply Good Foods Company Securities Class Action - Contact SueWallSt",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T14:07:00Z",
+            "sentiment": "Positive",
+            "compound": 0.743
+          },
+          {
+            "title": "SPRY UPCOMING DEADLINE: SueWallSt Alerts ARS Pharmaceuticals Inc. Stockholders of Securities Class Action - Contact the Firm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T14:07:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Morgan Stanley has a strong message for worried AI stock investors",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-03T14:07:00Z",
             "sentiment": "Positive",
             "compound": 0.273
           },
           {
-            "title": "Raiz Federal Credit Union Transforms Community Banking with Alkami's Digital Sales & Service Platform",
+            "title": "WIX Shareholder Alert: Wix.com Ltd. Securities Class Action Lawsuit - Investors With Losses May Contact SueWallSt",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-03T14:00:00Z",
+            "publishedAt": "2026-09-03T14:07:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "ITOC, PTHL Investor Alert: iTonic Holdings Ltd (f/k/a Pheton Holdings Ltd) Securities Class Action Notice - Contact SueWallSt",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T14:07:00Z",
             "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Services PMI® at 55.4%; August 2026 ISM® Services PMI® Report",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Human papillomavirus (HPV) and HPV vaccine awareness in Indigenous communities in Northwest Territories, Canada",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-03T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.527
           }
         ]
       }
     }
   },
-  "confirmation_score": 49.78,
-  "trade_probability": 49.87,
+  "confirmation_score": 43.68,
+  "trade_probability": 46.21,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
