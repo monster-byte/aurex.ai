@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T23:15:48.565581+00:00",
+  "generated_at": "2026-09-04T23:31:06.888559+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.98,
+      "score": 51.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.02,
+        "avg_compound": 0.035,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "EPC Power Announces Sale to Flex for $4.4 Billion",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T23:20:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "The federal gas tax cut: Great politics and a terrible investment",
             "source": "The Globe And Mail",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-03T22:41:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Outpaced the Stock Market Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T22:41:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.89,
-  "trade_probability": 45.13,
+  "confirmation_score": 41.97,
+  "trade_probability": 45.18,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
