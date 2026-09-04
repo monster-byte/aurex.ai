@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T08:29:17.796311+00:00",
+  "generated_at": "2026-09-04T08:45:47.403708+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.05,
+      "score": 55.13,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.07,
-        "change_5d_pct": -0.631
+        "current_dxy": 99.06,
+        "change_5d_pct": -0.641
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.67,
+      "score": 45.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.127,
+        "avg_compound": -0.081,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Why Sandisk Stock Soared 29% in August",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T08:21:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Benchmarks trade near the flat line; Europe opens in the green",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-03T08:20:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock market today: Dow, S&P 500, Nasdaq futures waver as investors weigh Middle East tensions",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-03T08:15:25Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Wall St ends higher as stocks reclaim some shine - Reuters",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-03T08:13:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Asian Stocks Set to Advance as Oil Pressures Ease: Markets Wrap - Bloomberg.com",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-03T08:13:09Z",
+            "title": "Nikkei Falls for Fourth Day as Stronger Yen and Rate Uncertainty Weigh",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-09-03T08:45:25Z",
             "sentiment": "Neutral",
             "compound": 0.052
           },
           {
-            "title": "US economic activity rises modestly, inflation pressures persist: Fed Beige Book",
+            "title": "Carrying out purification at Haldwani rally site was an act of 'untouchability': Mallikarjun Kharge",
             "source": "The Times of India",
-            "publishedAt": "2026-09-03T08:11:43Z",
+            "publishedAt": "2026-09-03T08:37:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "SpaceX Stock: Buy, Sell, or Hold?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T08:36:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as investors shrug off Middle East tensions",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T08:36:23Z",
             "sentiment": "Negative",
-            "compound": -0.318
+            "compound": -0.402
+          },
+          {
+            "title": "KNOC, Kogas to Merge",
+            "source": "Rigzone",
+            "publishedAt": "2026-09-03T08:36:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How much will the cost of the Deutschlandticket rise in 2027?",
+            "source": "The Local Germany",
+            "publishedAt": "2026-09-03T08:35:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 38.95,
-  "trade_probability": 43.37,
+  "confirmation_score": 39.19,
+  "trade_probability": 43.51,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
