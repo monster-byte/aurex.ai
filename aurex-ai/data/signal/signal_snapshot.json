@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T11:31:02.492774+00:00",
+  "generated_at": "2026-09-04T11:45:51.258024+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.1,
+      "score": 55.03,
       "status": "yellow",
       "details": {
         "current_dxy": 99.07,
-        "change_5d_pct": -0.637
+        "change_5d_pct": -0.629
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.02,
+      "score": 55.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.12,
+        "avg_compound": 0.114,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "We're in a world of persistent inflation, says Peter Boockvar",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T11:30:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Iran Retaliates, Striking US Allies in Gulf",
-            "source": "Newser",
-            "publishedAt": "2026-09-03T11:30:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "DeFi Technologies Receives Additional 180-Day Compliance Period from Nasdaq to Regain Compliance with Minimum Bid Price Requirement",
+            "title": "PowerBank Awarded Contract by New York Power Authority for 1.6 MW Ground-Mount Solar Project at SUNY Oneonta",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-03T11:30:00Z",
+            "publishedAt": "2026-09-03T11:45:00Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "No ‘sympathy’: Joe Rogan stunned after Caleb Hammer says each American boomer should have $2M-$5M nest egg. Is he right?",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-03T11:45:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Dow Jones Futures Rise, Oil Prices Keep Climbing; Snowflake, Victoria's Secret Are Big Movers With Tesla Cybercab Event Due",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-03T11:44:23Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "As U.S. Treasury intervened in the bond market, the Netherlands rushed 86 tons of gold out of America because of ‘geopolitical unrest’",
-            "source": "Fortune",
-            "publishedAt": "2026-09-03T11:29:01Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "Oil prices edge higher, while world shares are mixed after Wall Street gains",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-03T11:28:21Z",
-            "sentiment": "Positive",
-            "compound": 0.557
-          },
-          {
-            "title": "Sony and Microsoft request dismissal of consumer lawsuits over tariff refunds",
-            "source": "GamesIndustry.biz",
-            "publishedAt": "2026-09-03T11:24:40Z",
+            "title": "Morning Minute: Strategy CEO Says Selling The Bottom Was Correct Move",
+            "source": "Decrypt",
+            "publishedAt": "2026-09-03T11:43:14Z",
             "sentiment": "Neutral",
-            "compound": -0.153
+            "compound": 0.0
+          },
+          {
+            "title": "Ciena Earnings Beat, Revenue Edges By Views Amid AI Data Center Boom",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-03T11:43:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bus and rail fares to increase 15% on average",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-03T11:39:39Z",
+            "sentiment": "Positive",
+            "compound": 0.318
           }
         ]
       }
     }
   },
-  "confirmation_score": 40.19,
-  "trade_probability": 44.11,
+  "confirmation_score": 40.16,
+  "trade_probability": 44.1,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
