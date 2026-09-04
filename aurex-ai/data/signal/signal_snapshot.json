@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T15:01:27.374965+00:00",
+  "generated_at": "2026-09-04T15:15:50.302497+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -16,32 +16,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0377,
+          "change_pct": -0.0094,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0652,
+          "change_pct": -0.026,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0667,
+          "change_pct": -0.0021,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1579,
+          "change_pct": -0.0039,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.7,
+      "score": 72.88,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29490.62,
-        "sma50": 29228.03,
-        "sma200": 27029.22
+        "last_price": 29509.0,
+        "sma50": 29228.39,
+        "sma200": 27029.32
       }
     },
     "vxn": {
@@ -49,26 +49,26 @@
       "score": 100.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.84,
+        "current_vxn": 19.87,
         "percentile_vs_20d": 0.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 41.19,
+      "score": 40.17,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.772,
-        "change_5d_pct": 1.102
+        "current_yield_pct": 4.778,
+        "change_5d_pct": 1.229
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.61,
+      "score": 54.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.13,
-        "change_5d_pct": -0.576
+        "current_dxy": 99.12,
+        "change_5d_pct": -0.586
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 60.14,
+      "score": 55.18,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "BULLISH",
-        "avg_compound": 0.203,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.104,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bullish Option Traders Might Like This Play On Dell Stock",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-03T15:01:04Z",
-            "sentiment": "Positive",
-            "compound": 0.643
-          },
-          {
-            "title": "Apple Is Late to AI. That Could Be Its Biggest Opportunity",
+            "title": "SEMI’s CEO Has Watched Four Decades of Chip Cycles. He Says This One Only Goes Up.",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T15:00:58Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "U.S. Diesel Prices Surge Toward All-Time High",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-09-03T15:00:00Z",
+            "publishedAt": "2026-09-03T15:15:33Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Consumers Energy Plan Will Power Michigan's Next Generation with Reliable and Affordable Energy",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T15:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "How much money Americans in their 30s and 40s have in their 401(k)s—see how you stack up",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T14:58:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The U.S. economy powers up as summer winds down, but it’s not free of trip wires",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T14:57:26Z",
+            "title": "It’s Game On As Ford Fathom Steals Thunder From Tesla Cybercab Launch",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-09-03T15:15:13Z",
             "sentiment": "Negative",
-            "compound": -0.55
+            "compound": -0.511
+          },
+          {
+            "title": "Bank of England’s Huw Pill says Iran war has not de-anchored inflation expectations",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-03T15:14:59Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Dutch yank gold from NY, citing ‘geopolitical unrest’ — becoming 2nd European country to pull precious metal",
+            "source": "New York Post",
+            "publishedAt": "2026-09-03T15:13:27Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "Stronger inflation effects could impact Fed rate decisions through October 2026",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-03T15:13:09Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Fed’s Waller says central bank’s next rate move depends on upcoming inflation report - AP News",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-03T15:13:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 43.56,
-  "trade_probability": 46.14,
+  "confirmation_score": 42.94,
+  "trade_probability": 45.76,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
