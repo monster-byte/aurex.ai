@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T08:06:46.422836+00:00",
+  "generated_at": "2026-09-04T08:29:17.796311+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -35,40 +35,40 @@
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 72.62,
+      "status": "green",
       "details": {
-        "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": NaN,
-        "sma50": NaN,
-        "sma200": NaN
+        "regime": "BULLISH",
+        "last_price": 29482.32,
+        "sma50": 29227.02,
+        "sma200": 27005.77
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 85.0,
+      "score": 80.0,
       "status": "green",
       "details": {
         "current_vxn": 20.26,
-        "percentile_vs_20d": 15.0
+        "percentile_vs_20d": 20.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 27.36,
+      "score": 34.59,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.796,
-        "change_5d_pct": 2.83
+        "current_yield_pct": 4.762,
+        "change_5d_pct": 1.926
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.82,
+      "score": 55.05,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.06,
-        "change_5d_pct": -0.103
+        "current_dxy": 99.07,
+        "change_5d_pct": -0.631
       }
     },
     "macro": {
@@ -84,62 +84,62 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.31,
+      "score": 43.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.094,
-        "articles_analyzed": 25,
+        "avg_compound": -0.127,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Datavault AI Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - DVLT",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T08:06:00Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Stock futures are little changed after major averages snap three-day losing streaks: Live updates",
+            "title": "Why Sandisk Stock Soared 29% in August",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T08:04:13Z",
-            "sentiment": "Negative",
-            "compound": -0.382
+            "publishedAt": "2026-09-03T08:21:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Capricor Therapeutics, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - CAPR",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T08:03:00Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Nasdaq Verafin Takes the Fraud Fight to the Dark Web",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-03T08:01:20Z",
-            "sentiment": "Negative",
-            "compound": -0.751
-          },
-          {
-            "title": "ESDS Software, Priority Jewels investors eye 15-50% listing pop on debuts",
+            "title": "Benchmarks trade near the flat line; Europe opens in the green",
             "source": "Business Standard",
-            "publishedAt": "2026-09-03T08:00:59Z",
-            "sentiment": "Positive",
-            "compound": 0.459
+            "publishedAt": "2026-09-03T08:20:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Global Searches for Premium Class Flights Double as Travellers Prioritise Comfort and Personalised Journeys",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T08:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.361
+            "title": "Stock market today: Dow, S&P 500, Nasdaq futures waver as investors weigh Middle East tensions",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-03T08:15:25Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Wall St ends higher as stocks reclaim some shine - Reuters",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-03T08:13:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Asian Stocks Set to Advance as Oil Pressures Ease: Markets Wrap - Bloomberg.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-03T08:13:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "US economic activity rises modestly, inflation pressures persist: Fed Beige Book",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-03T08:11:43Z",
+            "sentiment": "Negative",
+            "compound": -0.318
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.72,
-  "trade_probability": 40.83,
-  "market_regime": "NEUTRAL / TRANSITIONAL",
+  "confirmation_score": 38.95,
+  "trade_probability": 43.37,
+  "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
     "directional_bias": "AVOID"
