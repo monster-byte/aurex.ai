@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T23:31:06.888559+00:00",
+  "generated_at": "2026-09-04T23:45:47.372549+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.74,
+      "score": 51.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.035,
+        "avg_compound": 0.031,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US hits Cuba with new sanctions as island's crises multiply",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-03T23:41:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Tether sued over frozen ‘pig butcher’ coins, 6,600 students get crypto loans: Asia Express",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-09-03T23:40:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stoke Therapeutics and Biogen Present Long-Term Clinical Data that Support the Disease-Modifying Potential of Zorevunersen, an Investigational Medicine for the Treatment of Dravet Syndrome, at the 16th European Epilepsy Congress (EEC)",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-03T23:34:49Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Vance Defends Carlson Friendship",
+            "source": "Newser",
+            "publishedAt": "2026-09-03T23:34:00Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "EPC Power Announces Sale to Flex for $4.4 Billion",
             "source": "PRNewswire",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-03T23:15:14Z",
             "sentiment": "Neutral",
             "compound": -0.026
-          },
-          {
-            "title": "REGN INVESTOR ALERT: Regeneron Pharmaceuticals, Inc. Investors with Substantial Losses Have Opportunity to Lead the Regeneron Class Action Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T23:10:00Z",
-            "sentiment": "Positive",
-            "compound": 0.447
-          },
-          {
-            "title": "Nigeria eyes faster growth as oil production recovers",
-            "source": "The Punch",
-            "publishedAt": "2026-09-03T23:07:53Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "US Fed Governor Waller floats September rate hold",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T22:54:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Exceeds Market Returns: Some Facts to Consider",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T22:41:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.97,
-  "trade_probability": 45.18,
+  "confirmation_score": 41.95,
+  "trade_probability": 45.17,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",

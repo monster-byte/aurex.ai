@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-04T23:31:08.644916+00:00",
+  "generated_at": "2026-09-04T23:45:48.246316+00:00",
   "position_sizing": {
     "tradeable": false,
     "reason": "لا توجد صفقة قابلة للتنفيذ حالياً (directional_bias=AVOID)",
-    "entry_price": 29523.0
+    "entry_price": 29565.25
   },
   "risk_overview": {
     "account_equity_usd": 100000.0,
