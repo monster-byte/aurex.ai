@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T09:45:55.207314+00:00",
+  "generated_at": "2026-09-04T09:56:59.514173+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.76,
+      "score": 54.78,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.11,
-        "change_5d_pct": -0.595
+        "current_dxy": 99.1,
+        "change_5d_pct": -0.598
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.61,
+      "score": 48.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.012,
+        "avg_compound": -0.024,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "CAPR INVESTOR DEADLINE: Capricor Therapeutics, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit - September 28, 2026 Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T09:55:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "NTMA sells €1.25bn of bonds amid market turmoil",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-03T09:54:26Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "World Bank's Neelkanth Mishra backs strong GDP momentum, calls critics ill-educated",
+            "source": "India Today",
+            "publishedAt": "2026-09-03T09:54:23Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "The gold trade is dead. Long live gold.",
+            "source": "Livemint",
+            "publishedAt": "2026-09-03T09:53:45Z",
+            "sentiment": "Negative",
+            "compound": -0.649
+          },
+          {
+            "title": "Berkshire just revealed its playbook for AI’s next bottleneck",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-03T09:50:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Housing inflation: Home prices jump 59%, construction costs rise 34%",
             "source": "Business Standard",
             "publishedAt": "2026-09-03T09:43:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Yen jumps to one-month high as traders weigh chance of further intervention",
-            "source": "CNBC",
-            "publishedAt": "2026-09-03T09:41:39Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "How Impact Players have changed T20 cricket games around the world",
-            "source": "Cricketnews.com",
-            "publishedAt": "2026-09-03T09:40:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Small Caps Lead Stock Market Rebound, Defying Bond Benchmark's Hit At 19-Month High",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T09:36:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Dollar pullback, higher than expected Eurozone PPI keeps EUR/USD supported above $1.16 mark",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-03T09:34:13Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Small Caps Lead Stock Market Rebound, Defying Bond Benchmark's Hit At 19-Month High - Investor's Business Daily",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-03T09:33:27Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 39.62,
-  "trade_probability": 43.77,
+  "confirmation_score": 39.44,
+  "trade_probability": 43.66,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
