@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T20:31:08.470481+00:00",
+  "generated_at": "2026-09-04T20:45:51.540773+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.37,
+      "score": 54.31,
       "status": "yellow",
       "details": {
         "current_dxy": 99.16,
-        "change_5d_pct": -0.546
+        "change_5d_pct": -0.539
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.42,
+      "score": 49.91,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.028,
+        "avg_compound": -0.002,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Business Daily",
-            "source": "BBC News",
-            "publishedAt": "2026-09-03T20:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Vance reveals who's behind his recent weight loss in first White House press briefing since July",
-            "source": "Fox News",
-            "publishedAt": "2026-09-03T20:26:25Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "The jobs report just put Fed chair Kevin Warsh's new playbook to work: One Big Investment Idea",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-03T20:26:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Dutch Central Bank Cuts Gold Reserves in U.S., Citing ‘Geopolitical Unrest’",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T20:20:37Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Fed Rate Comments Spark Powerful Bitcoin, Crypto Rally. Bitcoin ETFs Near Entries",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T20:20:20Z",
+            "title": "In 2019, former NFL quarterback Chris Simms bought a 1725 Connecticut farmhouse for $2.5 million; now the restored 4-acre property is listed for $6.9 million",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-03T20:39:26Z",
             "sentiment": "Positive",
-            "compound": 0.572
+            "compound": 0.34
           },
           {
-            "title": "Mortgage Rates Climb to Highest Level Since July 2025",
+            "title": "Wall Street ends sharply higher as Waller remarks ease rate hike fears",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T20:20:15Z",
+            "publishedAt": "2026-09-03T20:38:43Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.077
+          },
+          {
+            "title": "Prediction: Costco Could Be Worth More Than Home Depot and Lowe's Combined by 2030. Here's the Math",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T20:38:34Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "RXT Deadline: RXT Investors with Losses in Excess of $100K Have Opportunity to Lead Rackspace Technology, Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T20:38:00Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Football: Alienated Faithful",
+            "source": "Addictedtoquack.com",
+            "publishedAt": "2026-09-03T20:37:55Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Trump's Beef Tariff Cut Accidentally Makes the Case for Free Trade",
+            "source": "Reason",
+            "publishedAt": "2026-09-03T20:35:17Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.94,
-  "trade_probability": 45.16,
+  "confirmation_score": 41.78,
+  "trade_probability": 45.07,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
