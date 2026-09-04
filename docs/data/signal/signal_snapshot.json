@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T19:31:12.931587+00:00",
+  "generated_at": "2026-09-04T19:45:47.006873+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0528,
+          "change_pct": -0.0125,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.055,
+          "change_pct": -0.024,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0087,
-          "up": false
+          "change_pct": 0.0674,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0484,
-          "up": false
+          "change_pct": 0.0948,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.77,
+      "score": 72.93,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29497.57,
-        "sma50": 29228.16,
-        "sma200": 27029.26
+        "last_price": 29513.89,
+        "sma50": 29228.49,
+        "sma200": 27029.34
       }
     },
     "vxn": {
@@ -49,7 +49,7 @@
       "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.03,
+        "current_vxn": 20.11,
         "percentile_vs_20d": 5.0
       }
     },
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.35,
+      "score": 54.43,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.16,
-        "change_5d_pct": -0.544
+        "current_dxy": 99.15,
+        "change_5d_pct": -0.554
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.78,
+      "score": 57.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.056,
+        "avg_compound": 0.148,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Faruqi & Faruqi, LLP Urges EquipmentShare.com Inc. (NASDAQ: EQPT) Investors to Seek Counsel Before September 21, 2026 Lead Plaintiff Deadline in the Securities Class Action",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T19:30:00Z",
+            "title": "As Fashion’s Emissions Rise for Second Straight Year, Aii Knows What Needs to Change",
+            "source": "WWD",
+            "publishedAt": "2026-09-03T19:44:03Z",
             "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.226
           },
           {
-            "title": "Faruqi & Faruqi, LLP Urges Cogent Communications Holdings, Inc. (NASDAQ: CCOI) Investors to Seek Counsel Before September 21, 2026 Lead Plaintiff Deadline in the Securities Class Action",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T19:28:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Economy won't improve until Australia climbs productivity mountain",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-09-03T19:27:05Z",
+            "title": "Trump Crypto Coin Future: Can TRUMP Recover From Its 97% Collapse and Reach $10?",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-09-03T19:42:35Z",
             "sentiment": "Negative",
-            "compound": -0.341
+            "compound": -0.477
           },
           {
-            "title": "Faruqi & Faruqi, LLP Urges Blaize Holdings (NASDAQ: BZAI) Investors to Seek Counsel Before the October 5, 2026 Lead Plaintiff Deadline in the Securities Class Action",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T19:26:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
+            "title": "SpaceX returns to $2T valuation after IPO volatility",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-03T19:40:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Faruqi & Faruqi, LLP Urges Aardvark Therapeutics (NASDAQ: AARD) Investors to Seek Counsel Before October 13, 2026 Lead Plaintiff Deadline in the Securities Class Action",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T19:24:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Vance says Fed should lower interest rates: 'Would be nice to have some help'",
+            "title": "The big August jobs report is due out Friday. Here's what to expect for what has been a jobless summer",
             "source": "CNBC",
-            "publishedAt": "2026-09-03T19:18:59Z",
+            "publishedAt": "2026-09-03T19:38:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Market Indexes Rally as Tesla and Goldman Sachs Take the Wheel",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T19:36:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Revolut receives conditional approval to operate as US national bank",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-03T19:35:00Z",
             "sentiment": "Positive",
-            "compound": 0.743
+            "compound": 0.477
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.0,
-  "trade_probability": 45.2,
+  "confirmation_score": 57.49,
+  "trade_probability": 54.49,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "REJECT",
-    "directional_bias": "AVOID"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
