@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-04T13:31:07.585204+00:00",
+  "fetched_at": "2026-09-04T13:45:52.719564+00:00",
   "source": "forexfactory (unofficial public feed)",
   "events": [
     {
@@ -1020,12 +1020,30 @@
       "actual": null
     },
     {
+      "title": "FOMC Member Goolsbee Speaks",
+      "country": "USD",
+      "date": "2026-09-04T09:40:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "",
+      "actual": null
+    },
+    {
       "title": "Ivey PMI",
       "country": "CAD",
       "date": "2026-09-04T10:00:00-04:00",
       "impact": "Medium",
       "forecast": "56.2",
       "previous": "55.1",
+      "actual": null
+    },
+    {
+      "title": "FOMC Member Goolsbee Speaks",
+      "country": "USD",
+      "date": "2026-09-04T18:00:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "",
       "actual": null
     }
   ],
