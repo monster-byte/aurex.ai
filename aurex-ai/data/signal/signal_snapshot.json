@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T21:45:48.488407+00:00",
+  "generated_at": "2026-09-04T22:01:17.525030+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.33,
+      "score": 53.24,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.067,
+        "avg_compound": 0.065,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "INV INVESTOR DEADLINE: Innventure, Inc. Investors with Substantial Losses Have Opportunity to Lead Shareholder Class Action Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T21:42:00Z",
+            "title": "Breitbart Business Digest: Welcome to the Hard-Hat Goldilocks Economy",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-03T22:00:20Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Tenable Uses OpenAI GPT Cyber Models to Help Defenders Inspect Community-Built AI Components",
+            "source": "Tenable.com",
+            "publishedAt": "2026-09-03T22:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "AI Data Center Boom Pushes U.S. Power Equipment to the Breaking Point",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-09-03T22:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Crypto Stocks Jump After Bitcoin Rises 5%",
+            "title": "Polymarket launches perpetual futures tied to oil, competing with Kalshi",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-03T21:58:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Vance pushes Fed to lower rates despite Warsh’s inflation concerns",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T21:39:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Manitoba's maximum rent increase set at 3% for next year",
-            "source": "CBC News",
-            "publishedAt": "2026-09-03T21:38:42Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "profitelligence added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-09-03T21:33:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rosen Law Firm Encourages The Ensign Group, Inc. Investors to Inquire About Securities Class Action Investigation - ENSG",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T21:31:00Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "AARD Investor Notice: Hagens Berman Alerts Investors in Aardvark Therapeutics (NASDAQ: AARD) to Filing of Securities Fraud Class Action",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T21:31:00Z",
+            "publishedAt": "2026-09-03T21:53:11Z",
             "sentiment": "Negative",
-            "compound": -0.382
+            "compound": -0.296
+          },
+          {
+            "title": "Oura takes step toward IPO with S-1 filing, revealing $1.4 billion in revenue",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-03T21:50:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.13,
-  "trade_probability": 45.28,
+  "confirmation_score": 42.12,
+  "trade_probability": 45.27,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
