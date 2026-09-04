@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T22:45:52.943792+00:00",
+  "generated_at": "2026-09-04T23:01:15.297787+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.17,
+      "score": 50.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
+        "avg_compound": 0.012,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US Fed Governor Waller floats September rate hold",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T22:54:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Exceeds Market Returns: Some Facts to Consider",
             "source": "Biztoc.com",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-03T22:21:20Z",
             "sentiment": "Negative",
             "compound": -0.586
-          },
-          {
-            "title": "Vance: US won’t talk to Iran until it stops attacking commercial ships",
-            "source": "Israelnationalnews.com",
-            "publishedAt": "2026-09-03T22:21:14Z",
-            "sentiment": "Negative",
-            "compound": -0.557
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.81,
-  "trade_probability": 45.09,
+  "confirmation_score": 41.86,
+  "trade_probability": 45.12,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
