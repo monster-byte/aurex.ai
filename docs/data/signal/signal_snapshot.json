@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T12:31:05.244758+00:00",
+  "generated_at": "2026-09-04T12:45:57.114590+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 34.59,
+      "score": 37.12,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.762,
-        "change_5d_pct": 1.926
+        "current_yield_pct": 4.796,
+        "change_5d_pct": 1.61
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.22,
+      "score": 52.94,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.05,
-        "change_5d_pct": -0.653
+        "current_dxy": 99.33,
+        "change_5d_pct": -0.367
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.59,
+      "score": 54.36,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.112,
+        "avg_compound": 0.087,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Led by China, central banks continued to buy gold in July",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-03T12:30:43Z",
+            "title": "Federal Reserve’s Chris Waller inclined to keep rates on hold",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-03T12:45:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bitcoin’s next $80,000 breakout has $47 billion more profitable supply to absorb",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-03T12:30:29Z",
-            "sentiment": "Positive",
-            "compound": 0.493
-          },
-          {
-            "title": "Fed Governor Waller indicates he will support holding rates steady at September meeting",
-            "source": "CNBC",
-            "publishedAt": "2026-09-03T12:30:21Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Prediction: Coinbase Stock Will Hit The $250 Milestone on This Date",
+            "title": "Warren Buffett and Greg Abel Are Bullish on 4 Contrarian Stocks That All Pay Dividends",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T12:30:16Z",
+            "publishedAt": "2026-09-03T12:45:06Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-03T12:45:00Z",
+            "sentiment": "Negative",
+            "compound": -0.691
+          },
+          {
+            "title": "Economic Confidence Improves but Businesses Pull Back on Spending Plans as Uncertainty Persists, AICPA and CIMA Survey Finds",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T12:43:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.013
+          },
+          {
+            "title": "Fed’s Waller leans toward holding rates steady through September",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-03T12:42:54Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Eightco Holdings (NASDAQ: ORBS) Reports Total Holdings of Approximately $380 Million, Includes OpenAI, Beast Industries, More Than 16,000 ETH and Nearly 302 Million WLD Tokens",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T12:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "TOYO Co., Ltd to Participate in Fireside Chat at the Jefferies Renewables, Clean Energy, & Construction Conference",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T12:30:00Z",
+            "title": "Why Super Micro Computer Stock Took Off in August",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T12:41:48Z",
             "sentiment": "Positive",
-            "compound": 0.586
+            "compound": 0.599
           }
         ]
       }
     }
   },
-  "confirmation_score": 40.16,
-  "trade_probability": 44.1,
+  "confirmation_score": 40.19,
+  "trade_probability": 44.11,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
