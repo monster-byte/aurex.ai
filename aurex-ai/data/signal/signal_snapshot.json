@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T10:45:57.754936+00:00",
+  "generated_at": "2026-09-04T11:01:15.329124+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.83,
+      "score": 55.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.1,
-        "change_5d_pct": -0.604
+        "current_dxy": 99.07,
+        "change_5d_pct": -0.632
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.78,
+      "score": 53.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.096,
+        "avg_compound": 0.067,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Schroders Plc increases holdings in US Treasuries as yields near peak",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-03T10:45:40Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Jindal Worldwide shares jump 20% to hit upper circuit, up 66% in 2026; check what’s driving the rally",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-03T10:40:42Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Sharp rise in rents charged to new tenants as reforms took effect, RTB reports",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-03T10:40:35Z",
+            "title": "Liability Litigation Is Choking Multifamily Housing",
+            "source": "Commercial Observer",
+            "publishedAt": "2026-09-03T11:00:34Z",
             "sentiment": "Negative",
-            "compound": -0.202
+            "compound": -0.681
           },
           {
-            "title": "Ben Bernanke Didn’t Prevent a Depression. He Prevented a Recovery",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T10:37:19Z",
-            "sentiment": "Negative",
-            "compound": -0.542
+            "title": "Amber International Holding Limited Accelerates Specialized AI Agent Transformation as Q2 Revenue Grows 38.8% Quarter-over-Quarter and Profitability Turns Positive",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T11:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.586
           },
           {
-            "title": "Indices tumble for 4th day; IT shares drop",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-03T10:34:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "10 Thursday AM Reads",
-            "source": "Ritholtz.com",
-            "publishedAt": "2026-09-03T10:30:11Z",
+            "title": "Insmed to Present Data Across Its Respiratory Portfolio, Including New Late-Breaking ARIKAYCE® (amikacin liposome inhalation suspension) Results From Phase 3b ENCORE Study at the European Respiratory Society Congress 2026",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T11:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Global Refining Crunch Could Keep Fuel Prices High Into 2027",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-09-03T11:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Calumet to Attend H.C. Wainwright Conference",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T11:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "enCore Energy Corp. Featured in \"The Nuclear Option\" Documentary Series",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T11:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 40.04,
-  "trade_probability": 44.02,
+  "confirmation_score": 39.92,
+  "trade_probability": 43.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
