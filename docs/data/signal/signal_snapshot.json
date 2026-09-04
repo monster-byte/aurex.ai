@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T17:45:54.223689+00:00",
+  "generated_at": "2026-09-04T18:01:19.593057+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,63 +12,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0483,
-          "up": true
+          "change_pct": -0.0047,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.01,
-          "up": true
+          "change_pct": -0.006,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.0543,
+          "change_pct": -0.1153,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0058,
-          "up": false
+          "change_pct": 0.0311,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.22,
+      "score": 72.4,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29443.16,
-        "sma50": 29227.08,
-        "sma200": 27028.99
+        "last_price": 29461.18,
+        "sma50": 29227.44,
+        "sma200": 27029.08
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 95.0,
+      "score": 90.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.02,
-        "percentile_vs_20d": 5.0
+        "current_vxn": 20.15,
+        "percentile_vs_20d": 10.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 41.19,
+      "score": 40.51,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.772,
-        "change_5d_pct": 1.102
+        "current_yield_pct": 4.776,
+        "change_5d_pct": 1.186
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.46,
+      "score": 54.42,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.14,
-        "change_5d_pct": -0.558
+        "current_dxy": 99.15,
+        "change_5d_pct": -0.553
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.16,
+      "score": 55.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.083,
-        "articles_analyzed": 23,
+        "avg_compound": 0.1,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Standard Chartered Launches Spot Bitcoin, Ether Trading for UAE Institutions",
-            "source": "Cryptoprowl.com",
-            "publishedAt": "2026-09-03T17:43:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Exclusive — Chuck Flint: Congress Must Raise House Exemption, an 'Easy Fix' to Unfreeze the Housing Market",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-03T17:42:08Z",
+            "title": "Hyperliquid treasury company increases token buying strategy to $2.5 billion as shares run out",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-03T18:00:42Z",
             "sentiment": "Positive",
-            "compound": 0.527
+            "compound": 0.459
           },
           {
-            "title": "ChargePoint Skyrockets 74% as Revenue Beat and Narrower Loss Clear Estimates",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T17:41:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "US 30-year mortgage rate hits highest level in more than a year",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-03T17:40:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Saia’s tonnage growth steps higher in August as comps ease",
+            "title": "Bitcoin tops $80,000: 'Crypto winter is close to being over'",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T17:34:40Z",
+            "publishedAt": "2026-09-03T17:51:18Z",
             "sentiment": "Positive",
-            "compound": 0.625
+            "compound": 0.511
           },
           {
-            "title": "Why The Metals Company Stock Soared in August",
+            "title": "Dollar falls to lowest since May after Waller’s inflation comments signal Fed patience",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-03T17:50:31Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "If You're Holding Nvidia Stock Into September, History Has a Clear Warning",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T17:34:31Z",
+            "publishedAt": "2026-09-03T17:50:20Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.052
+          },
+          {
+            "title": "Dow jumps 580 points as Fed signals no immediate rate hike",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-03T17:49:38Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Treasury yields hover near multi-year highs as energy prices and government debt fuel bond sell-off",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T17:49:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
           }
         ]
       }
     }
   },
-  "confirmation_score": 57.37,
-  "trade_probability": 54.42,
+  "confirmation_score": 49.38,
+  "trade_probability": 49.63,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
