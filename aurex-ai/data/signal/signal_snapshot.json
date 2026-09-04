@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T17:01:16.927257+00:00",
+  "generated_at": "2026-09-04T17:15:50.853616+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -16,59 +16,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.028,
+          "change_pct": 0.0283,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.008,
-          "up": true
-        },
-        "NVDA": {
-          "change_pct": -0.0302,
+          "change_pct": -0.019,
           "up": false
         },
+        "NVDA": {
+          "change_pct": 0.0065,
+          "up": true
+        },
         "AMZN": {
-          "change_pct": -0.0428,
+          "change_pct": -0.035,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 73.15,
+      "score": 72.82,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29535.76,
-        "sma50": 29228.93,
-        "sma200": 27029.45
+        "last_price": 29502.68,
+        "sma50": 29228.27,
+        "sma200": 27029.28
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 95.0,
+      "score": 100.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.66,
-        "percentile_vs_20d": 5.0
+        "current_vxn": 19.77,
+        "percentile_vs_20d": 0.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 43.22,
+      "score": 41.86,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.76,
-        "change_5d_pct": 0.847
+        "current_yield_pct": 4.768,
+        "change_5d_pct": 1.017
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.95,
+      "score": 54.47,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.08,
-        "change_5d_pct": -0.619
+        "current_dxy": 99.14,
+        "change_5d_pct": -0.559
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.98,
+      "score": 50.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.04,
+        "avg_compound": 0.003,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Nvidia Is Paying $14 Billion for a Company That Gives Its Best Work Away for Free",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T17:00:37Z",
+            "title": "Ibec asks Minister for Enterprise to reject proposed 79 cent increase to minimum wage",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-03T17:14:21Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Even in a tough economy it pays to change jobs, according to new data about Canadian wages",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-03T17:13:57Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Fed's Waller channels his inner John Lennon with a plea to 'give disinflation a chance' - Reuters",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-03T17:13:38Z",
             "sentiment": "Positive",
-            "compound": 0.818
+            "compound": 0.25
           },
           {
-            "title": "CRDO Stock at $165: Buy, Sell, or Hold?",
+            "title": "Dow rises 635 points on Fed rate-hold hopes, Sep. 3, 2026",
+            "source": "Quartz India",
+            "publishedAt": "2026-09-03T17:08:55Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "CEO Who Just Sold His Data Center Firm to SoftBank for $4 Billion Is Warning of a Late 1990s Moment",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T17:00:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Vietnamese Rival To Uber, Lyft Plans To Enter U.S. Market This Year",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-03T16:59:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Revolut hit by Washington crypto boom illusion, exposing massive two-tier banking system",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-03T16:55:12Z",
+            "publishedAt": "2026-09-03T17:07:42Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.34
           },
           {
-            "title": "Yielding trouble",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-03T16:53:32Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Robinhood Breaks Out. Analysts Bullish On Outlook, Prediction Markets.",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-03T16:53:06Z",
+            "title": "Analysis-Bond selloff is likely amplified by obscure economic rate",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T17:04:14Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 57.25,
-  "trade_probability": 54.35,
+  "confirmation_score": 57.66,
+  "trade_probability": 54.6,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
