@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T17:31:14.832291+00:00",
+  "generated_at": "2026-09-04T17:37:01.761164+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0699,
-          "up": false
+          "change_pct": 0.0078,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.0479,
+          "change_pct": -0.031,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.1048,
-          "up": false
+          "change_pct": 0.0438,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0117,
-          "up": true
+          "change_pct": -0.0117,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.47,
+      "score": 72.45,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29468.37,
-        "sma50": 29227.58,
-        "sma200": 27029.11
+        "last_price": 29466.58,
+        "sma50": 29227.54,
+        "sma200": 27029.1
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 42.2,
+      "score": 41.86,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.766,
-        "change_5d_pct": 0.975
+        "current_yield_pct": 4.768,
+        "change_5d_pct": 1.017
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.65,
+      "score": 54.53,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.12,
-        "change_5d_pct": -0.582
+        "current_dxy": 99.14,
+        "change_5d_pct": -0.566
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.37,
+      "score": 53.07,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.027,
+        "avg_compound": 0.061,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Saia’s tonnage growth steps higher in August as comps ease",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T17:34:40Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Why The Metals Company Stock Soared in August",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T17:34:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Dow rises 635 points on Fed rate-hold hopes, Sep. 3, 2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T17:34:23Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Bitcoin tops $80,000: 'Crypto winter is close to being over'",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-03T17:32:24Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Crude oil nears $97 a barrel, diesel at highest since 2022",
+            "source": "Quartz India",
+            "publishedAt": "2026-09-03T17:31:49Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
           {
             "title": "Trump turns to a dual economic and military approach in latest attempt to squeeze Iran",
             "source": "Abcnews.com",
             "publishedAt": "2026-09-03T17:30:42Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Why There Are Fewer English Majors In Universities Today",
-            "source": "Porticoquarterly.com",
-            "publishedAt": "2026-09-03T17:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Investors cheer falling bond yields after a top Fed official eases rate-hike worries",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-03T17:29:29Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Billionaire sounds alarm on ‘hidden tax’ draining wealth",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-03T17:29:17Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Campbell’s Slides 9% on 36% Dividend Cut, General Mills Falls 4%, Kraft Heinz Drops 3%",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T17:25:57Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Broadcom Tripled AI Chip Sales and the Stock Still Fell. Is AVGO the Nvidia Alternative Investors Missed?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T17:22:39Z",
-            "sentiment": "Negative",
-            "compound": -0.296
           }
         ]
       }
     }
   },
-  "confirmation_score": 49.8,
-  "trade_probability": 49.88,
+  "confirmation_score": 57.41,
+  "trade_probability": 54.45,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "REJECT",
-    "directional_bias": "AVOID"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
