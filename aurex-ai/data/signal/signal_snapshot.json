@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T15:15:50.302497+00:00",
+  "generated_at": "2026-09-04T15:31:10.978929+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -16,32 +16,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0094,
+          "change_pct": -0.0563,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.026,
+          "change_pct": -0.0848,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0021,
+          "change_pct": -0.1812,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0039,
+          "change_pct": -0.084,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.88,
+      "score": 72.3,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29509.0,
-        "sma50": 29228.39,
-        "sma200": 27029.32
+        "last_price": 29451.14,
+        "sma50": 29227.24,
+        "sma200": 27029.03
       }
     },
     "vxn": {
@@ -49,26 +49,26 @@
       "score": 100.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.87,
+        "current_vxn": 19.78,
         "percentile_vs_20d": 0.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 40.17,
+      "score": 40.85,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.778,
-        "change_5d_pct": 1.229
+        "current_yield_pct": 4.774,
+        "change_5d_pct": 1.144
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.69,
+      "score": 54.9,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.12,
-        "change_5d_pct": -0.586
+        "current_dxy": 99.09,
+        "change_5d_pct": -0.613
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.18,
+      "score": 48.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.104,
+        "avg_compound": -0.033,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "SEMI’s CEO Has Watched Four Decades of Chip Cycles. He Says This One Only Goes Up.",
+            "title": "Why Broadcom Stock Dropped Today",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T15:30:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "McDonald’s Is Near a 52-Week Low. Is This the Contrarian Buy of 2026?",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T15:15:33Z",
+            "publishedAt": "2026-09-03T15:30:45Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "This One Metric Is Why I’m Going to Keep Buying Nvidia Hand-Over-Fist",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-03T15:30:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "It’s Game On As Ford Fathom Steals Thunder From Tesla Cybercab Launch",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-09-03T15:15:13Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Bank of England’s Huw Pill says Iran war has not de-anchored inflation expectations",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-03T15:14:59Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Dutch yank gold from NY, citing ‘geopolitical unrest’ — becoming 2nd European country to pull precious metal",
-            "source": "New York Post",
-            "publishedAt": "2026-09-03T15:13:27Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Stronger inflation effects could impact Fed rate decisions through October 2026",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-03T15:13:09Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Fed’s Waller says central bank’s next rate move depends on upcoming inflation report - AP News",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-03T15:13:07Z",
+            "title": "Circle Internet Surges 14% Despite Wall Street Building Rival Stablecoin; Coinbase Spikes 10%",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-03T15:30:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Maybe Paramount-Warner SHOULD Leave L.A.",
+            "source": "Hollywood Reporter",
+            "publishedAt": "2026-09-03T15:30:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "BoE's Pill backs 4% bank rate to tackle inflation risks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T15:28:24Z",
+            "sentiment": "Negative",
+            "compound": -0.318
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.94,
-  "trade_probability": 45.76,
+  "confirmation_score": 42.3,
+  "trade_probability": 45.38,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
