@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T12:45:57.114590+00:00",
+  "generated_at": "2026-09-04T13:01:22.949038+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 37.12,
+      "score": 37.46,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.796,
-        "change_5d_pct": 1.61
+        "current_yield_pct": 4.794,
+        "change_5d_pct": 1.568
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.94,
+      "score": 53.84,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.33,
-        "change_5d_pct": -0.367
+        "current_dxy": 99.22,
+        "change_5d_pct": -0.48
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.36,
+      "score": 54.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.087,
+        "avg_compound": 0.09,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Federal Reserve’s Chris Waller inclined to keep rates on hold",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-03T12:45:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Warren Buffett and Greg Abel Are Bullish on 4 Contrarian Stocks That All Pay Dividends",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T12:45:06Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-03T12:45:00Z",
-            "sentiment": "Negative",
-            "compound": -0.691
-          },
-          {
-            "title": "Economic Confidence Improves but Businesses Pull Back on Spending Plans as Uncertainty Persists, AICPA and CIMA Survey Finds",
+            "title": "Transamerica Asset Management Partners to Promote Managed Accounts",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-03T12:43:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.013
+            "publishedAt": "2026-09-03T13:01:00Z",
+            "sentiment": "Positive",
+            "compound": 0.625
           },
           {
-            "title": "Fed’s Waller leans toward holding rates steady through September",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-03T12:42:54Z",
+            "title": "Microsoft and Meta Signed Multi-Decade Nuclear Power Deals. These 3 Stocks Supply That Power",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-03T13:00:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Why Super Micro Computer Stock Took Off in August",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T12:41:48Z",
-            "sentiment": "Positive",
-            "compound": 0.599
+            "title": "Why NetApp Stock Is Falling Despite A Big Earnings Beat",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-03T13:00:24Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "Clippers will be irrelevant for years after NBA drops hammer on franchise",
+            "source": "New York Post",
+            "publishedAt": "2026-09-03T13:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Clippers will be irrelevant for years after NBA drops hammer on franchise",
+            "source": "New York Post",
+            "publishedAt": "2026-09-03T13:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Republic has just borrowed money at under 3.5 per cent – few other countries could do likewise",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-03T12:59:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 40.19,
-  "trade_probability": 44.11,
+  "confirmation_score": 40.35,
+  "trade_probability": 44.21,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
