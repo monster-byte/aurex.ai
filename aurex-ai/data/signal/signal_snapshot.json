@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T11:15:50.635380+00:00",
+  "generated_at": "2026-09-04T11:31:02.492774+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.99,
+      "score": 55.1,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.08,
-        "change_5d_pct": -0.624
+        "current_dxy": 99.07,
+        "change_5d_pct": -0.637
       }
     },
     "macro": {
@@ -84,60 +84,60 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.03,
+      "score": 56.02,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.121,
-        "articles_analyzed": 24,
+        "avg_compound": 0.12,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "US holiday retail sales set to outpace last year's seasonal growth performance to exceed $1 trillion for the first time--Bain & Company forecasts",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T11:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "Why Netflix Stock Gained 13% in August",
+            "title": "We're in a world of persistent inflation, says Peter Boockvar",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T11:10:19Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Morgan Stanley has a strong message for worried AI stock investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T11:07:57Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Starting in 2028, More Than $1 Million in Home Equity Disqualifies You From Medicaid Nursing Home Coverage, and the Cap Never Adjusts for Inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T11:07:50Z",
+            "publishedAt": "2026-09-03T11:30:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Liability Litigation Is Choking Multifamily Housing",
-            "source": "Commercial Observer",
-            "publishedAt": "2026-09-03T11:00:34Z",
-            "sentiment": "Negative",
-            "compound": -0.681
+            "title": "Iran Retaliates, Striking US Allies in Gulf",
+            "source": "Newser",
+            "publishedAt": "2026-09-03T11:30:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Amber International Holding Limited Accelerates Specialized AI Agent Transformation as Q2 Revenue Grows 38.8% Quarter-over-Quarter and Profitability Turns Positive",
+            "title": "DeFi Technologies Receives Additional 180-Day Compliance Period from Nasdaq to Regain Compliance with Minimum Bid Price Requirement",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-03T11:00:00Z",
+            "publishedAt": "2026-09-03T11:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "As U.S. Treasury intervened in the bond market, the Netherlands rushed 86 tons of gold out of America because of ‘geopolitical unrest’",
+            "source": "Fortune",
+            "publishedAt": "2026-09-03T11:29:01Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
+          {
+            "title": "Oil prices edge higher, while world shares are mixed after Wall Street gains",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-03T11:28:21Z",
             "sentiment": "Positive",
-            "compound": 0.586
+            "compound": 0.557
+          },
+          {
+            "title": "Sony and Microsoft request dismissal of consumer lawsuits over tariff refunds",
+            "source": "GamesIndustry.biz",
+            "publishedAt": "2026-09-03T11:24:40Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
           }
         ]
       }
     }
   },
-  "confirmation_score": 40.18,
+  "confirmation_score": 40.19,
   "trade_probability": 44.11,
   "market_regime": "BULLISH",
   "final_decision": {
