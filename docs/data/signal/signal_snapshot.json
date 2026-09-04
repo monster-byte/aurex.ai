@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T18:45:48.053342+00:00",
+  "generated_at": "2026-09-04T19:01:21.936871+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0467,
+          "change_pct": 0.0078,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.016,
-          "up": true
+          "change_pct": -0.0379,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.0043,
+          "change_pct": 0.0087,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0524,
-          "up": true
+          "change_pct": -0.0484,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.72,
+      "score": 72.89,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29493.06,
-        "sma50": 29228.07,
-        "sma200": 27029.24
+        "last_price": 29509.49,
+        "sma50": 29228.4,
+        "sma200": 27029.32
       }
     },
     "vxn": {
@@ -49,26 +49,26 @@
       "score": 90.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.06,
+        "current_vxn": 19.99,
         "percentile_vs_20d": 10.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 40.17,
-      "status": "yellow",
+      "score": 39.83,
+      "status": "red",
       "details": {
-        "current_yield_pct": 4.778,
-        "change_5d_pct": 1.229
+        "current_yield_pct": 4.78,
+        "change_5d_pct": 1.271
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.28,
+      "score": 54.11,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.17,
-        "change_5d_pct": -0.536
+        "current_dxy": 99.19,
+        "change_5d_pct": -0.514
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.37,
+      "score": 53.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.147,
+        "avg_compound": 0.079,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Revolut Gets Conditional OCC OK for US Banking Charter",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-03T18:45:37Z",
-            "sentiment": "Positive",
-            "compound": 0.447
+            "title": "'Deadpool' star Ryan Reynolds torches 1980s nostalgia, calls decade a ‘f---ing mess’ people ‘forget’",
+            "source": "Fox News",
+            "publishedAt": "2026-09-03T18:57:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Gold jumps 2% as Fed Governor Waller's comments temper rate hike bets",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-03T18:42:01Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Fed rate hike uncertainty grows ahead of September meeting",
+            "title": "Trump and Vance push for lower interest rates as Fed signals possible hike",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-03T18:41:22Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Will Federal Reserve hike rates later this month? Waller muddies the outlook",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T18:34:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "David Samson says NBA went too soft on Los Angeles Clippers",
-            "source": "Awful Announcing",
-            "publishedAt": "2026-09-03T18:30:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Kaplan Fox Encourages Innventure, Inc. (NASDAQ: INV) Investors to Contact the Firm Before the Deadline on October 27, 2026",
-            "source": "Associated Press",
-            "publishedAt": "2026-09-03T18:27:07Z",
+            "publishedAt": "2026-09-03T18:56:27Z",
             "sentiment": "Positive",
-            "compound": 0.44
+            "compound": 0.202
+          },
+          {
+            "title": "Strategy remains ineligible for S&P 500 rebalance due to GAAP losses",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-03T18:55:26Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Stock Market Today: Dow, S&P 500, Nasdaq rise sharply as software stocks and Big Tech rally; Treasury yields retreat after Fed governor Waller's remarks - M",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-03T18:52:37Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "US labor market remains stable; services input price rises point to elevated inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T18:51:42Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Exporter loses ₹24L in stock market investment scam",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-03T18:50:34Z",
+            "sentiment": "Negative",
+            "compound": -0.718
           }
         ]
       }
     }
   },
-  "confirmation_score": 72.1,
-  "trade_probability": 63.26,
+  "confirmation_score": 56.72,
+  "trade_probability": 54.03,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "APPROVED",
-    "directional_bias": "LONG"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
