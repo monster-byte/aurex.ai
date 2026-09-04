@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T22:15:46.202284+00:00",
+  "generated_at": "2026-09-04T22:31:02.852090+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.86,
+      "score": 53.16,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.077,
+        "avg_compound": 0.063,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Iran prefers conflict with US over peace to suppress internal uprising, human rights activist warns",
+            "source": "Fox News",
+            "publishedAt": "2026-09-03T22:30:08Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "US-Iran tensions drive oil prices higher amid Strait of Hormuz risks",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-03T22:21:20Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
+          {
+            "title": "Vance: US won’t talk to Iran until it stops attacking commercial ships",
+            "source": "Israelnationalnews.com",
+            "publishedAt": "2026-09-03T22:21:14Z",
+            "sentiment": "Negative",
+            "compound": -0.557
+          },
+          {
+            "title": "Stock market today: Live updates",
+            "source": "CNBC",
+            "publishedAt": "2026-09-03T22:15:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Rothbard’s Forgotten Critique Of The Inflation Premium",
             "source": "Biztoc.com",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-03T22:06:34Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "Breitbart Business Digest: Welcome to the Hard-Hat Goldilocks Economy",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-03T22:00:20Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Tenable Uses OpenAI GPT Cyber Models to Help Defenders Inspect Community-Built AI Components",
-            "source": "Tenable.com",
-            "publishedAt": "2026-09-03T22:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "AI Data Center Boom Pushes U.S. Power Equipment to the Breaking Point",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-09-03T22:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Polymarket launches perpetual futures tied to oil, competing with Kalshi",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-03T21:58:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.18,
-  "trade_probability": 45.31,
+  "confirmation_score": 42.11,
+  "trade_probability": 45.27,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
