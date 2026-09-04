@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T17:15:50.853616+00:00",
+  "generated_at": "2026-09-04T17:31:14.832291+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,63 +12,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0283,
-          "up": true
+          "change_pct": -0.0699,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.019,
+          "change_pct": -0.0479,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0065,
-          "up": true
+          "change_pct": -0.1048,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.035,
-          "up": false
+          "change_pct": 0.0117,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.82,
+      "score": 72.47,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29502.68,
-        "sma50": 29228.27,
-        "sma200": 27029.28
+        "last_price": 29468.37,
+        "sma50": 29227.58,
+        "sma200": 27029.11
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 100.0,
+      "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.77,
-        "percentile_vs_20d": 0.0
+        "current_vxn": 19.88,
+        "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 41.86,
+      "score": 42.2,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.768,
-        "change_5d_pct": 1.017
+        "current_yield_pct": 4.766,
+        "change_5d_pct": 0.975
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.47,
+      "score": 54.65,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.14,
-        "change_5d_pct": -0.559
+        "current_dxy": 99.12,
+        "change_5d_pct": -0.582
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.15,
+      "score": 51.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
-        "articles_analyzed": 25,
+        "avg_compound": 0.027,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Ibec asks Minister for Enterprise to reject proposed 79 cent increase to minimum wage",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-03T17:14:21Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Even in a tough economy it pays to change jobs, according to new data about Canadian wages",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-03T17:13:57Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Fed's Waller channels his inner John Lennon with a plea to 'give disinflation a chance' - Reuters",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-03T17:13:38Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "Dow rises 635 points on Fed rate-hold hopes, Sep. 3, 2026",
-            "source": "Quartz India",
-            "publishedAt": "2026-09-03T17:08:55Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "CEO Who Just Sold His Data Center Firm to SoftBank for $4 Billion Is Warning of a Late 1990s Moment",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T17:07:42Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Analysis-Bond selloff is likely amplified by obscure economic rate",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T17:04:14Z",
+            "title": "Trump turns to a dual economic and military approach in latest attempt to squeeze Iran",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-03T17:30:42Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Why There Are Fewer English Majors In Universities Today",
+            "source": "Porticoquarterly.com",
+            "publishedAt": "2026-09-03T17:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Investors cheer falling bond yields after a top Fed official eases rate-hike worries",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-03T17:29:29Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Billionaire sounds alarm on ‘hidden tax’ draining wealth",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-03T17:29:17Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Campbell’s Slides 9% on 36% Dividend Cut, General Mills Falls 4%, Kraft Heinz Drops 3%",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-03T17:25:57Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Broadcom Tripled AI Chip Sales and the Stock Still Fell. Is AVGO the Nvidia Alternative Investors Missed?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-03T17:22:39Z",
+            "sentiment": "Negative",
+            "compound": -0.296
           }
         ]
       }
     }
   },
-  "confirmation_score": 57.66,
-  "trade_probability": 54.6,
+  "confirmation_score": 49.8,
+  "trade_probability": 49.88,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
