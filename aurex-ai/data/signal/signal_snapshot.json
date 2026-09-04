@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T16:01:25.101595+00:00",
+  "generated_at": "2026-09-04T16:15:49.667876+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -16,32 +16,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0717,
-          "up": false
-        },
-        "MSFT": {
-          "change_pct": 0.002,
+          "change_pct": 0.0063,
           "up": true
         },
+        "MSFT": {
+          "change_pct": -0.0265,
+          "up": false
+        },
         "NVDA": {
-          "change_pct": -0.0102,
+          "change_pct": -0.0144,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0469,
+          "change_pct": -0.0222,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.61,
+      "score": 72.89,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29481.75,
-        "sma50": 29227.85,
-        "sma200": 27029.18
+        "last_price": 29510.46,
+        "sma50": 29228.42,
+        "sma200": 27029.32
       }
     },
     "vxn": {
@@ -49,26 +49,26 @@
       "score": 100.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.78,
+        "current_vxn": 19.77,
         "percentile_vs_20d": 0.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 41.53,
+      "score": 41.86,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.77,
-        "change_5d_pct": 1.059
+        "current_yield_pct": 4.768,
+        "change_5d_pct": 1.017
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.06,
+      "score": 54.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.07,
-        "change_5d_pct": -0.633
+        "current_dxy": 99.09,
+        "change_5d_pct": -0.614
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.15,
+      "score": 46.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.117,
-        "articles_analyzed": 24,
+        "avg_compound": -0.07,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Meta Stock Has a New AI Catalyst. Is META Headed Back Toward Its All-Time High?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T16:00:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bronstein, Gewirtz & Grossman LLC Urges XTI Aerospace, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T16:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "Bronstein, Gewirtz & Grossman LLC Urges Innventure, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T16:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "JLL Income Property Trust Fully Subscribes $197 Million Diversified DST",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T16:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "‘The Odyssey’ Extends Imax 70mm Run Through September as Imax Ticket Sales Surpass $450 Million",
-            "source": "Variety",
-            "publishedAt": "2026-09-03T16:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "The Fortuitous Fed",
+            "title": "Not so fast on rate hikes, some Fed officials say",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T15:59:07Z",
+            "publishedAt": "2026-09-03T16:14:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "65 Months of Above Target Inflation’: Powell’s Legacy May Echo Arthur Burns",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T16:14:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Wide income divide separates high earners and low earners in Greece",
+            "source": "Protothema.gr",
+            "publishedAt": "2026-09-03T16:13:48Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "’65 Months of Above Target Inflation’: Powell’s Legacy May Echo Arthur Burns",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-03T16:08:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Average rate on a 30-year mortgage climbs to highest level in 13 months",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-03T16:07:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "RXT Shareholder Alert: September 28, 2026 Lead Plaintiff Deadline in Rackspace Technology, Inc. Securities Class Action - Contact SueWallSt",
+            "source": "Associated Press",
+            "publishedAt": "2026-09-03T16:07:13Z",
+            "sentiment": "Positive",
+            "compound": 0.527
           }
         ]
       }
     }
   },
-  "confirmation_score": 49.54,
-  "trade_probability": 49.72,
+  "confirmation_score": 49.85,
+  "trade_probability": 49.91,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
