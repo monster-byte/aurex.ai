@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T19:15:51.271970+00:00",
+  "generated_at": "2026-09-04T19:31:12.931587+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 0.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.028,
+          "change_pct": -0.0528,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.024,
+          "change_pct": -0.055,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0391,
-          "up": true
+          "change_pct": -0.0087,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0039,
-          "up": true
+          "change_pct": -0.0484,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.62,
+      "score": 72.77,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29483.22,
-        "sma50": 29227.88,
-        "sma200": 27029.19
+        "last_price": 29497.57,
+        "sma50": 29228.16,
+        "sma200": 27029.26
       }
     },
     "vxn": {
@@ -49,7 +49,7 @@
       "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.91,
+        "current_vxn": 20.03,
         "percentile_vs_20d": 5.0
       }
     },
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.29,
+      "score": 54.35,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.17,
-        "change_5d_pct": -0.537
+        "current_dxy": 99.16,
+        "change_5d_pct": -0.544
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.93,
+      "score": 52.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.099,
+        "avg_compound": 0.056,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "REGN ALERT: Hagens Berman Alerts Regeneron Pharmaceuticals, Inc. (REGN) Investors to Pending Securities Fraud Class Action Amid Disclosures About Key Trial's Protocol and Ultimate Failure",
+            "title": "Faruqi & Faruqi, LLP Urges EquipmentShare.com Inc. (NASDAQ: EQPT) Investors to Seek Counsel Before September 21, 2026 Lead Plaintiff Deadline in the Securities Class Action",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-03T19:15:00Z",
-            "sentiment": "Negative",
-            "compound": -0.453
-          },
-          {
-            "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of GoPro, Inc. (NASDAQ: GPRO)",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T19:11:00Z",
-            "sentiment": "Positive",
-            "compound": 0.447
-          },
-          {
-            "title": "CCOI INVESTOR DEADLINE: Cogent Communications Holdings Investors with Substantial Losses Have Opportunity to Lead Shareholder Class Action Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T19:06:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "54% of consumer basket now sees price increases above 3%, the highest share in nearly three years",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-03T19:05:51Z",
+            "publishedAt": "2026-09-03T19:30:00Z",
             "sentiment": "Positive",
             "compound": 0.296
           },
           {
-            "title": "Victor Davis Hanson: Trump’s September Surprise in Iran Could End the Conflict",
-            "source": "Daily Signal",
-            "publishedAt": "2026-09-03T19:05:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
+            "title": "Faruqi & Faruqi, LLP Urges Cogent Communications Holdings, Inc. (NASDAQ: CCOI) Investors to Seek Counsel Before September 21, 2026 Lead Plaintiff Deadline in the Securities Class Action",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T19:28:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           },
           {
-            "title": "'Deadpool' star Ryan Reynolds torches 1980s nostalgia, calls decade a ‘f---ing mess’ people ‘forget’",
-            "source": "Fox News",
-            "publishedAt": "2026-09-03T18:57:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Economy won't improve until Australia climbs productivity mountain",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-03T19:27:05Z",
+            "sentiment": "Negative",
+            "compound": -0.341
+          },
+          {
+            "title": "Faruqi & Faruqi, LLP Urges Blaize Holdings (NASDAQ: BZAI) Investors to Seek Counsel Before the October 5, 2026 Lead Plaintiff Deadline in the Securities Class Action",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T19:26:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Faruqi & Faruqi, LLP Urges Aardvark Therapeutics (NASDAQ: AARD) Investors to Seek Counsel Before October 13, 2026 Lead Plaintiff Deadline in the Securities Class Action",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T19:24:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Vance says Fed should lower interest rates: 'Would be nice to have some help'",
+            "source": "CNBC",
+            "publishedAt": "2026-09-03T19:18:59Z",
+            "sentiment": "Positive",
+            "compound": 0.743
           }
         ]
       }
     }
   },
-  "confirmation_score": 57.19,
-  "trade_probability": 54.31,
+  "confirmation_score": 42.0,
+  "trade_probability": 45.2,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
