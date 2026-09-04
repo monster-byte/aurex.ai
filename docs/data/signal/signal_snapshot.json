@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:15:55.033031+00:00",
+  "generated_at": "2026-09-04T13:31:08.802939+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.1248,
+          "change_pct": -0.067,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1732,
+          "change_pct": -0.2009,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0985,
-          "up": false
+          "change_pct": 0.7027,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0309,
-          "up": false
+          "change_pct": 0.7242,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.62,
+      "score": 73.0,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29482.32,
-        "sma50": 29227.02,
-        "sma200": 27005.77
+        "last_price": 29520.58,
+        "sma50": 29228.62,
+        "sma200": 27029.37
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 38.81,
+      "score": 39.15,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.786,
-        "change_5d_pct": 1.398
+        "current_yield_pct": 4.784,
+        "change_5d_pct": 1.356
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.57,
+      "score": 54.32,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.25,
-        "change_5d_pct": -0.446
+        "current_dxy": 99.16,
+        "change_5d_pct": -0.54
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.6,
+      "score": 55.12,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.092,
+        "avg_compound": 0.102,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "What Makes DoorDash (DASH) an Attractive Bet Amid AI Disruption Concerns",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-03T13:15:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "A Retiree With the Average $2,081 Check Needs Just $12,514 in Other Income Before the IRS Starts Taxing Social Security. That Line Hasn’t Moved Since 1984.",
+            "title": "Why Microsoft Investors Should Fear Amazon More Than Google",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T13:15:07Z",
-            "sentiment": "Positive",
-            "compound": 0.34
+            "publishedAt": "2026-09-03T13:30:25Z",
+            "sentiment": "Negative",
+            "compound": -0.361
           },
           {
-            "title": "Xiao-I Corporation Announces ADS Ratio Change with Marketplace Effective Date on September 8, 2026",
+            "title": "Meta’s Next Trillion Dollars Could Come From AI. Here’s Our Price Target for 2027",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-03T13:30:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US stock futures gain as Fed Governor Waller signals openness to holding rates steady",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-03T13:30:01Z",
+            "sentiment": "Positive",
+            "compound": 0.7
+          },
+          {
+            "title": "SuperX Continues Share Repurchases to Demonstrate Confidence in Long-Term Growth, Substantial APAC Orders Validate Growth Potential",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-03T13:15:00Z",
+            "publishedAt": "2026-09-03T13:30:00Z",
             "sentiment": "Positive",
-            "compound": 0.477
+            "compound": 0.919
           },
           {
-            "title": "Fed's Christopher Waller signals rate hold at September meeting",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T13:13:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "World’s unusually high U.S. dollar exposure risks fuelling selloff",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-03T13:29:45Z",
+            "sentiment": "Negative",
+            "compound": -0.273
           },
           {
-            "title": "Fed's Waller open to leaving rates unchanged this month if inflation cools",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T13:12:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Artisan Sold Cencora (COR) as Earnings Momentum Slowed",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-03T13:11:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Campbell’s Shares Fall After Fiscal 2027 Guidance Comes in Below Expectations",
+            "source": "Advfn.com",
+            "publishedAt": "2026-09-03T13:29:42Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           }
         ]
       }
     }
   },
-  "confirmation_score": 40.53,
-  "trade_probability": 44.32,
+  "confirmation_score": 55.77,
+  "trade_probability": 53.46,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "REJECT",
-    "directional_bias": "AVOID"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
