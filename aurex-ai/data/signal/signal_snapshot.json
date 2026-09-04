@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T05:37:07.366227+00:00",
+  "generated_at": "2026-09-04T08:06:46.422836+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.06,
+      "score": 50.82,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.03,
-        "change_5d_pct": -0.132
+        "current_dxy": 99.06,
+        "change_5d_pct": -0.103
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 60.32,
+      "score": 45.31,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "BULLISH",
-        "avg_compound": 0.206,
-        "articles_analyzed": 24,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": -0.094,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "India services growth improves in August, but remains subdued",
+            "title": "Datavault AI Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - DVLT",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T08:06:00Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Stock futures are little changed after major averages snap three-day losing streaks: Live updates",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T08:04:13Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Capricor Therapeutics, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - CAPR",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T08:03:00Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Nasdaq Verafin Takes the Fraud Fight to the Dark Web",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-03T08:01:20Z",
+            "sentiment": "Negative",
+            "compound": -0.751
+          },
+          {
+            "title": "ESDS Software, Priority Jewels investors eye 15-50% listing pop on debuts",
             "source": "Business Standard",
-            "publishedAt": "2026-09-03T05:34:01Z",
+            "publishedAt": "2026-09-03T08:00:59Z",
             "sentiment": "Positive",
-            "compound": 0.402
+            "compound": 0.459
           },
           {
-            "title": "Davy staffer exits and it’s a good time to be an accountant",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-03T05:32:06Z",
+            "title": "Global Searches for Premium Class Flights Double as Travellers Prioritise Comfort and Personalised Journeys",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T08:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "India services PMI rises to 54.1 in August; job growth at 15-month high",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-03T05:25:03Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Bonds gain as RBI forex inflows lift liquidity, spur short-term debt buying",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-03T05:23:01Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "India's growth story drawing global investor attention, but policy predictability key to unlocking more FDI: USIBC Prez Atul Keshap",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-03T05:21:22Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Gold jumps over 1%: What’s driving prices?",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-03T05:18:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.361
           }
         ]
       }
     }
   },
-  "confirmation_score": 36.24,
-  "trade_probability": 41.74,
+  "confirmation_score": 34.72,
+  "trade_probability": 40.83,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
