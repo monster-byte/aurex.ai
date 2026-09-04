@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T20:01:22.268707+00:00",
+  "generated_at": "2026-09-04T20:15:48.622647+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -46,11 +46,11 @@
     },
     "vxn": {
       "factor": "vxn",
-      "score": 90.0,
+      "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.08,
-        "percentile_vs_20d": 10.0
+        "current_vxn": 20.0,
+        "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.49,
+      "score": 54.37,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.14,
-        "change_5d_pct": -0.562
+        "current_dxy": 99.15,
+        "change_5d_pct": -0.547
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.34,
+      "score": 53.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.107,
+        "avg_compound": 0.064,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Scholastic Corporation Announces Date for First Quarter Fiscal 2027 Earnings Release and Conference Call",
+            "title": "SELECT WATER SOLUTIONS ANNOUNCES RELEASE OF 2025 SUSTAINABILITY REPORT",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-03T20:01:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Small Rolexes Are Making Big Money on the Secondary Watch Market",
-            "source": "Robb Report",
-            "publishedAt": "2026-09-03T20:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "USA Diesel Hits 4 Year High",
-            "source": "Rigzone",
-            "publishedAt": "2026-09-03T20:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Who’s in line for SkyCity Adelaide – Stock Takes",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-03T20:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "25 Auckland men reveal the last time they cried and how it made them feel",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-03T20:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Vance: 'It's proper and responsible for the Federal Reserve to lower interest rates'",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T19:57:06Z",
+            "publishedAt": "2026-09-03T20:15:00Z",
             "sentiment": "Positive",
-            "compound": 0.477
+            "compound": 0.347
+          },
+          {
+            "title": "OPTICAL CABLE CORPORATION SCHEDULES CONFERENCE CALL TO DISCUSS THIRD QUARTER OF FISCAL YEAR 2026 RESULTS",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T20:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Advance Notice of a Meeting",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-09-03T20:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AZZ Inc. Announces September Investor Conference and Non-Deal Roadshow Schedule",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T20:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US stocks today: US stocks jump as Waller comments ease rate hike fears",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-03T20:13:46Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
+          {
+            "title": "The Hasan Piker Question",
+            "source": "The Atlantic",
+            "publishedAt": "2026-09-03T20:12:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.84,
-  "trade_probability": 45.1,
+  "confirmation_score": 42.11,
+  "trade_probability": 45.27,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
