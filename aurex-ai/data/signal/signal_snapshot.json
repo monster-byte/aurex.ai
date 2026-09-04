@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T22:31:02.852090+00:00",
+  "generated_at": "2026-09-04T22:45:52.943792+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.16,
+      "score": 50.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.063,
-        "articles_analyzed": 24,
+        "avg_compound": 0.003,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Exceeds Market Returns: Some Facts to Consider",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T22:41:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Outpaced the Stock Market Today",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T22:41:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Iran struggling to stay afloat against US economic pressures, blockade",
+            "source": "New York Post",
+            "publishedAt": "2026-09-03T22:39:00Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
           {
             "title": "Iran prefers conflict with US over peace to suppress internal uprising, human rights activist warns",
             "source": "Fox News",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-03T22:21:14Z",
             "sentiment": "Negative",
             "compound": -0.557
-          },
-          {
-            "title": "Stock market today: Live updates",
-            "source": "CNBC",
-            "publishedAt": "2026-09-03T22:15:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rothbard’s Forgotten Critique Of The Inflation Premium",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T22:08:02Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "ProCap Financial sells 50 Bitcoin to repurchase shares at 40% discount",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-03T22:06:34Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.11,
-  "trade_probability": 45.27,
+  "confirmation_score": 41.81,
+  "trade_probability": 45.09,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
