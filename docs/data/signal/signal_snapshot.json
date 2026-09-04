@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T10:31:11.764864+00:00",
+  "generated_at": "2026-09-04T10:45:57.754936+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.78,
+      "score": 54.83,
       "status": "yellow",
       "details": {
         "current_dxy": 99.1,
-        "change_5d_pct": -0.598
+        "change_5d_pct": -0.604
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.41,
+      "score": 54.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.128,
-        "articles_analyzed": 23,
+        "avg_compound": 0.096,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Schroders Plc increases holdings in US Treasuries as yields near peak",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-03T10:45:40Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Jindal Worldwide shares jump 20% to hit upper circuit, up 66% in 2026; check what’s driving the rally",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-03T10:40:42Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Sharp rise in rents charged to new tenants as reforms took effect, RTB reports",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-03T10:40:35Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
+          {
+            "title": "Ben Bernanke Didn’t Prevent a Depression. He Prevented a Recovery",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T10:37:19Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "Indices tumble for 4th day; IT shares drop",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-03T10:34:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
           {
             "title": "10 Thursday AM Reads",
             "source": "Ritholtz.com",
             "publishedAt": "2026-09-03T10:30:11Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Are GPRO and VCTR Obtaining Fair Deals for their Shareholders?",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T10:28:00Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Global Market: Eurozone services growth slows in August, but private sector remains steady",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-03T10:26:45Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Euro zone overall business growth held steady in August",
-            "source": "RTE",
-            "publishedAt": "2026-09-03T10:22:07Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "hcp 0.1.2",
-            "source": "Pypi.org",
-            "publishedAt": "2026-09-03T10:18:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Crude awakening: The White House’s oil numbers don’t add up",
-            "source": "Fortune",
-            "publishedAt": "2026-09-03T10:18:57Z",
-            "sentiment": "Negative",
-            "compound": -0.572
           }
         ]
       }
     }
   },
-  "confirmation_score": 40.2,
-  "trade_probability": 44.12,
+  "confirmation_score": 40.04,
+  "trade_probability": 44.02,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
