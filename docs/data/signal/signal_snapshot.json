@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T16:31:05.470156+00:00",
+  "generated_at": "2026-09-04T16:45:50.238745+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -16,32 +16,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0627,
+          "change_pct": 0.0156,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.02,
-          "up": true
-        },
-        "NVDA": {
-          "change_pct": -0.0281,
+          "change_pct": -0.022,
           "up": false
         },
+        "NVDA": {
+          "change_pct": 0.0345,
+          "up": true
+        },
         "AMZN": {
-          "change_pct": 0.0661,
+          "change_pct": 0.0214,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 73.06,
+      "score": 73.15,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29526.5,
-        "sma50": 29228.74,
-        "sma200": 27029.4
+        "last_price": 29535.9,
+        "sma50": 29228.93,
+        "sma200": 27029.45
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 42.2,
+      "score": 41.86,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.766,
-        "change_5d_pct": 0.975
+        "current_yield_pct": 4.768,
+        "change_5d_pct": 1.017
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.02,
+      "score": 54.99,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.07,
-        "change_5d_pct": -0.627
+        "current_dxy": 99.08,
+        "change_5d_pct": -0.624
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.43,
+      "score": 52.08,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
+        "avg_compound": 0.042,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The $1 Trillion Question Hanging Over Palantir Stock",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T16:30:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "A gold warning is flashing red. Is a new global crisis taking shape?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-03T16:30:19Z",
+            "title": "Inflation Destroys Family Well-Being",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T16:45:19Z",
             "sentiment": "Negative",
-            "compound": -0.758
+            "compound": -0.557
           },
           {
-            "title": "Sony Dismisses PS5 Buyers' $508M Tariff Refund Claim as 'Illogical'",
-            "source": "Decrypt",
-            "publishedAt": "2026-09-03T16:28:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Exclusive: Democrat Roy Cooper Says Criminals Need 'Health Care, Not Handcuffs'",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-03T16:27:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stocks Rally, Yields Retreat after Waller Signals a September Hold",
-            "source": "Moby.co",
-            "publishedAt": "2026-09-03T16:26:44Z",
+            "title": "Saia’s tonnage growth steps higher in August as comps ease",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-03T16:42:41Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.625
           },
           {
-            "title": "Cramer Warns Broadcom’s $30 Billion AI Bet Depends on a Stock You Cannot Buy",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T16:23:53Z",
+            "title": "Top Business & Market Headlines Today — BL Morning Report, September 04, 2026",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-03T16:38:29Z",
+            "sentiment": "Positive",
+            "compound": 0.703
+          },
+          {
+            "title": "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt",
+            "source": "Decrypt",
+            "publishedAt": "2026-09-03T16:38:17Z",
             "sentiment": "Neutral",
-            "compound": -0.103
+            "compound": 0.0
+          },
+          {
+            "title": "The Other 9/11 Memorial",
+            "source": "Mother Jones",
+            "publishedAt": "2026-09-03T16:35:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Dozens of Co Carlow homes at centre of costs dispute are reversed to social housing list",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-09-03T16:34:41Z",
+            "sentiment": "Negative",
+            "compound": -0.402
           }
         ]
       }
     }
   },
-  "confirmation_score": 64.93,
-  "trade_probability": 58.96,
+  "confirmation_score": 64.96,
+  "trade_probability": 58.98,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
