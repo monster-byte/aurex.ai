@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T19:53:01.448759+00:00",
+  "generated_at": "2026-09-04T20:01:22.268707+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 0.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0094,
-          "up": true
+          "change_pct": -0.2276,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.028,
+          "change_pct": -0.1758,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.2785,
-          "up": true
+          "change_pct": -0.2749,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.0483,
+          "change_pct": -0.1911,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 73.22,
+      "score": 73.23,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29542.71,
-        "sma50": 29229.07,
-        "sma200": 27029.48
+        "last_price": 29544.15,
+        "sma50": 29229.1,
+        "sma200": 27029.49
       }
     },
     "vxn": {
@@ -49,7 +49,7 @@
       "score": 90.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.14,
+        "current_vxn": 20.08,
         "percentile_vs_20d": 10.0
       }
     },
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.48,
+      "score": 54.49,
       "status": "yellow",
       "details": {
         "current_dxy": 99.14,
-        "change_5d_pct": -0.56
+        "change_5d_pct": -0.562
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.45,
+      "score": 55.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.169,
+        "avg_compound": 0.107,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Divide over yields: Fed officials see a stronger economy, Wall Street frets over oil prices and deficits",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T19:52:23Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "BZAI Investors Have Opportunity to Lead Blaize Holdings, Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+            "title": "Scholastic Corporation Announces Date for First Quarter Fiscal 2027 Earnings Release and Conference Call",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-03T19:50:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "The big August jobs report is due out Friday. Here's what to expect for what has been a jobless summer",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T19:49:42Z",
+            "publishedAt": "2026-09-03T20:01:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "ICI: Money Market Fund Assets Continue Record-Breaking Growth",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T19:46:00Z",
-            "sentiment": "Positive",
-            "compound": 0.511
+            "title": "Small Rolexes Are Making Big Money on the Secondary Watch Market",
+            "source": "Robb Report",
+            "publishedAt": "2026-09-03T20:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "As Fashion’s Emissions Rise for Second Straight Year, Aii Knows What Needs to Change",
-            "source": "WWD",
-            "publishedAt": "2026-09-03T19:44:03Z",
-            "sentiment": "Positive",
-            "compound": 0.226
+            "title": "USA Diesel Hits 4 Year High",
+            "source": "Rigzone",
+            "publishedAt": "2026-09-03T20:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Trump Crypto Coin Future: Can TRUMP Recover From Its 97% Collapse and Reach $10?",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-09-03T19:42:35Z",
+            "title": "Who’s in line for SkyCity Adelaide – Stock Takes",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-03T20:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "25 Auckland men reveal the last time they cried and how it made them feel",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-03T20:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.477
+            "compound": -0.382
+          },
+          {
+            "title": "Vance: 'It's proper and responsible for the Federal Reserve to lower interest rates'",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T19:57:06Z",
+            "sentiment": "Positive",
+            "compound": 0.477
           }
         ]
       }
     }
   },
-  "confirmation_score": 57.15,
-  "trade_probability": 54.29,
+  "confirmation_score": 41.84,
+  "trade_probability": 45.1,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
