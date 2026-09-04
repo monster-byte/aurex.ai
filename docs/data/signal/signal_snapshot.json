@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T12:15:49.838717+00:00",
+  "generated_at": "2026-09-04T12:31:05.244758+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.21,
+      "score": 55.22,
       "status": "yellow",
       "details": {
         "current_dxy": 99.05,
-        "change_5d_pct": -0.651
+        "change_5d_pct": -0.653
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.61,
+      "score": 55.59,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.028,
-        "articles_analyzed": 24,
+        "avg_compound": 0.112,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Brent crude oil surges to $99 per barrel, flirting with triple digits",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-03T12:15:11Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Is there a ‘right’ way for a company to justify a price hike?",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-09-03T12:13:02Z",
+            "title": "Led by China, central banks continued to buy gold in July",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-03T12:30:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Shoppers are less peeved by cost hikes due to scarcity – but retailers more often blame their own rising costs",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-09-03T12:13:02Z",
-            "sentiment": "Negative",
-            "compound": -0.545
-          },
-          {
-            "title": "SoFi Just Posted Another Quarter of Fast Growth. What Has to Happen Next for the Stock to Follow?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T12:12:30Z",
+            "title": "Bitcoin’s next $80,000 breakout has $47 billion more profitable supply to absorb",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-03T12:30:29Z",
             "sentiment": "Positive",
-            "compound": 0.382
+            "compound": 0.493
           },
           {
-            "title": "Campbell's Q4 Earnings Call Highlights",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T12:12:14Z",
+            "title": "Fed Governor Waller indicates he will support holding rates steady at September meeting",
+            "source": "CNBC",
+            "publishedAt": "2026-09-03T12:30:21Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Prediction: Coinbase Stock Will Hit The $250 Milestone on This Date",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-03T12:30:16Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Dow Jones Futures Rise, Oil Prices Keep Climbing; Snowflake, Victoria's Secret Are Big Movers With Tesla Cybercab Event Due",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T12:12:06Z",
+            "title": "Eightco Holdings (NASDAQ: ORBS) Reports Total Holdings of Approximately $380 Million, Includes OpenAI, Beast Industries, More Than 16,000 ETH and Nearly 302 Million WLD Tokens",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T12:30:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "TOYO Co., Ltd to Participate in Fireside Chat at the Jefferies Renewables, Clean Energy, & Construction Conference",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T12:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.586
           }
         ]
       }
     }
   },
-  "confirmation_score": 39.46,
-  "trade_probability": 43.68,
+  "confirmation_score": 40.16,
+  "trade_probability": 44.1,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
