@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T14:31:08.559667+00:00",
+  "generated_at": "2026-09-04T14:45:50.357663+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0764,
-          "up": true
+          "change_pct": -0.0125,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0229,
+          "change_pct": 0.1236,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.2731,
+          "change_pct": 0.0,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0194,
+          "change_pct": 0.035,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 73.15,
+      "score": 72.81,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29535.85,
-        "sma50": 29228.93,
-        "sma200": 27029.45
+        "last_price": 29502.17,
+        "sma50": 29228.26,
+        "sma200": 27029.28
       }
     },
     "vxn": {
@@ -49,26 +49,26 @@
       "score": 100.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.86,
+        "current_vxn": 19.79,
         "percentile_vs_20d": 0.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 41.53,
+      "score": 42.54,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.77,
-        "change_5d_pct": 1.059
+        "current_yield_pct": 4.764,
+        "change_5d_pct": 0.932
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.52,
+      "score": 54.86,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.14,
-        "change_5d_pct": -0.565
+        "current_dxy": 99.09,
+        "change_5d_pct": -0.608
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.39,
+      "score": 54.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.112,
+        "avg_compound": 0.097,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Could DKNG Be a 50% Rebound Stock?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T14:30:51Z",
+            "title": "中銀は如何にしてインフレと戦ってバフェットとリンチのように稼げるか",
+            "source": "Hatenablog.com",
+            "publishedAt": "2026-09-03T14:45:15Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The bond market is crashing Trump’s midterm campaign",
-            "source": "Fortune",
-            "publishedAt": "2026-09-03T14:30:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Tesla Advances 6% as Traders Await Cybercab Event, Lucid Rises 3%, Rivian Ticks Up",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-03T14:30:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "Proud of their oil, Venezuelans view US stake in their reserves as a surrender",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-03T14:29:56Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Morgan Stanley has a strong message for worried AI stock investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T14:29:38Z",
+            "title": "Energy Vault Accelerates 125 MW / 1 GWh Stoney Creek BESS Toward Construction with Full Project Land Acquisition Milestone in Australia",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-03T14:43:36Z",
             "sentiment": "Positive",
             "compound": 0.273
           },
           {
-            "title": "Tesla’s Impossible Comeback",
+            "title": "Fed Governor Waller indicates he will support holding rates steady at September meeting",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-03T14:26:46Z",
+            "publishedAt": "2026-09-03T14:43:00Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Dell Just Jumped 16% and One Strategist Says That Is the Whole Tech Argument Right Now",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-03T14:40:32Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Lives on hold: Young Iranians watch their futures slip away",
+            "source": "The New Humanitarian",
+            "publishedAt": "2026-09-03T14:40:11Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "China’s Luxury Revival Loses Momentum as Tax Scrutiny Weighs on High-end Consumers",
+            "source": "WWD",
+            "publishedAt": "2026-09-03T14:39:42Z",
+            "sentiment": "Negative",
+            "compound": -0.318
           }
         ]
       }
     }
   },
-  "confirmation_score": 64.59,
-  "trade_probability": 58.75,
+  "confirmation_score": 58.27,
+  "trade_probability": 54.96,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",

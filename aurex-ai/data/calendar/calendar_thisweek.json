@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-04T14:31:07.573637+00:00",
+  "fetched_at": "2026-09-04T14:45:49.045979+00:00",
   "source": "forexfactory (unofficial public feed)",
   "events": [
     {
@@ -1017,15 +1017,6 @@
       "impact": "High",
       "forecast": "4.1%",
       "previous": "4.1%",
-      "actual": null
-    },
-    {
-      "title": "FOMC Member Goolsbee Speaks",
-      "country": "USD",
-      "date": "2026-09-04T09:40:00-04:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "",
       "actual": null
     },
     {
