@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T10:01:19.405030+00:00",
+  "generated_at": "2026-09-04T10:15:51.612523+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.65,
+      "score": 54.66,
       "status": "yellow",
       "details": {
         "current_dxy": 99.12,
-        "change_5d_pct": -0.581
+        "change_5d_pct": -0.583
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.78,
+      "score": 54.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.024,
-        "articles_analyzed": 25,
+        "avg_compound": 0.099,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "CAPR INVESTOR DEADLINE: Capricor Therapeutics, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit - September 28, 2026 Deadline",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T09:55:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "NTMA sells €1.25bn of bonds amid market turmoil",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-03T09:54:26Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "World Bank's Neelkanth Mishra backs strong GDP momentum, calls critics ill-educated",
-            "source": "India Today",
-            "publishedAt": "2026-09-03T09:54:23Z",
+            "title": "Global Market: European stocks rise as bond selloff eases; investors await U.S. jobs data",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-03T10:13:57Z",
             "sentiment": "Positive",
-            "compound": 0.226
+            "compound": 0.402
           },
           {
-            "title": "The gold trade is dead. Long live gold.",
-            "source": "Livemint",
-            "publishedAt": "2026-09-03T09:53:45Z",
-            "sentiment": "Negative",
-            "compound": -0.649
-          },
-          {
-            "title": "Berkshire just revealed its playbook for AI’s next bottleneck",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-03T09:50:01Z",
+            "title": "Australia cracks down on crypto businesses ahead of 2026 regulatory deadline",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-03T10:12:09Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Housing inflation: Home prices jump 59%, construction costs rise 34%",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-03T09:43:13Z",
+            "title": "\"Gold Rush\" - New Season Premieres Friday, October 2 on Discovery Channel",
+            "source": "Thefutoncritic.com",
+            "publishedAt": "2026-09-03T10:10:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Inflation is a drug and Washington is high on it | CNN Business",
+            "source": "CNN",
+            "publishedAt": "2026-09-03T10:09:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Deliciously Deceptive Desserts Hide in Plain Sight in New Food Network Series \"Sweet Deceit\" Hosted by Josh Peck",
+            "source": "Thefutoncritic.com",
+            "publishedAt": "2026-09-03T10:08:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "FSU football running game may be best chance at pulling off SMU upset",
+            "source": "Tallahassee Democrat",
+            "publishedAt": "2026-09-03T10:03:13Z",
+            "sentiment": "Positive",
+            "compound": 0.557
           }
         ]
       }
     }
   },
-  "confirmation_score": 39.42,
-  "trade_probability": 43.65,
+  "confirmation_score": 40.04,
+  "trade_probability": 44.02,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
