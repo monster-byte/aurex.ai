@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T21:01:15.881523+00:00",
+  "generated_at": "2026-09-04T21:15:49.076067+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.28,
+      "score": 54.36,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.17,
-        "change_5d_pct": -0.536
+        "current_dxy": 99.16,
+        "change_5d_pct": -0.545
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.29,
+      "score": 51.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.006,
+        "avg_compound": 0.028,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Stocks, Bonds Rally After Dovish Fed Comments",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-03T21:06:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "ROSEN, LEADING TRIAL ATTORNEYS, Encourages Taboola.com Ltd. Investors to Secure Counsel Before Important Deadline in Securities Class Action - TBLA",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-03T21:06:00Z",
+            "sentiment": "Positive",
+            "compound": 0.807
+          },
           {
             "title": "Fly-E Group, Inc. Announces Receipt of Delinquency Notice from Nasdaq Regarding Delayed Form 10-Q",
             "source": "PRNewswire",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-03T20:58:00Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "Pentair plc (PNR) Notice of October 2, 2026 Application Deadline for Class Action Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T20:57:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Burning Man has become a wrinkled sausage fest of aging millennial men, data shows",
-            "source": "New York Post",
-            "publishedAt": "2026-09-03T20:56:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.81,
-  "trade_probability": 45.09,
+  "confirmation_score": 41.93,
+  "trade_probability": 45.16,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
