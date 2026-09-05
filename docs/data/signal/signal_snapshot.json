@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T09:45:51.555264+00:00",
+  "generated_at": "2026-09-05T10:01:24.107441+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.33,
+      "score": 48.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.033,
+        "avg_compound": -0.039,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "How India's below-average September rainfall fuels concern about crops",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T09:37:18Z",
+            "title": "What Do the Centrists Stand For? Here’s the Uninspiring Answer.",
+            "source": "The New Republic",
+            "publishedAt": "2026-09-04T10:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "John Ternus takes the helm at Apple, as AI pressure hits",
-            "source": "Fortune",
-            "publishedAt": "2026-09-04T09:36:41Z",
+            "title": "Bitcoin's $80,000 breakout just failed after a blowout jobs report",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-04T10:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.296
+            "compound": -0.511
           },
           {
-            "title": "U.S. Diesel Prices Hit Record High Of $5.85 On Average As Iran War Disrupts Flow Of Fuel",
-            "source": "HuffPost",
-            "publishedAt": "2026-09-04T09:34:09Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "4 takeaways from Fidelity on how Gen Z and millennials are investing for retirement",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-04T09:30:01Z",
+            "title": "How Did Trump Do on His Labor Day Report Card?",
+            "source": "The New Republic",
+            "publishedAt": "2026-09-04T10:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bitcoin climbs nearly 4% to $81,000 as ETF inflows, strategy buying support rally",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T09:27:19Z",
+            "title": "AMC chief criticizes Robinhood’s tokenized stock plan",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-09-04T09:56:52Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "8th Pay Commission completes 10 months: Key dates and deadlines employees and pensioners must be aware of",
+            "source": "Livemint",
+            "publishedAt": "2026-09-04T09:51:52Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Health-tracking smart ring maker Oura to list on US stock market",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T09:51:39Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "Global Market: Bank of England’s Pill says early rate hike could limit future inflation pressure",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T09:22:39Z",
-            "sentiment": "Negative",
-            "compound": -0.296
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.62,
-  "trade_probability": 44.97,
+  "confirmation_score": 41.59,
+  "trade_probability": 44.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
