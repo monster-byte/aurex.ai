@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T13:01:15.628580+00:00",
+  "generated_at": "2026-09-05T13:15:48.733676+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.66,
+      "score": 47.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.047,
+        "avg_compound": -0.042,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Docusign Agreement Layer for the Agentic Enterprise Coming to Every Agent",
+            "title": "views_r2darts2 0.2.1",
+            "source": "Pypi.org",
+            "publishedAt": "2026-09-04T13:15:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Rackspace Technology, Inc. Investors: September 28, 2026, Deadline in Securities Fraud Class Action Lawsuit",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-04T13:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.494
+            "publishedAt": "2026-09-04T13:15:00Z",
+            "sentiment": "Negative",
+            "compound": -0.542
           },
           {
-            "title": "Tredence Recognized as Leader in the 2026 ISG Provider Lens® for Supply Chain Analytics and AI Services",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-04T13:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Every Reliable Power Source Is Already Spoken For. What Comes Next?",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-04T12:59:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Where Will Sandisk Stock Be in 3 Years?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T12:57:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US nonfarm payrolls surge in August; unemployment rate steady at 4.1%",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T12:56:20Z",
+            "title": "Markets snap four-day losing streak as Fed rate hike fears ease",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-04T13:14:31Z",
             "sentiment": "Negative",
             "compound": -0.44
           },
           {
-            "title": "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T12:55:18Z",
-            "sentiment": "Negative",
-            "compound": -0.751
+            "title": "Bilibili prices $700M in convertible preferred notes and equity placement",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-04T13:13:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US non-farm payrolls surge in August",
+            "source": "RTE",
+            "publishedAt": "2026-09-04T13:12:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US diesel prices hit a record high, pushing up transportation costs for a long list of goods",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T13:11:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.56,
-  "trade_probability": 44.94,
+  "confirmation_score": 41.58,
+  "trade_probability": 44.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
