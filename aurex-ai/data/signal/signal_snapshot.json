@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T04:45:51.255606+00:00",
+  "generated_at": "2026-09-05T05:01:18.494102+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 59.78,
+      "score": 50.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.196,
+        "avg_compound": 0.012,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Gains in INR seen capped by elevated oil prices",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T04:34:27Z",
-            "sentiment": "Positive",
-            "compound": 0.34
+            "title": "Deleveraging clouds China’s AI trade as rising US Treasury yields, inflation fears persist",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T05:01:18Z",
+            "sentiment": "Negative",
+            "compound": -0.25
           },
           {
-            "title": "Russia Sanctions Bill: India gets a breather as Trump’s 100% tariff weapon stalls in US House",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T04:34:17Z",
+            "title": "Viewpoint: Global Reinsurance Pricing to Remain Under Pressure Through 2027",
+            "source": "Insurance Journal",
+            "publishedAt": "2026-09-04T05:00:33Z",
             "sentiment": "Negative",
             "compound": -0.296
           },
           {
-            "title": "US job growth may rebound in August; unemployment rate forecast at 4.1%",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T04:33:44Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
+            "title": "The inflation genie could be out of the bottle — and bond markets are sounding the alarm",
+            "source": "CNBC",
+            "publishedAt": "2026-09-04T05:00:02Z",
+            "sentiment": "Negative",
+            "compound": -0.34
           },
           {
-            "title": "Argentina: 1,000 Days Of Milei",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-04T04:24:40Z",
+            "title": "The two things that make Ireland expensive: Energy and housing",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-04T05:00:01Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Some Cairn apartment buyers see mortgage repayments less than half average Dublin rents",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-04T05:00:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Markets open higher; IT stocks lead gains as Nifty eyes 24,000",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-04T04:21:06Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "Indices drift higher amid global cues",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T04:20:46Z",
+            "title": "Irish house prices overvalued by 17% ‘with middle-income households hit hardest’",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-04T05:00:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 42.77,
-  "trade_probability": 45.66,
+  "confirmation_score": 41.85,
+  "trade_probability": 45.11,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
