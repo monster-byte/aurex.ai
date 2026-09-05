@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T02:31:08.059639+00:00",
+  "generated_at": "2026-09-05T02:45:45.593128+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.63,
+      "score": 58.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.093,
+        "avg_compound": 0.164,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Asian shares climb as Fed rate hike fears ease ahead of US jobs data",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-04T02:44:01Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Asian shares climb ahead of US jobs data, Fed's Waller soothes bonds",
+            "source": "CNA",
+            "publishedAt": "2026-09-04T02:33:57Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Top stocks to buy today: Stock market recommendations for September 4, 2026 - check list",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T02:31:17Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "Powering Sovereignty",
             "source": "CleanTechnica",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-04T02:26:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Stock market operations on September 4: Are NSE, BSE open today on Janmashtami?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T02:25:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Has Nifty bottomed out? Tech analysts decode charts; flag key levels",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T02:22:32Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Stock Market LIVE: GIFT Nifty signals positive open; cooling US Fed rate-hike bets lift Asia mkts",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T02:22:29Z",
-            "sentiment": "Positive",
-            "compound": 0.873
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.26,
-  "trade_probability": 45.36,
+  "confirmation_score": 42.61,
+  "trade_probability": 45.57,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
