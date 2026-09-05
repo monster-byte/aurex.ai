@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T23:15:48.664977+00:00",
+  "generated_at": "2026-09-05T23:31:05.811990+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.68,
+      "score": 50.16,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.006,
+        "avg_compound": 0.003,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "September 4, 2026 - PBS News Hour full episode",
+            "source": "PBS",
+            "publishedAt": "2026-09-04T23:29:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Campbell's Co (CPB) (Q4 2026) Earnings Call Highlights: Strategic Pivot Amid Inflation and ..",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T23:24:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Nasdaq Bought an AI Due-Diligence Platform as ICE Built Private-Credit Intelligence. Which Data Moat Is Deeper?",
             "source": "Biztoc.com",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-04T22:44:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "On the Line: Syria Emerges as New Ground for Turkish Textile Expansion",
-            "source": "WWD",
-            "publishedAt": "2026-09-04T22:43:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "EQPT Deadline: EQPT Investors with Losses in Excess of $100K Have Opportunity to Lead EquipmentShare.com Inc Securities Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-04T22:40:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.76,
-  "trade_probability": 45.06,
+  "confirmation_score": 41.81,
+  "trade_probability": 45.09,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
