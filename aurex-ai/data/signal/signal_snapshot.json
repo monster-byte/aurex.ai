@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T04:31:03.122313+00:00",
+  "generated_at": "2026-09-05T04:45:51.255606+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 63.21,
+      "score": 59.78,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "BULLISH",
-        "avg_compound": 0.264,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.196,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Gains in INR seen capped by elevated oil prices",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-04T04:34:27Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Russia Sanctions Bill: India gets a breather as Trump’s 100% tariff weapon stalls in US House",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T04:34:17Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "US job growth may rebound in August; unemployment rate forecast at 4.1%",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-04T04:33:44Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
           {
             "title": "Argentina: 1,000 Days Of Milei",
             "source": "Freerepublic.com",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-04T04:20:46Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Gold, silver prices today, 4 September: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
-            "source": "Livemint",
-            "publishedAt": "2026-09-04T04:19:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Planning Matters: Well-Prepared Retirees Are Too Blessed to Be Stressed",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T04:16:12Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Global Market: South Korean shares rise on chip gains, KOSPI set for third weekly loss",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T04:08:38Z",
-            "sentiment": "Positive",
-            "compound": 0.318
           }
         ]
       }
     }
   },
-  "confirmation_score": 43.11,
-  "trade_probability": 45.87,
+  "confirmation_score": 42.77,
+  "trade_probability": 45.66,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
