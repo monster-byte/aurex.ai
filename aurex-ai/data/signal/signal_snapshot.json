@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T12:45:48.967809+00:00",
+  "generated_at": "2026-09-05T13:01:15.628580+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.26,
+      "score": 47.66,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.015,
+        "avg_compound": -0.047,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bitcoin’s rally over $81,000 is finding real buyers, but options traders still aren’t pricing a clean breakout",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-04T12:45:27Z",
+            "title": "Docusign Agreement Layer for the Agentic Enterprise Coming to Every Agent",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T13:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.55
+            "compound": 0.494
           },
           {
-            "title": "Fed expected to hike interest rates after strong August jobs report",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-04T12:43:14Z",
-            "sentiment": "Positive",
-            "compound": 0.743
+            "title": "Tredence Recognized as Leader in the 2026 ISG Provider Lens® for Supply Chain Analytics and AI Services",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T13:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Ukraine’s labour market has been surprisingly resilient during the war with Russia",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-09-04T12:43:03Z",
+            "title": "Every Reliable Power Source Is Already Spoken For. What Comes Next?",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-04T12:59:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Where Will Sandisk Stock Be in 3 Years?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T12:57:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US nonfarm payrolls surge in August; unemployment rate steady at 4.1%",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T12:56:20Z",
             "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Crypto stages major rally as Fed rate hopes send Bitcoin to four-month high",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-04T12:40:53Z",
-            "sentiment": "Positive",
-            "compound": 0.421
+            "compound": -0.44
           },
           {
             "title": "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
-            "source": "CNBC",
-            "publishedAt": "2026-09-04T12:40:43Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T12:55:18Z",
             "sentiment": "Negative",
             "compound": -0.751
-          },
-          {
-            "title": "Six reasons that the risk of a stock-market selloff is rising. Here’s what investors should be doing",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T12:40:13Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.72,
-  "trade_probability": 45.03,
+  "confirmation_score": 41.56,
+  "trade_probability": 44.94,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
