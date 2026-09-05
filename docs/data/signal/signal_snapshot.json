@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T17:15:53.499100+00:00",
+  "generated_at": "2026-09-05T17:31:04.850508+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.02,
+      "score": 54.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.04,
+        "avg_compound": 0.087,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Dell Afterglow Continues. These Other Stocks Top Buy Points.",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-04T17:14:28Z",
-            "sentiment": "Positive",
-            "compound": 0.202
+            "title": "Citadel Eyes U.S. Shale as Oil Trading Moves Closer to the Wellhead",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-09-04T17:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
           },
           {
-            "title": "Hype for GTA 6 is giving PS5 and Xbox console sales a much needed 30% boost",
-            "source": "Eurogamer.net",
-            "publishedAt": "2026-09-04T17:14:16Z",
-            "sentiment": "Positive",
-            "compound": 0.625
+            "title": "Wise Group plc (WSE) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T17:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
           },
           {
-            "title": "GameStop Shares Steady Ahead Of Sept. 8 Earnings As Investors Brace For A Potential 9% Stock Swing Today",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-04T17:11:37Z",
+            "title": "Billions in U.S. Savings Bonds Have Stopped Earning Interest and Their Owners Don’t Know It. The Ones in Your Parents’ Drawer Went Silent at Exactly Year 30",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-04T17:29:18Z",
             "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.273
           },
           {
-            "title": "After A Microsoft Stock Price Spike, An Options Strategy Aims For A Robust Profit In Weeks",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-04T17:10:35Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "Eric Trump wants to turn U.S. into Bitcoin leader",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T17:03:43Z",
+            "title": "Hundreds of air traffic controllers come out against FAA and NATCA",
+            "source": "Washington Examiner",
+            "publishedAt": "2026-09-04T17:23:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Stock Market Midday, Sept. 4: Stocks Edge Lower on Strong Jobs Report as Lululemon Plummets",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T17:03:26Z",
+            "title": "Nobody can predict Amazon’s ad reserve prices, including Amazon. That is the defence.",
+            "source": "The Next Web",
+            "publishedAt": "2026-09-04T17:22:23Z",
             "sentiment": "Positive",
             "compound": 0.273
+          },
+          {
+            "title": "XTEND Reality Expansion begins trading on NYSE after $1.5B merger with JFB Construction Holdings",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-04T17:19:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.99,
-  "trade_probability": 45.19,
+  "confirmation_score": 42.22,
+  "trade_probability": 45.33,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
