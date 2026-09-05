@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T07:45:46.901389+00:00",
+  "generated_at": "2026-09-05T08:01:15.928580+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.93,
+      "score": 55.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.099,
+        "avg_compound": 0.114,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The price of diesel hits a record high",
-            "source": "NPR",
-            "publishedAt": "2026-09-04T07:44:21Z",
+            "title": "Global Market: Bank of England’s Pill says early rate hike could limit future inflation pressure",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T08:00:29Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Governance as Legitimacy: A Further Reflection on the Removal of the ICC Prosecutor (Part I)",
+            "source": "Opiniojuris.org",
+            "publishedAt": "2026-09-04T08:00:19Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Nifty holds above 23,900 as smallcap index hits record high",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-04T07:38:21Z",
-            "sentiment": "Positive",
-            "compound": 0.402
+            "title": "Trump looms over U.S. midterms. Will he help or hurt Republicans?",
+            "source": "CBC News",
+            "publishedAt": "2026-09-04T08:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.318
           },
           {
-            "title": "‘I don’t think there’s a floor’: Workers’ share of America’s income is at a record low before the AI boom even begins",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-04T07:30:00Z",
+            "title": "Health-care hiring has propped up Canada’s job market. Will patients see a difference?",
+            "source": "CBC News",
+            "publishedAt": "2026-09-04T08:00:00Z",
             "sentiment": "Neutral",
-            "compound": 0.026
+            "compound": 0.0
           },
           {
-            "title": "‘I don’t think there’s a floor’: Workers’ share of America’s income is at a record low before the AI boom even begins",
-            "source": "Fortune",
-            "publishedAt": "2026-09-04T07:30:00Z",
+            "title": "Bond yields are soaring to multi-decade highs. What does that mean for Canadian consumers?",
+            "source": "CBC News",
+            "publishedAt": "2026-09-04T08:00:00Z",
             "sentiment": "Neutral",
-            "compound": 0.026
+            "compound": 0.0
           },
           {
-            "title": "Value stocks are making a comeback in India. These 10 stocks could benefit",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T07:23:30Z",
+            "title": "Paramount+ Celebrates Mexican Independence Day Weekend with Combat Sports Doubleheader on Saturday, September 12",
+            "source": "Thefutoncritic.com",
+            "publishedAt": "2026-09-04T08:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.66
-          },
-          {
-            "title": "Sensex zooms 730 pts intraday, Nifty reclaims 24K: What's driving markets?",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T07:21:32Z",
-            "sentiment": "Positive",
-            "compound": 0.402
+            "compound": 0.318
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.28,
-  "trade_probability": 45.37,
+  "confirmation_score": 42.36,
+  "trade_probability": 45.42,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
