@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T00:45:54.095829+00:00",
+  "generated_at": "2026-09-05T01:01:15.156212+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.3,
+      "score": 55.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.106,
+        "avg_compound": 0.111,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Horizons councillor expenses over budget for 2025-26 as workloads increase",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-04T01:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Vance says Iran fight isn't a 'war'",
+            "source": "Associated Press",
+            "publishedAt": "2026-09-04T00:58:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.14
+          },
+          {
+            "title": "US sanctions deepen Iran crisis as oil nears $100",
+            "source": "The Punch",
+            "publishedAt": "2026-09-04T00:55:49Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "U.S. aims 'to really tighten the screws' on Cuba with newest sanctions: analyst",
+            "source": "CBC News",
+            "publishedAt": "2026-09-04T00:53:22Z",
+            "sentiment": "Negative",
+            "compound": -0.31
+          },
+          {
+            "title": "Global Market Today: Asian stocks rise as Fed rate-hike bets ease",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T00:49:26Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
           {
             "title": "Solana Validator Client v1.18 Hits 85% Consensus Stake",
             "source": "Bitcoinist",
             "publishedAt": "2026-09-04T00:45:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Analysts rank Bitcoin above Tesla in new tech growth asset list",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T00:43:29Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "South Korea's AI rally is reshaping romance, reality shows and academic preferences",
-            "source": "CNBC",
-            "publishedAt": "2026-09-04T00:36:22Z",
-            "sentiment": "Positive",
-            "compound": 0.557
-          },
-          {
-            "title": "PI Industries bets on innovation-led growth as agrochem headwinds mount",
-            "source": "Livemint",
-            "publishedAt": "2026-09-04T00:30:54Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Fed governor Waller muddies outlook on possible rate hike later this month",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T00:26:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Two provinces pitch billion-dollar food terminal to make Canadian food cheaper to move, easier to access",
-            "source": "The Globe And Mail",
-            "publishedAt": "2026-09-04T00:21:09Z",
-            "sentiment": "Positive",
-            "compound": 0.421
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.32,
-  "trade_probability": 45.39,
+  "confirmation_score": 42.35,
+  "trade_probability": 45.41,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
