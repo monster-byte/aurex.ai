@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T19:01:16.929912+00:00",
+  "generated_at": "2026-09-05T19:15:54.259420+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.83,
+      "score": 47.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.083,
+        "avg_compound": -0.057,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "America’s population of 401(k) millionaires hits record high",
-            "source": "New York Post",
-            "publishedAt": "2026-09-04T19:00:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why political optimism has become scarce in Australia",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-09-04T19:00:00Z",
+            "title": "Smart ring maker Oura reveals revenue surge in US IPO filing",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T19:06:29Z",
             "sentiment": "Positive",
-            "compound": 0.542
+            "compound": 0.402
           },
           {
-            "title": "Kenya private sector growth stalls as firms struggle with high costs and low liquidity | The Eastleigh Voice",
-            "source": "Eastleighvoice.co.ke",
-            "publishedAt": "2026-09-04T18:57:57Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "Scott Bessent predicts oil prices could drop by $40–$50 a barrel after Iran conflict ends",
+            "title": "Bessent predicts $40 oil post-Iran war, impacting bond yields: Bloomberg",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-04T18:56:44Z",
+            "publishedAt": "2026-09-04T19:04:44Z",
             "sentiment": "Negative",
-            "compound": -0.527
+            "compound": -0.599
           },
           {
-            "title": "PZZA Investors Have Opportunity to Lead Papa John's International, Inc. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-04T18:51:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Why Apple Stock Sank on Friday",
+            "title": "Trump: Interest rates should be at 0.5% or 1%",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T18:50:43Z",
+            "publishedAt": "2026-09-04T19:03:46Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "How worried should variable-rate borrowers be about Bank of Canada rate hikes?",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-04T19:03:22Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Rosen Law Firm Encourages UP Fintech Holding Limited Investors to Inquire About Securities Class Action Investigation - TIGR",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T19:03:00Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Business Cycle Indicators: CES/CPS Employment Surges",
+            "source": "Econbrowser.com",
+            "publishedAt": "2026-09-04T19:01:25Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 41.37,
-  "trade_probability": 44.82,
+  "confirmation_score": 41.5,
+  "trade_probability": 44.9,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
