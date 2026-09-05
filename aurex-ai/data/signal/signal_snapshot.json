@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T11:45:53.327676+00:00",
+  "generated_at": "2026-09-05T12:01:17.746100+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.96,
+      "score": 53.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.039,
+        "avg_compound": 0.073,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Baidu Announces Upcoming Inclusion of Its Class A Ordinary Shares in the Shanghai-Hong Kong Stock Connect Program",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-04T11:45:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Chinese banks are snapping up US Treasuries after luring in dollar deposits",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-04T11:44:13Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "NSE gets Sebi approval to proceed with long-awaited IPO",
+            "title": "INR registers a weekly gain of over 1%",
             "source": "Business Standard",
-            "publishedAt": "2026-09-04T11:38:45Z",
+            "publishedAt": "2026-09-04T12:01:02Z",
             "sentiment": "Positive",
-            "compound": 0.477
+            "compound": 0.527
           },
           {
-            "title": "Bitcoin and ethereum prices today, Friday, September 4, 2026: Bitcoin holding above $81,000 following massive ETF inflows",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-04T11:37:51Z",
+            "title": "MEDIA ALERT: Equinix to Speak at Upcoming Investor Conferences",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T12:01:00Z",
+            "sentiment": "Positive",
+            "compound": 0.447
+          },
+          {
+            "title": "More Argentines turn to apps for loans as debt stress hits record...",
+            "source": "AOL",
+            "publishedAt": "2026-09-04T12:00:13Z",
+            "sentiment": "Negative",
+            "compound": -0.649
+          },
+          {
+            "title": "Azenta Receives Full Repayment of $35 Million Vendor Loan Related to Sale of B Medical Systems",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T12:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Japan stocks rebound as tech shares lead gains",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T11:34:59Z",
-            "sentiment": "Positive",
-            "compound": 0.557
+            "title": "Tyra Biosciences to Host Conference Call on Initial Results of Oral Dabogratinib from the SURF302 Phase 2 Study for IR NMIBC on September 9, 2026",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T12:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "China stocks end lower as investors stay cautious",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T11:34:51Z",
-            "sentiment": "Negative",
-            "compound": -0.382
+            "title": "Sturdy stock market mints a record number of 401(k) millionaires",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T11:54:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.99,
-  "trade_probability": 45.19,
+  "confirmation_score": 42.16,
+  "trade_probability": 45.3,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
