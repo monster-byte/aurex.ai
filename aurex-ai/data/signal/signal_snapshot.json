@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T00:15:48.604295+00:00",
+  "generated_at": "2026-09-05T00:31:02.004080+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.59,
+      "score": 50.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.008,
+        "avg_compound": 0.006,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Fed governor Waller muddies outlook on possible rate hike later this month",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T00:26:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Two provinces pitch billion-dollar food terminal to make Canadian food cheaper to move, easier to access",
+            "source": "The Globe And Mail",
+            "publishedAt": "2026-09-04T00:21:09Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
           {
             "title": "Smart ring maker Oura files for IPO as revenue jumps 74%",
             "source": "SiliconANGLE News",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-04T00:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Labels are now the main course for F&B chiefs as regulatory scrutiny reshapes boardroom priorities",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T00:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "America's bonds crisis should be worrying Israelis",
-            "source": "Haaretz",
-            "publishedAt": "2026-09-03T23:59:22Z",
-            "sentiment": "Negative",
-            "compound": -0.758
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.75,
-  "trade_probability": 45.05,
+  "confirmation_score": 41.82,
+  "trade_probability": 45.09,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
