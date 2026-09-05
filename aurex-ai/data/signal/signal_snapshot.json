@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T20:15:53.108191+00:00",
+  "generated_at": "2026-09-05T20:31:06.065160+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.39,
+      "score": 51.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.068,
+        "avg_compound": 0.034,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Here is what's open on Labor Day 2026 and what's closed (LIST)",
-            "source": "KGO-TV",
-            "publishedAt": "2026-09-04T20:10:34Z",
+            "title": "Polymarket Launches Crypto Perpetual Futures With Up to 20x Leverage",
+            "source": "Decrypt",
+            "publishedAt": "2026-09-04T20:31:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "CFTC data shows hedge funds loaded up on yen shorts before the surge",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-04T20:09:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Market Midday: Stocks Slide, Record Diesel Prices Keep Inflation in Focus • 9/4/26",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T20:07:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rosen Law Firm Encourages America's Car-Mart, Inc. Investors to Inquire About Securities Class Action Investigation - CRMT",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-04T20:07:00Z",
+            "title": "Surprise nonfarm payrolls print sends Bitcoin back below 80K",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-09-04T20:30:47Z",
             "sentiment": "Positive",
-            "compound": 0.625
+            "compound": 0.273
           },
           {
-            "title": "Privacy coin flaw risks endless token creation, leaving node operators with a deadline in hours to fix it",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-04T20:05:37Z",
+            "title": "Bitcoin is trading more like an ‘amplified version of gold’ again, but the four-year cycle theory threatens further declines",
+            "source": "Fortune",
+            "publishedAt": "2026-09-04T20:29:25Z",
+            "sentiment": "Negative",
+            "compound": -0.362
+          },
+          {
+            "title": "The Hidden Financial Risks of the AI Boom",
+            "source": "Upenn.edu",
+            "publishedAt": "2026-09-04T20:22:59Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "24 hours that show how preoccupied Trump is",
+            "source": "CNN",
+            "publishedAt": "2026-09-04T20:20:35Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Quantinuum to Participate in the Bernstein 23rd Annual Pan-European Strategic Decisions Conference",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-04T20:05:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "U.S. employers added 162,000 jobs in August, beating expectations",
+            "source": "NPR",
+            "publishedAt": "2026-09-04T20:18:02Z",
+            "sentiment": "Negative",
+            "compound": -0.459
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.13,
-  "trade_probability": 45.28,
+  "confirmation_score": 41.96,
+  "trade_probability": 45.18,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
