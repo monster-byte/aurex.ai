@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T18:31:03.237576+00:00",
+  "generated_at": "2026-09-05T18:45:49.270989+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.41,
+      "score": 48.98,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.032,
+        "avg_compound": -0.02,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "DOJ expands beef price probe to eight retailers, including Walmart and Amazon, with inflation a key issue ahead of midterm elections",
+            "source": "Fortune",
+            "publishedAt": "2026-09-04T18:45:02Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Here's how the summer box office blew up and Hollywood got its mojo back",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-04T18:42:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Chinese 'Fast Fashion' Giant Shein Gets Crushed in Market IPO",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-04T18:38:19Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Maria Bartiromo vs. Fox News: The Anchor’s Pivot Between MAGA Politics and Wall Street Likely Spurred Fallout",
+            "source": "Variety",
+            "publishedAt": "2026-09-04T18:35:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How AI could raise expectations for tomorrow’s property managers",
+            "source": "Digital Journal",
+            "publishedAt": "2026-09-04T18:33:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Ad Attacking N.C. Republican Senate Candidate Uses His Own (Dated) Words Against Him",
             "source": "FactCheck.org",
             "publishedAt": "2026-09-04T18:22:29Z",
             "sentiment": "Negative",
             "compound": -0.459
-          },
-          {
-            "title": "Hammack: Fed policy not restrictive enough",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T18:17:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nobody Knows Anything, Rate Expectations Edition",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T18:17:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Oura Is Going Public and There’s 1 Surprising Revenue Stream Driving Its Mega-IPO",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T18:17:37Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "JPMorgan strategist claims Fed has surrendered on 2% inflation",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-04T18:11:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Labor Day Jobs Report Shows Trumpnomics Is Working",
-            "source": "RealClearMarkets",
-            "publishedAt": "2026-09-04T18:06:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.63,
-  "trade_probability": 44.98,
+  "confirmation_score": 41.69,
+  "trade_probability": 45.01,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
