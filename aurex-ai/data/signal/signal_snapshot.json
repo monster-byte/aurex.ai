@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T10:15:47.321155+00:00",
+  "generated_at": "2026-09-05T10:31:00.801068+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.04,
+      "score": 47.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.039,
-        "articles_analyzed": 25,
+        "avg_compound": -0.045,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "10 Friday AM Reads",
+            "source": "Ritholtz.com",
+            "publishedAt": "2026-09-04T10:30:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "CXMT allegedly used a written roadmap to steal Samsung DRAM tech — South Korean court says 'Project Hefei' lifted 620-step recipe to build 10% global market share",
+            "source": "Tom's Hardware UK",
+            "publishedAt": "2026-09-04T10:30:00Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "Moving abroad? Know what happens to your NPS account after you become an NRI",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T10:29:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US Diesel Prices Hit Record High of $5.85",
+            "source": "Newser",
+            "publishedAt": "2026-09-04T10:20:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Morgan Stanley expects Fed to hold rates steady despite Warsh’s hawkish tone",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-04T10:16:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "What Do the Centrists Stand For? Here’s the Uninspiring Answer.",
             "source": "The New Republic",
             "publishedAt": "2026-09-04T10:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Bitcoin's $80,000 breakout just failed after a blowout jobs report",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-04T10:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "How Did Trump Do on His Labor Day Report Card?",
-            "source": "The New Republic",
-            "publishedAt": "2026-09-04T10:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "AMC chief criticizes Robinhood’s tokenized stock plan",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-09-04T09:56:52Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "8th Pay Commission completes 10 months: Key dates and deadlines employees and pensioners must be aware of",
-            "source": "Livemint",
-            "publishedAt": "2026-09-04T09:51:52Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Health-tracking smart ring maker Oura to list on US stock market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T09:51:39Z",
-            "sentiment": "Positive",
-            "compound": 0.402
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.59,
-  "trade_probability": 44.95,
+  "confirmation_score": 41.56,
+  "trade_probability": 44.94,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
