@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T04:15:47.572798+00:00",
+  "generated_at": "2026-09-05T04:31:03.122313+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 62.05,
+      "score": 63.21,
       "status": "yellow",
       "details": {
         "overall_sentiment": "BULLISH",
-        "avg_compound": 0.241,
+        "avg_compound": 0.264,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Argentina: 1,000 Days Of Milei",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-04T04:24:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Markets open higher; IT stocks lead gains as Nifty eyes 24,000",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-04T04:21:06Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Indices drift higher amid global cues",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-04T04:20:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gold, silver prices today, 4 September: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
+            "source": "Livemint",
+            "publishedAt": "2026-09-04T04:19:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Planning Matters: Well-Prepared Retirees Are Too Blessed to Be Stressed",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T04:16:12Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
           {
             "title": "Global Market: South Korean shares rise on chip gains, KOSPI set for third weekly loss",
             "source": "The Times of India",
             "publishedAt": "2026-09-04T04:08:38Z",
             "sentiment": "Positive",
             "compound": 0.318
-          },
-          {
-            "title": "How Much Oil Is Getting Through the Strait of Hormuz?",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-04T04:08:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Hamiltonian Mirage",
-            "source": "Lewrockwell.com",
-            "publishedAt": "2026-09-04T04:01:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Government Regulations Now Add $132,000 to the Average New Home",
-            "source": "Lewrockwell.com",
-            "publishedAt": "2026-09-04T04:01:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Curtis Yarvin Comes Out in Support of Flock Cameras",
-            "source": "Lewrockwell.com",
-            "publishedAt": "2026-09-04T04:01:00Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Setback for national children’s hospital contractor Bam in near €100m bill dispute",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-04T04:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
     }
   },
-  "confirmation_score": 43.0,
-  "trade_probability": 45.8,
+  "confirmation_score": 43.11,
+  "trade_probability": 45.87,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
