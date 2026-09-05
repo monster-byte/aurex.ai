@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T07:15:49.284294+00:00",
+  "generated_at": "2026-09-05T07:31:06.812917+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.58,
+      "score": 54.08,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.008,
+        "avg_compound": 0.082,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "‘I don’t think there’s a floor’: Workers’ share of America’s income is at a record low before the AI boom even begins",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-04T07:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "‘I don’t think there’s a floor’: Workers’ share of America’s income is at a record low before the AI boom even begins",
+            "source": "Fortune",
+            "publishedAt": "2026-09-04T07:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Value stocks are making a comeback in India. These 10 stocks could benefit",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T07:23:30Z",
+            "sentiment": "Positive",
+            "compound": 0.66
+          },
+          {
+            "title": "Sensex zooms 730 pts intraday, Nifty reclaims 24K: What's driving markets?",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-04T07:21:32Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Broadcom's Artificial Intelligence (AI) Chip Sales Surged 221% to $16.7 Billion Last Quarter: Is the Stock a Screaming Buy Right Now?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T07:20:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
           {
             "title": "Bitcoin holds above $80,800 as bulls target $85k ahead of NFP",
             "source": "Coinjournal.net",
             "publishedAt": "2026-09-04T07:15:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Silver outlook: Dovish Fed eases pressure; Mirae Asset sees support at $65",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T07:06:06Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "Why Robinhood Stock Skyrocketed Last Month",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T07:05:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Is the stock market open or closed on Labor Day? 2026 holiday schedule",
-            "source": "USA Today",
-            "publishedAt": "2026-09-04T07:02:23Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Global bond sell-off likely not over yet, Mohamed El-Erian tells CNBC",
-            "source": "CNBC",
-            "publishedAt": "2026-09-04T07:01:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Javier Milei says ‘winds of change’ support Argentina’s claim to Falkland Islands",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-04T07:01:05Z",
-            "sentiment": "Positive",
-            "compound": 0.402
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.75,
-  "trade_probability": 45.05,
+  "confirmation_score": 42.2,
+  "trade_probability": 45.32,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
