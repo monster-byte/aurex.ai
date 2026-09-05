@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T06:15:53.564399+00:00",
+  "generated_at": "2026-09-05T06:31:06.540673+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.23,
+      "score": 47.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.025,
-        "articles_analyzed": 22,
+        "avg_compound": -0.053,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Gold: Crude, inflation key threats; analyst sees $4400 as tactical buy zone",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T06:09:30Z",
-            "sentiment": "Negative",
-            "compound": -0.758
-          },
-          {
-            "title": "Jordan caught in crossfire as Iran targets bases hosting US forces",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T06:09:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why India's strong GDP growth is raising eyebrows",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-04T06:08:47Z",
+            "title": "Which stocks should you buy ahead of the festive season? Here are Kotak Securities’ top 10 picks",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T06:30:07Z",
             "sentiment": "Positive",
-            "compound": 0.71
+            "compound": 0.586
           },
           {
-            "title": "DA hike 2026: DA may reach 64%; check how much your monthly pay could rise",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-09-04T06:06:38Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
-          },
-          {
-            "title": "The Diesel Time Bomb Is Exploding … And We Will Endure YEARS of Economic Hardship as a Result",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-09-04T06:00:00Z",
+            "title": "CNBC Daily Open: Vance wouldn't call the Iran war a 'war'",
+            "source": "CNBC",
+            "publishedAt": "2026-09-04T06:24:28Z",
             "sentiment": "Negative",
-            "compound": -0.67
+            "compound": -0.832
           },
           {
-            "title": "Trump’s 1980s Playbook Is Burning Down the Empire",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-09-04T06:00:00Z",
+            "title": "NZ sharemarket up nearly 1.5% for the week – Market close",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-04T06:23:20Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "US equities soar on interest rate hopes, major indices rally more than 1%",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-04T06:20:45Z",
+            "sentiment": "Positive",
+            "compound": 0.7
+          },
+          {
+            "title": "Global Market: China stocks rebound, but weekly loss looms as AI rally cools",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T06:20:28Z",
+            "sentiment": "Negative",
+            "compound": -0.593
+          },
+          {
+            "title": "RBI steps in again to support rupee as oil prices, Asian currencies weaken",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-04T06:19:18Z",
+            "sentiment": "Neutral",
+            "compound": -0.026
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.91,
-  "trade_probability": 45.15,
+  "confirmation_score": 41.52,
+  "trade_probability": 44.91,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
