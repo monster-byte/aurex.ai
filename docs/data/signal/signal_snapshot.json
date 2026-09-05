@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T19:45:56.241967+00:00",
+  "generated_at": "2026-09-05T20:01:21.452985+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.1,
+      "score": 51.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.002,
+        "avg_compound": 0.023,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Rosen Law Firm Encourages Tigo Energy, Inc. Investors to Inquire About Securities Class Action Investigation - TYGO",
+            "title": "BTC Digital Ltd. Regains Compliance with Nasdaq Minimum Bid Price Requirement Following Prior Deficiency Notice",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-04T19:39:00Z",
-            "sentiment": "Positive",
-            "compound": 0.735
+            "publishedAt": "2026-09-04T20:01:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "CFTC data shows speculators piling into S&P 500 shorts while betting big on crude oil",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-04T19:37:22Z",
+            "title": "USA Retail Diesel Hits Record",
+            "source": "Rigzone",
+            "publishedAt": "2026-09-04T20:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Inhibrx To Host Webcast Presentation to Provide Primary Endpoint Results for INBRX-106 Phase 2 First-Line HNSCC Study",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T20:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trouble brewing in global bond markets: What to know",
+            "source": "RT",
+            "publishedAt": "2026-09-04T19:55:33Z",
             "sentiment": "Negative",
-            "compound": -0.572
+            "compound": -0.402
           },
           {
-            "title": "MongoDB, Inc. to Present at Upcoming Investor Conferences",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-04T19:36:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "DOJ expands beef price probe to eight retailers, including Walmart and Amazon, with inflation a key issue ahead of midterm elections",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T19:33:35Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Central banks buy 23 tonnes of gold in July, led by China",
+            "title": "US hiring surge strengthens case for Federal Reserve rate hike in September",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-04T19:31:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-09-04T19:55:18Z",
+            "sentiment": "Positive",
+            "compound": 0.459
           },
           {
-            "title": "Five things I'd change about superannuation",
-            "source": "Motley Fool Australia",
-            "publishedAt": "2026-09-04T19:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "US hiring surge strengthens case for Federal Reserve rate hike",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-04T19:54:22Z",
+            "sentiment": "Positive",
+            "compound": 0.459
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.8,
-  "trade_probability": 45.08,
+  "confirmation_score": 41.9,
+  "trade_probability": 45.14,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
