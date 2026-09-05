@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T18:01:20.231716+00:00",
+  "generated_at": "2026-09-05T18:15:49.340046+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.72,
+      "score": 50.42,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.006,
+        "avg_compound": 0.008,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "JPMorgan strategist claims Fed has surrendered on 2% inflation",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-04T18:11:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Labor Day Jobs Report Shows Trumpnomics Is Working",
+            "source": "RealClearMarkets",
+            "publishedAt": "2026-09-04T18:06:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "BlackRock’s Jeff Rosenberg says August jobs beat puts CPI in the hot seat for Fed’s September call",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-04T18:06:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "RBI steps up liquidity absorption with ₹7 trillion, 30-day reverse repo auction",
+            "source": "Livemint",
+            "publishedAt": "2026-09-04T18:05:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "World’s biggest wealth fund eyes ditching $80 bn in US Treasuries",
+            "source": "RT",
+            "publishedAt": "2026-09-04T18:02:55Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
           {
             "title": "9/11 Pictures That Reveal The Tragedy Of America’s Darkest Day",
             "source": "Allthatsinteresting.com",
             "publishedAt": "2026-09-04T18:00:08Z",
             "sentiment": "Negative",
             "compound": -0.823
-          },
-          {
-            "title": "Live Updates: Iran war drives U.S. diesel price to record high as Vance downplays the conflict and its impact - CBS News",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-04T17:53:26Z",
-            "sentiment": "Negative",
-            "compound": -0.735
-          },
-          {
-            "title": "Citigroup Falls 1.1% as Its Rate-Cut Clock Jumps to 2027",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T17:50:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T17:49:57Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Cramer Says a Wave of 21 Year Olds on Robinhood Is the Only Reason This Market Has Not Cracked",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-04T17:49:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "“Diesel Is the Blood of the Economy”: U.S. Prices Just Hit an All-Time High of $5.848 a Gallon",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-04T17:48:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.76,
-  "trade_probability": 45.06,
+  "confirmation_score": 41.83,
+  "trade_probability": 45.1,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
