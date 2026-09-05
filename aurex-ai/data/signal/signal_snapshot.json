@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T17:45:52.658620+00:00",
+  "generated_at": "2026-09-05T18:01:20.231716+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.33,
+      "score": 49.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.127,
+        "avg_compound": -0.006,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "CNBC Accidentally Admits Why Employers Love AI",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-09-04T17:45:36Z",
-            "sentiment": "Positive",
-            "compound": 0.612
-          },
-          {
-            "title": "JPMorgan’s Own Strategist Says the Fed Has Quietly Surrendered on 2% Inflation",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-04T17:41:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Debt Management Plans: Who They Help, Who They Hurt and What They Cost",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T17:34:53Z",
+            "title": "9/11 Pictures That Reveal The Tragedy Of America’s Darkest Day",
+            "source": "Allthatsinteresting.com",
+            "publishedAt": "2026-09-04T18:00:08Z",
             "sentiment": "Negative",
-            "compound": -0.494
+            "compound": -0.823
           },
           {
-            "title": "Dell Afterglow Continues. These Other Stocks Top Buy Points",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T17:34:39Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Why Marvell Stock Rallied Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T17:34:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1% - Reuters",
+            "title": "Live Updates: Iran war drives U.S. diesel price to record high as Vance downplays the conflict and its impact - CBS News",
             "source": "Slashdot.org",
-            "publishedAt": "2026-09-04T17:33:25Z",
+            "publishedAt": "2026-09-04T17:53:26Z",
             "sentiment": "Negative",
-            "compound": -0.44
+            "compound": -0.735
+          },
+          {
+            "title": "Citigroup Falls 1.1% as Its Rate-Cut Clock Jumps to 2027",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T17:50:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T17:49:57Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Cramer Says a Wave of 21 Year Olds on Robinhood Is the Only Reason This Market Has Not Cracked",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-04T17:49:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "“Diesel Is the Blood of the Economy”: U.S. Prices Just Hit an All-Time High of $5.848 a Gallon",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-04T17:48:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.42,
-  "trade_probability": 45.45,
+  "confirmation_score": 41.76,
+  "trade_probability": 45.06,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
