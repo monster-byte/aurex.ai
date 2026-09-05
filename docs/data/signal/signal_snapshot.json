@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T12:01:17.746100+00:00",
+  "generated_at": "2026-09-05T12:15:48.533354+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.67,
+      "score": 55.08,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.073,
+        "avg_compound": 0.102,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "INR registers a weekly gain of over 1%",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T12:01:02Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "MEDIA ALERT: Equinix to Speak at Upcoming Investor Conferences",
+            "title": "PLNT DEADLINE NOTICE: Faruqi & Faruqi, LLP Reminds Planet Fitness (PLNT) Investors of Securities Class Action Lawsuit Deadline on September 14, 2026",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-04T12:01:00Z",
+            "publishedAt": "2026-09-04T12:15:00Z",
             "sentiment": "Positive",
-            "compound": 0.447
+            "compound": 0.34
           },
           {
-            "title": "More Argentines turn to apps for loans as debt stress hits record...",
-            "source": "AOL",
-            "publishedAt": "2026-09-04T12:00:13Z",
+            "title": "Bandwidth Promotes Emily Harlan to General Counsel and Secretary",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T12:13:00Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "India bonds slip for third week tracking oil, global debt rout",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T12:10:56Z",
             "sentiment": "Negative",
-            "compound": -0.649
+            "compound": -0.361
           },
           {
-            "title": "Azenta Receives Full Repayment of $35 Million Vendor Loan Related to Sale of B Medical Systems",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-04T12:00:00Z",
+            "title": "Nvidia’s $13 billion Hugging Face bet reveals Jensen Huang’s vision for the next AI battleground",
+            "source": "Fortune",
+            "publishedAt": "2026-09-04T12:10:04Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "US Treasuries face reduced demand from long-term investors amid rising yields",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-04T12:09:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "Matthew Lawrence's 21 Lessons From 'Boy Meets World'",
+            "source": "Elite Daily",
+            "publishedAt": "2026-09-04T12:01:25Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Tyra Biosciences to Host Conference Call on Initial Results of Oral Dabogratinib from the SURF302 Phase 2 Study for IR NMIBC on September 9, 2026",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-04T12:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sturdy stock market mints a record number of 401(k) millionaires",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T11:54:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.16,
-  "trade_probability": 45.3,
+  "confirmation_score": 42.3,
+  "trade_probability": 45.38,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
