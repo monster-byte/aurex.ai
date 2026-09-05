@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T19:31:06.080679+00:00",
+  "generated_at": "2026-09-05T19:45:56.241967+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.49,
+      "score": 50.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.05,
+        "avg_compound": 0.002,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Rosen Law Firm Encourages Tigo Energy, Inc. Investors to Inquire About Securities Class Action Investigation - TYGO",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T19:39:00Z",
+            "sentiment": "Positive",
+            "compound": 0.735
+          },
+          {
+            "title": "CFTC data shows speculators piling into S&P 500 shorts while betting big on crude oil",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-04T19:37:22Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "MongoDB, Inc. to Present at Upcoming Investor Conferences",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T19:36:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "DOJ expands beef price probe to eight retailers, including Walmart and Amazon, with inflation a key issue ahead of midterm elections",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T19:33:35Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Central banks buy 23 tonnes of gold in July, led by China",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-04T19:31:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Five things I'd change about superannuation",
             "source": "Motley Fool Australia",
             "publishedAt": "2026-09-04T19:30:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "A New Toyota Camry Costs Thousands Less Than It Did In 1997 (If You Adjust For Inflation)",
-            "source": "Jalopnik",
-            "publishedAt": "2026-09-04T19:25:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How much interest can a $40,000 3-year CD earn at today's rates?",
-            "source": "CBS News",
-            "publishedAt": "2026-09-04T19:24:11Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Hydrogen Kept Failing The Test — And Getting Another Test",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-09-04T19:22:46Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Coinbase Slides as Hot Jobs Report Dents 10% Rally",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T19:21:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Argentina's Milei Making Play for Falkland Islands",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-04T19:18:54Z",
-            "sentiment": "Positive",
-            "compound": 0.34
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.54,
-  "trade_probability": 44.92,
+  "confirmation_score": 41.8,
+  "trade_probability": 45.08,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
