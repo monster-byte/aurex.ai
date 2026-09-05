@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T11:31:06.066017+00:00",
+  "generated_at": "2026-09-05T11:45:53.327676+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.22,
+      "score": 51.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.076,
+        "avg_compound": 0.039,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Crocs, Inc. to Present at Piper Sandler's 2026 Growth Frontiers Conference",
+            "title": "Baidu Announces Upcoming Inclusion of Its Class A Ordinary Shares in the Shanghai-Hong Kong Stock Connect Program",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-04T11:30:00Z",
+            "publishedAt": "2026-09-04T11:45:00Z",
             "sentiment": "Positive",
-            "compound": 0.382
+            "compound": 0.296
           },
           {
-            "title": "US diesel prices hit record high of $5.85 on average amid Iran war",
-            "source": "Medianewsgroup.com",
-            "publishedAt": "2026-09-04T11:28:00Z",
-            "sentiment": "Negative",
-            "compound": -0.599
+            "title": "Chinese banks are snapping up US Treasuries after luring in dollar deposits",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-04T11:44:13Z",
+            "sentiment": "Positive",
+            "compound": 0.226
           },
           {
-            "title": "Bitcoin News Today: Price Tests September Weakness After Rally Above $82,000",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T11:25:54Z",
-            "sentiment": "Negative",
-            "compound": -0.421
+            "title": "NSE gets Sebi approval to proceed with long-awaited IPO",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-04T11:38:45Z",
+            "sentiment": "Positive",
+            "compound": 0.477
           },
           {
-            "title": "Statscan to release labour force survey for August today",
-            "source": "The Globe And Mail",
-            "publishedAt": "2026-09-04T11:17:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Iran war: Why US midterms could be a pivotal moment",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-09-04T11:12:51Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Silver price today, Friday, September 4, 2026: Silver prices rising ahead of August jobs report",
+            "title": "Bitcoin and ethereum prices today, Friday, September 4, 2026: Bitcoin holding above $81,000 following massive ETF inflows",
             "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-04T11:11:20Z",
+            "publishedAt": "2026-09-04T11:37:51Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Japan stocks rebound as tech shares lead gains",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-04T11:34:59Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
+          {
+            "title": "China stocks end lower as investors stay cautious",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-04T11:34:51Z",
+            "sentiment": "Negative",
+            "compound": -0.382
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.41,
-  "trade_probability": 44.85,
+  "confirmation_score": 41.99,
+  "trade_probability": 45.19,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
