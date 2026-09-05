@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T21:15:45.070935+00:00",
+  "generated_at": "2026-09-05T21:31:06.737473+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.44,
+      "score": 49.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.011,
+        "avg_compound": -0.008,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Britain's economy is facing 'very, very substantial challenges', Bank of England governor warns Burnham amid spiralling UK debt",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-04T21:25:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.081
+          },
+          {
+            "title": "JEPQ Holders Trailed the Nasdaq-100 Over the Past Year While Chasing a Monthly Check",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T21:19:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How a 69-Year-Old’s $500,000 in QQQI Pays Him Every Month While His Cost Basis Falls Toward Zero",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T21:19:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Market Close: Stocks Lower, Fuel Prices Surge, Inflation Data Ahead • 9/4/26",
             "source": "Biztoc.com",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-04T21:05:54Z",
             "sentiment": "Negative",
             "compound": -0.649
-          },
-          {
-            "title": "Iran down to 2 months of fuel supply as brutal US sanctions take their toll",
-            "source": "New York Post",
-            "publishedAt": "2026-09-04T21:00:53Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "Wall Street ends lower as solid jobs data fuels hawkish US Fed bets",
-            "source": "The Straits Times",
-            "publishedAt": "2026-09-04T20:54:47Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "4 Your Money | Not So Dangerous At The Top",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T20:52:01Z",
-            "sentiment": "Positive",
-            "compound": 0.614
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.73,
-  "trade_probability": 45.04,
+  "confirmation_score": 41.75,
+  "trade_probability": 45.05,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
