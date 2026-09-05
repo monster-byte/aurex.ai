@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T07:01:14.531449+00:00",
+  "generated_at": "2026-09-05T07:15:49.284294+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.63,
+      "score": 49.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.087,
-        "articles_analyzed": 23,
+        "avg_compound": -0.008,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bitcoin holds above $80,800 as bulls target $85k ahead of NFP",
+            "source": "Coinjournal.net",
+            "publishedAt": "2026-09-04T07:15:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Silver outlook: Dovish Fed eases pressure; Mirae Asset sees support at $65",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-04T07:06:06Z",
+            "sentiment": "Positive",
+            "compound": 0.649
+          },
+          {
+            "title": "Why Robinhood Stock Skyrocketed Last Month",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T07:05:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Is the stock market open or closed on Labor Day? 2026 holiday schedule",
+            "source": "USA Today",
+            "publishedAt": "2026-09-04T07:02:23Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "Global bond sell-off likely not over yet, Mohamed El-Erian tells CNBC",
             "source": "CNBC",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-04T07:01:05Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "Gold this week: Modest gain in sight as investors await US payrolls data",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-04T06:56:34Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "Revolut takes 'first step' to US bank launch",
-            "source": "RTE",
-            "publishedAt": "2026-09-04T06:52:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Today in Sweden: A roundup of the latest news on Friday",
-            "source": "The Local Sweden",
-            "publishedAt": "2026-09-04T06:51:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US Fed rate cut bets fall below 50% after Governor Chris Waller’s comments. What did he say?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T06:38:28Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.35,
-  "trade_probability": 44.81,
+  "confirmation_score": 41.75,
+  "trade_probability": 45.05,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
