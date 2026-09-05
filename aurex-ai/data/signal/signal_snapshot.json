@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T21:31:06.737473+00:00",
+  "generated_at": "2026-09-05T21:45:56.062295+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.6,
+      "score": 49.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.008,
+        "avg_compound": -0.013,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Wall Street dips after strong jobs data fuels hawkish Fed bets - Reuters",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-04T21:32:27Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
           {
             "title": "Britain's economy is facing 'very, very substantial challenges', Bank of England governor warns Burnham amid spiralling UK debt",
             "source": "Dailymail.com",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-04T21:10:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Trump Threatens to Halt Trade Following News That US Trade Deficit Grew in July",
-            "source": "WWD",
-            "publishedAt": "2026-09-04T21:05:54Z",
-            "sentiment": "Negative",
-            "compound": -0.649
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.75,
-  "trade_probability": 45.05,
+  "confirmation_score": 41.73,
+  "trade_probability": 45.04,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
