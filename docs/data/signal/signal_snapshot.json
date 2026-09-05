@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T19:15:54.259420+00:00",
+  "generated_at": "2026-09-05T19:31:06.080679+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.15,
+      "score": 47.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.057,
+        "avg_compound": -0.05,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Smart ring maker Oura reveals revenue surge in US IPO filing",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T19:06:29Z",
-            "sentiment": "Positive",
-            "compound": 0.402
+            "title": "Five things I'd change about superannuation",
+            "source": "Motley Fool Australia",
+            "publishedAt": "2026-09-04T19:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Bessent predicts $40 oil post-Iran war, impacting bond yields: Bloomberg",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-04T19:04:44Z",
-            "sentiment": "Negative",
-            "compound": -0.599
+            "title": "A New Toyota Camry Costs Thousands Less Than It Did In 1997 (If You Adjust For Inflation)",
+            "source": "Jalopnik",
+            "publishedAt": "2026-09-04T19:25:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Trump: Interest rates should be at 0.5% or 1%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T19:03:46Z",
+            "title": "How much interest can a $40,000 3-year CD earn at today's rates?",
+            "source": "CBS News",
+            "publishedAt": "2026-09-04T19:24:11Z",
             "sentiment": "Positive",
             "compound": 0.459
           },
           {
-            "title": "How worried should variable-rate borrowers be about Bank of Canada rate hikes?",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-04T19:03:22Z",
+            "title": "Hydrogen Kept Failing The Test — And Getting Another Test",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-09-04T19:22:46Z",
             "sentiment": "Negative",
-            "compound": -0.296
+            "compound": -0.511
           },
           {
-            "title": "Rosen Law Firm Encourages UP Fintech Holding Limited Investors to Inquire About Securities Class Action Investigation - TIGR",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-04T19:03:00Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Business Cycle Indicators: CES/CPS Employment Surges",
-            "source": "Econbrowser.com",
-            "publishedAt": "2026-09-04T19:01:25Z",
+            "title": "Coinbase Slides as Hot Jobs Report Dents 10% Rally",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T19:21:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Argentina's Milei Making Play for Falkland Islands",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-04T19:18:54Z",
+            "sentiment": "Positive",
+            "compound": 0.34
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.5,
-  "trade_probability": 44.9,
+  "confirmation_score": 41.54,
+  "trade_probability": 44.92,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
