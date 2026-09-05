@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T20:31:06.065160+00:00",
+  "generated_at": "2026-09-05T20:45:43.987362+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.68,
+      "score": 51.59,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.034,
+        "avg_compound": 0.032,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stocks Fall After Jobs Report Adds to Interest Rate Concerns",
+            "source": "Newser",
+            "publishedAt": "2026-09-04T20:45:00Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Intuit Inc. Deadline: INTU Investors Have Opportunity to Lead Intuit Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T20:40:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "Why The Trade Desk Stock Fell 5.7% Today",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T20:36:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Cheche Group Reports First Half 2026 Unaudited Financial Results",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T20:33:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Polymarket Launches Crypto Perpetual Futures With Up to 20x Leverage",
             "source": "Decrypt",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-04T20:30:47Z",
             "sentiment": "Positive",
             "compound": 0.273
-          },
-          {
-            "title": "Bitcoin is trading more like an ‘amplified version of gold’ again, but the four-year cycle theory threatens further declines",
-            "source": "Fortune",
-            "publishedAt": "2026-09-04T20:29:25Z",
-            "sentiment": "Negative",
-            "compound": -0.362
-          },
-          {
-            "title": "The Hidden Financial Risks of the AI Boom",
-            "source": "Upenn.edu",
-            "publishedAt": "2026-09-04T20:22:59Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "24 hours that show how preoccupied Trump is",
-            "source": "CNN",
-            "publishedAt": "2026-09-04T20:20:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "U.S. employers added 162,000 jobs in August, beating expectations",
-            "source": "NPR",
-            "publishedAt": "2026-09-04T20:18:02Z",
-            "sentiment": "Negative",
-            "compound": -0.459
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.96,
-  "trade_probability": 45.18,
+  "confirmation_score": 41.95,
+  "trade_probability": 45.17,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
