@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T08:45:48.947501+00:00",
+  "generated_at": "2026-09-05T09:01:15.839250+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.13,
+      "score": 50.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
+        "avg_compound": 0.006,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "US diesel prices hit a record high at $5.85 on average",
-            "source": "Associated Press",
-            "publishedAt": "2026-09-04T08:44:55Z",
+            "title": "The US economy added 162,000 jobs in August, more than double expectations | CNN Business",
+            "source": "CNN",
+            "publishedAt": "2026-09-04T09:00:29Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Why has the Philippines’ peso plunged to a record low?",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-09-04T08:38:34Z",
+            "title": "August jobs report could show another weak month for hiring",
+            "source": "NBC News",
+            "publishedAt": "2026-09-04T09:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.44
           },
           {
-            "title": "Apple Is Entering a New Chapter. What Should Investors Expect?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T08:37:18Z",
+            "title": "Bitcoin Reclaims $81,000 as Fed Hike Bets Fade, Zcash Explodes 16%",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-09-04T08:53:42Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Why Peloton Stock Plummeted by 16% Last Month",
+            "title": "Social Security's Upcoming COLA Has a Flaw That Costs Seniors Every Year",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T08:37:00Z",
+            "publishedAt": "2026-09-04T08:52:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Oil rallies for the week as US-Iran fighting resumes; diesel hits record high",
-            "source": "CNA",
-            "publishedAt": "2026-09-04T08:36:49Z",
-            "sentiment": "Negative",
-            "compound": -0.361
+            "title": "US futures mostly higher after Vance's Iran remarks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T08:50:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Oil heads for weekly gain as US-Iran fighting resumes; diesel hits record high",
-            "source": "CNA",
-            "publishedAt": "2026-09-04T08:36:49Z",
+            "title": "Nikkei Rebounds 806 Points as SoftBank and AI Shares Rally",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-09-04T08:48:27Z",
             "sentiment": "Positive",
-            "compound": 0.226
+            "compound": 0.296
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.8,
-  "trade_probability": 45.08,
+  "confirmation_score": 41.82,
+  "trade_probability": 45.09,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
