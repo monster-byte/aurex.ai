@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T10:31:00.801068+00:00",
+  "generated_at": "2026-09-05T10:45:45.896651+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.74,
+      "score": 48.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.045,
+        "avg_compound": -0.024,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "10 Friday AM Reads",
-            "source": "Ritholtz.com",
-            "publishedAt": "2026-09-04T10:30:34Z",
+            "title": "Labor Day gas has never been this expensive. Trump is scrambling for answers | CNN Business",
+            "source": "CNN",
+            "publishedAt": "2026-09-04T10:44:50Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "CXMT allegedly used a written roadmap to steal Samsung DRAM tech — South Korean court says 'Project Hefei' lifted 620-step recipe to build 10% global market share",
-            "source": "Tom's Hardware UK",
-            "publishedAt": "2026-09-04T10:30:00Z",
-            "sentiment": "Negative",
-            "compound": -0.25
-          },
-          {
-            "title": "Moving abroad? Know what happens to your NPS account after you become an NRI",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T10:29:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US Diesel Prices Hit Record High of $5.85",
-            "source": "Newser",
-            "publishedAt": "2026-09-04T10:20:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Morgan Stanley expects Fed to hold rates steady despite Warsh’s hawkish tone",
+            "title": "Gold heads for small weekly gain as US jobs data approaches",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-04T10:16:58Z",
+            "publishedAt": "2026-09-04T10:44:19Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "AI’s productivity boom will likely create a ‘winner-takes-all’ economy, top EY economist warns",
+            "source": "Fortune",
+            "publishedAt": "2026-09-04T10:44:05Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Amid Higher-for-Longer Mortgage Rates, Multifamily Pros Find a Silver Lining",
+            "source": "Commercial Observer",
+            "publishedAt": "2026-09-04T10:43:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "What Do the Centrists Stand For? Here’s the Uninspiring Answer.",
-            "source": "The New Republic",
-            "publishedAt": "2026-09-04T10:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Price of diesel hits all-time high as wars in Iran, Ukraine constrict global supply",
+            "source": "NBC News",
+            "publishedAt": "2026-09-04T10:41:25Z",
+            "sentiment": "Negative",
+            "compound": -0.557
+          },
+          {
+            "title": "Gold and Silver Prices Jump Amid Uncertainty",
+            "source": "Addon.pk",
+            "publishedAt": "2026-09-04T10:40:13Z",
+            "sentiment": "Negative",
+            "compound": -0.34
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.56,
-  "trade_probability": 44.94,
+  "confirmation_score": 41.67,
+  "trade_probability": 45.0,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
