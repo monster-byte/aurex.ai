@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T09:31:03.295817+00:00",
+  "generated_at": "2026-09-05T09:45:51.555264+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.29,
+      "score": 48.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.026,
+        "avg_compound": -0.033,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "How India's below-average September rainfall fuels concern about crops",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T09:37:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "John Ternus takes the helm at Apple, as AI pressure hits",
+            "source": "Fortune",
+            "publishedAt": "2026-09-04T09:36:41Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "U.S. Diesel Prices Hit Record High Of $5.85 On Average As Iran War Disrupts Flow Of Fuel",
+            "source": "HuffPost",
+            "publishedAt": "2026-09-04T09:34:09Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
           {
             "title": "4 takeaways from Fidelity on how Gen Z and millennials are investing for retirement",
             "source": "Business Insider",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-04T09:22:39Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "Nikkei 225 Jumps 1.3% As SoftBank Soars 12% Amid Global AI Rally Tracking Wall Street Gains Overnight",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-04T09:12:17Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
-            "source": "GamesIndustry.biz",
-            "publishedAt": "2026-09-04T09:09:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global Market: European shares edge lower as investors await US jobs data",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T09:08:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.92,
-  "trade_probability": 45.15,
+  "confirmation_score": 41.62,
+  "trade_probability": 44.97,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
