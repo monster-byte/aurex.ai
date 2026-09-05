@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T11:01:15.394365+00:00",
+  "generated_at": "2026-09-05T11:15:52.023677+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.24,
+      "score": 48.16,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.015,
+        "avg_compound": -0.037,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The wealth of the world's billionaires reached $15.1 trillion last year, per a new report",
-            "source": "CNBC",
-            "publishedAt": "2026-09-04T11:00:01Z",
-            "sentiment": "Positive",
-            "compound": 0.557
+            "title": "Iran war: Why US midterms could be a pivotal moment",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-04T11:12:51Z",
+            "sentiment": "Negative",
+            "compound": -0.599
           },
           {
-            "title": "Sharon AI Selects Rafay Systems to Support AI Infrastructure Orchestration Platform at Scale",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-04T11:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "BJC-Anthem deal still pending ahead of anticipated spike in healthcare costs",
-            "source": "STLtoday.com",
-            "publishedAt": "2026-09-04T11:00:00Z",
+            "title": "Silver price today, Friday, September 4, 2026: Silver prices rising ahead of August jobs report",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-04T11:11:20Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Lessons in survival: Merc's Joachim Zahn showed car makers how to beat a crisis",
-            "source": "Autocar",
-            "publishedAt": "2026-09-04T11:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "Wall Street worried about GOP in midterms — and it’s partly due to Home Depot, McDonald’s",
-            "source": "New York Post",
-            "publishedAt": "2026-09-04T11:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Insmed Reports Inducement Grants Under NASDAQ Listing Rule 5635(c)(4)",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-04T11:00:00Z",
+            "title": "Cramer shares 3 moves to protect from rising rates and oil prices",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T11:08:19Z",
             "sentiment": "Positive",
-            "compound": 0.226
+            "compound": 0.586
+          },
+          {
+            "title": "Cyngn Highlights 24-Patent Portfolio Anchoring Its Physical AI Platform",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T11:05:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "POET Technologies to Exhibit at CIOE 2026, Present High-Power Laser Light Sources for AI Interconnects at IFOC",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-04T11:03:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Brits brace for pain as BoE chief economist urges interest rate hikes now to head off inflation surge from Iran war",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-04T11:02:36Z",
+            "sentiment": "Negative",
+            "compound": -0.637
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.71,
-  "trade_probability": 45.03,
+  "confirmation_score": 41.61,
+  "trade_probability": 44.97,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
