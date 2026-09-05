@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T10:45:45.896651+00:00",
+  "generated_at": "2026-09-05T11:01:15.394365+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.79,
+      "score": 49.24,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.024,
-        "articles_analyzed": 24,
+        "avg_compound": -0.015,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Labor Day gas has never been this expensive. Trump is scrambling for answers | CNN Business",
-            "source": "CNN",
-            "publishedAt": "2026-09-04T10:44:50Z",
+            "title": "The wealth of the world's billionaires reached $15.1 trillion last year, per a new report",
+            "source": "CNBC",
+            "publishedAt": "2026-09-04T11:00:01Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
+          {
+            "title": "Sharon AI Selects Rafay Systems to Support AI Infrastructure Orchestration Platform at Scale",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T11:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "BJC-Anthem deal still pending ahead of anticipated spike in healthcare costs",
+            "source": "STLtoday.com",
+            "publishedAt": "2026-09-04T11:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Gold heads for small weekly gain as US jobs data approaches",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-04T10:44:19Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "AI’s productivity boom will likely create a ‘winner-takes-all’ economy, top EY economist warns",
-            "source": "Fortune",
-            "publishedAt": "2026-09-04T10:44:05Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Amid Higher-for-Longer Mortgage Rates, Multifamily Pros Find a Silver Lining",
-            "source": "Commercial Observer",
-            "publishedAt": "2026-09-04T10:43:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Price of diesel hits all-time high as wars in Iran, Ukraine constrict global supply",
-            "source": "NBC News",
-            "publishedAt": "2026-09-04T10:41:25Z",
+            "title": "Lessons in survival: Merc's Joachim Zahn showed car makers how to beat a crisis",
+            "source": "Autocar",
+            "publishedAt": "2026-09-04T11:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.557
+            "compound": -0.625
           },
           {
-            "title": "Gold and Silver Prices Jump Amid Uncertainty",
-            "source": "Addon.pk",
-            "publishedAt": "2026-09-04T10:40:13Z",
+            "title": "Wall Street worried about GOP in midterms — and it’s partly due to Home Depot, McDonald’s",
+            "source": "New York Post",
+            "publishedAt": "2026-09-04T11:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.34
+            "compound": -0.296
+          },
+          {
+            "title": "Insmed Reports Inducement Grants Under NASDAQ Listing Rule 5635(c)(4)",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T11:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.226
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.67,
-  "trade_probability": 45.0,
+  "confirmation_score": 41.71,
+  "trade_probability": 45.03,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
