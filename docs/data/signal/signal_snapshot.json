@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T11:15:52.023677+00:00",
+  "generated_at": "2026-09-05T11:31:06.066017+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.16,
+      "score": 46.22,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.037,
+        "avg_compound": -0.076,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Crocs, Inc. to Present at Piper Sandler's 2026 Growth Frontiers Conference",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T11:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "US diesel prices hit record high of $5.85 on average amid Iran war",
+            "source": "Medianewsgroup.com",
+            "publishedAt": "2026-09-04T11:28:00Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Bitcoin News Today: Price Tests September Weakness After Rally Above $82,000",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T11:25:54Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Statscan to release labour force survey for August today",
+            "source": "The Globe And Mail",
+            "publishedAt": "2026-09-04T11:17:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Iran war: Why US midterms could be a pivotal moment",
             "source": "Al Jazeera English",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-04T11:11:20Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Cramer shares 3 moves to protect from rising rates and oil prices",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T11:08:19Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "Cyngn Highlights 24-Patent Portfolio Anchoring Its Physical AI Platform",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-04T11:05:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "POET Technologies to Exhibit at CIOE 2026, Present High-Power Laser Light Sources for AI Interconnects at IFOC",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-04T11:03:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Brits brace for pain as BoE chief economist urges interest rate hikes now to head off inflation surge from Iran war",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-04T11:02:36Z",
-            "sentiment": "Negative",
-            "compound": -0.637
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.61,
-  "trade_probability": 44.97,
+  "confirmation_score": 41.41,
+  "trade_probability": 44.85,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
