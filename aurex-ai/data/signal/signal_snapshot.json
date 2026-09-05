@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T20:01:21.452985+00:00",
+  "generated_at": "2026-09-05T20:15:53.108191+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.14,
+      "score": 53.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.023,
+        "avg_compound": 0.068,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "BTC Digital Ltd. Regains Compliance with Nasdaq Minimum Bid Price Requirement Following Prior Deficiency Notice",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-04T20:01:00Z",
+            "title": "Here is what's open on Labor Day 2026 and what's closed (LIST)",
+            "source": "KGO-TV",
+            "publishedAt": "2026-09-04T20:10:34Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "USA Retail Diesel Hits Record",
-            "source": "Rigzone",
-            "publishedAt": "2026-09-04T20:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Inhibrx To Host Webcast Presentation to Provide Primary Endpoint Results for INBRX-106 Phase 2 First-Line HNSCC Study",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-04T20:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trouble brewing in global bond markets: What to know",
-            "source": "RT",
-            "publishedAt": "2026-09-04T19:55:33Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "US hiring surge strengthens case for Federal Reserve rate hike in September",
+            "title": "CFTC data shows hedge funds loaded up on yen shorts before the surge",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-04T19:55:18Z",
-            "sentiment": "Positive",
-            "compound": 0.459
+            "publishedAt": "2026-09-04T20:09:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "US hiring surge strengthens case for Federal Reserve rate hike",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-04T19:54:22Z",
+            "title": "Market Midday: Stocks Slide, Record Diesel Prices Keep Inflation in Focus • 9/4/26",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T20:07:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Rosen Law Firm Encourages America's Car-Mart, Inc. Investors to Inquire About Securities Class Action Investigation - CRMT",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T20:07:00Z",
             "sentiment": "Positive",
-            "compound": 0.459
+            "compound": 0.625
+          },
+          {
+            "title": "Privacy coin flaw risks endless token creation, leaving node operators with a deadline in hours to fix it",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-04T20:05:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Quantinuum to Participate in the Bernstein 23rd Annual Pan-European Strategic Decisions Conference",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T20:05:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.9,
-  "trade_probability": 45.14,
+  "confirmation_score": 42.13,
+  "trade_probability": 45.28,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
