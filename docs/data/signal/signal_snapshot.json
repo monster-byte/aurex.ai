@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:31:07.444596+00:00",
+  "generated_at": "2026-09-05T15:45:52.219376+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 60.14,
+      "score": 55.92,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "BULLISH",
-        "avg_compound": 0.203,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.118,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "RBI turns to 30-day VRRR to absorb excess liquidity",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T15:31:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "2026 is THE Social Security Election",
-            "source": "Common Dreams",
-            "publishedAt": "2026-09-04T15:30:28Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Why GENIUS could leave digital dollars vulnerable to sudden blockchain network ‘bank runs’",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-04T15:30:13Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Taste Beats Price in Americans' Soft Drink Choices",
+            "title": "Europe closes week trading flat to higher",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T15:28:55Z",
+            "publishedAt": "2026-09-04T15:44:20Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "What Will Become Of Broadway’s Ed Sullivan Theatre Now That Colbert Has Left?",
-            "source": "Curbed",
-            "publishedAt": "2026-09-04T15:28:00Z",
+            "title": "Oracle Stock Climbs Ahead Of Earnings After OpenAI Astra Release",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-04T15:42:47Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "CNBC’s Rick Santelli to Retire After More Than 27 Years",
-            "source": "TheWrap",
-            "publishedAt": "2026-09-04T15:24:26Z",
+            "title": "Apple Is at $325. Is This Overbought or the Start of a Re-Rating?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-04T15:42:09Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Yen's changing fortunes might finally be spooking the bears",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-04T15:38:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "This will be the most expensive Labor Day ever for gas. Here are the 10 states with the highest fuel prices — and 10 with the lowest.",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-04T15:38:01Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "SCHG Owns More Apple Than Tesla, Meta and Palantir Combined. Is That Why Growth Investors Are Falling Behind?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-04T15:37:41Z",
+            "sentiment": "Positive",
+            "compound": 0.25
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.8,
-  "trade_probability": 45.68,
+  "confirmation_score": 42.38,
+  "trade_probability": 45.43,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
