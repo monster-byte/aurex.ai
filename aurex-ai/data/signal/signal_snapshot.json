@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T03:45:52.311282+00:00",
+  "generated_at": "2026-09-05T04:01:14.752172+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.36,
+      "score": 54.33,
       "status": "yellow",
       "details": {
         "current_dxy": 99.16,
-        "change_5d_pct": -0.545
+        "change_5d_pct": -0.542
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.87,
+      "score": 61.41,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.157,
+        "overall_sentiment": "BULLISH",
+        "avg_compound": 0.228,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Entertainment over policy? White House arcade games ignite backlash",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-09-04T03:44:47Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Idle money in your bank account? Your bank balance could be losing value; here’s how to fix it",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-09-04T03:40:29Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Rays of Belief IPO allotment likely today: GMP signals 5% listing gain. Here’s how to check status",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T03:37:48Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Nifty may extend losses as GIFT Nifty signals weak start",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T03:34:02Z",
-            "sentiment": "Positive",
-            "compound": 0.629
-          },
-          {
-            "title": "Fresh debt supply to provide directional cue for India bonds",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-04T03:32:30Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Yen hits one-month high on BOJ rate hike speculation",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-04T03:32:28Z",
+            "title": "The Hamiltonian Mirage",
+            "source": "Lewrockwell.com",
+            "publishedAt": "2026-09-04T04:01:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Government Regulations Now Add $132,000 to the Average New Home",
+            "source": "Lewrockwell.com",
+            "publishedAt": "2026-09-04T04:01:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Curtis Yarvin Comes Out in Support of Flock Cameras",
+            "source": "Lewrockwell.com",
+            "publishedAt": "2026-09-04T04:01:00Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Setback for national children’s hospital contractor Bam in near €100m bill dispute",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-04T04:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Can We Throw Off the Yoke of Government?",
+            "source": "Americanthinker.com",
+            "publishedAt": "2026-09-04T04:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Sensex climbs 500 points, but Nifty gains marginally. What lies ahead?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T03:59:23Z",
+            "sentiment": "Positive",
+            "compound": 0.522
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.58,
-  "trade_probability": 45.55,
+  "confirmation_score": 42.93,
+  "trade_probability": 45.76,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
