@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T22:01:16.824561+00:00",
+  "generated_at": "2026-09-05T22:15:55.373869+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.99,
+      "score": 48.73,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.0,
+        "avg_compound": -0.025,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Increases Despite Market Slip: Here's What You Need to Know",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T22:08:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Registers a Bigger Fall Than the Market: Important Facts to Note",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T22:08:34Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T22:08:32Z",
+            "sentiment": "Positive",
+            "compound": 0.272
+          },
+          {
+            "title": "Dipped More Than Broader Market Today",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T22:08:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Here’s why wages are falling behind inflation, an economic warning sign",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T22:05:51Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
           {
             "title": "Trump threatens to halt trade with top partners unless Fed cuts rates",
             "source": "Biztoc.com",
             "publishedAt": "2026-09-04T22:00:39Z",
             "sentiment": "Negative",
             "compound": -0.459
-          },
-          {
-            "title": "Walmart Customer Finds Vizio ONN Vizio TV On Sale. Is ONN Worth The Price Point When You Can Find A Giant TCN For Under $200?: ‘I Only Buy Samsung’",
-            "source": "BroBible",
-            "publishedAt": "2026-09-04T22:00:25Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Cinema's Billion-Dollar Club: Movies That Crossed The Ultimate Box Office Milestone (54 PICS)",
-            "source": "Izismile.com",
-            "publishedAt": "2026-09-04T22:00:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Kevin Hassett Tries A New Spin On Soaring Gas Prices",
-            "source": "Crooksandliars.com",
-            "publishedAt": "2026-09-04T21:56:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today, Sept. 4: Lululemon Plummets 17% After Slashing Guidance",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T21:53:16Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Stock Market Today, Sept. 4: Planet Labs Dips 1% Despite Earnings Beat, Full-Year Guidance Raise",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T21:53:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.79,
-  "trade_probability": 45.07,
+  "confirmation_score": 41.66,
+  "trade_probability": 45.0,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
