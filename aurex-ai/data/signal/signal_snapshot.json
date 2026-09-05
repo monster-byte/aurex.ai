@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:45:50.580082+00:00",
+  "generated_at": "2026-09-05T15:01:21.615976+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.47,
+      "score": 47.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.049,
-        "articles_analyzed": 24,
+        "avg_compound": -0.048,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Intuitive Surgical Vs. Stryker: Wall Street Loves Both But One Has a Quiet Advantage That Will Make Investors Money",
+            "title": "Trump threatens to stop trade with other countries if the US doesn’t lower its interest rates",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T15:01:00Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "$1.3 Trillion in Projected Data Center Spending in 2027 Makes These Stocks No-Brainer Buys",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T15:00:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "SanDisk Rises 8%, Micron Gains 5%: Is the NAND Pricing Cycle Still Accelerating?",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-04T14:45:42Z",
+            "publishedAt": "2026-09-04T15:00:36Z",
             "sentiment": "Positive",
-            "compound": 0.593
+            "compound": 0.34
           },
           {
-            "title": "Trump threatens trade cut off with some countries if Fed doesn’t cut interest rates",
+            "title": "Strong Jobs Report May Tilt Fed Toward Rate Hike; Trump Freaks Out (Live Coverage)",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T14:43:26Z",
-            "sentiment": "Negative",
-            "compound": -0.421
+            "publishedAt": "2026-09-04T15:00:14Z",
+            "sentiment": "Positive",
+            "compound": 0.44
           },
           {
-            "title": "Trump Issues Stark Threat To Federal Reserve: “Lower The Rate Or I’ll Stop Trading With Countries With Which We Have A Deficit”",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T14:42:42Z",
-            "sentiment": "Negative",
-            "compound": -0.681
+            "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-09-04T15:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.421
           },
           {
-            "title": "中銀とビットコイン",
-            "source": "Hatenablog.com",
-            "publishedAt": "2026-09-04T14:41:27Z",
+            "title": "Warren Buffett Warns Gen Z About ‘Casino-Like’ Investing Behavior",
+            "source": "Moneylion.com",
+            "publishedAt": "2026-09-04T14:59:18Z",
             "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "UiPath Tumbles 14% as Guided Slowdown Overshadows Revenue Beat",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-04T14:40:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why Is Crypto Crashing? Bitcoin Plunges After US Jobs Shock as $200B Is Liquidated in 15 Minutes",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-09-04T14:39:12Z",
-            "sentiment": "Negative",
-            "compound": -0.382
+            "compound": -0.103
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.04,
-  "trade_probability": 45.22,
+  "confirmation_score": 41.55,
+  "trade_probability": 44.93,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
