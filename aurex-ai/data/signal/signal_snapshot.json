@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T08:01:15.928580+00:00",
+  "generated_at": "2026-09-05T08:15:48.088787+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.68,
+      "score": 55.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.114,
+        "avg_compound": 0.102,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stock market today: Dow, S&P 500, Nasdaq edge lower after hot jobs report fuels Fed rate-hike bets",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-04T08:10:05Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "RBI may raise repo rate to 5.75-6% in H2 FY27, rate hike cycle likely from December: UBI",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T08:06:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Global Market: Bank of England’s Pill says early rate hike could limit future inflation pressure",
             "source": "The Times of India",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-04T08:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Bond yields are soaring to multi-decade highs. What does that mean for Canadian consumers?",
-            "source": "CBC News",
-            "publishedAt": "2026-09-04T08:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Paramount+ Celebrates Mexican Independence Day Weekend with Combat Sports Doubleheader on Saturday, September 12",
-            "source": "Thefutoncritic.com",
-            "publishedAt": "2026-09-04T08:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.318
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.36,
-  "trade_probability": 45.42,
+  "confirmation_score": 42.3,
+  "trade_probability": 45.38,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
