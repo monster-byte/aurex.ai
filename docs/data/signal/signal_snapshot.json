@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T23:45:47.372549+00:00",
+  "generated_at": "2026-09-05T00:01:18.977636+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.54,
+      "score": 49.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.031,
+        "avg_compound": -0.006,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "US hits Cuba with new sanctions as island's crises multiply",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-03T23:41:38Z",
+            "title": "White House 'Arcade' Invites Players to 'Build the Wall' and 'Fill a Trump Account'",
+            "source": "Time",
+            "publishedAt": "2026-09-04T00:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Tether sued over frozen ‘pig butcher’ coins, 6,600 students get crypto loans: Asia Express",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-09-03T23:40:09Z",
+            "title": "Electronics makers turn to cheaper materials and localisation as commodity costs bite",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T00:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Stoke Therapeutics and Biogen Present Long-Term Clinical Data that Support the Disease-Modifying Potential of Zorevunersen, an Investigational Medicine for the Treatment of Dravet Syndrome, at the 16th European Epilepsy Congress (EEC)",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-03T23:34:49Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Vance Defends Carlson Friendship",
-            "source": "Newser",
-            "publishedAt": "2026-09-03T23:34:00Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "EPC Power Announces Sale to Flex for $4.4 Billion",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-03T23:20:00Z",
+            "title": "Rajan: Policy Beginning To Tilt More Decisively Toward Rate Hikes Under Warsh’s Command",
+            "source": "Substack.com",
+            "publishedAt": "2026-09-04T00:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The federal gas tax cut: Great politics and a terrible investment",
-            "source": "The Globe And Mail",
-            "publishedAt": "2026-09-03T23:15:14Z",
+            "title": "Labels are now the main course for F&B chiefs as regulatory scrutiny reshapes boardroom priorities",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T00:00:00Z",
             "sentiment": "Neutral",
-            "compound": -0.026
+            "compound": 0.0
+          },
+          {
+            "title": "America's bonds crisis should be worrying Israelis",
+            "source": "Haaretz",
+            "publishedAt": "2026-09-03T23:59:22Z",
+            "sentiment": "Negative",
+            "compound": -0.758
+          },
+          {
+            "title": "Japan July household spending falls at fastest pace in 2-1/2 years",
+            "source": "CNA",
+            "publishedAt": "2026-09-03T23:48:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.95,
-  "trade_probability": 45.17,
+  "confirmation_score": 41.76,
+  "trade_probability": 45.06,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
