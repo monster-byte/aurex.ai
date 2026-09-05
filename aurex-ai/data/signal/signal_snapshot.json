@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T18:45:49.270989+00:00",
+  "generated_at": "2026-09-05T19:01:16.929912+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.98,
+      "score": 45.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.02,
+        "avg_compound": -0.083,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "DOJ expands beef price probe to eight retailers, including Walmart and Amazon, with inflation a key issue ahead of midterm elections",
-            "source": "Fortune",
-            "publishedAt": "2026-09-04T18:45:02Z",
+            "title": "America’s population of 401(k) millionaires hits record high",
+            "source": "New York Post",
+            "publishedAt": "2026-09-04T19:00:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why political optimism has become scarce in Australia",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-04T19:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.273
+            "compound": 0.542
           },
           {
-            "title": "Here's how the summer box office blew up and Hollywood got its mojo back",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-04T18:42:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Chinese 'Fast Fashion' Giant Shein Gets Crushed in Market IPO",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-04T18:38:19Z",
+            "title": "Kenya private sector growth stalls as firms struggle with high costs and low liquidity | The Eastleigh Voice",
+            "source": "Eastleighvoice.co.ke",
+            "publishedAt": "2026-09-04T18:57:57Z",
             "sentiment": "Negative",
-            "compound": -0.421
+            "compound": -0.202
           },
           {
-            "title": "Maria Bartiromo vs. Fox News: The Anchor’s Pivot Between MAGA Politics and Wall Street Likely Spurred Fallout",
-            "source": "Variety",
-            "publishedAt": "2026-09-04T18:35:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How AI could raise expectations for tomorrow’s property managers",
-            "source": "Digital Journal",
-            "publishedAt": "2026-09-04T18:33:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Ad Attacking N.C. Republican Senate Candidate Uses His Own (Dated) Words Against Him",
-            "source": "FactCheck.org",
-            "publishedAt": "2026-09-04T18:22:29Z",
+            "title": "Scott Bessent predicts oil prices could drop by $40–$50 a barrel after Iran conflict ends",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-04T18:56:44Z",
             "sentiment": "Negative",
-            "compound": -0.459
+            "compound": -0.527
+          },
+          {
+            "title": "PZZA Investors Have Opportunity to Lead Papa John's International, Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-04T18:51:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "Why Apple Stock Sank on Friday",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T18:50:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.69,
-  "trade_probability": 45.01,
+  "confirmation_score": 41.37,
+  "trade_probability": 44.82,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
