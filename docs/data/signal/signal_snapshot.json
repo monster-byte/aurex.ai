@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T00:31:02.004080+00:00",
+  "generated_at": "2026-09-05T00:45:54.095829+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.29,
+      "score": 55.3,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.006,
+        "avg_compound": 0.106,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Solana Validator Client v1.18 Hits 85% Consensus Stake",
+            "source": "Bitcoinist",
+            "publishedAt": "2026-09-04T00:45:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Analysts rank Bitcoin above Tesla in new tech growth asset list",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T00:43:29Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "South Korea's AI rally is reshaping romance, reality shows and academic preferences",
+            "source": "CNBC",
+            "publishedAt": "2026-09-04T00:36:22Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
+          {
+            "title": "PI Industries bets on innovation-led growth as agrochem headwinds mount",
+            "source": "Livemint",
+            "publishedAt": "2026-09-04T00:30:54Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
           {
             "title": "Fed governor Waller muddies outlook on possible rate hike later this month",
             "source": "Biztoc.com",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-04T00:21:09Z",
             "sentiment": "Positive",
             "compound": 0.421
-          },
-          {
-            "title": "Smart ring maker Oura files for IPO as revenue jumps 74%",
-            "source": "SiliconANGLE News",
-            "publishedAt": "2026-09-04T00:04:37Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "White House 'Arcade' Invites Players to 'Build the Wall' and 'Fill a Trump Account'",
-            "source": "Time",
-            "publishedAt": "2026-09-04T00:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Electronics makers turn to cheaper materials and localisation as commodity costs bite",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T00:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rajan: Policy Beginning To Tilt More Decisively Toward Rate Hikes Under Warsh’s Command",
-            "source": "Substack.com",
-            "publishedAt": "2026-09-04T00:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.82,
-  "trade_probability": 45.09,
+  "confirmation_score": 42.32,
+  "trade_probability": 45.39,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
