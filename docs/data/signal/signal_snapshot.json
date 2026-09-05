@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:15:55.757936+00:00",
+  "generated_at": "2026-09-05T14:31:16.833037+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.85,
+      "score": 54.11,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.043,
-        "articles_analyzed": 25,
+        "avg_compound": 0.082,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Diesel Hit A New Record High, Just As We Predicted Yesterday",
-            "source": "Jalopnik",
-            "publishedAt": "2026-09-04T14:15:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "USA Rare Earth Rises 4%, Then Coughs Up Gains as Chinese Suppliers Refuse U.S. Shipments",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-04T14:15:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "America’s Population of 401(k) Millionaires Keeps Growing, Buoyed by Markets",
-            "source": "Wealthmanagement.com",
-            "publishedAt": "2026-09-04T14:15:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Stock Market Today: Dow Slides On Surprise Jobs Report; Lululemon Plummets While Tesla Sinks (Live Coverage)",
+            "title": "Should You Buy Stocks Now or Wait for a Pullback? History Offers a Clear Answer",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T14:14:37Z",
+            "publishedAt": "2026-09-04T14:30:14Z",
             "sentiment": "Positive",
-            "compound": 0.273
+            "compound": 0.382
           },
           {
-            "title": "Nobody Plans to Retire Alone in Florida. Here’s What It Costs When It Happens",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-04T14:12:14Z",
-            "sentiment": "Negative",
-            "compound": -0.25
-          },
-          {
-            "title": "Trump threatens trade halt unless Fed cuts rates",
+            "title": "Cramer shares 3 moves to protect from rising rates and oil prices",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T14:11:53Z",
+            "publishedAt": "2026-09-04T14:29:45Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "Strong Jobs Report May Tilt Fed Toward Rate Hike; Trump Freaks Out (Live Coverage)",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-04T14:28:02Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Trump Issues Stark Threat To Federal Reserve: “Lower The Rate Or I’ll Stop Trading With Countries With Which We Have A Deficit”",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-04T14:27:55Z",
             "sentiment": "Negative",
-            "compound": -0.586
+            "compound": -0.681
+          },
+          {
+            "title": "Citi expects Fed to cut rates by 25 basis points in June, September, and December 2027",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-04T14:27:06Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Trump tells Fed to slash rates or he’ll end trade with countries with U.S. surpluses",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-04T14:25:48Z",
+            "sentiment": "Negative",
+            "compound": -0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.58,
-  "trade_probability": 44.95,
+  "confirmation_score": 42.2,
+  "trade_probability": 45.32,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
