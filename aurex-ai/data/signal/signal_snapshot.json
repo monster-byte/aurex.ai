@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T06:01:13.035901+00:00",
+  "generated_at": "2026-09-05T06:15:53.564399+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.12,
+      "score": 51.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.002,
+        "avg_compound": 0.025,
         "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "Gold: Crude, inflation key threats; analyst sees $4400 as tactical buy zone",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-04T06:09:30Z",
+            "sentiment": "Negative",
+            "compound": -0.758
+          },
+          {
+            "title": "Jordan caught in crossfire as Iran targets bases hosting US forces",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-04T06:09:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why India's strong GDP growth is raising eyebrows",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-04T06:08:47Z",
+            "sentiment": "Positive",
+            "compound": 0.71
+          },
+          {
+            "title": "DA hike 2026: DA may reach 64%; check how much your monthly pay could rise",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-09-04T06:06:38Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
           {
             "title": "The Diesel Time Bomb Is Exploding … And We Will Endure YEARS of Economic Hardship as a Result",
             "source": "Naturalnews.com",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-04T06:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "What Gen Z can do differently to avoid being over-leveraged and under-insured",
-            "source": "Livemint",
-            "publishedAt": "2026-09-04T05:59:47Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "India bonds pause before weekly debt supply",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T05:55:39Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "India’s June quarter GDP print is courting controversy. Here’s why",
-            "source": "CNBC",
-            "publishedAt": "2026-09-04T05:52:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global Market: JGB yields extend fall as stronger yen, hawkish BOJ outlook lift sentiment",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T05:50:49Z",
-            "sentiment": "Positive",
-            "compound": 0.511
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.8,
-  "trade_probability": 45.08,
+  "confirmation_score": 41.91,
+  "trade_probability": 45.15,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
