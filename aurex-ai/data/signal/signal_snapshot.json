@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T01:15:48.132048+00:00",
+  "generated_at": "2026-09-05T01:30:59.343522+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.66,
+      "score": 51.71,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.093,
+        "avg_compound": 0.034,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Asia mostly higher on Fed expectations",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T01:27:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Vance On Iran Conflict: 'I Wouldn’t Call It A War'",
+            "source": "HuffPost",
+            "publishedAt": "2026-09-04T01:20:39Z",
+            "sentiment": "Negative",
+            "compound": -0.735
+          },
+          {
+            "title": "FACT FOCUS: Trump claims US banks cannot operate in Canada. That’s not true",
+            "source": "Winnipeg Free Press",
+            "publishedAt": "2026-09-04T01:18:26Z",
+            "sentiment": "Negative",
+            "compound": -0.325
+          },
           {
             "title": "Sensex today | Stock Market Live: Stock to buy today: Kirloskar Oil Engines (₹2,267.40)",
             "source": "BusinessLine",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-04T00:58:51Z",
             "sentiment": "Neutral",
             "compound": 0.14
-          },
-          {
-            "title": "US sanctions deepen Iran crisis as oil nears $100",
-            "source": "The Punch",
-            "publishedAt": "2026-09-04T00:55:49Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "U.S. aims 'to really tighten the screws' on Cuba with newest sanctions: analyst",
-            "source": "CBC News",
-            "publishedAt": "2026-09-04T00:53:22Z",
-            "sentiment": "Negative",
-            "compound": -0.31
-          },
-          {
-            "title": "Global Market Today: Asian stocks rise as Fed rate-hike bets ease",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T00:49:26Z",
-            "sentiment": "Positive",
-            "compound": 0.361
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.26,
-  "trade_probability": 45.36,
+  "confirmation_score": 41.96,
+  "trade_probability": 45.18,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
