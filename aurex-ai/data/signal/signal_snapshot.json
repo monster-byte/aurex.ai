@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T16:01:18.412944+00:00",
+  "generated_at": "2026-09-05T16:15:49.860162+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.89,
+      "score": 55.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.118,
-        "articles_analyzed": 25,
+        "avg_compound": 0.103,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "COOK POLITICAL REPORT: Blue Wave Building...",
-            "source": "Washington Examiner",
-            "publishedAt": "2026-09-04T16:00:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How to Build $7,400 a Month in Dividend Income From a $1.35 Million Portfolio",
+            "title": "Domino’s Keeps Raising Its Dividend—But What About All That Debt?",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-04T15:57:05Z",
+            "publishedAt": "2026-09-04T16:15:10Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Stocks Fall, Rebound Bullishly; Snowflake, Dell, Tesla, Jobs Report In Focus: Weekly Review",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T16:15:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "After Strong Jobs Report, Trump Issues Ultimatum to Fed",
-            "source": "Newser",
-            "publishedAt": "2026-09-04T15:55:00Z",
+            "title": "Bitcoin falls below $80,000 as hot US payrolls revive Fed hike risk",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-04T16:10:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Stocks Fall, Rebound Bullishly; Snowflake, Dell, Tesla, Jobs Report In Focus: Weekly Review",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-04T16:09:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Zscaler Falls 4% as FY2027 Growth Guidance Overshadows Earnings Beat; CrowdStrike Slips, Palo Alto Holds Steady",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-04T16:06:50Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Prime Members: AIPOWAY 180PSI Cordless Portable Tire Inflator w/ 6000mAh Power Bank $13.49 + Free Shipping",
+            "source": "Slickdeals.net",
+            "publishedAt": "2026-09-04T16:05:23Z",
             "sentiment": "Positive",
             "compound": 0.511
-          },
-          {
-            "title": "Bitcoin ETFs post best day in 9 months as price hits $82,000",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-04T15:54:46Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Stock Market Today: Bond Yields Climb, Dow Slips After Jobs Report — Live Updates - WSJ",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-04T15:53:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "DeFi Development Corp. prices CHAD preferred stock IPO at $8, raising $11 million for Solana treasury",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-04T15:52:01Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.38,
-  "trade_probability": 45.43,
+  "confirmation_score": 42.3,
+  "trade_probability": 45.38,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
