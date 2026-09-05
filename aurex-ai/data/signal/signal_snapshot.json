@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T05:45:50.810601+00:00",
+  "generated_at": "2026-09-05T06:01:13.035901+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.04,
+      "score": 50.12,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.021,
-        "articles_analyzed": 24,
+        "avg_compound": 0.002,
+        "articles_analyzed": 22,
         "top_headlines": [
           {
-            "title": "Global Market: Japan stocks rebound on Wall Street boost, SoftBank rally",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T05:41:05Z",
-            "sentiment": "Positive",
-            "compound": 0.402
+            "title": "The Diesel Time Bomb Is Exploding … And We Will Endure YEARS of Economic Hardship as a Result",
+            "source": "Naturalnews.com",
+            "publishedAt": "2026-09-04T06:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.67
           },
           {
-            "title": "Nvidia vs. Micron: Which Is the Better AI Semiconductor Stock to Own for the Next 5 Years?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T05:34:07Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "US hits Cuba with new sanctions as island's crises multiply",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T05:29:10Z",
+            "title": "Trump’s 1980s Playbook Is Burning Down the Empire",
+            "source": "Naturalnews.com",
+            "publishedAt": "2026-09-04T06:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "'We are being priced out of watching Test cricket'",
-            "source": "BBC News",
-            "publishedAt": "2026-09-04T05:26:40Z",
+            "title": "What Gen Z can do differently to avoid being over-leveraged and under-insured",
+            "source": "Livemint",
+            "publishedAt": "2026-09-04T05:59:47Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "India bonds pause before weekly debt supply",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T05:55:39Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "India’s June quarter GDP print is courting controversy. Here’s why",
+            "source": "CNBC",
+            "publishedAt": "2026-09-04T05:52:15Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Korea Stock Market (KRX) Today (September 4): Why is the Korean Stock Market Up Today? KOSPI Gains 1.28%, KOSDAQ Rises 2.23%, Samsung Gains 1.80% & SK Hynix Jumps 2.82%",
-            "source": "The Sunday Guardian",
-            "publishedAt": "2026-09-04T05:24:58Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "Gold prices fall Rs 2,100/10 gram after 2 days; silver down Rs 1,500/kg ahead of US payrolls data. Important levels for today",
+            "title": "Global Market: JGB yields extend fall as stronger yen, hawkish BOJ outlook lift sentiment",
             "source": "The Times of India",
-            "publishedAt": "2026-09-04T05:20:28Z",
+            "publishedAt": "2026-09-04T05:50:49Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.511
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.89,
-  "trade_probability": 45.13,
+  "confirmation_score": 41.8,
+  "trade_probability": 45.08,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
