@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T08:15:48.088787+00:00",
+  "generated_at": "2026-09-05T08:31:06.963699+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.09,
+      "score": 53.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.102,
+        "avg_compound": 0.061,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Stock market today: Dow, S&P 500, Nasdaq edge lower after hot jobs report fuels Fed rate-hike bets",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-04T08:10:05Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "RBI may raise repo rate to 5.75-6% in H2 FY27, rate hike cycle likely from December: UBI",
+            "title": "India’s farm policy needs a reset amid concerns over ethanol push, subsidies: Agri expert Devinder Sharma",
             "source": "The Times of India",
-            "publishedAt": "2026-09-04T08:06:39Z",
+            "publishedAt": "2026-09-04T08:29:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Global Market: Bank of England’s Pill says early rate hike could limit future inflation pressure",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T08:00:29Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Governance as Legitimacy: A Further Reflection on the Removal of the ICC Prosecutor (Part I)",
-            "source": "Opiniojuris.org",
-            "publishedAt": "2026-09-04T08:00:19Z",
+            "title": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady ahead of key jobs report",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T08:21:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Trump looms over U.S. midterms. Will he help or hurt Republicans?",
-            "source": "CBC News",
-            "publishedAt": "2026-09-04T08:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.318
+            "title": "Do high price tags really mean a better quality t-shirt or coat?",
+            "source": "RTE",
+            "publishedAt": "2026-09-04T08:20:22Z",
+            "sentiment": "Positive",
+            "compound": 0.488
           },
           {
-            "title": "Health-care hiring has propped up Canada’s job market. Will patients see a difference?",
-            "source": "CBC News",
-            "publishedAt": "2026-09-04T08:00:00Z",
+            "title": "‘I don’t think there’s a floor’: Workers’ share of America’s income is at a record low before the AI boom even begins",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T08:20:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Benchmarks turn rangebound; European markets trade flat",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-04T08:20:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Wolfbox HyperFlow19 Cordless Tire Inflator Portable Air Compressor for $35 + free shipping w/ Prime",
+            "source": "Dealnews.com",
+            "publishedAt": "2026-09-04T08:17:36Z",
+            "sentiment": "Positive",
+            "compound": 0.511
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.3,
-  "trade_probability": 45.38,
+  "confirmation_score": 42.1,
+  "trade_probability": 45.26,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
