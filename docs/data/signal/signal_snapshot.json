@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T03:31:05.099790+00:00",
+  "generated_at": "2026-09-05T03:45:52.311282+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 59.22,
+      "score": 57.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.184,
+        "avg_compound": 0.157,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Deepa Jewellers IPO allotment likely today: GMP signals 11% listing gain. Here’s how to check status",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T03:28:35Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Markets turn green after week of red; Sensex jumps 400 points, Nifty tops 23,900",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T03:28:34Z",
-            "sentiment": "Positive",
-            "compound": 0.718
-          },
-          {
-            "title": "Rupee's inflow-linked, RBI-backed optimism faces oil test",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-04T03:11:52Z",
-            "sentiment": "Positive",
-            "compound": 0.542
-          },
-          {
-            "title": "Worm in egg sets off food safety check at Mangaluru quick-commerce hub",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T03:08:13Z",
+            "title": "Entertainment over policy? White House arcade games ignite backlash",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-04T03:44:47Z",
             "sentiment": "Positive",
             "compound": 0.421
           },
           {
-            "title": "Lindsay Clancy Trial: Juror dispute deepens as judge rejects removal request",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T03:05:42Z",
-            "sentiment": "Negative",
-            "compound": -0.71
+            "title": "Idle money in your bank account? Your bank balance could be losing value; here’s how to fix it",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-09-04T03:40:29Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
           },
           {
-            "title": "8th Pay Commission: Can Level 5 employees get up to Rs 15,800/month extra HRA under 8th CPC?",
+            "title": "Rays of Belief IPO allotment likely today: GMP signals 5% listing gain. Here’s how to check status",
             "source": "The Times of India",
-            "publishedAt": "2026-09-04T03:02:58Z",
+            "publishedAt": "2026-09-04T03:37:48Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "Nifty may extend losses as GIFT Nifty signals weak start",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-04T03:34:02Z",
+            "sentiment": "Positive",
+            "compound": 0.629
+          },
+          {
+            "title": "Fresh debt supply to provide directional cue for India bonds",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-04T03:32:30Z",
             "sentiment": "Neutral",
-            "compound": -0.103
+            "compound": -0.052
+          },
+          {
+            "title": "Yen hits one-month high on BOJ rate hike speculation",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-04T03:32:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.72,
-  "trade_probability": 45.63,
+  "confirmation_score": 42.58,
+  "trade_probability": 45.55,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
