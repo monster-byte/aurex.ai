@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T21:45:56.062295+00:00",
+  "generated_at": "2026-09-05T22:01:16.824561+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.37,
+      "score": 49.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.013,
-        "articles_analyzed": 25,
+        "avg_compound": -0.0,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Wall Street dips after strong jobs data fuels hawkish Fed bets - Reuters",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-04T21:32:27Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Britain's economy is facing 'very, very substantial challenges', Bank of England governor warns Burnham amid spiralling UK debt",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-04T21:25:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.081
-          },
-          {
-            "title": "JEPQ Holders Trailed the Nasdaq-100 Over the Past Year While Chasing a Monthly Check",
+            "title": "Trump threatens to halt trade with top partners unless Fed cuts rates",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T21:19:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How a 69-Year-Old’s $500,000 in QQQI Pays Him Every Month While His Cost Basis Falls Toward Zero",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T21:19:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Market Close: Stocks Lower, Fuel Prices Surge, Inflation Data Ahead • 9/4/26",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T21:14:23Z",
+            "publishedAt": "2026-09-04T22:00:39Z",
             "sentiment": "Negative",
-            "compound": -0.296
+            "compound": -0.459
           },
           {
-            "title": "August Jobs Report Blows Past Forecasts, Putting a September Fed Rate Hike Back on the Table",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-04T21:10:02Z",
+            "title": "Walmart Customer Finds Vizio ONN Vizio TV On Sale. Is ONN Worth The Price Point When You Can Find A Giant TCN For Under $200?: ‘I Only Buy Samsung’",
+            "source": "BroBible",
+            "publishedAt": "2026-09-04T22:00:25Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Cinema's Billion-Dollar Club: Movies That Crossed The Ultimate Box Office Milestone (54 PICS)",
+            "source": "Izismile.com",
+            "publishedAt": "2026-09-04T22:00:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Kevin Hassett Tries A New Spin On Soaring Gas Prices",
+            "source": "Crooksandliars.com",
+            "publishedAt": "2026-09-04T21:56:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock Market Today, Sept. 4: Lululemon Plummets 17% After Slashing Guidance",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T21:53:16Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Stock Market Today, Sept. 4: Planet Labs Dips 1% Despite Earnings Beat, Full-Year Guidance Raise",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T21:53:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 41.73,
-  "trade_probability": 45.04,
+  "confirmation_score": 41.79,
+  "trade_probability": 45.07,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
