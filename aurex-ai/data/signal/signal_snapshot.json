@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T06:45:49.761086+00:00",
+  "generated_at": "2026-09-05T07:01:14.531449+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.17,
+      "score": 45.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.137,
+        "avg_compound": -0.087,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Global bond sell-off likely not over yet, Mohamed El-Erian tells CNBC",
+            "source": "CNBC",
+            "publishedAt": "2026-09-04T07:01:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Javier Milei says ‘winds of change’ support Argentina’s claim to Falkland Islands",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-04T07:01:05Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Gold this week: Modest gain in sight as investors await US payrolls data",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-04T06:56:34Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "Revolut takes 'first step' to US bank launch",
+            "source": "RTE",
+            "publishedAt": "2026-09-04T06:52:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Today in Sweden: A roundup of the latest news on Friday",
+            "source": "The Local Sweden",
+            "publishedAt": "2026-09-04T06:51:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "US Fed rate cut bets fall below 50% after Governor Chris Waller’s comments. What did he say?",
             "source": "The Times of India",
             "publishedAt": "2026-09-04T06:38:28Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "Is AI boom hiding growing US risks? Nomura warns dollar asset concentration leaves global markets vulnerable to AI shocks",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T06:34:00Z",
-            "sentiment": "Negative",
-            "compound": -0.612
-          },
-          {
-            "title": "Vance says Iran fight isn't a 'war' as Trump tries to navigate unpopular conflict as election nears",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-04T06:32:15Z",
-            "sentiment": "Neutral",
-            "compound": -0.191
-          },
-          {
-            "title": "Asian benchmarks mostly rise after tech stocks lead rally on Wall Street",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-04T06:31:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Which stocks should you buy ahead of the festive season? Here are Kotak Securities’ top 10 picks",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T06:30:07Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "CNBC Daily Open: Vance wouldn't call the Iran war a 'war'",
-            "source": "CNBC",
-            "publishedAt": "2026-09-04T06:24:28Z",
-            "sentiment": "Negative",
-            "compound": -0.832
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.11,
-  "trade_probability": 44.67,
+  "confirmation_score": 41.35,
+  "trade_probability": 44.81,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
