@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T06:31:06.540673+00:00",
+  "generated_at": "2026-09-05T06:45:49.761086+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.34,
+      "score": 43.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.053,
+        "avg_compound": -0.137,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "US Fed rate cut bets fall below 50% after Governor Chris Waller’s comments. What did he say?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T06:38:28Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Is AI boom hiding growing US risks? Nomura warns dollar asset concentration leaves global markets vulnerable to AI shocks",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-04T06:34:00Z",
+            "sentiment": "Negative",
+            "compound": -0.612
+          },
+          {
+            "title": "Vance says Iran fight isn't a 'war' as Trump tries to navigate unpopular conflict as election nears",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-04T06:32:15Z",
+            "sentiment": "Neutral",
+            "compound": -0.191
+          },
+          {
+            "title": "Asian benchmarks mostly rise after tech stocks lead rally on Wall Street",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-04T06:31:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Which stocks should you buy ahead of the festive season? Here are Kotak Securities’ top 10 picks",
             "source": "The Times of India",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-04T06:24:28Z",
             "sentiment": "Negative",
             "compound": -0.832
-          },
-          {
-            "title": "NZ sharemarket up nearly 1.5% for the week – Market close",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-04T06:23:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US equities soar on interest rate hopes, major indices rally more than 1%",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T06:20:45Z",
-            "sentiment": "Positive",
-            "compound": 0.7
-          },
-          {
-            "title": "Global Market: China stocks rebound, but weekly loss looms as AI rally cools",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T06:20:28Z",
-            "sentiment": "Negative",
-            "compound": -0.593
-          },
-          {
-            "title": "RBI steps in again to support rupee as oil prices, Asian currencies weaken",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T06:19:18Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.52,
-  "trade_probability": 44.91,
+  "confirmation_score": 41.11,
+  "trade_probability": 44.67,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
