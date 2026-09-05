@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T07:31:06.812917+00:00",
+  "generated_at": "2026-09-05T07:45:46.901389+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.08,
+      "score": 54.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.082,
+        "avg_compound": 0.099,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The price of diesel hits a record high",
+            "source": "NPR",
+            "publishedAt": "2026-09-04T07:44:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nifty holds above 23,900 as smallcap index hits record high",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-04T07:38:21Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "‘I don’t think there’s a floor’: Workers’ share of America’s income is at a record low before the AI boom even begins",
             "source": "Yahoo Entertainment",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-04T07:21:32Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "Broadcom's Artificial Intelligence (AI) Chip Sales Surged 221% to $16.7 Billion Last Quarter: Is the Stock a Screaming Buy Right Now?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T07:20:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Bitcoin holds above $80,800 as bulls target $85k ahead of NFP",
-            "source": "Coinjournal.net",
-            "publishedAt": "2026-09-04T07:15:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.2,
-  "trade_probability": 45.32,
+  "confirmation_score": 42.28,
+  "trade_probability": 45.37,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
