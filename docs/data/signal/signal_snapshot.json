@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T08:31:06.963699+00:00",
+  "generated_at": "2026-09-05T08:45:48.947501+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.06,
+      "score": 50.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.061,
+        "avg_compound": 0.003,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "India’s farm policy needs a reset amid concerns over ethanol push, subsidies: Agri expert Devinder Sharma",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-04T08:29:03Z",
+            "title": "US diesel prices hit a record high at $5.85 on average",
+            "source": "Associated Press",
+            "publishedAt": "2026-09-04T08:44:55Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady ahead of key jobs report",
+            "title": "Why has the Philippines’ peso plunged to a record low?",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-04T08:38:34Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Apple Is Entering a New Chapter. What Should Investors Expect?",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T08:21:53Z",
+            "publishedAt": "2026-09-04T08:37:18Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Do high price tags really mean a better quality t-shirt or coat?",
-            "source": "RTE",
-            "publishedAt": "2026-09-04T08:20:22Z",
-            "sentiment": "Positive",
-            "compound": 0.488
-          },
-          {
-            "title": "‘I don’t think there’s a floor’: Workers’ share of America’s income is at a record low before the AI boom even begins",
+            "title": "Why Peloton Stock Plummeted by 16% Last Month",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T08:20:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "Benchmarks turn rangebound; European markets trade flat",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-04T08:20:02Z",
+            "publishedAt": "2026-09-04T08:37:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Wolfbox HyperFlow19 Cordless Tire Inflator Portable Air Compressor for $35 + free shipping w/ Prime",
-            "source": "Dealnews.com",
-            "publishedAt": "2026-09-04T08:17:36Z",
+            "title": "Oil rallies for the week as US-Iran fighting resumes; diesel hits record high",
+            "source": "CNA",
+            "publishedAt": "2026-09-04T08:36:49Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Oil heads for weekly gain as US-Iran fighting resumes; diesel hits record high",
+            "source": "CNA",
+            "publishedAt": "2026-09-04T08:36:49Z",
             "sentiment": "Positive",
-            "compound": 0.511
+            "compound": 0.226
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.1,
-  "trade_probability": 45.26,
+  "confirmation_score": 41.8,
+  "trade_probability": 45.08,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
