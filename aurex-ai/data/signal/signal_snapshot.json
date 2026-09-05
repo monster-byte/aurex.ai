@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T16:15:49.860162+00:00",
+  "generated_at": "2026-09-05T16:31:04.239763+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.14,
+      "score": 53.66,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.103,
+        "avg_compound": 0.073,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Domino’s Keeps Raising Its Dividend—But What About All That Debt?",
+            "title": "Inflation Odds Move Toward 100%",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-04T16:30:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Inflation Odds Move Toward 100%",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-04T16:15:10Z",
+            "publishedAt": "2026-09-04T16:26:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AAA Reports Labor Day Weekend Gas Prices Reach Record High",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-04T16:26:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Zcash Hits Highest Price in Nearly a Decade, Crushing Short Bets",
+            "source": "Decrypt",
+            "publishedAt": "2026-09-04T16:24:46Z",
             "sentiment": "Negative",
             "compound": -0.361
           },
           {
-            "title": "Stocks Fall, Rebound Bullishly; Snowflake, Dell, Tesla, Jobs Report In Focus: Weekly Review",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T16:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bitcoin falls below $80,000 as hot US payrolls revive Fed hike risk",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-04T16:10:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "Stocks Fall, Rebound Bullishly; Snowflake, Dell, Tesla, Jobs Report In Focus: Weekly Review",
+            "title": "Adobe Names New CEO As Earnings Approach And AI Fears Persist; Navan, SailPoint Also Due",
             "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-04T16:09:17Z",
+            "publishedAt": "2026-09-04T16:24:30Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "The capacitor supply chain bottleneck is becoming a bigger AI trade in the market",
+            "source": "CNBC",
+            "publishedAt": "2026-09-04T16:24:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Zscaler Falls 4% as FY2027 Growth Guidance Overshadows Earnings Beat; CrowdStrike Slips, Palo Alto Holds Steady",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-04T16:06:50Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Prime Members: AIPOWAY 180PSI Cordless Portable Tire Inflator w/ 6000mAh Power Bank $13.49 + Free Shipping",
-            "source": "Slickdeals.net",
-            "publishedAt": "2026-09-04T16:05:23Z",
-            "sentiment": "Positive",
-            "compound": 0.511
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.3,
-  "trade_probability": 45.38,
+  "confirmation_score": 42.16,
+  "trade_probability": 45.3,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
