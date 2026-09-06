@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T12:01:15.919031+00:00",
+  "generated_at": "2026-09-06T12:15:55.391317+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -92,6 +92,13 @@
         "articles_analyzed": 25,
         "top_headlines": [
           {
+            "title": "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-05T12:05:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
             "title": "SKS EMP Electric Mini Pump",
             "source": "road.cc",
             "publishedAt": "2026-09-05T12:00:49Z",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-09-05T11:48:34Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "The Rush To Pull Gold Out Of The U.S.",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-05T11:48:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
