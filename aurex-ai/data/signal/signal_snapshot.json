@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T21:15:47.254382+00:00",
+  "generated_at": "2026-09-06T21:31:03.312709+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.93,
+      "score": 54.24,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.079,
+        "avg_compound": 0.085,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump’s First Major Midterm Money Move: A $10M Texas Senate Ad Blitz",
+            "source": "HuffPost",
+            "publishedAt": "2026-09-05T21:30:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "He Sold His Land to a Data Center Developer and Turned Down the Full Check. The Reason Showed Up Two Years Later.",
             "source": "24/7 Wall St.",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T20:00:00Z",
             "sentiment": "Negative",
             "compound": -0.82
-          },
-          {
-            "title": "How Much Do You Really Need Invested to Replace a $95,000 Salary With Dividends?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-05T19:56:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.18,
-  "trade_probability": 45.31,
+  "confirmation_score": 42.21,
+  "trade_probability": 45.33,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
