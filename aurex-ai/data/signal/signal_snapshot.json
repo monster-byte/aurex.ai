@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T22:31:05.649455+00:00",
+  "generated_at": "2026-09-06T22:45:49.899733+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -68,7 +68,7 @@
       "status": "yellow",
       "details": {
         "current_dxy": 99.16,
-        "change_5d_pct": -0.27
+        "change_5d_pct": -0.271
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.23,
+      "score": 56.18,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.105,
+        "avg_compound": 0.124,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Prediction: Here's What a $10,000 Investment in Rocket Lab Will Be Worth in 5 Years",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T22:41:36Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Man turns Robinhood-AMC feud into $2 million gain in 12 hours",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-05T22:38:25Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
           {
             "title": "REVEALED: Rare agreement between FF and FG Cabinet ministers ahead of next month's Budget will be welcome news for cash-strapped households as winter closes in... but environmental lobby won't be pleased",
             "source": "Dailymail.com",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-05T22:01:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "DA Davidson Assigns Buy Rating to Everus Construction (ECG) Based on Accretive M&A and Bookings Strength",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-05T21:58:11Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Cathie Wood buys surging crypto stock despite latest controversy",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T21:56:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.1,
-  "trade_probability": 45.26,
+  "confirmation_score": 42.19,
+  "trade_probability": 45.31,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
