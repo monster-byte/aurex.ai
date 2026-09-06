@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T18:31:03.923702+00:00",
+  "generated_at": "2026-09-06T18:45:50.875732+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.56,
+      "score": 47.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.069,
+        "avg_compound": -0.045,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The Equity Blueprint: How homeowners are navigating the rate lock",
+            "source": "Medianewsgroup.com",
+            "publishedAt": "2026-09-05T18:45:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fidelity maps out a retirement paycheck step for steady income",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-05T18:33:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Is Owning A Plug-in Hybrid Like Kissing Your Sister?",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-09-05T18:31:23Z",
+            "sentiment": "Positive",
+            "compound": 0.735
+          },
           {
             "title": "9/11: How one day changed America",
             "source": "ABC News (AU)",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-05T18:24:00Z",
             "sentiment": "Neutral",
             "compound": -0.178
-          },
-          {
-            "title": "Half of Retirees Have a Savings Target. Fewer Than 1 in 5 Have a Withdrawal Plan. The Second Number Is the One That Runs Out.",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-05T18:22:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "We got more defensive last week as Wall Street raised the bar for AI stocks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T18:22:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.101
-          },
-          {
-            "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T18:21:54Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.45,
-  "trade_probability": 44.87,
+  "confirmation_score": 41.57,
+  "trade_probability": 44.94,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
