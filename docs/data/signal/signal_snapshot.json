@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:15:47.618834+00:00",
+  "generated_at": "2026-09-06T09:31:04.290430+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.48,
+      "score": 49.8,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.01,
-        "articles_analyzed": 24,
+        "avg_compound": -0.004,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Jensen Huang Just Sent a Signal That Could Matter More Than the September Effect",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T09:29:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Ford Fathom Will Be More Than Just An F-150 Lightning Do-Over",
+            "source": "Jalopnik",
+            "publishedAt": "2026-09-05T09:25:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Former Tata Technologies CEO McGoldrick sells shares worth ₹165 crore",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-05T09:16:43Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
           {
             "title": "Costco Has Grown Its Membership Base no Matter What the Economy Has Done. Does That Make It a Forever Hold?",
             "source": "Biztoc.com",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-05T09:00:00Z",
             "sentiment": "Positive",
             "compound": 0.252
-          },
-          {
-            "title": "Young people aren’t just broke. They’re forced to buy what used to be free.",
-            "source": "TheBlaze",
-            "publishedAt": "2026-09-05T09:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Anthropic IPO Marketing Expected to Start in Mid-October - EconoTimes",
-            "source": "EconoTimes",
-            "publishedAt": "2026-09-05T08:58:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "8th Pay Commission: Level 5 staff could see ₹15,768 monthly HRA gain under the proposed 40% rate",
-            "source": "Livemint",
-            "publishedAt": "2026-09-05T08:55:03Z",
-            "sentiment": "Positive",
-            "compound": 0.459
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.74,
-  "trade_probability": 45.04,
+  "confirmation_score": 41.77,
+  "trade_probability": 45.06,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
