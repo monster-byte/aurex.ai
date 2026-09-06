@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T12:31:02.607390+00:00",
+  "generated_at": "2026-09-06T12:45:50.289377+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.14,
+      "score": 49.71,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.017,
+        "avg_compound": -0.006,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "‘Wow, wow, wow!’: CNBC host clearly shocked after US economy adds 162,000 jobs — 3X expectations. Bet on America now",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-05T12:45:00Z",
+            "sentiment": "Positive",
+            "compound": 0.67
+          },
+          {
+            "title": "Recent News From Nvidia and SK Hynix Reveals Exactly What the Market Expects for Micron Technology's Future",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T12:34:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T12:34:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "‘We are not beggars’: UNRWA cuts off aid to six Palestinian refugee camps in northern Lebanon",
             "source": "Mondoweiss",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-05T12:19:26Z",
             "sentiment": "Neutral",
             "compound": 0.077
-          },
-          {
-            "title": "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-05T12:05:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "SKS EMP Electric Mini Pump",
-            "source": "road.cc",
-            "publishedAt": "2026-09-05T12:00:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The freakout over data centers is just another fracking backlash we need to ignore",
-            "source": "Fox News",
-            "publishedAt": "2026-09-05T12:00:25Z",
-            "sentiment": "Negative",
-            "compound": -0.649
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.7,
-  "trade_probability": 45.02,
+  "confirmation_score": 41.76,
+  "trade_probability": 45.06,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
