@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T03:01:18.512839+00:00",
+  "generated_at": "2026-09-06T03:15:48.212542+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.39,
+      "score": 42.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.132,
+        "avg_compound": -0.157,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump calls for lower interest rates, says high rates put US at 'unfair disadvantage'",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-05T03:15:20Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Global Maritime Decarbonisation Stalls Despite the Accelerating Impact of Climate Change",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-09-05T03:05:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Want Rs 1 crore retirement corpus by 50? Monthly SIP you need to make at 30, 35 and 40 years of age",
             "source": "The Times of India",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-05T02:00:00Z",
             "sentiment": "Negative",
             "compound": -0.34
-          },
-          {
-            "title": "Capricor Therapeutics Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Capricor Therapeutics, Inc. - CAPR",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-05T02:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "White House on if There Are More Anti-Inflation Policies Coming: Leave It to Fed",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-05T01:47:09Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.13,
-  "trade_probability": 44.68,
+  "confirmation_score": 41.0,
+  "trade_probability": 44.6,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
