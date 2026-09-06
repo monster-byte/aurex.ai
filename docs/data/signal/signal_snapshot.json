@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T14:15:48.341523+00:00",
+  "generated_at": "2026-09-06T14:31:04.323402+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.07,
+      "score": 44.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.059,
+        "avg_compound": -0.112,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Trump keeps heralding an economic boom, but even a solid jobs report is causing problems for him",
+            "title": "It’s the Debt Stupid, Part Duh",
+            "source": "Dailyreckoning.com",
+            "publishedAt": "2026-09-05T14:30:09Z",
+            "sentiment": "Negative",
+            "compound": -0.71
+          },
+          {
+            "title": "‘Society Gumbo’",
+            "source": "The New York Review of Books",
+            "publishedAt": "2026-09-05T14:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "NHTSA Opens Safety Audit Of Tesla's Cybercab Robotaxi Hours After Austin Launch Event",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-05T14:26:45Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Annuities have gotten a bad rap. Here's why Jean Chatzky likes them.",
             "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-05T14:11:18Z",
+            "publishedAt": "2026-09-05T14:22:46Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "'They're going to need to hike rates': Wall Street weighs in on Fed's next policy decision after blowout jobs report",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-05T14:22:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump keeps heralding an economic boom, but even a solid jobs report is causing problems for him",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-05T14:21:09Z",
             "sentiment": "Negative",
             "compound": -0.392
-          },
-          {
-            "title": "If You Buy Amazon With $10,000 at a 10% Discount From Its High, Here's What I Predict It Could Be Worth in 10 Years",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T14:05:53Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "The Fed Meets in Two Weeks. Here's the ETF I'd Buy Today Regardless of What It Does",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T14:05:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bitcoin Just Exploded 40% From Its July Low — Is $100,000 Back on the Table?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T14:03:58Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Sheinbaum’s Economic Balancing Act in Mexico",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T14:03:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bitcoin Just Exploded 40% From Its July Low — Is $100,000 Back on the Table?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-05T14:03:17Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.5,
-  "trade_probability": 44.9,
+  "confirmation_score": 41.23,
+  "trade_probability": 44.74,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
