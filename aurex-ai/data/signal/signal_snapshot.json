@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T01:31:05.684569+00:00",
+  "generated_at": "2026-09-06T01:45:47.441306+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.18,
+      "score": 45.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.076,
+        "avg_compound": -0.093,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Spot memory prices surge to four times contract prices as AI demand overwhelms supply",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-05T01:44:51Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Why are European countries moving their gold out of North America?",
+            "source": "BBC News",
+            "publishedAt": "2026-09-05T01:42:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Cheche Group Reports First Half 2026 Unaudited Financial Results",
             "source": "Associated Press",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-05T01:08:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Flight price rises due to 'foolish leaders' starting wars, Virgin's Branson says",
-            "source": "BBC News",
-            "publishedAt": "2026-09-05T01:03:35Z",
-            "sentiment": "Negative",
-            "compound": -0.691
-          },
-          {
-            "title": "Diesel prices in US hit record high as Iran war disrupts fuel flow",
-            "source": "Daily Sabah",
-            "publishedAt": "2026-09-05T01:00:46Z",
-            "sentiment": "Negative",
-            "compound": -0.599
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.41,
-  "trade_probability": 44.85,
+  "confirmation_score": 41.32,
+  "trade_probability": 44.79,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
