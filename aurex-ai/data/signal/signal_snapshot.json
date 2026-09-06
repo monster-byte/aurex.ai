@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T20:01:16.399474+00:00",
+  "generated_at": "2026-09-06T20:15:50.975089+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.17,
+      "score": 54.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.083,
+        "avg_compound": 0.092,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Why Gen Zers Pretend to Have More Money While Dating and How That Can Lead to Debt",
+            "source": "Investopedia",
+            "publishedAt": "2026-09-05T20:05:00Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "MAGA Inc. to put $10 million in Texas Senate race to hold a once-safe Republican seat after Trump vows to spend ‘whatever amount of money necessary’",
+            "source": "Fortune",
+            "publishedAt": "2026-09-05T20:01:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "America has a whopping debt. But Europe has the whopping debt problem",
             "source": "Www.nrc.nl",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-05T19:54:28Z",
             "sentiment": "Positive",
             "compound": 0.44
-          },
-          {
-            "title": "ASML vs. Taiwan Semiconductor: Which Semiconductor Monopoly Is the Safer Investment?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T19:39:29Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Mitsotakis unveils pension, wage and tax package at Thessaloniki International Fair",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-09-05T19:32:22Z",
-            "sentiment": "Positive",
-            "compound": 0.318
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.21,
-  "trade_probability": 45.33,
+  "confirmation_score": 42.25,
+  "trade_probability": 45.35,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
