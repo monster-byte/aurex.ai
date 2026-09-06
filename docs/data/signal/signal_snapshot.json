@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T11:15:48.810543+00:00",
+  "generated_at": "2026-09-06T11:30:59.945131+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.86,
+      "score": 54.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.097,
+        "avg_compound": 0.095,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "24-Hour Trading Is Coming: This Is The Investment Opportunity",
+            "source": "Seeking Alpha",
+            "publishedAt": "2026-09-05T11:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
           {
             "title": "Trump boasts Iran blockade is ‘unbelievable’ as oil tops $90 and US reserves near danger. Inflation-proof your nest egg",
             "source": "Yahoo Entertainment",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T11:01:23Z",
             "sentiment": "Neutral",
             "compound": -0.077
-          },
-          {
-            "title": "Wall Street week ahead: The market focuses on key inflation updates",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T11:00:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.28,
-  "trade_probability": 45.37,
+  "confirmation_score": 42.26,
+  "trade_probability": 45.36,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
