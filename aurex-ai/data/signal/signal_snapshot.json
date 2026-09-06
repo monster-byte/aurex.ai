@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T00:45:49.838578+00:00",
+  "generated_at": "2026-09-06T01:01:20.951664+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.86,
+      "score": 48.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.037,
+        "avg_compound": -0.034,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Diesel prices in US hit record high as Iran war disrupts fuel flow",
+            "source": "Daily Sabah",
+            "publishedAt": "2026-09-05T01:00:46Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "A dirty little secret betrays a supposedly rosy report for Trump",
+            "source": "Raw Story",
+            "publishedAt": "2026-09-05T00:52:12Z",
+            "sentiment": "Negative",
+            "compound": -0.729
+          },
+          {
+            "title": "My day on the City trading floor that convinced me Britain's in a death spiral and we face a terrible reckoning... without a dramatic change of course: GUY ADAMS",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-05T00:50:56Z",
+            "sentiment": "Negative",
+            "compound": -0.649
+          },
           {
             "title": "Forex reserves hit record $740.8 billion, lift rupee",
             "source": "The Times of India",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-05T00:20:00Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "itch-book 0.1.0",
-            "source": "Pypi.org",
-            "publishedAt": "2026-09-05T00:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "itch-book added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-09-05T00:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Hyundai Motor Group Partners with Oman to Drive Green Mobility Transition under Oman Vision 2040",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-09-05T00:10:18Z",
-            "sentiment": "Positive",
-            "compound": 0.25
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.98,
-  "trade_probability": 45.19,
+  "confirmation_score": 41.62,
+  "trade_probability": 44.97,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
