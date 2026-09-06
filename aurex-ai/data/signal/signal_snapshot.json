@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T05:01:14.021243+00:00",
+  "generated_at": "2026-09-06T05:15:47.932638+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.09,
+      "score": 51.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.042,
+        "avg_compound": 0.02,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Explained: Looking to start a mutual fund SIP? Know the different types and which one suits you",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-09-05T05:06:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "With just over a month to go, here's everything we know so far about Budget 2027",
             "source": "TheJournal.ie",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T04:59:56Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Bessent sees oil as low as $40 post-Iran war, lower yields",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-05T04:43:30Z",
-            "sentiment": "Negative",
-            "compound": -0.802
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.0,
-  "trade_probability": 45.2,
+  "confirmation_score": 41.89,
+  "trade_probability": 45.13,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
