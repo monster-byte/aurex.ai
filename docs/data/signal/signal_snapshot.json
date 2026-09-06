@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T03:31:00.364503+00:00",
+  "generated_at": "2026-09-06T03:45:51.350133+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.69,
+      "score": 42.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.146,
+        "avg_compound": -0.158,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Wall Street ends lower as jobs data fuels Fed bets",
+            "source": "PerthNow",
+            "publishedAt": "2026-09-05T03:44:27Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "PZZA Investor Alert: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Securities Class Action Against Papa John's International, Inc.",
             "source": "PRNewswire",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T02:50:56Z",
             "sentiment": "Neutral",
             "compound": 0.077
-          },
-          {
-            "title": "Economic Digest: A Snapshot of Nepal’s Business News",
-            "source": "Khabarhub.com",
-            "publishedAt": "2026-09-05T02:15:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.06,
-  "trade_probability": 44.64,
+  "confirmation_score": 41.0,
+  "trade_probability": 44.6,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
