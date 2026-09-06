@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T05:31:01.626141+00:00",
+  "generated_at": "2026-09-06T05:45:47.350169+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.61,
+      "score": 49.32,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.032,
+        "avg_compound": -0.014,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Italy's Meloni just hit a major political milestone. Former leaders say economic reform must follow",
+            "source": "CNBC",
+            "publishedAt": "2026-09-05T05:41:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "ASX 200 Sheds Nearly 1% For The Week As Rate Hike Fears, Iran Conflict Rattle Markets Amid Volatile Trading",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-05T05:40:16Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
           {
             "title": "Planning early retirement in India? Experts explain the right equity allocation, SIP strategy and portfolio approach",
             "source": "Livemint",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-05T05:00:00Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "DCC wins €6.6bn support from major investor advisory firms",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-05T05:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.751
-          },
-          {
-            "title": "Former horse trainer’s surprise Dublin flotation of little help to struggling stock market",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-05T05:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.243
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.95,
-  "trade_probability": 45.17,
+  "confirmation_score": 41.72,
+  "trade_probability": 45.03,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
