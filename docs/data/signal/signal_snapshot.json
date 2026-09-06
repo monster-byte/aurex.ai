@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T07:31:04.832480+00:00",
+  "generated_at": "2026-09-06T07:45:48.850619+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.21,
+      "score": 48.66,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.016,
+        "avg_compound": -0.027,
         "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "What does squirrel away some money mean?",
+            "source": "Lifesciencesworld.com",
+            "publishedAt": "2026-09-05T07:44:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "India's cyclical recovery faces risks; oil supply shock, AI capex may hit corporate margins from Q2FY27: Report",
             "source": "The Times of India",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T07:09:00Z",
             "sentiment": "Negative",
             "compound": -0.44
-          },
-          {
-            "title": "News Summary-Intelligence Report 9/4/2026*Newsdump Friday*Pentagon Lie Detectors*\"AGI\" Era Proclaimed*Judge Mail Ballot Order*Fetterman Fallout*Lindsay Clancy Mistrial*Tensions Germany*Few Ships Hormuz*US Carrier Not Home Soon* Car Makers China Ban*",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-05T06:56:17Z",
-            "sentiment": "Negative",
-            "compound": -0.557
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.71,
-  "trade_probability": 45.03,
+  "confirmation_score": 41.66,
+  "trade_probability": 45.0,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
