@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:31:05.138926+00:00",
+  "generated_at": "2026-09-06T15:45:51.511215+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.52,
+      "score": 47.91,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.09,
+        "avg_compound": -0.042,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Why Gabelli’s Global Content & Connectivity Fund Likes T-Mobile US (TMUS)",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-05T15:42:54Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Gilead Sciences Just Won Its Third FDA Approval in Less Than 4 Months. Is the Stock Still Underrating This Turnaround Play?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T15:36:53Z",
+            "sentiment": "Positive",
+            "compound": 0.848
+          },
+          {
+            "title": "Why What Happens In Japan’s Debt Market Matters To You",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-09-05T15:36:44Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Home prices dropping fastest in major US cities — and they’re not the ones you think",
+            "source": "Realtor.com News",
+            "publishedAt": "2026-09-05T15:36:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump says ‘Stupidity causes inflation’ and threatens to stop trade with foreign countries in retaliation for higher interest rates",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T15:34:43Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
           {
             "title": "PM Modi slams critics of GDP data, says 'glass will always be half empty'",
             "source": "Business Standard",
             "publishedAt": "2026-09-05T15:28:56Z",
             "sentiment": "Negative",
             "compound": -0.459
-          },
-          {
-            "title": "Farage's Reform UK Party Vows Tax Cuts for 40 Million Britons Within 100 Days If Elected",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-05T15:28:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "US Debt Hit $40 Trillion. So Where Is Bitcoin’s Debasement Trade?",
-            "source": "BeInCrypto",
-            "publishedAt": "2026-09-05T15:19:47Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Delta workers could get $2,000 for kids' accounts",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-05T15:17:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump says ‘stupidity causes inflation’ and threatens to stop trade with foreign countries in retaliation for higher interest rates",
-            "source": "Fortune",
-            "publishedAt": "2026-09-05T15:16:23Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "Oura goes public amid rising competition in smart ring market",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-05T15:12:09Z",
-            "sentiment": "Positive",
-            "compound": 0.402
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.34,
-  "trade_probability": 44.8,
+  "confirmation_score": 41.58,
+  "trade_probability": 44.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
