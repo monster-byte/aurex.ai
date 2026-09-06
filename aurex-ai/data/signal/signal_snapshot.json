@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T19:15:48.154868+00:00",
+  "generated_at": "2026-09-06T19:31:05.265570+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.1,
+      "score": 49.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.018,
+        "avg_compound": -0.009,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T19:24:27Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
           {
             "title": "The biggest gaming news from August 2026",
             "source": "Notebookcheck.net",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T18:33:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Is Owning A Plug-in Hybrid Like Kissing Your Sister?",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-09-05T18:31:23Z",
-            "sentiment": "Positive",
-            "compound": 0.735
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.7,
-  "trade_probability": 45.02,
+  "confirmation_score": 41.75,
+  "trade_probability": 45.05,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
