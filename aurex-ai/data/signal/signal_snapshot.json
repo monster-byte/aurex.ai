@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T10:45:47.483017+00:00",
+  "generated_at": "2026-09-06T11:01:15.846109+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.69,
+      "score": 55.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.114,
+        "avg_compound": 0.109,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Wall Street week ahead: The market focuses on key inflation updates",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T11:00:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "A record number of millionaires created in US by rock-solid 401(k) market",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T11:00:52Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Links 9/5/2026",
+            "source": "Nakedcapitalism.com",
+            "publishedAt": "2026-09-05T10:55:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "China's Biggest Memory Chip Stock Is Almost as Good as Micron",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T10:47:35Z",
+            "sentiment": "Positive",
+            "compound": 0.386
+          },
+          {
+            "title": "2 Space Stocks to Buy in September",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T10:47:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "What Moved Markets This Week",
             "source": "Seeking Alpha",
             "publishedAt": "2026-09-05T10:42:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wall Street week ahead: The market focuses on key inflation updates",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-05T10:39:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jim Cramer Explains Why SanDisk (SNDK) Makes MongoDB (MDB) Look Expensive",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-05T10:37:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Subhash Chandra’s troubles mount: CBI files FIR alleging net worth ‘inflation’ to secure ₹980 cr loan from LICHFL",
-            "source": "Livemint",
-            "publishedAt": "2026-09-05T10:32:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "Watch Out, Solana and Ethereum. Robinhood's Blockchain Is Eating Your Lunch",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T10:32:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Michael Saylor's Strategy Continues to Sell Bitcoin. That's Why I'm Doubling Down on Bitcoin Right Now",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T10:32:14Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 42.36,
-  "trade_probability": 45.42,
+  "confirmation_score": 42.33,
+  "trade_probability": 45.4,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
