@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T19:45:48.682421+00:00",
+  "generated_at": "2026-09-06T20:01:16.399474+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.31,
+      "score": 54.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.066,
+        "avg_compound": 0.083,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "America has a whopping debt. But Europe has the whopping debt problem",
+            "source": "Www.nrc.nl",
+            "publishedAt": "2026-09-05T20:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.82
+          },
+          {
+            "title": "How Much Do You Really Need Invested to Replace a $95,000 Salary With Dividends?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-05T19:56:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Intuitive Surgical's Growth Has Cooled From Its Post-Pandemic Highs. Is That a Buying Opportunity or a Warning?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T19:54:36Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Prediction: Amazon Will Join Nvidia, Apple, and Alphabet in the $4 Trillion Club Before 2029",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T19:54:28Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "ASML vs. Taiwan Semiconductor: Which Semiconductor Monopoly Is the Safer Investment?",
             "source": "Biztoc.com",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-05T19:32:22Z",
             "sentiment": "Positive",
             "compound": 0.318
-          },
-          {
-            "title": "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T19:24:27Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "The biggest gaming news from August 2026",
-            "source": "Notebookcheck.net",
-            "publishedAt": "2026-09-05T19:03:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sony & Microsoft Say Gamers Aren’t Entitled to Tariff Refunds",
-            "source": "Sankakucomplex.com",
-            "publishedAt": "2026-09-05T19:00:27Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Apple's First iPhone Under New CEO John Ternus Launches Sept. 9. Here's Whether It's Finally Time to Buy the Stock",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T18:53:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.12,
-  "trade_probability": 45.27,
+  "confirmation_score": 42.21,
+  "trade_probability": 45.33,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
