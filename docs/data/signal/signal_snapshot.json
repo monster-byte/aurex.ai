@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T16:45:50.019355+00:00",
+  "generated_at": "2026-09-06T17:01:15.885597+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.5,
+      "score": 53.38,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.07,
+        "avg_compound": 0.068,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Fed stablecoin research exposes how the same dollar could count twice in M1 or M2",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-05T16:45:23Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
+            "title": "4 Retirement Rules Boomers Followed That No Longer Work for Gen Z",
+            "source": "Moneylion.com",
+            "publishedAt": "2026-09-05T17:00:24Z",
+            "sentiment": "Negative",
+            "compound": -0.296
           },
           {
-            "title": "These 2 Dividend Giants Yield Around 5%—But That’s Where the Similarities End",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-05T16:45:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "‘Spider-Man’ Still on Top at Labor Day Box Office While ‘Coyote vs Acme’ Holds Strong",
-            "source": "TheWrap",
-            "publishedAt": "2026-09-05T16:44:43Z",
+            "title": "3 Wealth-Preservation Moves You Can Copy From the Top 1%",
+            "source": "Moneylion.com",
+            "publishedAt": "2026-09-05T17:00:22Z",
             "sentiment": "Positive",
-            "compound": 0.625
+            "compound": 0.202
           },
           {
-            "title": "Bitcoin faces Fed test on Sept. 16 as core inflation drops to 3%",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-05T16:43:08Z",
+            "title": "Economists say the recovery has resumed... do you believe them? – Liam Dann",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-05T17:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Rocket Lab's Revenue Is Soaring. So Why Is the Stock Sinking?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T16:37:01Z",
+            "title": "PM Modi recalls 2013 when India was among ‘Fragile Five’ economies amid weak growth",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-05T16:58:31Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.077
           },
           {
-            "title": "Bitcoin Faces Sept. 16 Fed Test as Core Inflation Slides From 4.76% to 3.05%",
+            "title": "Fed Chair Kevin Warsh Just Shifted the Central Bank's Entire Focus on Inflation in One Sentence",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T16:36:47Z",
+            "publishedAt": "2026-09-05T16:51:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "How to invest in a booming stock market that’s way cheaper than the S&P 500",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T16:50:30Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,7 +137,7 @@
       }
     }
   },
-  "confirmation_score": 42.14,
+  "confirmation_score": 42.13,
   "trade_probability": 45.28,
   "market_regime": "BULLISH",
   "final_decision": {
