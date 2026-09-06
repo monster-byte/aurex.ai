@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T08:31:02.005423+00:00",
+  "generated_at": "2026-09-06T08:45:52.350412+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.5,
+      "score": 46.69,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.07,
+        "avg_compound": -0.066,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "What Move Will SpaceX Stock Make After Sept. 9? The Evidence Is Piling Up, and Here’s What It Shows",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T08:44:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Is a Stock Market Crash Likely Under President Donald Trump? History Weighs In With an Answer Wall Street May Not Like",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T08:44:36Z",
+            "sentiment": "Negative",
+            "compound": -0.587
+          },
+          {
+            "title": "Trump demands the Fed lower interest rates after a blowout August jobs report",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T08:44:22Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Bitcoin trades at $79,000, next week’s US inflation data to test rate-cut hopes and crypto valuations",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-05T08:43:49Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "India’s cyclical recovery faces risks; oil supply shock, AI capex may hit corporate margins from Q2FY27: Report",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-05T08:43:40Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
           {
             "title": "The Stock Market Just Did Something for the First Time Ever. History Says Investors Should Be Worried. But Could This Time Be Different?",
             "source": "Biztoc.com",
             "publishedAt": "2026-09-05T08:30:09Z",
             "sentiment": "Neutral",
             "compound": -0.153
-          },
-          {
-            "title": "3 Social Security Changes Coming Alongside the Next COLA",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T08:14:59Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Columbia Quality Income Fund Q2 2026 Commentary",
-            "source": "Seeking Alpha",
-            "publishedAt": "2026-09-05T07:50:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What does squirrel away some money mean?",
-            "source": "Lifesciencesworld.com",
-            "publishedAt": "2026-09-05T07:44:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "India's cyclical recovery faces risks; oil supply shock, AI capex may hit corporate margins from Q2FY27: Report",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-05T07:27:57Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "NODE Monthly Commentary: August 2026",
-            "source": "Vaneck.com",
-            "publishedAt": "2026-09-05T07:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.44,
-  "trade_probability": 44.86,
+  "confirmation_score": 41.46,
+  "trade_probability": 44.88,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
