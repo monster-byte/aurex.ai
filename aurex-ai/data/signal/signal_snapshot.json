@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T16:31:04.983203+00:00",
+  "generated_at": "2026-09-06T16:45:50.019355+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.87,
+      "score": 53.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.017,
+        "avg_compound": 0.07,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Bitcoin Faces Sept. 16 Fed Test as Core Inflation Slides From 4.76% to 3.05%",
-            "source": "Crypto Coins News",
-            "publishedAt": "2026-09-05T16:17:52Z",
+            "title": "Fed stablecoin research exposes how the same dollar could count twice in M1 or M2",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-05T16:45:23Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "These 2 Dividend Giants Yield Around 5%—But That’s Where the Similarities End",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-05T16:45:20Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "World’s biggest money managers are rebuilding gold positions",
-            "source": "Bloomberg",
-            "publishedAt": "2026-09-05T16:16:02Z",
+            "title": "‘Spider-Man’ Still on Top at Labor Day Box Office While ‘Coyote vs Acme’ Holds Strong",
+            "source": "TheWrap",
+            "publishedAt": "2026-09-05T16:44:43Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Bitcoin faces Fed test on Sept. 16 as core inflation drops to 3%",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-05T16:43:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Why I'm Still Investing in VTI Right Now No Matter What the Stock Market Does",
+            "title": "Rocket Lab's Revenue Is Soaring. So Why Is the Stock Sinking?",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T16:06:17Z",
-            "sentiment": "Neutral",
-            "compound": -0.019
-          },
-          {
-            "title": "Federal Reserve Chairman Warsh addresses persistent inflation in Jackson Hole keynote",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-05T15:58:20Z",
+            "publishedAt": "2026-09-05T16:37:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US Market Outlook: Support holds well",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-05T15:57:28Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "Fed Chairman Kevin Warsh focused on headline PCE inflation at 3.7% in his Jackson Hole speech",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-05T15:54:41Z",
-            "sentiment": "Positive",
-            "compound": 0.382
+            "title": "Bitcoin Faces Sept. 16 Fed Test as Core Inflation Slides From 4.76% to 3.05%",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T16:36:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.88,
-  "trade_probability": 45.13,
+  "confirmation_score": 42.14,
+  "trade_probability": 45.28,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
