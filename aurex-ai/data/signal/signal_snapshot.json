@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T01:15:48.532870+00:00",
+  "generated_at": "2026-09-06T01:31:05.684569+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.85,
+      "score": 46.18,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.083,
+        "avg_compound": -0.076,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Cheche Group Reports First Half 2026 Unaudited Financial Results",
+            "source": "Associated Press",
+            "publishedAt": "2026-09-05T01:22:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Kaplan Fox is Investigating Alignment Healthcare, Inc. (ALHC) on Behalf of Investors for Potential Securities Law Violations",
+            "source": "Associated Press",
+            "publishedAt": "2026-09-05T01:21:26Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Dollar posts weekly loss as yen jumps amid shifting rate bets",
             "source": "Biztoc.com",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-05T01:00:46Z",
             "sentiment": "Negative",
             "compound": -0.599
-          },
-          {
-            "title": "A dirty little secret betrays a supposedly rosy report for Trump",
-            "source": "Raw Story",
-            "publishedAt": "2026-09-05T00:52:12Z",
-            "sentiment": "Negative",
-            "compound": -0.729
-          },
-          {
-            "title": "My day on the City trading floor that convinced me Britain's in a death spiral and we face a terrible reckoning... without a dramatic change of course: GUY ADAMS",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-05T00:50:56Z",
-            "sentiment": "Negative",
-            "compound": -0.649
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.38,
-  "trade_probability": 44.83,
+  "confirmation_score": 41.41,
+  "trade_probability": 44.85,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
