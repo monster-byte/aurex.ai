@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T17:45:53.811031+00:00",
+  "generated_at": "2026-09-06T18:01:18.319911+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.87,
+      "score": 44.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.043,
+        "avg_compound": -0.108,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "CBI books Essel Group chairman Subhash Chandra, others over alleged ₹1,322 crore LICHFL loan loss",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-05T17:58:38Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "High-Yield Dividend Investors Could Be Making This Expensive Tax Mistake",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-05T17:52:33Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Spencer Pratt rips George Clooney's 'woke scold lecture' after Amal's lavish Venice look",
+            "source": "Fox News",
+            "publishedAt": "2026-09-05T17:49:07Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Tokenized stocks hit all-time high of $3.1B in market cap as BNB Chain dominates",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-05T17:47:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "What's open on Labor Day? Most retailers. Closed? Government, banks and the stock market.",
+            "source": "WJXT News4JAX",
+            "publishedAt": "2026-09-05T17:46:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "What's open on Labor Day? Most retailers. Closed? Government, banks and the stock market",
             "source": "Biztoc.com",
             "publishedAt": "2026-09-05T17:38:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "AEW Collision Preview: Andrade vs. Kidd as All In Fallout Continues",
-            "source": "Bleeding Cool News",
-            "publishedAt": "2026-09-05T17:37:10Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Trump says 'Stupidity causes inflation' and threatens to stop trade with foreign countries",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T17:37:00Z",
-            "sentiment": "Negative",
-            "compound": -0.772
-          },
-          {
-            "title": "The Average 401(k) Is $167,970. The 4% Rule Turns That Into $560 a Month. Social Security Pays $2,081.",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-05T17:36:34Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Trump says 'Stupidity causes inflation' and threatens to stop trade with foreign countries - Fortune",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-05T17:33:25Z",
-            "sentiment": "Negative",
-            "compound": -0.772
-          },
-          {
-            "title": "Fed Beige Book Finds Modest Growth Led by Data Centers",
-            "source": "Credaily.com",
-            "publishedAt": "2026-09-05T17:30:46Z",
-            "sentiment": "Positive",
-            "compound": 0.382
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.58,
-  "trade_probability": 44.95,
+  "confirmation_score": 41.25,
+  "trade_probability": 44.75,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
