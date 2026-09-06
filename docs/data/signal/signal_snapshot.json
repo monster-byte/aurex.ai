@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T07:45:48.850619+00:00",
+  "generated_at": "2026-09-06T08:01:11.781606+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.66,
+      "score": 48.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.027,
-        "articles_analyzed": 22,
+        "avg_compound": -0.026,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Columbia Quality Income Fund Q2 2026 Commentary",
+            "source": "Seeking Alpha",
+            "publishedAt": "2026-09-05T07:50:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "What does squirrel away some money mean?",
             "source": "Lifesciencesworld.com",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-09-05T07:14:58Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "The overlooked Russia-Ukraine war grows its outsized impact on energy as U.S. diesel prices hit all-time high",
-            "source": "Fortune",
-            "publishedAt": "2026-09-05T07:09:00Z",
-            "sentiment": "Negative",
-            "compound": -0.44
           }
         ]
       }
