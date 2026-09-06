@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T05:45:47.350169+00:00",
+  "generated_at": "2026-09-06T06:01:17.067908+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.32,
+      "score": 49.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.014,
-        "articles_analyzed": 24,
+        "avg_compound": -0.0,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Cliff Taylor: There’s no cost of living crisis for Ireland’s quietly prosperous class. Who are they?",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-05T06:01:00Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "Lost its Shein? Why the fashion giant's value has slumped",
+            "source": "RTE",
+            "publishedAt": "2026-09-05T06:00:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "European Gas Prices Rise to Highest Since 2023 as U.S. Intensifies Strikes on Iran",
+            "source": "Naturalnews.com",
+            "publishedAt": "2026-09-05T06:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
           {
             "title": "Italy's Meloni just hit a major political milestone. Former leaders say economic reform must follow",
             "source": "CNBC",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-05T05:30:42Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Explained: Looking to start a mutual fund SIP? Know the different types and which one suits you",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-09-05T05:06:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "With just over a month to go, here's everything we know so far about Budget 2027",
-            "source": "TheJournal.ie",
-            "publishedAt": "2026-09-05T05:00:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "One in three can’t afford to benefit from Government’s regressive new investment scheme",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-05T05:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.459
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.72,
-  "trade_probability": 45.03,
+  "confirmation_score": 41.79,
+  "trade_probability": 45.07,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
