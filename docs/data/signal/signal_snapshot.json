@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T14:45:47.500955+00:00",
+  "generated_at": "2026-09-06T15:01:14.487310+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.19,
+      "score": 45.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.116,
+        "avg_compound": -0.097,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Trump keeps heralding an economic boom, but even a solid jobs report is causing problems for him",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-05T14:40:15Z",
+            "title": "There’s No Crystal Ball for the Economy",
+            "source": "Daily Signal",
+            "publishedAt": "2026-09-05T15:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.392
+            "compound": -0.296
           },
           {
-            "title": "3 Dividend Kings Built to Keep Raising Your Income When Rates Rise",
+            "title": "Tinubu’s reforms have stabilised Nigeria’s economy, says minister",
+            "source": "The Punch",
+            "publishedAt": "2026-09-05T14:54:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "WIX Deadline: WIX Investors with Losses in Excess of $100K Have Opportunity to Lead Wix.com Ltd. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-05T14:54:00Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Every Retiree Dreams of Snowbirding. Almost Nobody Runs the Math on Two Homes",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-05T14:37:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "'They're going to need to hike rates': Wall Street weighs in on Fed's next policy decision after blowout jobs report",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T14:36:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "It’s the Debt Stupid, Part Duh",
-            "source": "Dailyreckoning.com",
-            "publishedAt": "2026-09-05T14:30:09Z",
-            "sentiment": "Negative",
-            "compound": -0.71
-          },
-          {
-            "title": "‘Society Gumbo’",
-            "source": "The New York Review of Books",
-            "publishedAt": "2026-09-05T14:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "NHTSA Opens Safety Audit Of Tesla's Cybercab Robotaxi Hours After Austin Launch Event",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-05T14:26:45Z",
+            "publishedAt": "2026-09-05T14:52:28Z",
             "sentiment": "Positive",
-            "compound": 0.421
+            "compound": 0.402
+          },
+          {
+            "title": "Most Investors Overpay for AI Hype. Nvidia Is the Exception",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T14:50:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Republican Congressman Bearish on Stocks? $7 Million+ Sold in 2026, Including 28 Recent Moves",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T14:49:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.21,
-  "trade_probability": 44.73,
+  "confirmation_score": 41.3,
+  "trade_probability": 44.78,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
