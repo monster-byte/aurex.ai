@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T00:01:21.485669+00:00",
+  "generated_at": "2026-09-06T00:15:49.459038+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.85,
+      "score": 49.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.023,
-        "articles_analyzed": 24,
+        "avg_compound": -0.001,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "itch-book 0.1.0",
+            "source": "Pypi.org",
+            "publishedAt": "2026-09-05T00:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "itch-book added to PyPI",
+            "source": "Pypi.org",
+            "publishedAt": "2026-09-05T00:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Hyundai Motor Group Partners with Oman to Drive Green Mobility Transition under Oman Vision 2040",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-09-05T00:10:18Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Dangote refinery set for stock market debut at N525",
+            "source": "The Punch",
+            "publishedAt": "2026-09-05T00:05:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Woman Drives 20 Minutes To Get Linda’s Fudge Cake Slice From The Cheesecake Factory. Then She Looks In The Container, Notices The ‘Change’",
             "source": "BroBible",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-04T23:29:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "The Campbell's Co (CPB) (Q4 2026) Earnings Call Highlights: Strategic Pivot Amid Inflation and ..",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T23:24:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nasdaq Bought an AI Due-Diligence Platform as ICE Built Private-Credit Intelligence. Which Data Moat Is Deeper?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T23:08:15Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Why the U.S. job market remains resilient in face of global pressures and inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-04T23:06:49Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Why the U.S. job market remains resilient in face of global pressures and inflation",
-            "source": "PBS",
-            "publishedAt": "2026-09-04T22:55:43Z",
-            "sentiment": "Negative",
-            "compound": -0.318
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.68,
-  "trade_probability": 45.01,
+  "confirmation_score": 41.78,
+  "trade_probability": 45.07,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
