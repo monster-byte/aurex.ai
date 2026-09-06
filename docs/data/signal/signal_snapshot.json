@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T22:45:49.899733+00:00",
+  "generated_at": "2026-09-06T23:01:27.321928+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.16,
+      "score": 52.2,
       "status": "yellow",
       "details": {
         "current_dxy": 99.16,
-        "change_5d_pct": -0.271
+        "change_5d_pct": -0.276
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.18,
+      "score": 54.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.124,
+        "avg_compound": 0.1,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "When “Follow the Science” became a marketing campaign",
+            "source": "Americaoutloud.news",
+            "publishedAt": "2026-09-05T22:58:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why Intel Stock Climbed This Week",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T22:57:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Man turns Robinhood-AMC feud into $2 million gain in 12 hours",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T22:56:54Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
           {
             "title": "Prediction: Here's What a $10,000 Investment in Rocket Lab Will Be Worth in 5 Years",
             "source": "Biztoc.com",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-05T22:23:04Z",
             "sentiment": "Positive",
             "compound": 0.342
-          },
-          {
-            "title": "QuantumScape Stock Is Worth a Closer Look Right Now",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T22:11:11Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Many Americans are counting on inheritance to help fund retirement",
-            "source": "Newsnationnow.com",
-            "publishedAt": "2026-09-05T22:07:03Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Dividends vs. Annuity: Which Turns $930,000 Into More Monthly Income for Life?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-05T22:01:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.19,
-  "trade_probability": 45.31,
+  "confirmation_score": 42.08,
+  "trade_probability": 45.25,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
