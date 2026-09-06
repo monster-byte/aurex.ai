@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T04:31:04.145763+00:00",
+  "generated_at": "2026-09-06T04:45:46.917691+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.07,
+      "score": 49.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
         "avg_compound": -0.019,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bessent sees oil as low as $40 post-Iran war, lower yields",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-05T04:43:30Z",
+            "sentiment": "Negative",
+            "compound": -0.802
+          },
+          {
+            "title": "Kaplan Fox Encourages Investors of Innventure, Inc. (INV) Who Suffered Losses to Contact the Firm Before October 27, 2026",
+            "source": "Associated Press",
+            "publishedAt": "2026-09-05T04:33:57Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "US spot Bitcoin ETFs see $175M inflows, Ethereum ETFs gain $27M",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-05T04:31:19Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
           {
             "title": "RBI Turns to Longer-Dated VRRR for Liquidity Mop-Up",
             "source": "The Times of India",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-09-05T04:04:41Z",
             "sentiment": "Positive",
             "compound": 0.34
-          },
-          {
-            "title": "The Fallacy of Stable Prices",
-            "source": "Lewrockwell.com",
-            "publishedAt": "2026-09-05T04:01:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Sanctioning a Ghost: Europe’s Empty Gesture Against Iran",
-            "source": "Lewrockwell.com",
-            "publishedAt": "2026-09-05T04:01:00Z",
-            "sentiment": "Negative",
-            "compound": -0.477
-          },
-          {
-            "title": "Gold slides after robust US payrolls boosts rate hike bets",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-05T04:00:52Z",
-            "sentiment": "Positive",
-            "compound": 0.572
           }
         ]
       }
