@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T10:15:50.197026+00:00",
+  "generated_at": "2026-09-06T10:31:04.001443+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.28,
+      "score": 54.16,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.086,
+        "avg_compound": 0.083,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump appears to be following one of Nixon’s biggest policy mistakes",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T10:30:31Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Companies can tell investors less under proposed SEC rules",
+            "source": "The Philadelphia Inquirer",
+            "publishedAt": "2026-09-05T10:21:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Best CD rates today, Saturday, September 5, 2026: Lock in up to 4.35% APY with an 18-month CD",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T10:16:52Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
           {
             "title": "Iranian rial falls to record low of 2.25 million against US dollar",
             "source": "Crypto Briefing",
@@ -111,33 +132,12 @@
             "publishedAt": "2026-09-05T10:01:33Z",
             "sentiment": "Neutral",
             "compound": 0.178
-          },
-          {
-            "title": "Best CD rates today, Saturday, September 5, 2026: Lock in up to 4.35% APY with an 18-month CD",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-05T10:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Mortgage and refinance interest rates today, Saturday, September 5, 2026: Rates roll back across the board; ARM volatility continues",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-05T10:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Former Tata Technologies CEO McGoldrick sells shares worth ₹165 crore",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-05T09:31:52Z",
-            "sentiment": "Positive",
-            "compound": 0.477
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.22,
+  "confirmation_score": 42.21,
   "trade_probability": 45.33,
   "market_regime": "BULLISH",
   "final_decision": {
