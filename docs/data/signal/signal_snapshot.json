@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T12:45:50.289377+00:00",
+  "generated_at": "2026-09-06T13:01:15.181458+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.71,
+      "score": 49.32,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.006,
+        "avg_compound": -0.014,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "‘Wow, wow, wow!’: CNBC host clearly shocked after US economy adds 162,000 jobs — 3X expectations. Bet on America now",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-05T12:45:00Z",
+            "title": "Bloom Energy, Illumina, Everpure Rise On S&P 500 Inclusion",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-05T13:01:07Z",
             "sentiment": "Positive",
-            "compound": 0.67
+            "compound": 0.273
           },
           {
-            "title": "Recent News From Nvidia and SK Hynix Reveals Exactly What the Market Expects for Micron Technology's Future",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T12:34:49Z",
+            "title": "Why Japan’s Art Market Is Growing Steadily Even as Other Markets Stall",
+            "source": "Observer",
+            "publishedAt": "2026-09-05T13:00:58Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.026
           },
           {
-            "title": "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T12:34:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "‘We are not beggars’: UNRWA cuts off aid to six Palestinian refugee camps in northern Lebanon",
-            "source": "Mondoweiss",
-            "publishedAt": "2026-09-05T12:27:22Z",
+            "title": "Documents You’ll Need to Get Approved for a Mortgage",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-05T13:00:51Z",
             "sentiment": "Positive",
-            "compound": 0.224
+            "compound": 0.421
           },
           {
-            "title": "A bizarre Commodore 64 peripheral, a mime, and some pretty bad ads",
-            "source": "Buttondown.com",
-            "publishedAt": "2026-09-05T12:23:51Z",
+            "title": "Majority of Canadians now see U.S. as an enemy, and Trump is the reason: poll",
+            "source": "National Post",
+            "publishedAt": "2026-09-05T13:00:19Z",
             "sentiment": "Negative",
-            "compound": -0.382
+            "compound": -0.542
           },
           {
-            "title": "Insiders and Early Investors Are Selling SpaceX Stock and Index Funds Are Buying It. Which Side Do You Want to Be On?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T12:19:26Z",
+            "title": "How Mark Mitchell’s Passing Is the X-Factor of His Return",
+            "source": "Rockmnation.com",
+            "publishedAt": "2026-09-05T13:00:00Z",
             "sentiment": "Neutral",
-            "compound": 0.077
+            "compound": 0.0
+          },
+          {
+            "title": "Rent Control—Still Doesn’t Work",
+            "source": "Daily Signal",
+            "publishedAt": "2026-09-05T13:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.76,
-  "trade_probability": 45.06,
+  "confirmation_score": 41.72,
+  "trade_probability": 45.03,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
