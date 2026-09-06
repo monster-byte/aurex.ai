@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T13:31:08.251593+00:00",
+  "generated_at": "2026-09-06T13:45:50.973013+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.73,
+      "score": 48.02,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.065,
+        "avg_compound": -0.04,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Fed governor met bankers during blackout period, prompting Senate call for probe",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-05T13:44:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Scott Bessent Said Interest Rates Have Fallen During Trump’s Second Term. Here’s Where He’s Right – and Where He’s Wrong.",
             "source": "Barchart.com",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T13:03:15Z",
             "sentiment": "Neutral",
             "compound": 0.103
-          },
-          {
-            "title": "PRCT Deadline: PRCT Investors with Losses in Excess of $100K Have Opportunity to Lead PROCEPT BioRobotics Corporation Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-05T13:03:00Z",
-            "sentiment": "Negative",
-            "compound": -0.527
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.46,
-  "trade_probability": 44.88,
+  "confirmation_score": 41.59,
+  "trade_probability": 44.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
