@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:15:50.119995+00:00",
+  "generated_at": "2026-09-06T15:31:05.138926+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.5,
+      "score": 45.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.07,
+        "avg_compound": -0.09,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "PM Modi slams critics of GDP data, says 'glass will always be half empty'",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-05T15:28:56Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "Farage's Reform UK Party Vows Tax Cuts for 40 Million Britons Within 100 Days If Elected",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-05T15:28:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "US Debt Hit $40 Trillion. So Where Is Bitcoin’s Debasement Trade?",
+            "source": "BeInCrypto",
+            "publishedAt": "2026-09-05T15:19:47Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Delta workers could get $2,000 for kids' accounts",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-05T15:17:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump says ‘stupidity causes inflation’ and threatens to stop trade with foreign countries in retaliation for higher interest rates",
+            "source": "Fortune",
+            "publishedAt": "2026-09-05T15:16:23Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
           {
             "title": "Oura goes public amid rising competition in smart ring market",
             "source": "Crypto Briefing",
             "publishedAt": "2026-09-05T15:12:09Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "Gold paused not peaked, record run could be ahead: Goldman Sachs",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-05T15:10:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Kroger, Publix, and regional grocery chains face pricing problem",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-05T15:07:00Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Here's Why USA Rare Earth Is a Buy Before Its Next Earnings Report",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T15:06:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Warren Buffett Called Today's Stock Market 'a Church with a Casino Attached,' Warning That 'We've Never Had People in a More Gambling Mood Than Now.' Does History Say Investors Should Pull Back?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T15:05:57Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "‘AI Laggard’ Apple Is Sitting Pretty, But AAPL Stock Might Be Running Out of Room to Outperform",
-            "source": "Barchart.com",
-            "publishedAt": "2026-09-05T15:02:14Z",
-            "sentiment": "Positive",
-            "compound": 0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.44,
-  "trade_probability": 44.86,
+  "confirmation_score": 41.34,
+  "trade_probability": 44.8,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
