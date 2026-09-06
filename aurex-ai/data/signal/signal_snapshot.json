@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T17:31:07.950162+00:00",
+  "generated_at": "2026-09-06T17:45:53.811031+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.23,
+      "score": 47.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.045,
-        "articles_analyzed": 24,
+        "avg_compound": -0.043,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "What's open on Labor Day? Most retailers. Closed? Government, banks and the stock market",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T17:38:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AEW Collision Preview: Andrade vs. Kidd as All In Fallout Continues",
+            "source": "Bleeding Cool News",
+            "publishedAt": "2026-09-05T17:37:10Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Trump says 'Stupidity causes inflation' and threatens to stop trade with foreign countries",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T17:37:00Z",
+            "sentiment": "Negative",
+            "compound": -0.772
+          },
+          {
+            "title": "The Average 401(k) Is $167,970. The 4% Rule Turns That Into $560 a Month. Social Security Pays $2,081.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-05T17:36:34Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Trump says 'Stupidity causes inflation' and threatens to stop trade with foreign countries - Fortune",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-05T17:33:25Z",
+            "sentiment": "Negative",
+            "compound": -0.772
+          },
           {
             "title": "Fed Beige Book Finds Modest Growth Led by Data Centers",
             "source": "Credaily.com",
             "publishedAt": "2026-09-05T17:30:46Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "A $1.4 Billion Reason to Buy GameStop Stock Now",
-            "source": "Barchart.com",
-            "publishedAt": "2026-09-05T17:30:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Andhra Pradesh DA hike: 2 pending instalments, pension boost; what changes for govt employees from October?",
-            "source": "Livemint",
-            "publishedAt": "2026-09-05T17:23:32Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "PM Modi slams critics, Opposition 'pessimism' on 7.8% growth",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-05T17:13:15Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "VMware Explore 2026: Broadcom Doubles Down on Private Cloud Economics and Agentic AI",
-            "source": "Storagereview.com",
-            "publishedAt": "2026-09-05T17:10:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gold price outlook: What lies ahead for the yellow metal? Here's what Goldman Sachs says on bull run prediction",
-            "source": "Livemint",
-            "publishedAt": "2026-09-05T17:06:57Z",
-            "sentiment": "Negative",
-            "compound": -0.421
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.01,
-  "trade_probability": 45.21,
+  "confirmation_score": 41.58,
+  "trade_probability": 44.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
