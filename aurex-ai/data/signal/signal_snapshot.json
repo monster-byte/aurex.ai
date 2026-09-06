@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T06:31:07.059109+00:00",
+  "generated_at": "2026-09-06T06:45:49.547939+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.99,
+      "score": 50.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.0,
+        "avg_compound": 0.001,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Sensex, Nifty fall for 4th straight week as crude oil surge spooks markets",
+            "source": "Nationpress.com",
+            "publishedAt": "2026-09-05T06:39:16Z",
+            "sentiment": "Neutral",
+            "compound": -0.026
+          },
+          {
+            "title": "Shein seeks fast-fashion deals to spur growth",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-05T06:37:56Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Fuel supports among main topics of IRHA annual conference",
+            "source": "RTE",
+            "publishedAt": "2026-09-05T06:36:42Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "FCNR inflows push short-term borrowing costs lower amid rising liquidity: ICICI Bank",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-05T06:32:15Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "U.S. labor market booms, with 162,000 jobs added in August - Axios",
             "source": "Slashdot.org",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-05T06:01:00Z",
             "sentiment": "Negative",
             "compound": -0.494
-          },
-          {
-            "title": "Lost its Shein? Why the fashion giant's value has slumped",
-            "source": "RTE",
-            "publishedAt": "2026-09-05T06:00:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "European Gas Prices Rise to Highest Since 2023 as U.S. Intensifies Strikes on Iran",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-09-05T06:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Italy's Meloni just hit a major political milestone. Former leaders say economic reform must follow",
-            "source": "CNBC",
-            "publishedAt": "2026-09-05T05:41:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "ASX 200 Sheds Nearly 1% For The Week As Rate Hike Fears, Iran Conflict Rattle Markets Amid Volatile Trading",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-05T05:40:16Z",
-            "sentiment": "Negative",
-            "compound": -0.625
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.79,
-  "trade_probability": 45.07,
+  "confirmation_score": 41.8,
+  "trade_probability": 45.08,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
