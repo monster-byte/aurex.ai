@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T06:45:49.547939+00:00",
+  "generated_at": "2026-09-06T07:01:50.875339+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.06,
+      "score": 48.02,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.001,
-        "articles_analyzed": 23,
+        "avg_compound": -0.04,
+        "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "News Summary-Intelligence Report 9/4/2026*Newsdump Friday*Pentagon Lie Detectors*\"AGI\" Era Proclaimed*Judge Mail Ballot Order*Fetterman Fallout*Lindsay Clancy Mistrial*Tensions Germany*Few Ships Hormuz*US Carrier Not Home Soon* Car Makers China Ban*",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-05T06:56:17Z",
+            "sentiment": "Negative",
+            "compound": -0.557
+          },
           {
             "title": "Sensex, Nifty fall for 4th straight week as crude oil surge spooks markets",
             "source": "Nationpress.com",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T06:12:19Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Cliff Taylor: There’s no cost of living crisis for Ireland’s quietly prosperous class. Who are they?",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-05T06:01:00Z",
-            "sentiment": "Negative",
-            "compound": -0.494
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.8,
-  "trade_probability": 45.08,
+  "confirmation_score": 41.59,
+  "trade_probability": 44.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
