@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T23:15:53.333044+00:00",
+  "generated_at": "2026-09-06T23:31:06.794725+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.29,
+      "score": 52.39,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.14,
-        "change_5d_pct": -0.287
+        "current_dxy": 99.13,
+        "change_5d_pct": -0.299
       }
     },
     "macro": {
@@ -91,6 +91,13 @@
         "avg_compound": 0.042,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Bridging Nigeria’s housing gap through mortgage financing",
+            "source": "Vanguard",
+            "publishedAt": "2026-09-05T23:29:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Robert Jenrick vows to cut taxes for millions... and says he'll quit if pledge isn't met in the first 100 days",
             "source": "Dailymail.com",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T22:56:54Z",
             "sentiment": "Positive",
             "compound": 0.25
-          },
-          {
-            "title": "Prediction: Here's What a $10,000 Investment in Rocket Lab Will Be Worth in 5 Years",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T22:41:36Z",
-            "sentiment": "Positive",
-            "compound": 0.226
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.8,
-  "trade_probability": 45.08,
+  "confirmation_score": 41.81,
+  "trade_probability": 45.09,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
