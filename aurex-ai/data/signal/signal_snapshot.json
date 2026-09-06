@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T20:15:50.975089+00:00",
+  "generated_at": "2026-09-06T20:31:03.388528+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.6,
+      "score": 54.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.092,
+        "avg_compound": 0.093,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T20:23:53Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
           {
             "title": "Why Gen Zers Pretend to Have More Money While Dating and How That Can Lead to Debt",
             "source": "Investopedia",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T19:54:36Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "Prediction: Amazon Will Join Nvidia, Apple, and Alphabet in the $4 Trillion Club Before 2029",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T19:54:28Z",
-            "sentiment": "Positive",
-            "compound": 0.44
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.25,
-  "trade_probability": 45.35,
+  "confirmation_score": 42.26,
+  "trade_probability": 45.36,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
