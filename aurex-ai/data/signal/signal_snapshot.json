@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:31:04.290430+00:00",
+  "generated_at": "2026-09-06T09:45:49.652828+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.8,
+      "score": 51.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.004,
+        "avg_compound": 0.037,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Former Tata Technologies CEO McGoldrick sells shares worth ₹165 crore",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-05T09:31:52Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
           {
             "title": "Jensen Huang Just Sent a Signal That Could Matter More Than the September Effect",
             "source": "Biztoc.com",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T09:05:45Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "Retirees have fewer options and less ability to recover from setbacks. Here's when today's average American is retiring",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-05T09:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.252
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.77,
-  "trade_probability": 45.06,
+  "confirmation_score": 41.98,
+  "trade_probability": 45.19,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
