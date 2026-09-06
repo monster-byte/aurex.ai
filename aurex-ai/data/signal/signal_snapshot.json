@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:01:14.487310+00:00",
+  "generated_at": "2026-09-06T15:15:50.119995+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.14,
+      "score": 46.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.097,
+        "avg_compound": -0.07,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "There’s No Crystal Ball for the Economy",
-            "source": "Daily Signal",
-            "publishedAt": "2026-09-05T15:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Tinubu’s reforms have stabilised Nigeria’s economy, says minister",
-            "source": "The Punch",
-            "publishedAt": "2026-09-05T14:54:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "WIX Deadline: WIX Investors with Losses in Excess of $100K Have Opportunity to Lead Wix.com Ltd. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-05T14:54:00Z",
-            "sentiment": "Negative",
-            "compound": -0.527
-          },
-          {
-            "title": "Every Retiree Dreams of Snowbirding. Almost Nobody Runs the Math on Two Homes",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-05T14:52:28Z",
+            "title": "Oura goes public amid rising competition in smart ring market",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-05T15:12:09Z",
             "sentiment": "Positive",
             "compound": 0.402
           },
           {
-            "title": "Most Investors Overpay for AI Hype. Nvidia Is the Exception",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T14:50:57Z",
+            "title": "Gold paused not peaked, record run could be ahead: Goldman Sachs",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-05T15:10:48Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Republican Congressman Bearish on Stocks? $7 Million+ Sold in 2026, Including 28 Recent Moves",
+            "title": "Kroger, Publix, and regional grocery chains face pricing problem",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-05T15:07:00Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Here's Why USA Rare Earth Is a Buy Before Its Next Earnings Report",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T14:49:41Z",
+            "publishedAt": "2026-09-05T15:06:18Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Warren Buffett Called Today's Stock Market 'a Church with a Casino Attached,' Warning That 'We've Never Had People in a More Gambling Mood Than Now.' Does History Say Investors Should Pull Back?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T15:05:57Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "‘AI Laggard’ Apple Is Sitting Pretty, But AAPL Stock Might Be Running Out of Room to Outperform",
+            "source": "Barchart.com",
+            "publishedAt": "2026-09-05T15:02:14Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.3,
-  "trade_probability": 44.78,
+  "confirmation_score": 41.44,
+  "trade_probability": 44.86,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
