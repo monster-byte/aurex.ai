@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T11:30:59.945131+00:00",
+  "generated_at": "2026-09-06T11:45:48.877110+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.75,
+      "score": 52.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.095,
+        "avg_compound": 0.05,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Saturday: Hili dialogue",
+            "source": "Whyevolutionistrue.com",
+            "publishedAt": "2026-09-05T11:45:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump boasts Iran blockade is ‘unbelievable’ as oil tops $90 and US reserves near danger. Inflation-proof your nest egg",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T11:33:32Z",
+            "sentiment": "Neutral",
+            "compound": -0.026
+          },
           {
             "title": "24-Hour Trading Is Coming: This Is The Investment Opportunity",
             "source": "Seeking Alpha",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-05T11:08:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Jim Cramer Explains Why SanDisk (SNDK) Makes MongoDB (MDB) Look Expensive",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T11:02:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "7th Pay Commission DA hike: What is AICPI-IW? Why it matters so much for amount calculation for central govt employees",
-            "source": "Livemint",
-            "publishedAt": "2026-09-05T11:01:23Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.26,
-  "trade_probability": 45.36,
+  "confirmation_score": 42.04,
+  "trade_probability": 45.22,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
