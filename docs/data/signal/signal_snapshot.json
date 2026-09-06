@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T23:45:47.871709+00:00",
+  "generated_at": "2026-09-06T00:01:21.485669+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.16,
+      "score": 48.85,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
+        "avg_compound": -0.023,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Woman Drives 20 Minutes To Get Linda’s Fudge Cake Slice From The Cheesecake Factory. Then She Looks In The Container, Notices The ‘Change’",
+            "source": "BroBible",
+            "publishedAt": "2026-09-05T00:00:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "September 4, 2026 - PBS News Hour full episode",
             "source": "PBS",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-04T22:55:43Z",
             "sentiment": "Negative",
             "compound": -0.318
-          },
-          {
-            "title": "Rep. James Comer Calls His Constituents 'Village Idiots'",
-            "source": "Crooksandliars.com",
-            "publishedAt": "2026-09-04T22:44:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.81,
-  "trade_probability": 45.09,
+  "confirmation_score": 41.68,
+  "trade_probability": 45.01,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
