@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T16:01:23.524224+00:00",
+  "generated_at": "2026-09-06T16:15:50.782322+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.63,
+      "score": 50.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.013,
-        "articles_analyzed": 25,
+        "avg_compound": 0.012,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Why I'm Still Investing in VTI Right Now No Matter What the Stock Market Does",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T16:06:17Z",
+            "sentiment": "Neutral",
+            "compound": -0.019
+          },
           {
             "title": "Federal Reserve Chairman Warsh addresses persistent inflation in Jackson Hole keynote",
             "source": "Crypto Briefing",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-09-05T15:36:53Z",
             "sentiment": "Positive",
             "compound": 0.848
-          },
-          {
-            "title": "Why What Happens In Japan’s Debt Market Matters To You",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-09-05T15:36:44Z",
-            "sentiment": "Negative",
-            "compound": -0.34
           }
         ]
       }
