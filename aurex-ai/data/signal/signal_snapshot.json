@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T02:01:20.336951+00:00",
+  "generated_at": "2026-09-06T02:15:45.982780+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -92,6 +92,13 @@
         "articles_analyzed": 25,
         "top_headlines": [
           {
+            "title": "Economic Digest: A Snapshot of Nepal’s Business News",
+            "source": "Khabarhub.com",
+            "publishedAt": "2026-09-05T02:15:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
             "title": "Simply Good Foods Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against The Simply Good Foods Company - SMPL",
             "source": "PRNewswire",
             "publishedAt": "2026-09-05T02:00:00Z",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-09-05T01:46:44Z",
             "sentiment": "Negative",
             "compound": -0.549
-          },
-          {
-            "title": "Spot memory prices surge to four times contract prices as AI demand overwhelms supply",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-05T01:44:51Z",
-            "sentiment": "Negative",
-            "compound": -0.318
           }
         ]
       }
