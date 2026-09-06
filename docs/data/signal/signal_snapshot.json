@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T18:01:18.319911+00:00",
+  "generated_at": "2026-09-06T18:15:48.075382+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.61,
+      "score": 45.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.108,
+        "avg_compound": -0.095,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "With AI Revenue Set to Surge 400% Over the Next 2 Years, Broadcom Stock Looks Like a Buy on Recent Dip",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T18:08:51Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Energy Prices Surge, Reviving Inflation Fears as Winter Nears",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T18:06:40Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
           {
             "title": "CBI books Essel Group chairman Subhash Chandra, others over alleged ₹1,322 crore LICHFL loan loss",
             "source": "The Times of India",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-05T17:47:03Z",
             "sentiment": "Neutral",
             "compound": 0.052
-          },
-          {
-            "title": "What's open on Labor Day? Most retailers. Closed? Government, banks and the stock market.",
-            "source": "WJXT News4JAX",
-            "publishedAt": "2026-09-05T17:46:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What's open on Labor Day? Most retailers. Closed? Government, banks and the stock market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T17:38:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.25,
-  "trade_probability": 44.75,
+  "confirmation_score": 41.31,
+  "trade_probability": 44.79,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
