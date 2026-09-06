@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T03:45:51.350133+00:00",
+  "generated_at": "2026-09-06T04:01:14.633331+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.1,
+      "score": 46.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.158,
+        "avg_compound": -0.067,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Wall Street ends lower as jobs data fuels Fed bets",
-            "source": "PerthNow",
-            "publishedAt": "2026-09-05T03:44:27Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "PZZA Investor Alert: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Securities Class Action Against Papa John's International, Inc.",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-05T03:28:00Z",
+            "title": "The Fallacy of Stable Prices",
+            "source": "Lewrockwell.com",
+            "publishedAt": "2026-09-05T04:01:00Z",
             "sentiment": "Positive",
-            "compound": 0.527
+            "compound": 0.296
           },
           {
-            "title": "Fed’s Hammack: Current policy not tight enough amid high inflation",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-05T03:16:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump calls for lower interest rates, says high rates put US at 'unfair disadvantage'",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-05T03:15:20Z",
+            "title": "Sanctioning a Ghost: Europe’s Empty Gesture Against Iran",
+            "source": "Lewrockwell.com",
+            "publishedAt": "2026-09-05T04:01:00Z",
             "sentiment": "Negative",
-            "compound": -0.625
+            "compound": -0.477
           },
           {
-            "title": "Global Maritime Decarbonisation Stalls Despite the Accelerating Impact of Climate Change",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-09-05T03:05:50Z",
+            "title": "Gold slides after robust US payrolls boosts rate hike bets",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-05T04:00:52Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-05T04:00:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Want Rs 1 crore retirement corpus by 50? Monthly SIP you need to make at 30, 35 and 40 years of age",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-05T02:50:56Z",
+            "title": "Communism’s Insidious Change of Priorities",
+            "source": "Americanthinker.com",
+            "publishedAt": "2026-09-05T04:00:00Z",
             "sentiment": "Neutral",
-            "compound": 0.077
+            "compound": 0.0
+          },
+          {
+            "title": "Irish fintechs face a tougher funding market as global concerns weigh on investors",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-05T04:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.0,
-  "trade_probability": 44.6,
+  "confirmation_score": 41.46,
+  "trade_probability": 44.88,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
