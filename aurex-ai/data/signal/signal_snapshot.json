@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T13:01:15.181458+00:00",
+  "generated_at": "2026-09-06T13:15:46.895800+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.32,
+      "score": 45.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.014,
+        "avg_compound": -0.089,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "2 Big Food Dividends Were Just Cut. 3 More Quietly Stopped Growing.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-05T13:15:21Z",
+            "sentiment": "Negative",
+            "compound": -0.321
+          },
+          {
+            "title": "Iran President Pezeshkian calls for unity as US ramps up economic pressure",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-05T13:07:36Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "‘Growth is improving, uncertainties are going down': Bajaj MF CIO Nimesh Chandan",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-05T13:03:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "PRCT Deadline: PRCT Investors with Losses in Excess of $100K Have Opportunity to Lead PROCEPT BioRobotics Corporation Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-05T13:03:00Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
           {
             "title": "Bloom Energy, Illumina, Everpure Rise On S&P 500 Inclusion",
             "source": "Investor's Business Daily",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-05T13:00:58Z",
             "sentiment": "Neutral",
             "compound": -0.026
-          },
-          {
-            "title": "Documents You’ll Need to Get Approved for a Mortgage",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-05T13:00:51Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Majority of Canadians now see U.S. as an enemy, and Trump is the reason: poll",
-            "source": "National Post",
-            "publishedAt": "2026-09-05T13:00:19Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "How Mark Mitchell’s Passing Is the X-Factor of His Return",
-            "source": "Rockmnation.com",
-            "publishedAt": "2026-09-05T13:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rent Control—Still Doesn’t Work",
-            "source": "Daily Signal",
-            "publishedAt": "2026-09-05T13:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.72,
-  "trade_probability": 45.03,
+  "confirmation_score": 41.34,
+  "trade_probability": 44.8,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
