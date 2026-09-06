@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T01:45:47.441306+00:00",
+  "generated_at": "2026-09-06T02:01:20.336951+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.34,
+      "score": 44.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.093,
+        "avg_compound": -0.117,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Simply Good Foods Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against The Simply Good Foods Company - SMPL",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-05T02:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "Avis Budget Group Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Avis Budget Group, Inc. - CAR",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-05T02:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Capricor Therapeutics Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Capricor Therapeutics, Inc. - CAPR",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-05T02:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "White House on if There Are More Anti-Inflation Policies Coming: Leave It to Fed",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-05T01:47:09Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "White House on Inflation Outpacing Hourly Earnings: Hours Have Gone Up, So Total Earnings Beating Inflation",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-05T01:46:44Z",
+            "sentiment": "Negative",
+            "compound": -0.549
+          },
           {
             "title": "Spot memory prices surge to four times contract prices as AI demand overwhelms supply",
             "source": "Crypto Briefing",
             "publishedAt": "2026-09-05T01:44:51Z",
             "sentiment": "Negative",
             "compound": -0.318
-          },
-          {
-            "title": "Why are European countries moving their gold out of North America?",
-            "source": "BBC News",
-            "publishedAt": "2026-09-05T01:42:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Cheche Group Reports First Half 2026 Unaudited Financial Results",
-            "source": "Associated Press",
-            "publishedAt": "2026-09-05T01:22:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Kaplan Fox is Investigating Alignment Healthcare, Inc. (ALHC) on Behalf of Investors for Potential Securities Law Violations",
-            "source": "Associated Press",
-            "publishedAt": "2026-09-05T01:21:26Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Dollar posts weekly loss as yen jumps amid shifting rate bets",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T01:08:22Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Worming from Home-TENOKE",
-            "source": "Rlsbb.cc",
-            "publishedAt": "2026-09-05T01:08:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.32,
-  "trade_probability": 44.79,
+  "confirmation_score": 41.2,
+  "trade_probability": 44.72,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
