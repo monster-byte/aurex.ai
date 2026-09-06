@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T03:15:48.212542+00:00",
+  "generated_at": "2026-09-06T03:31:00.364503+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.14,
+      "score": 42.69,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.157,
+        "avg_compound": -0.146,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "PZZA Investor Alert: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Securities Class Action Against Papa John's International, Inc.",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-05T03:28:00Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "Fed’s Hammack: Current policy not tight enough amid high inflation",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-05T03:16:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Trump calls for lower interest rates, says high rates put US at 'unfair disadvantage'",
             "source": "The Times of India",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-05T02:15:36Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Simply Good Foods Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against The Simply Good Foods Company - SMPL",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-05T02:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Avis Budget Group Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Avis Budget Group, Inc. - CAR",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-05T02:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.34
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.0,
-  "trade_probability": 44.6,
+  "confirmation_score": 41.06,
+  "trade_probability": 44.64,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
