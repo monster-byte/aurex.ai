@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T23:31:06.794725+00:00",
+  "generated_at": "2026-09-06T23:45:47.706820+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.39,
+      "score": 52.45,
       "status": "yellow",
       "details": {
         "current_dxy": 99.13,
-        "change_5d_pct": -0.299
+        "change_5d_pct": -0.306
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.1,
+      "score": 54.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.042,
+        "avg_compound": 0.095,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "1978 Vs. Today: Here's What Gas Prices Miss About The Real Cost Of Driving",
+            "source": "Jalopnik",
+            "publishedAt": "2026-09-05T23:45:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "IonQ vs. Rigetti Computing: Which Pure-Play Quantum Pioneer Has the Stronger Technology Advantage?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T23:42:32Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
           {
             "title": "Bridging Nigeria’s housing gap through mortgage financing",
             "source": "Vanguard",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-05T22:58:55Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Why Intel Stock Climbed This Week",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T22:57:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Man turns Robinhood-AMC feud into $2 million gain in 12 hours",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T22:56:54Z",
-            "sentiment": "Positive",
-            "compound": 0.25
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.81,
-  "trade_probability": 45.09,
+  "confirmation_score": 42.08,
+  "trade_probability": 45.25,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
