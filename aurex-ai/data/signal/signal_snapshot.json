@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T07:15:48.146654+00:00",
+  "generated_at": "2026-09-06T07:31:04.832480+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.51,
+      "score": 49.21,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.01,
+        "avg_compound": -0.016,
         "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "India's cyclical recovery faces risks; oil supply shock, AI capex may hit corporate margins from Q2FY27: Report",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-05T07:27:57Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
           {
             "title": "NODE Monthly Commentary: August 2026",
             "source": "Vaneck.com",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T06:56:17Z",
             "sentiment": "Negative",
             "compound": -0.557
-          },
-          {
-            "title": "Sensex, Nifty fall for 4th straight week as crude oil surge spooks markets",
-            "source": "Nationpress.com",
-            "publishedAt": "2026-09-05T06:39:16Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.84,
-  "trade_probability": 45.1,
+  "confirmation_score": 41.71,
+  "trade_probability": 45.03,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
