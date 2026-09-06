@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T08:01:11.781606+00:00",
+  "generated_at": "2026-09-06T08:15:47.110523+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.72,
+      "score": 47.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.026,
+        "avg_compound": -0.043,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "3 Social Security Changes Coming Alongside the Next COLA",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T08:14:59Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
           {
             "title": "Columbia Quality Income Fund Q2 2026 Commentary",
             "source": "Seeking Alpha",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T07:14:58Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "F&O Talk: Nifty indicating little evidence of sustained recovery, says Sudeep Shah; outlines BSE, Groww strategy amid CAS",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-05T07:14:58Z",
-            "sentiment": "Positive",
-            "compound": 0.402
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.66,
-  "trade_probability": 45.0,
+  "confirmation_score": 41.57,
+  "trade_probability": 44.94,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
