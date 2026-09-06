@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T21:01:20.439454+00:00",
+  "generated_at": "2026-09-06T21:15:47.254382+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.65,
+      "score": 53.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.093,
+        "avg_compound": 0.079,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "He Sold His Land to a Data Center Developer and Turned Down the Full Check. The Reason Showed Up Two Years Later.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-05T21:05:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
             "source": "Biztoc.com",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T19:56:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Intuitive Surgical's Growth Has Cooled From Its Post-Pandemic Highs. Is That a Buying Opportunity or a Warning?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T19:54:36Z",
-            "sentiment": "Positive",
-            "compound": 0.459
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.26,
-  "trade_probability": 45.36,
+  "confirmation_score": 42.18,
+  "trade_probability": 45.31,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
