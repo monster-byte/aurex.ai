@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:01:17.685035+00:00",
+  "generated_at": "2026-09-06T09:15:47.618834+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.28,
+      "score": 49.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.006,
+        "avg_compound": -0.01,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Costco Has Grown Its Membership Base no Matter What the Economy Has Done. Does That Make It a Forever Hold?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T09:15:19Z",
+            "sentiment": "Neutral",
+            "compound": -0.019
+          },
+          {
+            "title": "Still sending checks in the mail? It's time to stop.",
+            "source": "USA Today",
+            "publishedAt": "2026-09-05T09:05:45Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Retirees have fewer options and less ability to recover from setbacks. Here's when today's average American is retiring",
             "source": "Yahoo Entertainment",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-05T08:55:03Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "Former Tata Technologies CEO McGoldrick sells shares worth Rs 165 crore",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-05T08:49:44Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "What Move Will SpaceX Stock Make After Sept. 9? The Evidence Is Piling Up, and Here’s What It Shows",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T08:44:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.82,
-  "trade_probability": 45.09,
+  "confirmation_score": 41.74,
+  "trade_probability": 45.04,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
