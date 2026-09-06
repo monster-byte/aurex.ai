@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T05:15:47.932638+00:00",
+  "generated_at": "2026-09-06T05:31:01.626141+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.0,
+      "score": 51.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.02,
+        "avg_compound": 0.032,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Planning early retirement in India? Experts explain the right equity allocation, SIP strategy and portfolio approach",
+            "source": "Livemint",
+            "publishedAt": "2026-09-05T05:30:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Explained: Looking to start a mutual fund SIP? Know the different types and which one suits you",
             "source": "Economictimes.com",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T05:00:00Z",
             "sentiment": "Positive",
             "compound": 0.243
-          },
-          {
-            "title": "Gold reserves are on the move, but central banks are choosing different vaults",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-05T04:59:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.89,
-  "trade_probability": 45.13,
+  "confirmation_score": 41.95,
+  "trade_probability": 45.17,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
