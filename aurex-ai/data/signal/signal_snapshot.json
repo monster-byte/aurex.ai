@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T18:15:48.075382+00:00",
+  "generated_at": "2026-09-06T18:31:03.923702+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.23,
+      "score": 46.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.095,
+        "avg_compound": -0.069,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "With AI Revenue Set to Surge 400% Over the Next 2 Years, Broadcom Stock Looks Like a Buy on Recent Dip",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T18:08:51Z",
-            "sentiment": "Positive",
-            "compound": 0.361
+            "title": "9/11: How one day changed America",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-05T18:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Energy Prices Surge, Reviving Inflation Fears as Winter Nears",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-05T18:06:40Z",
+            "title": "Why the jobs report will actually be good for bonds",
+            "source": "MarketWatch",
+            "publishedAt": "2026-09-05T18:26:00Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "DVLT Investors Have Opportunity to Lead Datavault AI Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-05T18:24:00Z",
             "sentiment": "Neutral",
             "compound": -0.178
           },
           {
-            "title": "CBI books Essel Group chairman Subhash Chandra, others over alleged ₹1,322 crore LICHFL loan loss",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-05T17:58:38Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "High-Yield Dividend Investors Could Be Making This Expensive Tax Mistake",
+            "title": "Half of Retirees Have a Savings Target. Fewer Than 1 in 5 Have a Withdrawal Plan. The Second Number Is the One That Runs Out.",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-05T17:52:33Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Spencer Pratt rips George Clooney's 'woke scold lecture' after Amal's lavish Venice look",
-            "source": "Fox News",
-            "publishedAt": "2026-09-05T17:49:07Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Tokenized stocks hit all-time high of $3.1B in market cap as BNB Chain dominates",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-05T17:47:03Z",
+            "publishedAt": "2026-09-05T18:22:32Z",
             "sentiment": "Neutral",
-            "compound": 0.052
+            "compound": 0.103
+          },
+          {
+            "title": "We got more defensive last week as Wall Street raised the bar for AI stocks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T18:22:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.101
+          },
+          {
+            "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-05T18:21:54Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.31,
-  "trade_probability": 44.79,
+  "confirmation_score": 41.45,
+  "trade_probability": 44.87,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
