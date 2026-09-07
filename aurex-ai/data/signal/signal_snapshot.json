@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T18:01:18.341182+00:00",
+  "generated_at": "2026-09-07T18:15:50.409788+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.2,
+      "score": 54.23,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.91,
-        "change_5d_pct": -0.525
+        "current_dxy": 98.9,
+        "change_5d_pct": -0.529
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.75,
+      "score": 56.57,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.135,
+        "avg_compound": 0.131,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "India's wealth story needs a chapter on retirement",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-06T18:11:00Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Kevin O’Leary says if you earn $68,000 a year and follow this rule, you’ll retire a millionaire",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T18:10:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How Bitmine could surpass its 5% Ethereum goal without buying more ETH",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-06T18:10:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Billionaires Are Bleeding Money, but Here's Why Warren Buffett Is Getting Richer",
             "source": "Biztoc.com",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-06T17:50:45Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "2 Superior Growth Stocks to Buy and Hold for 10 Years",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T17:41:41Z",
-            "sentiment": "Positive",
-            "compound": 0.727
-          },
-          {
-            "title": "Retiring with ₹2 crore? Here’s how much you can withdraw every month",
-            "source": "Livemint",
-            "publishedAt": "2026-09-06T17:38:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Even Supreme Leader Mojtaba Khamenei is worried about Iran’s economy and ‘social cohesion’ as U.S. pressure gets tougher to withstand",
-            "source": "Fortune",
-            "publishedAt": "2026-09-06T17:37:43Z",
-            "sentiment": "Positive",
-            "compound": 0.226
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.45,
-  "trade_probability": 45.47,
+  "confirmation_score": 42.44,
+  "trade_probability": 45.46,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
