@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T22:01:20.042678+00:00",
+  "generated_at": "2026-09-07T22:15:51.224821+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.72,
+      "score": 48.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.046,
+        "avg_compound": -0.025,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "WSE Deadline: WSE Investors with Losses in Excess of $100K Have Opportunity to Lead Wise Group plc Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-06T22:08:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
+          {
+            "title": "Millions of Aussies could get an extra $82 a week under Pauline Hanson's radical super shake-up",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-06T22:07:20Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "Anthropic will reportedly list days before the US midterm elections",
+            "source": "The Next Web",
+            "publishedAt": "2026-09-06T22:02:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "As other Asian equity markets boom, Singapore sees value over volume in SGX's IPO rebound",
             "source": "CNA",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-06T21:59:00Z",
             "sentiment": "Neutral",
             "compound": -0.178
-          },
-          {
-            "title": "XRP Trades at $1.41 With a $1.43 Wall Overhead. Can It Break $1.50 Before the Fed Decides on September 16?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-06T21:56:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Will US inflation data persuade the Fed to raise rates this month?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T21:43:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The House They Bought for $62,000 in 1984 Sold for $890,000. The Tax Exclusion Stopped at $500,000. Medicare’s Bill Started There.",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-06T21:32:04Z",
-            "sentiment": "Negative",
-            "compound": -0.477
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.33,
-  "trade_probability": 44.8,
+  "confirmation_score": 41.44,
+  "trade_probability": 44.86,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
