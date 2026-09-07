@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T13:31:02.999049+00:00",
+  "generated_at": "2026-09-07T13:45:48.016553+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.13,
+      "score": 54.1,
       "status": "yellow",
       "details": {
         "current_dxy": 98.92,
-        "change_5d_pct": -0.516
+        "change_5d_pct": -0.513
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.98,
+      "score": 49.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.02,
+        "avg_compound": -0.012,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "QBTS Investor Alert: Kessler Topaz Meltzer & Check, LLP Encourages QBTS Investors with Losses to Contact the Firm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-06T13:40:00Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "5 Stocks I Want If Oil Hits $100",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T13:37:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Top White House Economist Points to 1.6% Inflation as Evidence the Fed Doesn’t Need Higher Rates",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T13:37:26Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Trump Demands Rate Cuts as 162,000 New Jobs Pushes the Fed Toward a Hike",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T13:37:24Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Futures: Nvidia Leads 5 New AI Buys; U.S., Iran Exchange Attacks",
             "source": "Biztoc.com",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-06T13:07:06Z",
             "sentiment": "Positive",
             "compound": 0.735
-          },
-          {
-            "title": "Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T13:06:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "BlackRock and JPMorgan bet on emerging markets amid global bond turmoil",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-06T13:06:29Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "1988 Porsche 944 Turbo S",
-            "source": "Bringatrailer.com",
-            "publishedAt": "2026-09-06T13:00:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "SMPL Investors Have Opportunity to Lead The Simply Good Foods Company Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-06T12:57:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.67,
-  "trade_probability": 45.0,
+  "confirmation_score": 41.71,
+  "trade_probability": 45.03,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
