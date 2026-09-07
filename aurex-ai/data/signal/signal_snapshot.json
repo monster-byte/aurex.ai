@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T09:31:07.042941+00:00",
+  "generated_at": "2026-09-07T09:45:49.503011+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.89,
+      "score": 54.26,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.95,
-        "change_5d_pct": -0.486
+        "current_dxy": 98.9,
+        "change_5d_pct": -0.532
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.57,
+      "score": 40.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.109,
+        "avg_compound": -0.185,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "'Dr. Doom' Nouriel Roubini lays out the 4 things he's worried about in the US economy",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-06T09:35:01Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Meet the Nvidia-Backed Stock That's Growing at a 454% Pace (It's a Screaming Buy Right Now)",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T09:34:38Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "For its economic woes, Gen X still blames the Great Recession",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T09:34:32Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
           {
             "title": "French President Emmanuel Macron Calls for a ‘New Multilateralism’ Across Creative Industries: ‘We Built a Civilization of Images. We Should Not Resign Ourselves to Watching It Deteriorate’",
             "source": "Variety",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-06T09:19:04Z",
             "sentiment": "Positive",
             "compound": 0.273
-          },
-          {
-            "title": "As the Stock Market Flashes a Warning Signal Only Witnessed 2 Times in 155 Years, Warren Buffett Delivers a Blunt Message to Investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T09:04:37Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Dead money: Your savings account is losing inflation fight — where 4 financial advisors grow their cash instead",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-06T09:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.859
-          },
-          {
-            "title": "West Asia conflict, crude oil prices, US inflation data to drive markets next week",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-06T08:50:09Z",
-            "sentiment": "Negative",
-            "compound": -0.718
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.2,
-  "trade_probability": 44.72,
+  "confirmation_score": 40.86,
+  "trade_probability": 44.52,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
