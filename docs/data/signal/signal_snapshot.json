@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T23:01:15.772007+00:00",
+  "generated_at": "2026-09-07T23:15:49.014687+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.73,
+      "score": 49.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.015,
+        "avg_compound": -0.009,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "China’s export shock is pushing the global economy to a breaking point, and the U.S. may have to clean up the mess, former trade official says",
+            "source": "Fortune",
+            "publishedAt": "2026-09-06T23:04:53Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "China’s export shock is pushing the global economy to a breaking point, and the U.S. may have to clean up the mess, former trade official says",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-06T23:04:53Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Rent Control—Still Doesn’t Work",
+            "source": "Daily Signal",
+            "publishedAt": "2026-09-06T23:02:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "I Predicted That Lululemon Stock Was In Trouble Ahead of Earnings. What's Next After Its 17% Drop?",
             "source": "Biztoc.com",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-06T22:30:10Z",
             "sentiment": "Positive",
             "compound": 0.888
-          },
-          {
-            "title": "Can going slow on IPOs revive India’s stock market fortunes?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T22:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "itch-book 0.2.0",
-            "source": "Pypi.org",
-            "publishedAt": "2026-09-06T22:18:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "WSE Deadline: WSE Investors with Losses in Excess of $100K Have Opportunity to Lead Wise Group plc Securities Fraud Lawsuit Filed by The Rosen Law Firm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-06T22:08:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.63,
-  "trade_probability": 44.98,
+  "confirmation_score": 41.51,
+  "trade_probability": 44.91,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
