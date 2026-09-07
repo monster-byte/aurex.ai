@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T00:31:03.837490+00:00",
+  "generated_at": "2026-09-07T00:45:49.190914+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.44,
+      "score": 52.68,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.13,
-        "change_5d_pct": -0.305
+        "current_dxy": 99.1,
+        "change_5d_pct": -0.335
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.17,
+      "score": 56.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.123,
+        "avg_compound": 0.131,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Viking Therapeutics Trades Well Below Its Wall Street Targets. Here's the Skeptics' Case",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T00:43:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
           {
             "title": "Germany's Isar rocket launches from arctic Norway and reaches orbit",
             "source": "ABC News (AU)",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T23:29:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Robert Jenrick vows to cut taxes for millions... and says he'll quit if pledge isn't met in the first 100 days",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-05T23:15:00Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.22,
-  "trade_probability": 45.33,
+  "confirmation_score": 42.28,
+  "trade_probability": 45.37,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
