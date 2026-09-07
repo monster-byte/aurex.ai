@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T14:01:28.738442+00:00",
+  "generated_at": "2026-09-07T14:15:49.843853+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.21,
+      "score": 54.17,
       "status": "yellow",
       "details": {
         "current_dxy": 98.91,
-        "change_5d_pct": -0.526
+        "change_5d_pct": -0.521
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.11,
+      "score": 50.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.002,
+        "avg_compound": 0.016,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Why Bonds Aren’t the Investment They Used to Be",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T14:08:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Today’s leftists are possessed by the spirit of France’s 18th-century guillotine-loving revolutionaries",
             "source": "New York Post",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-06T13:37:51Z",
             "sentiment": "Neutral",
             "compound": 0.077
-          },
-          {
-            "title": "Top White House Economist Points to 1.6% Inflation as Evidence the Fed Doesn’t Need Higher Rates",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T13:37:26Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.79,
-  "trade_probability": 45.07,
+  "confirmation_score": 41.85,
+  "trade_probability": 45.11,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
