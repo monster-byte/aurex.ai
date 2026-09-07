@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T06:15:49.183987+00:00",
+  "generated_at": "2026-09-07T06:31:08.466632+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.29,
+      "score": 52.47,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.14,
-        "change_5d_pct": -0.287
+        "current_dxy": 99.12,
+        "change_5d_pct": -0.309
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.25,
+      "score": 50.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.005,
+        "avg_compound": 0.006,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Weekly economy wrap: GDP beats estimates, but inflation risks remain",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-06T06:31:04Z",
+            "sentiment": "Negative",
+            "compound": -0.392
+          },
+          {
+            "title": "Financial analyst on ECB hike: Interest rates are rising... what should you do?",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-09-06T06:30:58Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "From policy paralysis to policy dynamism, India has come a long way: PM Modi at SRCC after 13 years",
             "source": "BusinessLine",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-06T06:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Radical Abortion Group With Ties to Biden Officials and Shady Hedge Fund Faces Investigation and Lawsuit for Advertising Illegal Abortion Pills in Plane Stunt",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-06T05:05:49Z",
-            "sentiment": "Negative",
-            "compound": -0.67
-          },
-          {
-            "title": "FPIs resume selling, pull out ₹7,443 cr from equities in first week of Sep",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-06T04:58:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.61,
-  "trade_probability": 44.97,
+  "confirmation_score": 41.63,
+  "trade_probability": 44.98,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
