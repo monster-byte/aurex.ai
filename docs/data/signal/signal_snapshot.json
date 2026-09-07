@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T09:15:58.032675+00:00",
+  "generated_at": "2026-09-07T09:31:07.042941+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.95,
+      "score": 53.89,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.94,
-        "change_5d_pct": -0.494
+        "current_dxy": 98.95,
+        "change_5d_pct": -0.486
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.14,
+      "score": 44.57,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.137,
+        "avg_compound": -0.109,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "French President Emmanuel Macron Calls for a ‘New Multilateralism’ Across Creative Industries: ‘We Built a Civilization of Images. We Should Not Resign Ourselves to Watching It Deteriorate’",
+            "source": "Variety",
+            "publishedAt": "2026-09-06T09:30:34Z",
+            "sentiment": "Positive",
+            "compound": 0.604
+          },
+          {
+            "title": "Dead money: Your savings account is losing inflation fight — where 4 financial advisors grow their cash instead",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T09:19:19Z",
+            "sentiment": "Negative",
+            "compound": -0.859
+          },
+          {
+            "title": "If a Stock Market Crash Is Coming, History Says Investors Who Make This Simple Move Will Win",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T09:19:04Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
           {
             "title": "As the Stock Market Flashes a Warning Signal Only Witnessed 2 Times in 155 Years, Warren Buffett Delivers a Blunt Message to Investors",
             "source": "Biztoc.com",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-06T08:50:09Z",
             "sentiment": "Negative",
             "compound": -0.718
-          },
-          {
-            "title": "From breaking barriers to picking stocks: Muriel Siebert’s investment wisdom",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T08:31:22Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "The dollar deluge that RBI is faced with has also hauled in a new tide of woes",
-            "source": "Livemint",
-            "publishedAt": "2026-09-06T08:31:04Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Markets focus on rate decision, current account data this week",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-09-06T08:27:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.07,
-  "trade_probability": 44.64,
+  "confirmation_score": 41.2,
+  "trade_probability": 44.72,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
