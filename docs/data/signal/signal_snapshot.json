@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T23:31:13.171655+00:00",
+  "generated_at": "2026-09-07T23:45:48.547564+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -92,6 +92,13 @@
         "articles_analyzed": 25,
         "top_headlines": [
           {
+            "title": "What's open on Labor Day? Most retailers. Closed? Government, banks and the stock market",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T23:44:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
             "title": "One Nation pushes for early super access for renters and mortgage holders",
             "source": "ABC News (AU)",
             "publishedAt": "2026-09-06T23:27:49Z",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-09-06T23:02:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "I Predicted That Lululemon Stock Was In Trouble Ahead of Earnings. What's Next After Its 17% Drop?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T22:43:52Z",
-            "sentiment": "Negative",
-            "compound": -0.586
           }
         ]
       }
