@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T14:45:49.356615+00:00",
+  "generated_at": "2026-09-07T15:01:21.299596+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.42,
+      "score": 54.27,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.88,
-        "change_5d_pct": -0.552
+        "current_dxy": 98.9,
+        "change_5d_pct": -0.534
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.11,
+      "score": 46.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.078,
+        "avg_compound": -0.064,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The $63 billion revolving door carrying the entire US Bitcoin ETF market",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-06T15:00:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Investigation Alert: EyePoint, Inc. (EYPT) Investors are Encouraged to Contact Kessler Topaz Meltzer & Check, LLP",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-06T15:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "Tokenized stocks generate $16B in DEX trading volume over 90 days",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-06T14:55:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "SPRY Investors Have Opportunity to Lead ARS Pharmaceuticals, Inc. Securities Fraud Lawsuit",
             "source": "PRNewswire",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-06T14:30:48Z",
             "sentiment": "Negative",
             "compound": -0.477
-          },
-          {
-            "title": "Forget Starlink? Japan’s $1 Billion BlueBird Play Makes ASTS the National Satellite OS",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-06T14:25:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T14:23:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US inflation data, crude, Iran crisis to steer bullion this week: Analysts",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-06T14:22:29Z",
-            "sentiment": "Negative",
-            "compound": -0.832
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.41,
-  "trade_probability": 44.85,
+  "confirmation_score": 41.46,
+  "trade_probability": 44.88,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
