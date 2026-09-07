@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T17:31:09.670335+00:00",
+  "generated_at": "2026-09-07T17:46:00.453797+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.32,
+      "score": 54.28,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.89,
-        "change_5d_pct": -0.54
+        "current_dxy": 98.9,
+        "change_5d_pct": -0.535
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.93,
+      "score": 56.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.119,
+        "avg_compound": 0.127,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Treasury Secretary Compares Canada To A 'Little Yippy Dog'",
-            "source": "Crooksandliars.com",
-            "publishedAt": "2026-09-06T17:28:54Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "The Stock Market Just Entered Its Worst Month of the Year. History Says This Is What Investors Should Do",
+            "title": "2 Superior Growth Stocks to Buy and Hold for 10 Years",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T17:26:24Z",
+            "publishedAt": "2026-09-06T17:41:41Z",
+            "sentiment": "Positive",
+            "compound": 0.727
+          },
+          {
+            "title": "Retiring with ₹2 crore? Here’s how much you can withdraw every month",
+            "source": "Livemint",
+            "publishedAt": "2026-09-06T17:38:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Even Supreme Leader Mojtaba Khamenei is worried about Iran’s economy and ‘social cohesion’ as U.S. pressure gets tougher to withstand",
+            "source": "Fortune",
+            "publishedAt": "2026-09-06T17:37:43Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Even Supreme Leader Mojtaba Khamenei is worried about Iran’s economy and ‘social cohesion’ as U.S. pressure gets tougher to withstand",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-06T17:37:43Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Kevin O’Leary says if you earn $68,000 a year and follow this rule, you’ll retire a millionaire",
+            "source": "Fortune",
+            "publishedAt": "2026-09-06T17:35:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Scott Galloway issues grim SpaceX stock price forecast",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-06T17:33:00Z",
             "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "Government assures foreign traders, workers of legal protection after Ruto remarks | The Eastleigh Voice",
-            "source": "Eastleighvoice.co.ke",
-            "publishedAt": "2026-09-06T17:25:59Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Want to cut your child’s higher education costs? Get them in the kitchen",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T17:10:01Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "Bitcoin ETF inflows fall 76% entering Labor Day break as only BlackRock and Fidelity attract fresh money",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-06T17:00:52Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "Billionaires Are Bleeding Money, but Here's Why Warren Buffett Is Getting Richer",
-            "source": "Moneylion.com",
-            "publishedAt": "2026-09-06T17:00:22Z",
-            "sentiment": "Positive",
-            "compound": 0.681
+            "compound": -0.572
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.38,
-  "trade_probability": 45.43,
+  "confirmation_score": 42.42,
+  "trade_probability": 45.45,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
