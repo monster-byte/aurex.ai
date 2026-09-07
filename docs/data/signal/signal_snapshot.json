@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T11:31:07.833416+00:00",
+  "generated_at": "2026-09-07T11:45:49.881090+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.81,
+      "score": 53.77,
       "status": "yellow",
       "details": {
         "current_dxy": 98.96,
-        "change_5d_pct": -0.476
+        "change_5d_pct": -0.472
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.67,
+      "score": 45.36,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.087,
+        "avg_compound": -0.093,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Iran’s Ring of Fire Now Ashes - Iran is rapidly being consumed in the flames it lit.",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-06T11:45:35Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Iran to tackle economic issues, says further attacks will be 'more painful'",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-06T11:41:40Z",
+            "sentiment": "Negative",
+            "compound": -0.726
+          },
+          {
+            "title": "Why Palo Alto Networks Stock Plummeted This Week",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T11:37:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why Rezolve AI Stock Plummeted This Week",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T11:36:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "If You'd Invested in Moderna (MRNA) Stock 5 Years Ago, Here's How Much You'd Have Today (Hint: You'd Be Disappointed -- But Not If You Bought It 1 Year Ago.)",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T11:36:47Z",
+            "sentiment": "Negative",
+            "compound": -0.262
+          },
           {
             "title": "DA: Andhra Pradesh to release pending Dearness Allowance instalments, hike pension, appoint 12th Pay Revision Commission",
             "source": "Livemint",
             "publishedAt": "2026-09-06T11:26:10Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "Why GitLab Stock Surged This Week",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T11:21:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "China to pump $54 billion into state banks, insurers in capital-boosting push",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T11:14:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Ahead of Market: 10 things that will decide stock market action on Monday",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T11:05:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Republicans on Defense: $10M Texas Senate ad blitz...",
-            "source": "Associated Press",
-            "publishedAt": "2026-09-06T11:00:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "PIF Doesn’t Just Want to Fund Newcastle, It Wants Newcastle to Fund Itself",
-            "source": "SB Nation",
-            "publishedAt": "2026-09-06T11:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.3,
-  "trade_probability": 44.78,
+  "confirmation_score": 41.27,
+  "trade_probability": 44.76,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
