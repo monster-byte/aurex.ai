@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T09:45:49.503011+00:00",
+  "generated_at": "2026-09-07T10:01:21.873102+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.26,
+      "score": 53.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.9,
-        "change_5d_pct": -0.532
+        "current_dxy": 98.94,
+        "change_5d_pct": -0.489
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 40.74,
+      "score": 44.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.185,
-        "articles_analyzed": 24,
+        "avg_compound": -0.118,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Strategy and Robinhood now lead a $4.5 billion large-cap ETF that was not built for crypto",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-06T10:00:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Console makers say buyers are owed nothing from their tariff refunds",
+            "source": "The Next Web",
+            "publishedAt": "2026-09-06T09:54:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Iran has 30 million barrels of oil left for China, says Treasury Secretary Bessent",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-06T09:53:07Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "PepsiCo Loses to 30-year U.S. Treasury Bonds on Yield. Here's Why It Wins on Everything Else",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T09:49:38Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
           {
             "title": "'Dr. Doom' Nouriel Roubini lays out the 4 things he's worried about in the US economy",
             "source": "Business Insider",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-06T09:34:38Z",
             "sentiment": "Negative",
             "compound": -0.226
-          },
-          {
-            "title": "For its economic woes, Gen X still blames the Great Recession",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T09:34:32Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "French President Emmanuel Macron Calls for a ‘New Multilateralism’ Across Creative Industries: ‘We Built a Civilization of Images. We Should Not Resign Ourselves to Watching It Deteriorate’",
-            "source": "Variety",
-            "publishedAt": "2026-09-06T09:30:34Z",
-            "sentiment": "Positive",
-            "compound": 0.604
-          },
-          {
-            "title": "Dead money: Your savings account is losing inflation fight — where 4 financial advisors grow their cash instead",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T09:19:19Z",
-            "sentiment": "Negative",
-            "compound": -0.859
-          },
-          {
-            "title": "If a Stock Market Crash Is Coming, History Says Investors Who Make This Simple Move Will Win",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T09:19:04Z",
-            "sentiment": "Positive",
-            "compound": 0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 40.86,
-  "trade_probability": 44.52,
+  "confirmation_score": 41.16,
+  "trade_probability": 44.7,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
