@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-07T01:31:06.442199+00:00",
+  "fetched_at": "2026-09-07T01:45:45.448806+00:00",
   "source": "forexfactory (unofficial public feed)",
   "events": [
     {
@@ -255,6 +255,15 @@
       "actual": null
     },
     {
+      "title": "Monetary Policy Report Hearings",
+      "country": "GBP",
+      "date": "2026-09-08T09:15:00-04:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": "",
+      "actual": null
+    },
+    {
       "title": "Consumer Credit m/m",
       "country": "USD",
       "date": "2026-09-08T15:00:00-04:00",
@@ -333,6 +342,15 @@
       "impact": "Low",
       "forecast": "",
       "previous": "11.8K",
+      "actual": null
+    },
+    {
+      "title": "ECB President Lagarde Speaks",
+      "country": "EUR",
+      "date": "2026-09-09T13:00:00-04:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": "",
       "actual": null
     },
     {
@@ -648,6 +666,15 @@
       "impact": "High",
       "forecast": "3.4%",
       "previous": "3.4%",
+      "actual": null
+    },
+    {
+      "title": "ECB President Lagarde Speaks",
+      "country": "EUR",
+      "date": "2026-09-11T10:00:00-04:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": "",
       "actual": null
     },
     {
