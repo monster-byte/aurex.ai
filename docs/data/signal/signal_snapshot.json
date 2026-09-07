@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T08:15:52.052457+00:00",
+  "generated_at": "2026-09-07T08:31:07.590706+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.27,
+      "score": 54.72,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.02,
-        "change_5d_pct": -0.409
+        "current_dxy": 98.84,
+        "change_5d_pct": -0.59
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.13,
+      "score": 46.91,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.077,
+        "avg_compound": -0.062,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "The dollar deluge that RBI is faced with has also hauled in a new tide of woes",
+            "source": "Livemint",
+            "publishedAt": "2026-09-06T08:31:04Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "Markets focus on rate decision, current account data this week",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-09-06T08:27:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Singapore market update: Marina Square redevelopment & Shein IPO",
+            "source": "The Straits Times",
+            "publishedAt": "2026-09-06T08:25:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "FPIs pull out ₹8,731 crore from equities, turn net sellers for the week",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-06T08:23:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Resilient demand to aid jewellery retailers maintain growth trajectory",
             "source": "Business Standard",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-06T08:03:09Z",
             "sentiment": "Neutral",
             "compound": -0.077
-          },
-          {
-            "title": "The Stock Market Has Done This Only 2 Times Since 1871 — and Both Times Ended Badly. Could Trump’s Policies Raise the Risk of Another Market Meltdown?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T08:03:01Z",
-            "sentiment": "Negative",
-            "compound": -0.637
-          },
-          {
-            "title": "$2.99 | The Intelligent Investor, Rev. Ed: The Definitive Book on Value Investing (eBook) by Benjamin Graham, Jason Zweig",
-            "source": "Slickdeals.net",
-            "publishedAt": "2026-09-06T07:49:43Z",
-            "sentiment": "Positive",
-            "compound": 0.66
-          },
-          {
-            "title": "West Asia conflict, crude prices likely to drive stock markets this week",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-06T07:31:42Z",
-            "sentiment": "Negative",
-            "compound": -0.718
-          },
-          {
-            "title": "Docebo And 2 Other Canadian AI Stocks To Own",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T07:02:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.3,
-  "trade_probability": 44.78,
+  "confirmation_score": 41.52,
+  "trade_probability": 44.91,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
