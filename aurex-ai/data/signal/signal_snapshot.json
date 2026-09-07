@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T17:46:00.453797+00:00",
+  "generated_at": "2026-09-07T18:01:18.341182+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.28,
+      "score": 54.2,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.9,
-        "change_5d_pct": -0.535
+        "current_dxy": 98.91,
+        "change_5d_pct": -0.525
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.37,
+      "score": 56.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.127,
+        "avg_compound": 0.135,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Billionaires Are Bleeding Money, but Here's Why Warren Buffett Is Getting Richer",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T17:56:56Z",
+            "sentiment": "Positive",
+            "compound": 0.681
+          },
+          {
+            "title": "Why SoundHound AI Stock Rocketed 16.8% Higher in August",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T17:56:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Ahead of the curve in managing inflation",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T17:50:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "2 Superior Growth Stocks to Buy and Hold for 10 Years",
             "source": "Biztoc.com",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-06T17:37:43Z",
             "sentiment": "Positive",
             "compound": 0.226
-          },
-          {
-            "title": "Even Supreme Leader Mojtaba Khamenei is worried about Iran’s economy and ‘social cohesion’ as U.S. pressure gets tougher to withstand",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-06T17:37:43Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Kevin O’Leary says if you earn $68,000 a year and follow this rule, you’ll retire a millionaire",
-            "source": "Fortune",
-            "publishedAt": "2026-09-06T17:35:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Scott Galloway issues grim SpaceX stock price forecast",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-06T17:33:00Z",
-            "sentiment": "Negative",
-            "compound": -0.572
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.42,
-  "trade_probability": 45.45,
+  "confirmation_score": 42.45,
+  "trade_probability": 45.47,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
