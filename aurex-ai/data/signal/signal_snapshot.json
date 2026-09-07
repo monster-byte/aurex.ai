@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T06:31:08.466632+00:00",
+  "generated_at": "2026-09-07T06:45:56.890979+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.47,
+      "score": 52.89,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.12,
-        "change_5d_pct": -0.309
+        "current_dxy": 99.07,
+        "change_5d_pct": -0.361
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.28,
+      "score": 49.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.006,
+        "avg_compound": -0.002,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": " ASX 200 — WEEKLY MARKET HEALTH REPORT",
+            "source": "Wordpress.com",
+            "publishedAt": "2026-09-06T06:42:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Weekly economy wrap: GDP beats estimates, but inflation risks remain",
             "source": "Business Standard",
@@ -125,19 +132,12 @@
             "publishedAt": "2026-09-06T06:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Netherlands Moves Gold From U.S. and Canada to London, Citing Geopolitical Unrest",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-09-06T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.63,
+  "confirmation_score": 41.64,
   "trade_probability": 44.98,
   "market_regime": "BULLISH",
   "final_decision": {
