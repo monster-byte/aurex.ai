@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T20:31:07.098444+00:00",
+  "generated_at": "2026-09-07T20:45:48.768643+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.48,
+      "score": 49.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.01,
+        "avg_compound": -0.006,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Temporary California tax is set to expire — but Democrats want to make it permanent",
+            "source": "New York Post",
+            "publishedAt": "2026-09-06T20:45:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.115
+          },
+          {
+            "title": "Report: Trump Administration May Open Funds to Married Couples Who Choose to Raise Their Children at Home",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-06T20:44:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Warren Buffett has a stark message for stock market investors",
             "source": "Biztoc.com",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-06T19:58:18Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Akhilesh questions ove claims of GDP growth",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T19:54:04Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Mosque demolished to shift focus from govt failures: Akhilesh",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T19:51:54Z",
-            "sentiment": "Negative",
-            "compound": -0.459
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.61,
-  "trade_probability": 44.97,
+  "confirmation_score": 41.53,
+  "trade_probability": 44.92,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
