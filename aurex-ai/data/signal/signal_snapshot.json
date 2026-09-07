@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T22:31:02.458150+00:00",
+  "generated_at": "2026-09-07T22:45:50.519380+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.73,
+      "score": 50.73,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.035,
+        "avg_compound": 0.015,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "I Predicted That Lululemon Stock Was In Trouble Ahead of Earnings. What's Next After Its 17% Drop?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T22:43:52Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
+          {
+            "title": "Political meddling at the Census Bureau damages the US statistical system",
+            "source": "Piie.com",
+            "publishedAt": "2026-09-06T22:36:07Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
           {
             "title": "JD Vance Says Trump 'Cares a Lot' About Interest Rates Because He Wants Americans to Afford a Home: 'Would Be Nice' to Have Fed's Help",
             "source": "Yahoo Entertainment",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-06T22:08:00Z",
             "sentiment": "Neutral",
             "compound": -0.077
-          },
-          {
-            "title": "Millions of Aussies could get an extra $82 a week under Pauline Hanson's radical super shake-up",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-06T22:07:20Z",
-            "sentiment": "Positive",
-            "compound": 0.599
-          },
-          {
-            "title": "Anthropic will reportedly list days before the US midterm elections",
-            "source": "The Next Web",
-            "publishedAt": "2026-09-06T22:02:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.73,
-  "trade_probability": 45.04,
+  "confirmation_score": 41.63,
+  "trade_probability": 44.98,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
