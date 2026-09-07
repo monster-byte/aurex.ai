@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T18:31:08.409886+00:00",
+  "generated_at": "2026-09-07T18:45:49.739822+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.2,
+      "score": 54.18,
       "status": "yellow",
       "details": {
         "current_dxy": 98.91,
-        "change_5d_pct": -0.525
+        "change_5d_pct": -0.522
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.38,
+      "score": 57.3,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.108,
+        "avg_compound": 0.146,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "3 Indian Growth Stocks To Watch With At Least 24% Revenue Growth",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T18:42:35Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "“Focusing on Different Options”– Steve O’Donnell Unmasks Truth on Demolished NASCAR Track’s Future Amid Southern California Search",
+            "source": "Essentially Sports",
+            "publishedAt": "2026-09-06T18:40:01Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
           {
             "title": "'Spider-Man: Brand New Day' remains No. 1 as Hollywood wraps a banner summer",
             "source": "Abcnews.com",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-06T18:11:00Z",
             "sentiment": "Positive",
             "compound": 0.494
-          },
-          {
-            "title": "Kevin O’Leary says if you earn $68,000 a year and follow this rule, you’ll retire a millionaire",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T18:10:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How Bitmine could surpass its 5% Ethereum goal without buying more ETH",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-06T18:10:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.32,
-  "trade_probability": 45.39,
+  "confirmation_score": 42.5,
+  "trade_probability": 45.5,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
