@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T12:01:21.780419+00:00",
+  "generated_at": "2026-09-07T12:15:52.767529+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.9,
+      "score": 53.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.94,
-        "change_5d_pct": -0.488
+        "current_dxy": 98.96,
+        "change_5d_pct": -0.47
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.58,
+      "score": 47.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.028,
+        "avg_compound": -0.049,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "New Medium-Term program sees single-digit inflation by 2029",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-09-06T12:11:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Sunday Morning Talk Show Thread 6 September 2026",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-06T12:04:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Inflation data, Oracle earnings, and an energy supply crunch: What to watch this week",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-06T12:04:29Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Iran warns of ‘more painful’ response to U.S. attacks as economic pressure mounts",
+            "source": "CNBC",
+            "publishedAt": "2026-09-06T12:02:47Z",
+            "sentiment": "Negative",
+            "compound": -0.67
+          },
           {
             "title": "Netflix and Spotify were just the start of 2026’s subscription price hikes",
             "source": "MakeUseOf",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-06T11:52:14Z",
             "sentiment": "Positive",
             "compound": 0.807
-          },
-          {
-            "title": "Iran’s Ring of Fire Now Ashes - Iran is rapidly being consumed in the flames it lit.",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-06T11:45:35Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Iran to tackle economic issues, says further attacks will be 'more painful'",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-06T11:41:40Z",
-            "sentiment": "Negative",
-            "compound": -0.726
-          },
-          {
-            "title": "Why Palo Alto Networks Stock Plummeted This Week",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T11:37:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why Rezolve AI Stock Plummeted This Week",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T11:36:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.6,
-  "trade_probability": 44.96,
+  "confirmation_score": 41.49,
+  "trade_probability": 44.89,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
