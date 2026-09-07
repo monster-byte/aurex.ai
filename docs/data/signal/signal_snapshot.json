@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T13:01:19.680388+00:00",
+  "generated_at": "2026-09-07T13:15:52.219241+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.29,
+      "score": 54.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.9,
-        "change_5d_pct": -0.536
+        "current_dxy": 98.93,
+        "change_5d_pct": -0.508
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.52,
+      "score": 49.86,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.01,
+        "avg_compound": -0.003,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "America’s population of 401(k) millionaires hits record high — thanks to strong market",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T13:07:06Z",
+            "sentiment": "Positive",
+            "compound": 0.735
+          },
+          {
+            "title": "Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T13:06:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "BlackRock and JPMorgan bet on emerging markets amid global bond turmoil",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-06T13:06:29Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
           {
             "title": "1988 Porsche 944 Turbo S",
             "source": "Bringatrailer.com",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-06T12:48:18Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "\"GDP figure being projected is not real\": Akhilesh Yadav takes swipe at Centre over economic claims, unemployment",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T12:34:29Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Inflation data, Oracle earnings, and an energy supply crunch: What to watch this week",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T12:23:01Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Iran to tackle economic issues, says further attacks will be 'more painful'",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T12:19:17Z",
-            "sentiment": "Negative",
-            "compound": -0.726
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.74,
-  "trade_probability": 45.04,
+  "confirmation_score": 41.75,
+  "trade_probability": 45.05,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
