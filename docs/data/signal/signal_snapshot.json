@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T13:45:48.016553+00:00",
+  "generated_at": "2026-09-07T14:01:28.738442+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.1,
+      "score": 54.21,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.92,
-        "change_5d_pct": -0.513
+        "current_dxy": 98.91,
+        "change_5d_pct": -0.526
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.39,
+      "score": 50.11,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.012,
+        "avg_compound": 0.002,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Today’s leftists are possessed by the spirit of France’s 18th-century guillotine-loving revolutionaries",
+            "source": "New York Post",
+            "publishedAt": "2026-09-06T14:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "Nigeria’s regulator asks Uber about the services it did not deliver before leaving",
+            "source": "The Next Web",
+            "publishedAt": "2026-09-06T13:59:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Israel cuts fuel tax as US-Iran conflict pushes up gasoline prices",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T13:52:29Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
           {
             "title": "QBTS Investor Alert: Kessler Topaz Meltzer & Check, LLP Encourages QBTS Investors with Losses to Contact the Firm",
             "source": "PRNewswire",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-06T13:37:26Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Trump Demands Rate Cuts as 162,000 New Jobs Pushes the Fed Toward a Hike",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T13:37:24Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Futures: Nvidia Leads 5 New AI Buys; U.S., Iran Exchange Attacks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T13:22:20Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "America’s population of 401(k) millionaires hits record high — thanks to strong market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T13:07:06Z",
-            "sentiment": "Positive",
-            "compound": 0.735
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.71,
-  "trade_probability": 45.03,
+  "confirmation_score": 41.79,
+  "trade_probability": 45.07,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
