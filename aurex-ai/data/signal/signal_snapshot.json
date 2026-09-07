@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T00:15:46.725470+00:00",
+  "generated_at": "2026-09-07T00:31:03.837490+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.29,
+      "score": 52.44,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.14,
-        "change_5d_pct": -0.287
+        "current_dxy": 99.13,
+        "change_5d_pct": -0.305
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.72,
+      "score": 56.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.114,
+        "avg_compound": 0.123,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Germany's Isar rocket launches from arctic Norway and reaches orbit",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-06T00:17:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
           {
             "title": "There’s a lot riding on cos getting rural 2-wheeler mix right",
             "source": "The Times of India",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T23:15:00Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "Americans fed up with fast-food prices are sending chains a clear message, CEO says",
-            "source": "Fox Business",
-            "publishedAt": "2026-09-05T23:09:32Z",
-            "sentiment": "Positive",
-            "compound": 0.382
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.16,
-  "trade_probability": 45.3,
+  "confirmation_score": 42.22,
+  "trade_probability": 45.33,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
