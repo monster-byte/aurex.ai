@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T08:31:07.590706+00:00",
+  "generated_at": "2026-09-07T08:36:01.522789+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.72,
+      "score": 54.54,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.84,
-        "change_5d_pct": -0.59
+        "current_dxy": 98.87,
+        "change_5d_pct": -0.567
       }
     },
     "macro": {
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 41.52,
-  "trade_probability": 44.91,
+  "confirmation_score": 41.5,
+  "trade_probability": 44.9,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
