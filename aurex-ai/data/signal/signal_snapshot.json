@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T23:45:47.706820+00:00",
+  "generated_at": "2026-09-07T00:01:22.309766+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.45,
+      "score": 52.21,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.13,
-        "change_5d_pct": -0.306
+        "current_dxy": 99.15,
+        "change_5d_pct": -0.277
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.76,
+      "score": 55.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.095,
+        "avg_compound": 0.114,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "There’s a lot riding on cos getting rural 2-wheeler mix right",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T00:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "1978 Vs. Today: Here's What Gas Prices Miss About The Real Cost Of Driving",
             "source": "Jalopnik",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-05T23:09:32Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "When “Follow the Science” became a marketing campaign",
-            "source": "Americaoutloud.news",
-            "publishedAt": "2026-09-05T22:58:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.08,
-  "trade_probability": 45.25,
+  "confirmation_score": 42.15,
+  "trade_probability": 45.29,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
