@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T18:15:50.409788+00:00",
+  "generated_at": "2026-09-07T18:31:08.409886+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.23,
+      "score": 54.2,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.9,
-        "change_5d_pct": -0.529
+        "current_dxy": 98.91,
+        "change_5d_pct": -0.525
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.57,
+      "score": 55.38,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.131,
+        "avg_compound": 0.108,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "'Spider-Man: Brand New Day' remains No. 1 as Hollywood wraps a banner summer",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-06T18:28:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "5 investment rules everybody must know: You don’t need to be Warren Buffett to understand these simple money basics",
+            "source": "Livemint",
+            "publishedAt": "2026-09-06T18:26:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "If Canada is 'Ripping Off' the U.S., Why Is It Falling Behind?",
+            "source": "Reason",
+            "publishedAt": "2026-09-06T18:26:04Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
           {
             "title": "India's wealth story needs a chapter on retirement",
             "source": "Business Standard",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-06T18:10:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Billionaires Are Bleeding Money, but Here's Why Warren Buffett Is Getting Richer",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T17:56:56Z",
-            "sentiment": "Positive",
-            "compound": 0.681
-          },
-          {
-            "title": "Why SoundHound AI Stock Rocketed 16.8% Higher in August",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T17:56:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Ahead of the curve in managing inflation",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T17:50:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.44,
-  "trade_probability": 45.46,
+  "confirmation_score": 42.32,
+  "trade_probability": 45.39,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
