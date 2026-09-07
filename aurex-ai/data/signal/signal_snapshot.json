@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T09:01:22.009757+00:00",
+  "generated_at": "2026-09-07T09:15:58.032675+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.77,
+      "score": 53.95,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.96,
-        "change_5d_pct": -0.472
+        "current_dxy": 98.94,
+        "change_5d_pct": -0.494
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.84,
+      "score": 43.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.123,
+        "avg_compound": -0.137,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "As the Stock Market Flashes a Warning Signal Only Witnessed 2 Times in 155 Years, Warren Buffett Delivers a Blunt Message to Investors",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T09:04:37Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
           {
             "title": "Dead money: Your savings account is losing inflation fight — where 4 financial advisors grow their cash instead",
             "source": "Yahoo Entertainment",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-06T08:27:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Singapore market update: Marina Square redevelopment & Shein IPO",
-            "source": "The Straits Times",
-            "publishedAt": "2026-09-06T08:25:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.12,
-  "trade_probability": 44.67,
+  "confirmation_score": 41.07,
+  "trade_probability": 44.64,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
