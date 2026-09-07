@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T21:31:08.190425+00:00",
+  "generated_at": "2026-09-07T21:45:51.556729+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.91,
+      "score": 48.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.018,
+        "avg_compound": -0.039,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Will US inflation data persuade the Fed to raise rates this month?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T21:43:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The House They Bought for $62,000 in 1984 Sold for $890,000. The Tax Exclusion Stopped at $500,000. Medicare’s Bill Started There.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-06T21:32:04Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
           {
             "title": "Good news for drivers: Gas prices plunge",
             "source": "Israelnationalnews.com",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-06T20:45:19Z",
             "sentiment": "Neutral",
             "compound": 0.115
-          },
-          {
-            "title": "Report: Trump Administration May Open Funds to Married Couples Who Choose to Raise Their Children at Home",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-06T20:44:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Warren Buffett has a stark message for stock market investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T20:27:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.65,
-  "trade_probability": 44.99,
+  "confirmation_score": 41.36,
+  "trade_probability": 44.82,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
