@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T10:45:51.768261+00:00",
+  "generated_at": "2026-09-07T11:01:25.215035+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.85,
+      "score": 54.0,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.95,
-        "change_5d_pct": -0.481
+        "current_dxy": 98.93,
+        "change_5d_pct": -0.5
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.09,
+      "score": 43.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.118,
-        "articles_analyzed": 25,
+        "avg_compound": -0.129,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Ultra-rich Americans are dropping stocks and stockpiling historic piles of cash. Where their wealth’s going instead",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-06T10:15:00Z",
+            "title": "Republicans on Defense: $10M Texas Senate ad blitz...",
+            "source": "Associated Press",
+            "publishedAt": "2026-09-06T11:00:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "PIF Doesn’t Just Want to Fund Newcastle, It Wants Newcastle to Fund Itself",
+            "source": "SB Nation",
+            "publishedAt": "2026-09-06T11:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Links 9/6/2026",
+            "source": "Nakedcapitalism.com",
+            "publishedAt": "2026-09-06T10:55:20Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Turkey sees 2026 inflation at 28.4%",
+            "title": "New iPhone 18 May Signal Higher Prices Ahead",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T10:04:55Z",
+            "publishedAt": "2026-09-06T10:50:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Strategy and Robinhood now lead a $4.5 billion large-cap ETF that was not built for crypto",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-06T10:00:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Seoul Forum To Ask Whether AI Can Cut A Decade Off Drug Development Amid Healthcare Revolution",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-06T10:49:44Z",
+            "sentiment": "Negative",
+            "compound": -0.273
           },
           {
-            "title": "Console makers say buyers are owed nothing from their tariff refunds",
-            "source": "The Next Web",
-            "publishedAt": "2026-09-06T09:54:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Iran has 30 million barrels of oil left for China, says Treasury Secretary Bessent",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-06T09:53:07Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "PepsiCo Loses to 30-year U.S. Treasury Bonds on Yield. Here's Why It Wins on Everything Else",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T09:49:38Z",
-            "sentiment": "Positive",
-            "compound": 0.494
+            "title": "Crude prices, Fed bets and more: What’s in store for markets this week",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T10:48:48Z",
+            "sentiment": "Negative",
+            "compound": -0.572
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.15,
-  "trade_probability": 44.69,
+  "confirmation_score": 41.11,
+  "trade_probability": 44.67,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
