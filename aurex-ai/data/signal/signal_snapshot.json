@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T05:01:12.341987+00:00",
+  "generated_at": "2026-09-07T05:15:50.683507+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.12,
+      "score": 52.16,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.17,
-        "change_5d_pct": -0.266
+        "current_dxy": 99.16,
+        "change_5d_pct": -0.271
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.53,
+      "score": 50.43,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.051,
+        "avg_compound": 0.009,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Radical Abortion Group With Ties to Biden Officials and Shady Hedge Fund Faces Investigation and Lawsuit for Advertising Illegal Abortion Pills in Plane Stunt",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-06T05:05:49Z",
+            "sentiment": "Negative",
+            "compound": -0.67
+          },
           {
             "title": "FPIs resume selling, pull out ₹7,443 cr from equities in first week of Sep",
             "source": "Business Standard",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-06T04:39:45Z",
             "sentiment": "Negative",
             "compound": -0.7
-          },
-          {
-            "title": "How will Nifty, Sensex behave on Monday? US Fed rate hike bets, among 4 factors to drive D-Street action",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T04:26:44Z",
-            "sentiment": "Positive",
-            "compound": 0.402
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.82,
-  "trade_probability": 45.09,
+  "confirmation_score": 41.62,
+  "trade_probability": 44.97,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
