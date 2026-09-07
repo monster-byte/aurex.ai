@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T14:28:16.474286+00:00",
+  "generated_at": "2026-09-07T14:31:07.218564+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.55,
+      "score": 54.53,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.86,
-        "change_5d_pct": -0.568
+        "current_dxy": 98.87,
+        "change_5d_pct": -0.566
       }
     },
     "macro": {
