@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T15:15:52.475753+00:00",
+  "generated_at": "2026-09-07T15:31:07.559883+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.4,
+      "score": 54.38,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.88,
-        "change_5d_pct": -0.55
+        "current_dxy": 98.89,
+        "change_5d_pct": -0.548
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.98,
+      "score": 49.03,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.02,
+        "avg_compound": -0.019,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Mohamed El-Erian says an influx of hyperscaler bonds is competing with U.S. Treasuries — and pushing rates higher",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-06T15:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Exclusive - Gouri Tonnk: I wanted to be lawyer, family wanted me to be doctor, but I became actor",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T15:28:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.064
+          },
+          {
+            "title": "Hulk Hogan’s Florida mansion gets another $1 million price cut, now listed at $6.9 million after three reductions since the Clearwater Beach home hit the market for $10.98 million",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T15:25:20Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Upcoming inflation data could determine if the Federal Reserve hikes interest rates soon, leaving Wall Street on edge",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T15:24:03Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Bessent predicts oil prices could drop as low as $40 after Iran conflict ends and supply floods market",
+            "source": "Fox News",
+            "publishedAt": "2026-09-06T15:18:54Z",
+            "sentiment": "Negative",
+            "compound": -0.67
+          },
           {
             "title": "Editorial. Bond blues",
             "source": "BusinessLine",
             "publishedAt": "2026-09-06T15:15:45Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Eric Trump Says Our Mission Hasn't Changed as American Bitcoin Marks One Year of Going Public, but ABTC Stock Got Battered",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-06T15:15:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "SMPL Investor Alert: Kessler Topaz Meltzer & Check, LLP Encourages The Simply Good Foods Company (SMPL) Investors with Losses to Contact the Firm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-06T15:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "Federal Reserve Chair Kevin Warsh warns of potential rate hike as inflation refuses to cooperate",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-06T15:12:45Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "10 Best Low-Budget Sci-Fi Movies, Ranked",
-            "source": "/FILM",
-            "publishedAt": "2026-09-06T15:10:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Bullion markets this week: US inflation, crude and Middle East tensions to set the tone",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T15:07:13Z",
-            "sentiment": "Negative",
-            "compound": -0.751
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.69,
-  "trade_probability": 45.01,
+  "confirmation_score": 41.7,
+  "trade_probability": 45.02,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
