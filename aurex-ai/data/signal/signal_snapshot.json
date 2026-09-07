@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T19:01:18.864420+00:00",
+  "generated_at": "2026-09-07T19:15:50.506459+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.14,
+      "score": 54.13,
       "status": "yellow",
       "details": {
         "current_dxy": 98.92,
-        "change_5d_pct": -0.517
+        "change_5d_pct": -0.516
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.81,
+      "score": 55.22,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.096,
+        "avg_compound": 0.104,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Turkey lifts year-end inflation forecast to 28.4 percent",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T19:14:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Bitcoin’s faces a weird new macro reality as the Fed turns off the tap and Treasury opens the floodgates",
             "source": "CryptoSlate",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-06T18:40:01Z",
             "sentiment": "Positive",
             "compound": 0.318
-          },
-          {
-            "title": "'Spider-Man: Brand New Day' remains No. 1 as Hollywood wraps a banner summer",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-06T18:28:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.25,
-  "trade_probability": 45.35,
+  "confirmation_score": 42.29,
+  "trade_probability": 45.37,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
