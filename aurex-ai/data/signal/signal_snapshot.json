@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T15:31:07.559883+00:00",
+  "generated_at": "2026-09-07T15:45:48.565955+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.38,
+      "score": 54.46,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.89,
-        "change_5d_pct": -0.548
+        "current_dxy": 98.88,
+        "change_5d_pct": -0.557
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.03,
+      "score": 48.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.019,
+        "avg_compound": -0.039,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Mohamed El-Erian says an influx of hyperscaler bonds is competing with U.S. Treasuries — and pushing rates higher",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-06T15:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Exclusive - Gouri Tonnk: I wanted to be lawyer, family wanted me to be doctor, but I became actor",
+            "title": "Bigg Boss Kannada 13: Sangeetha Bhat opens up about abusive childhood, #MeToo struggles, says, \"I never felt safe around men\"",
             "source": "The Times of India",
-            "publishedAt": "2026-09-06T15:28:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.064
-          },
-          {
-            "title": "Hulk Hogan’s Florida mansion gets another $1 million price cut, now listed at $6.9 million after three reductions since the Clearwater Beach home hit the market for $10.98 million",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T15:25:20Z",
+            "publishedAt": "2026-09-06T15:41:01Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.845
           },
           {
-            "title": "Upcoming inflation data could determine if the Federal Reserve hikes interest rates soon, leaving Wall Street on edge",
+            "title": "Will Alphabet Break Warren Buffett's Cardinal Rule of Investing?",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T15:24:03Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Bessent predicts oil prices could drop as low as $40 after Iran conflict ends and supply floods market",
-            "source": "Fox News",
-            "publishedAt": "2026-09-06T15:18:54Z",
-            "sentiment": "Negative",
-            "compound": -0.67
-          },
-          {
-            "title": "Editorial. Bond blues",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-06T15:15:45Z",
+            "publishedAt": "2026-09-06T15:40:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Stock Market Week Ahead: Week Of The Big Bond Scheme",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-06T15:39:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "China prepares £40bn stimulus for financial sector amid fears over sluggish growth",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T15:39:05Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "‘Spider-Man’ Takes Sixth No. 1 as Summer Box Office As It Crosses $2.4 Billion",
+            "source": "TheWrap",
+            "publishedAt": "2026-09-06T15:38:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Sen. John Kennedy criticizes the Trump administration’s approach to Putin amid latest peace talks",
+            "source": "NBC News",
+            "publishedAt": "2026-09-06T15:32:57Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.7,
-  "trade_probability": 45.02,
+  "confirmation_score": 41.61,
+  "trade_probability": 44.97,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
