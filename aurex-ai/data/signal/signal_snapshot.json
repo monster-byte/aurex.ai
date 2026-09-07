@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T03:31:03.196280+00:00",
+  "generated_at": "2026-09-07T03:45:50.185047+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.1,
+      "score": 52.04,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.17,
-        "change_5d_pct": -0.262
+        "current_dxy": 99.18,
+        "change_5d_pct": -0.255
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.68,
+      "score": 55.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.114,
+        "avg_compound": 0.119,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "August Job Gains Blew Past Estimates. Here's What It Means for the Fed",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T03:30:59Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
           {
             "title": "Retiring at 45? Why the 4% rule may not work for your mutual fund corpus and what early retirees can do",
             "source": "Livemint",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-06T02:39:38Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Montezemolo says Ferrari owes him more gratitude for years at helm",
-            "source": "Inautonews.com",
-            "publishedAt": "2026-09-06T02:17:42Z",
-            "sentiment": "Positive",
-            "compound": 0.556
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.14,
-  "trade_probability": 45.28,
+  "confirmation_score": 42.15,
+  "trade_probability": 45.29,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
