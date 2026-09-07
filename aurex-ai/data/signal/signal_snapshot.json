@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T08:01:15.255409+00:00",
+  "generated_at": "2026-09-07T08:15:52.052457+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.76,
+      "score": 53.27,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.09,
-        "change_5d_pct": -0.345
+        "current_dxy": 99.02,
+        "change_5d_pct": -0.409
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.76,
+      "score": 46.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.045,
+        "avg_compound": -0.077,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Resilient demand to aid jewellery retailers maintain growth trajectory",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-06T08:11:58Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Which overseas property markets will be the winners and losers if Fed raises US rates?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T08:03:09Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
+          {
+            "title": "The Stock Market Has Done This Only 2 Times Since 1871 — and Both Times Ended Badly. Could Trump’s Policies Raise the Risk of Another Market Meltdown?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T08:03:01Z",
+            "sentiment": "Negative",
+            "compound": -0.637
+          },
           {
             "title": "$2.99 | The Intelligent Investor, Rev. Ed: The Definitive Book on Value Investing (eBook) by Benjamin Graham, Jason Zweig",
             "source": "Slickdeals.net",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-06T07:02:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "FPIs resume selling; pull out Rs 7,443 cr from equities in first week of Sep",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T06:57:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Oil Price Surges Above $90 as US-Iran Tensions Escalate",
-            "source": "Grandgoldman.com",
-            "publishedAt": "2026-09-06T06:47:46Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": " ASX 200 — WEEKLY MARKET HEALTH REPORT",
-            "source": "Wordpress.com",
-            "publishedAt": "2026-09-06T06:42:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.41,
-  "trade_probability": 44.85,
+  "confirmation_score": 41.3,
+  "trade_probability": 44.78,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
