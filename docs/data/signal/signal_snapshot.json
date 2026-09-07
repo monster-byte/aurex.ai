@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T11:01:25.215035+00:00",
+  "generated_at": "2026-09-07T11:15:49.704280+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.0,
+      "score": 53.99,
       "status": "yellow",
       "details": {
         "current_dxy": 98.93,
-        "change_5d_pct": -0.5
+        "change_5d_pct": -0.499
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.56,
+      "score": 44.47,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.129,
+        "avg_compound": -0.111,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "China to pump $54 billion into state banks, insurers in capital-boosting push",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T11:14:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Ahead of Market: 10 things that will decide stock market action on Monday",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T11:05:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Republicans on Defense: $10M Texas Senate ad blitz...",
             "source": "Associated Press",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-06T10:50:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Seoul Forum To Ask Whether AI Can Cut A Decade Off Drug Development Amid Healthcare Revolution",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-06T10:49:44Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Crude prices, Fed bets and more: What’s in store for markets this week",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T10:48:48Z",
-            "sentiment": "Negative",
-            "compound": -0.572
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.11,
-  "trade_probability": 44.67,
+  "confirmation_score": 41.2,
+  "trade_probability": 44.72,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
