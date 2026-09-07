@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T07:31:09.204433+00:00",
+  "generated_at": "2026-09-07T07:45:49.144949+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.54,
+      "score": 52.7,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.11,
-        "change_5d_pct": -0.318
+        "current_dxy": 99.1,
+        "change_5d_pct": -0.337
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.92,
+      "score": 47.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.042,
+        "avg_compound": -0.058,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "West Asia conflict, crude prices likely to drive stock markets this week",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-06T07:31:42Z",
+            "sentiment": "Negative",
+            "compound": -0.718
+          },
           {
             "title": "Docebo And 2 Other Canadian AI Stocks To Own",
             "source": "Biztoc.com",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-06T06:31:04Z",
             "sentiment": "Negative",
             "compound": -0.392
-          },
-          {
-            "title": "Financial analyst on ECB hike: Interest rates are rising... what should you do?",
-            "source": "TheJournal.ie",
-            "publishedAt": "2026-09-06T06:30:58Z",
-            "sentiment": "Positive",
-            "compound": 0.459
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.4,
-  "trade_probability": 44.84,
+  "confirmation_score": 41.34,
+  "trade_probability": 44.8,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
