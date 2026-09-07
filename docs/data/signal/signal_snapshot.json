@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T05:45:49.649137+00:00",
+  "generated_at": "2026-09-07T06:01:23.571876+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.2,
+      "score": 52.22,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.16,
-        "change_5d_pct": -0.276
+        "current_dxy": 99.15,
+        "change_5d_pct": -0.278
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.43,
+      "score": 49.18,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.009,
+        "avg_compound": -0.016,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "64% of Americans Say Running Out of Money Scares Them More Than Dying",
+            "source": "Thoughtcatalog.com",
+            "publishedAt": "2026-09-06T06:01:00Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Arsenal see former Real Madrid academy graduate as a ‘realistic’ target",
+            "source": "Madriduniversal.com",
+            "publishedAt": "2026-09-06T06:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Netherlands Moves Gold From U.S. and Canada to London, Citing Geopolitical Unrest",
+            "source": "Naturalnews.com",
+            "publishedAt": "2026-09-06T06:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Radical Abortion Group With Ties to Biden Officials and Shady Hedge Fund Faces Investigation and Lawsuit for Advertising Illegal Abortion Pills in Plane Stunt",
             "source": "Freerepublic.com",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-06T04:56:20Z",
             "sentiment": "Positive",
             "compound": 0.421
-          },
-          {
-            "title": "FPIs turn sellers again, pull out Rs 7,443 crore from Indian equities in first week of September",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T04:46:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "FPIs turn net sellers, withdraw ₹7,443 cr from equities in early September",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-06T04:45:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Crude oil rally nears $100: Will geopolitical risks push prices higher?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T04:39:45Z",
-            "sentiment": "Negative",
-            "compound": -0.7
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.62,
-  "trade_probability": 44.97,
+  "confirmation_score": 41.5,
+  "trade_probability": 44.9,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
