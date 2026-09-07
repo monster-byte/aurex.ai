@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T10:01:21.873102+00:00",
+  "generated_at": "2026-09-07T10:22:35.625662+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.91,
+      "score": 53.97,
       "status": "yellow",
       "details": {
         "current_dxy": 98.94,
-        "change_5d_pct": -0.489
+        "change_5d_pct": -0.497
       }
     },
     "macro": {
@@ -91,6 +91,20 @@
         "avg_compound": -0.118,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Ultra-rich Americans are dropping stocks and stockpiling historic piles of cash. Where their wealth’s going instead",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-06T10:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Turkey sees 2026 inflation at 28.4%",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T10:04:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Strategy and Robinhood now lead a $4.5 billion large-cap ETF that was not built for crypto",
             "source": "CryptoSlate",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-09-06T09:49:38Z",
             "sentiment": "Positive",
             "compound": 0.494
-          },
-          {
-            "title": "'Dr. Doom' Nouriel Roubini lays out the 4 things he's worried about in the US economy",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-06T09:35:01Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Meet the Nvidia-Backed Stock That's Growing at a 454% Pace (It's a Screaming Buy Right Now)",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T09:34:38Z",
-            "sentiment": "Negative",
-            "compound": -0.226
           }
         ]
       }
