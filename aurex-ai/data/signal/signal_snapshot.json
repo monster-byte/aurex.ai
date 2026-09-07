@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T03:15:48.803739+00:00",
+  "generated_at": "2026-09-07T03:27:50.003878+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.0,
+      "score": 52.02,
       "status": "yellow",
       "details": {
         "current_dxy": 99.18,
-        "change_5d_pct": -0.249
+        "change_5d_pct": -0.252
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.56,
+      "score": 55.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.131,
+        "avg_compound": 0.114,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Retiring at 45? Why the 4% rule may not work for your mutual fund corpus and what early retirees can do",
+            "source": "Livemint",
+            "publishedAt": "2026-09-06T03:18:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "ECB doubles down as G7's hawk with second rate hike likely this week",
             "source": "Business Standard",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-06T02:17:42Z",
             "sentiment": "Positive",
             "compound": 0.556
-          },
-          {
-            "title": "Elon Musk Says His New Foundry Can Get Gas Turbines Online 18 Months Faster. Here's What This \"Profound Game Changer\" Would Mean for SpaceX and Tesla",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T02:15:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.21,
-  "trade_probability": 45.33,
+  "confirmation_score": 42.13,
+  "trade_probability": 45.28,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
