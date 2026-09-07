@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T02:45:47.828895+00:00",
+  "generated_at": "2026-09-07T03:01:24.605885+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.08,
+      "score": 51.89,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.17,
-        "change_5d_pct": -0.26
+        "current_dxy": 99.19,
+        "change_5d_pct": -0.236
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.89,
+      "score": 56.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.138,
+        "avg_compound": 0.131,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "ECB doubles down as G7's hawk with second rate hike likely this week",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-06T02:51:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US August job gains surpass forecasts, impacting Fed rate hike expectations",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-06T02:48:26Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
           {
             "title": "Bitcoin-gold correlation hits six-year high as NASDAQ LINK weakens",
             "source": "Crypto Briefing",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-06T02:15:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Why Innodata Stock Tumbled by 10% Last Month",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T01:59:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Viking Therapeutics Trades Well Below Its Wall Street Targets. Here's the Skeptics' Case",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T00:43:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.25,
-  "trade_probability": 45.35,
+  "confirmation_score": 42.2,
+  "trade_probability": 45.32,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
