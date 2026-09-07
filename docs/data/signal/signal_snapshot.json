@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T12:45:51.233220+00:00",
+  "generated_at": "2026-09-07T13:01:19.680388+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.21,
+      "score": 54.29,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.91,
-        "change_5d_pct": -0.526
+        "current_dxy": 98.9,
+        "change_5d_pct": -0.536
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.24,
+      "score": 49.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.055,
+        "avg_compound": -0.01,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "1988 Porsche 944 Turbo S",
+            "source": "Bringatrailer.com",
+            "publishedAt": "2026-09-06T13:00:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "SMPL Investors Have Opportunity to Lead The Simply Good Foods Company Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-06T12:57:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here",
+            "source": "CNBC",
+            "publishedAt": "2026-09-06T12:48:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "\"GDP figure being projected is not real\": Akhilesh Yadav takes swipe at Centre over economic claims, unemployment",
             "source": "The Times of India",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-06T12:19:17Z",
             "sentiment": "Negative",
             "compound": -0.726
-          },
-          {
-            "title": "Sales of CD and vinyl music sees strong resurgence amid physical media backlash — US sales of ‘retro media’ were up 59% and 18%, respectively, in H1 2026",
-            "source": "Tom's Hardware UK",
-            "publishedAt": "2026-09-06T12:16:13Z",
-            "sentiment": "Positive",
-            "compound": 0.691
-          },
-          {
-            "title": "New Medium-Term program sees single-digit inflation by 2029",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-09-06T12:11:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sunday Morning Talk Show Thread 6 September 2026",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-06T12:04:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.5,
-  "trade_probability": 44.9,
+  "confirmation_score": 41.74,
+  "trade_probability": 45.04,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
