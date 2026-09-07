@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T20:01:20.652132+00:00",
+  "generated_at": "2026-09-07T20:15:48.732163+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.29,
+      "score": 51.84,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.046,
+        "avg_compound": 0.037,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Should You Forget SpaceX (SPCX) Stock?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T20:13:20Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
           {
             "title": "Could $10,000 Invested in Nvidia Today Make You a Millionaire?",
             "source": "Biztoc.com",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-06T19:41:24Z",
             "sentiment": "Negative",
             "compound": -0.527
-          },
-          {
-            "title": "U.S. debt is even worse than it seems, and rising Treasury yields are now an ‘all-hands-on-deck situation,’ top economist warns",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-06T19:41:24Z",
-            "sentiment": "Negative",
-            "compound": -0.527
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.79,
-  "trade_probability": 45.07,
+  "confirmation_score": 41.74,
+  "trade_probability": 45.04,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
