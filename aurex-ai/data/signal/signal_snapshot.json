@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T19:45:50.455886+00:00",
+  "generated_at": "2026-09-07T20:01:20.652132+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.03,
+      "score": 52.04,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.93,
-        "change_5d_pct": -0.504
+        "current_dxy": 99.18,
+        "change_5d_pct": -0.255
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.35,
+      "score": 52.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.087,
+        "avg_compound": 0.046,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Could $10,000 Invested in Nvidia Today Make You a Millionaire?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T19:58:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Akhilesh questions ove claims of GDP growth",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T19:54:04Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Mosque demolished to shift focus from govt failures: Akhilesh",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T19:51:54Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "GOP Rep. Gill: Dems Can Call It Democratic Socialism, Leftism — It Is 'Essentially Communism'",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-06T19:51:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "U.S. debt is even worse than it seems, and rising Treasury yields are now an ‘all-hands-on-deck situation,’ top economist warns",
             "source": "Fortune",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-06T19:41:24Z",
             "sentiment": "Negative",
             "compound": -0.527
-          },
-          {
-            "title": "What's open on Labor Day? Most retailers. Closed? Government, banks and the stock market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T19:26:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bond traders brace for increased volatility in US yield curve",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-06T19:25:26Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "RBI's liquidity test may set future course",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T19:24:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "RBI's liquidity test may set future course",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T19:24:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.2,
-  "trade_probability": 45.32,
+  "confirmation_score": 41.79,
+  "trade_probability": 45.07,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
