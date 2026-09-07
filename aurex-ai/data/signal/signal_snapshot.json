@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T22:15:51.224821+00:00",
+  "generated_at": "2026-09-07T22:31:02.458150+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.77,
+      "score": 51.73,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.025,
+        "avg_compound": 0.035,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "JD Vance Says Trump 'Cares a Lot' About Interest Rates Because He Wants Americans to Afford a Home: 'Would Be Nice' to Have Fed's Help",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-06T22:30:10Z",
+            "sentiment": "Positive",
+            "compound": 0.888
+          },
+          {
+            "title": "Can going slow on IPOs revive India’s stock market fortunes?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T22:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "itch-book 0.2.0",
+            "source": "Pypi.org",
+            "publishedAt": "2026-09-06T22:18:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "WSE Deadline: WSE Investors with Losses in Excess of $100K Have Opportunity to Lead Wise Group plc Securities Fraud Lawsuit Filed by The Rosen Law Firm",
             "source": "PRNewswire",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-06T22:02:50Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "As other Asian equity markets boom, Singapore sees value over volume in SGX's IPO rebound",
-            "source": "CNA",
-            "publishedAt": "2026-09-06T22:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Here’s the biggest news you missed this weekend",
-            "source": "NBC News",
-            "publishedAt": "2026-09-06T22:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "AARD Investors Have Opportunity to Lead Aardvark Therapeutics, Inc. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-06T21:59:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.44,
-  "trade_probability": 44.86,
+  "confirmation_score": 41.73,
+  "trade_probability": 45.04,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
