@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T19:15:50.506459+00:00",
+  "generated_at": "2026-09-07T19:31:05.859131+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.13,
+      "score": 54.09,
       "status": "yellow",
       "details": {
         "current_dxy": 98.92,
-        "change_5d_pct": -0.516
+        "change_5d_pct": -0.511
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.22,
+      "score": 56.91,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.104,
+        "avg_compound": 0.138,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "What's open on Labor Day? Most retailers. Closed? Government, banks and the stock market",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T19:26:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bond traders brace for increased volatility in US yield curve",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-06T19:25:26Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "RBI's liquidity test may set future course",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T19:24:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "RBI's liquidity test may set future course",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T19:24:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AAP on back foot in Punjab as govt employees escalate stir months ahead of assembly polls",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T19:24:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Turkey lifts year-end inflation forecast to 28.4 percent",
             "source": "The Times of India",
             "publishedAt": "2026-09-06T19:14:47Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Bitcoin’s faces a weird new macro reality as the Fed turns off the tap and Treasury opens the floodgates",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-06T19:00:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "Bond Traders Brace for More Swings at Both Ends of US Yield Curve",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-06T19:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "PL group spots next capex wave in power, data centres, and renewables",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-06T18:52:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "3 Indian Growth Stocks To Watch With At Least 24% Revenue Growth",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T18:42:35Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "“Focusing on Different Options”– Steve O’Donnell Unmasks Truth on Demolished NASCAR Track’s Future Amid Southern California Search",
-            "source": "Essentially Sports",
-            "publishedAt": "2026-09-06T18:40:01Z",
-            "sentiment": "Positive",
-            "compound": 0.318
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.29,
-  "trade_probability": 45.37,
+  "confirmation_score": 42.46,
+  "trade_probability": 45.48,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
