@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T08:36:01.522789+00:00",
+  "generated_at": "2026-09-07T08:45:47.652437+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.54,
+      "score": 54.68,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.87,
-        "change_5d_pct": -0.567
+        "current_dxy": 98.85,
+        "change_5d_pct": -0.585
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.91,
+      "score": 48.01,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.062,
+        "avg_compound": -0.04,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "From breaking barriers to picking stocks: Muriel Siebert’s investment wisdom",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-06T08:31:22Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
           {
             "title": "The dollar deluge that RBI is faced with has also hauled in a new tide of woes",
             "source": "Livemint",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-06T08:11:58Z",
             "sentiment": "Positive",
             "compound": 0.273
-          },
-          {
-            "title": "Which overseas property markets will be the winners and losers if Fed raises US rates?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T08:03:09Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.5,
-  "trade_probability": 44.9,
+  "confirmation_score": 41.63,
+  "trade_probability": 44.98,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
