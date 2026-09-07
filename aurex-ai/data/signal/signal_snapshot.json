@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T20:15:48.732163+00:00",
+  "generated_at": "2026-09-07T20:31:07.098444+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.84,
+      "score": 50.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.037,
+        "avg_compound": 0.01,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Warren Buffett has a stark message for stock market investors",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-06T20:27:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gasoline Prices Have Never Been Higher On Labor Day Weekend, And The Cost Of Diesel Has Soared To Absurd Heights",
+            "source": "Theeconomiccollapseblog.com",
+            "publishedAt": "2026-09-06T20:16:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Should You Forget SpaceX (SPCX) Stock?",
             "source": "Biztoc.com",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-06T19:51:54Z",
             "sentiment": "Negative",
             "compound": -0.459
-          },
-          {
-            "title": "GOP Rep. Gill: Dems Can Call It Democratic Socialism, Leftism — It Is 'Essentially Communism'",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-06T19:51:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "U.S. debt is even worse than it seems, and rising Treasury yields are now an ‘all-hands-on-deck situation,’ top economist warns",
-            "source": "Fortune",
-            "publishedAt": "2026-09-06T19:41:24Z",
-            "sentiment": "Negative",
-            "compound": -0.527
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.74,
-  "trade_probability": 45.04,
+  "confirmation_score": 41.61,
+  "trade_probability": 44.97,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
