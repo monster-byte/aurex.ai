@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T02:31:04.972869+00:00",
+  "generated_at": "2026-09-07T02:45:47.828895+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.96,
+      "score": 52.08,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.19,
-        "change_5d_pct": -0.245
+        "current_dxy": 99.17,
+        "change_5d_pct": -0.26
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.5,
+      "score": 56.89,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.17,
+        "avg_compound": 0.138,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Bitcoin-gold correlation hits six-year high as NASDAQ LINK weakens",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-06T02:41:22Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "US new car prices outpace incomes, leaving buyers behind",
+            "source": "Inautonews.com",
+            "publishedAt": "2026-09-06T02:39:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Montezemolo says Ferrari owes him more gratitude for years at helm",
             "source": "Inautonews.com",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-06T00:43:55Z",
             "sentiment": "Neutral",
             "compound": 0.178
-          },
-          {
-            "title": "Germany's Isar rocket launches from arctic Norway and reaches orbit",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-09-06T00:17:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "There’s a lot riding on cos getting rural 2-wheeler mix right",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-06T00:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.4,
-  "trade_probability": 45.44,
+  "confirmation_score": 42.25,
+  "trade_probability": 45.35,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
