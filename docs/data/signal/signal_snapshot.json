@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T05:31:04.778983+00:00",
+  "generated_at": "2026-09-08T05:45:50.748193+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.02,
+      "score": 54.86,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.81,
-        "change_5d_pct": -0.628
+        "current_dxy": 98.83,
+        "change_5d_pct": -0.607
       }
     },
     "macro": {
@@ -91,6 +91,20 @@
         "avg_compound": -0.014,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "What we learned from the TIF: the giant giveaway package, the PM’s inevitable comparison with the other two, and the “we’re all one big family” culture of ministers, Maximos and backroom dealings",
+            "source": "Protothema.gr",
+            "publishedAt": "2026-09-07T05:41:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US stocks slip modestly",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-07T05:34:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Asia-Pacific mixed as Iran crisis continues",
             "source": "Biztoc.com",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-07T05:21:57Z",
             "sentiment": "Neutral",
             "compound": 0.128
-          },
-          {
-            "title": "GST reforms rewrote the auto stock map: Who won, who lost and where can investors still make money?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T05:03:54Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Govt stated Mt. Anak Krakatau's 25-hour eruption episode ends",
-            "source": "Antaranews.com",
-            "publishedAt": "2026-09-07T04:54:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.79,
-  "trade_probability": 45.07,
+  "confirmation_score": 41.77,
+  "trade_probability": 45.06,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
