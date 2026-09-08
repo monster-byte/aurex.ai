@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T05:15:49.217261+00:00",
+  "generated_at": "2026-09-08T05:31:04.778983+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.89,
+      "score": 55.02,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.82,
-        "change_5d_pct": -0.611
+        "current_dxy": 98.81,
+        "change_5d_pct": -0.628
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.44,
+      "score": 49.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
-        "articles_analyzed": 25,
+        "avg_compound": -0.014,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Asia-Pacific mixed as Iran crisis continues",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-07T05:30:50Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Ireland’s financial literacy drive may have another pay-off: less crime",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-07T05:26:00Z",
+            "sentiment": "Negative",
+            "compound": -0.495
+          },
+          {
+            "title": "Holiday Halt: Why S&P 500, Nasdaq are closed for trading today",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T05:23:14Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Gains in INR seen limited near two-month high; FCNR-related dollar inflows negated by elevated oil prices",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-07T05:21:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
           {
             "title": "GST reforms rewrote the auto stock map: Who won, who lost and where can investors still make money?",
             "source": "The Times of India",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-07T04:54:47Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Hold on to your hat: the scandal turning Brazil’s election upside down",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-07T04:51:00Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Weaponized Interdependence",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-07T04:45:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Diesel prices hit record $5.85 per gallon, complicating US inflation fight",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-07T04:45:02Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Asian tech shares surge as strong US jobs data boosts growth hopes",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-07T04:43:16Z",
-            "sentiment": "Positive",
-            "compound": 0.904
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.99,
-  "trade_probability": 45.19,
+  "confirmation_score": 41.79,
+  "trade_probability": 45.07,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
