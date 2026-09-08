@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T01:01:18.111319+00:00",
+  "generated_at": "2026-09-08T01:15:59.154715+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,26 +84,33 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.11,
+      "score": 51.32,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.042,
+        "avg_compound": 0.026,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Sensex today | Stock Market LIVE: Stock to buy today: HEG (₹729.05)",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-07T01:09:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Asia shares bounce, others cautious as oil rises",
+            "source": "CNA",
+            "publishedAt": "2026-09-07T01:08:00Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "Indian retirees missed out on equity wealth: How decades of pension-led retirement saving left portfolios stock-light",
             "source": "The Times of India",
             "publishedAt": "2026-09-07T01:00:00Z",
             "sentiment": "Positive",
             "compound": 0.25
-          },
-          {
-            "title": "Indian economy growing faster than it looks? World Bank’s Neelkanth Mishra pushes back on doubts over 7.8% growth",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T01:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.273
           },
           {
             "title": "“You can either remain rational or outperform”: DSP CIO Anish Tawakley explains his contrarian approach to stocks, bonds and market irrationality",
@@ -113,32 +120,25 @@
             "compound": -0.402
           },
           {
-            "title": "Global Shipping Carbon Tax Negotiations Stall thanks to President Trump",
-            "source": "Wattsupwiththat.com",
+            "title": "Indian economy growing faster than it looks? World Bank’s Neelkanth Mishra pushes back on doubts over 7.8% growth",
+            "source": "The Times of India",
             "publishedAt": "2026-09-07T01:00:00Z",
             "sentiment": "Positive",
             "compound": 0.273
           },
           {
-            "title": "Gold vs equity in 2026: Which asset delivered higher returns? 10-year returns of precious metals, debt, and equity compared",
-            "source": "The Times of India",
+            "title": "Global Shipping Carbon Tax Negotiations Stall thanks to President Trump",
+            "source": "Wattsupwiththat.com",
             "publishedAt": "2026-09-07T01:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Should homemakers buy a term plan? Here’s why their unpaid work has real financial value",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T01:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.34
+            "compound": 0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.77,
-  "trade_probability": 45.06,
+  "confirmation_score": 41.69,
+  "trade_probability": 45.01,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
