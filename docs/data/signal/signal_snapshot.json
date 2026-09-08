@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T04:31:08.630099+00:00",
+  "generated_at": "2026-09-08T04:38:14.503277+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.76,
+      "score": 54.72,
       "status": "yellow",
       "details": {
         "current_dxy": 98.84,
-        "change_5d_pct": -0.595
+        "change_5d_pct": -0.59
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.09,
+      "score": 49.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.042,
+        "avg_compound": -0.01,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "ASX 200 Flat As Oil Surges On US-Iran Tanker Strikes, Fed Rate Hike Fears Persist Monday In Sydney Trading",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-07T04:35:33Z",
+            "sentiment": "Negative",
+            "compound": -0.649
+          },
           {
             "title": "Trust Measurement",
             "source": "Jlhuie.com",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-07T04:21:05Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Nifty trade below 23,850 in early trade; breadth positive",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-07T04:20:56Z",
-            "sentiment": "Positive",
-            "compound": 0.743
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.04,
-  "trade_probability": 45.22,
+  "confirmation_score": 41.78,
+  "trade_probability": 45.07,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
