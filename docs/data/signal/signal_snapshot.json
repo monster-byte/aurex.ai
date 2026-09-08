@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T07:45:50.491075+00:00",
+  "generated_at": "2026-09-08T08:01:17.387579+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.04,
+      "score": 54.01,
       "status": "yellow",
       "details": {
         "current_dxy": 98.93,
-        "change_5d_pct": -0.505
+        "change_5d_pct": -0.501
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.07,
+      "score": 52.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.061,
+        "avg_compound": 0.051,
         "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "RBI withdraws over ₹6 trillion of bank liquidity after record spike",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-07T07:54:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "View from The Hill: Pauline Hanson sets new hares running on super",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-09-07T07:46:13Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "CNA Explains: How Singapore reviews and benchmarks political salaries",
+            "source": "CNA",
+            "publishedAt": "2026-09-07T07:46:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Why are HEG Ltd shares showing a fall of 63% in Monday's trade?",
             "source": "Business Standard",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-07T07:30:45Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Humain hires team to prepare for IPO as Saudi AI ambitions accelerate",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-07T07:30:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Average UK house price falls for first time since 2023",
-            "source": "RTE",
-            "publishedAt": "2026-09-07T07:28:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US CPI report looms large as inflation remains stubbornly above Fed target",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-07T07:24:43Z",
-            "sentiment": "Negative",
-            "compound": -0.459
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.07,
-  "trade_probability": 45.24,
+  "confirmation_score": 42.01,
+  "trade_probability": 45.21,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
