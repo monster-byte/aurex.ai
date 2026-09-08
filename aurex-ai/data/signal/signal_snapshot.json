@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T04:15:51.881620+00:00",
+  "generated_at": "2026-09-08T04:31:08.630099+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.85,
+      "score": 54.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.83,
-        "change_5d_pct": -0.606
+        "current_dxy": 98.84,
+        "change_5d_pct": -0.595
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.95,
+      "score": 52.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.079,
+        "avg_compound": 0.042,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "4 months after marriage, couple found dead in Kerala Lake",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T04:15:46Z",
-            "sentiment": "Negative",
-            "compound": -0.649
-          },
-          {
-            "title": "Ascletis Announces Inclusion in the Hong Kong Stock Connect List under the Shanghai-Hong Kong Stock Connect and the Shenzhen-Hong Kong Stock Connect Programs",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-07T04:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Air New Zealand has not asked to stop regional routes or get subsidies, minister says, but is it too powerful?",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-07T04:13:42Z",
+            "title": "Trust Measurement",
+            "source": "Jlhuie.com",
+            "publishedAt": "2026-09-07T04:30:00Z",
             "sentiment": "Positive",
-            "compound": 0.63
+            "compound": 0.511
           },
           {
-            "title": "Markets open lower as strong US jobs data revives rate hike fears; IT stocks drag",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-07T04:12:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US Stock Market: Wall Street braces for CPI test as Fed rate-hike bets hang in balance",
+            "title": "US Stock Market: Equity funds see second straight week of outflows as investors turn cautious",
             "source": "The Times of India",
-            "publishedAt": "2026-09-07T04:10:34Z",
+            "publishedAt": "2026-09-07T04:24:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "US Stock Market: Equity funds see second straight week of outflows as investors turn cautious",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T04:24:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Indian shares fall amid Middle East tensions, US rate hike speculation",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-07T04:23:57Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Gold prices dip Rs 3,600/10 gram, silver down Rs 6,000/kg as US jobs data lifts rate hike bets; buy, sell or hold?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T04:21:05Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Europe wrestles with impact of historic regional gains for Germany's AfD",
-            "source": "BBC News",
-            "publishedAt": "2026-09-07T04:07:23Z",
+            "title": "Nifty trade below 23,850 in early trade; breadth positive",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-07T04:20:56Z",
             "sentiment": "Positive",
-            "compound": 0.34
+            "compound": 0.743
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.24,
-  "trade_probability": 45.34,
+  "confirmation_score": 42.04,
+  "trade_probability": 45.22,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
