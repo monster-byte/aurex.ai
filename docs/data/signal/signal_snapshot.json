@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T04:38:14.503277+00:00",
+  "generated_at": "2026-09-08T04:45:51.986150+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.72,
+      "score": 54.73,
       "status": "yellow",
       "details": {
         "current_dxy": 98.84,
-        "change_5d_pct": -0.59
+        "change_5d_pct": -0.591
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.49,
+      "score": 50.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.01,
+        "avg_compound": 0.019,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Weaponized Interdependence",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-07T04:45:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Diesel prices hit record $5.85 per gallon, complicating US inflation fight",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-07T04:45:02Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Asian tech shares surge as strong US jobs data boosts growth hopes",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-07T04:43:16Z",
+            "sentiment": "Positive",
+            "compound": 0.904
+          },
           {
             "title": "ASX 200 Flat As Oil Surges On US-Iran Tanker Strikes, Fed Rate Hike Fears Persist Monday In Sydney Trading",
             "source": "Ibtimes.com.au",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-07T04:24:38Z",
             "sentiment": "Neutral",
             "compound": 0.128
-          },
-          {
-            "title": "US Stock Market: Equity funds see second straight week of outflows as investors turn cautious",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T04:24:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Indian shares fall amid Middle East tensions, US rate hike speculation",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-07T04:23:57Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Gold prices dip Rs 3,600/10 gram, silver down Rs 6,000/kg as US jobs data lifts rate hike bets; buy, sell or hold?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T04:21:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.78,
-  "trade_probability": 45.07,
+  "confirmation_score": 41.92,
+  "trade_probability": 45.15,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
