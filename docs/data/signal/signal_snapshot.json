@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T09:45:55.099198+00:00",
+  "generated_at": "2026-09-08T10:01:23.722372+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.74,
+      "score": 53.97,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.96,
-        "change_5d_pct": -0.468
+        "current_dxy": 98.94,
+        "change_5d_pct": -0.497
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.14,
+      "score": 55.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.123,
-        "articles_analyzed": 24,
+        "avg_compound": 0.114,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Emergency fund vs health insurance: Which should you prioritise first? Expert explains why you need both",
-            "source": "Livemint",
-            "publishedAt": "2026-09-07T09:41:37Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Global Market: Deutsche Bank sees ECB rates rising to 2.75% as energy risks persist",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T09:41:24Z",
+            "title": "Germany’s Long Winter Begins",
+            "source": "Nakedcapitalism.com",
+            "publishedAt": "2026-09-07T10:00:25Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Iran Says to Announce New Restricted Zone in the Gulf in the Coming Days",
-            "source": "gcaptain.com",
-            "publishedAt": "2026-09-07T09:40:30Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Nike’s shoe doesn't fit: How did the swoosh lose its winning edge?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T09:38:18Z",
-            "sentiment": "Neutral",
-            "compound": -0.105
-          },
-          {
-            "title": "If the Fed Hikes Interest Rates This Month, History Says This Is the Smartest ETF to Buy Right Now",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-07T09:31:44Z",
+            "title": "Best high-yield savings interest rates today, Monday, September 7, 2026: Earn up to 4.10% APY",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-07T10:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.791
+            "compound": 0.802
           },
           {
-            "title": "Global Market: China insurer recapitalisation may ease capital constraints and support stock investments",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T09:31:36Z",
+            "title": "Working for Our Wages?",
+            "source": "Answersingenesis.org",
+            "publishedAt": "2026-09-07T10:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Baby Boomer executives aren’t leaving the C-suites – and that’s setting up a crisis for corporate America",
+            "source": "New York Post",
+            "publishedAt": "2026-09-07T10:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Best CD rates today, Monday, September 7, 2026: Lock in up to 4.35% APY",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-07T10:00:00Z",
             "sentiment": "Positive",
             "compound": 0.637
+          },
+          {
+            "title": "Classic car owners want MOTs for older vehicles - even with talk of test price doubling",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-07T09:58:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.34,
-  "trade_probability": 45.4,
+  "confirmation_score": 42.32,
+  "trade_probability": 45.39,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
