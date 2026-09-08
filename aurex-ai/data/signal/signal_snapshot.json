@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T02:01:20.902478+00:00",
+  "generated_at": "2026-09-08T02:15:49.289406+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.43,
+      "score": 52.66,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.051,
+        "avg_compound": 0.053,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "ECB set to hike interest rates as Iran war flares anew",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-07T02:00:30Z",
+            "title": "Reserve Bank of Australia faces inflation risks from data center boom",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-07T02:15:02Z",
             "sentiment": "Negative",
-            "compound": -0.226
+            "compound": -0.273
           },
           {
-            "title": "Trump's latest threat to the US Fed is a stunner: can monetary and trade policy be taken so lightly?",
-            "source": "Livemint",
-            "publishedAt": "2026-09-07T02:00:18Z",
-            "sentiment": "Negative",
-            "compound": -0.527
-          },
-          {
-            "title": "Anthropic IPO set to put AI governance under public-market scrutiny",
-            "source": "Digitimes",
-            "publishedAt": "2026-09-07T01:57:53Z",
+            "title": "Takaichi’s aide projects Bank of Japan rate hike in September",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-07T02:14:54Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "BlackRock to JPMorgan bet on EM as turmoil seizes global bonds",
+            "title": "Record high in sight? Decoding Bitcoin's 24% rally in a month & outlook",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-07T02:09:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "These ASX shares benefit from a high Aussie dollar",
+            "source": "Motley Fool Australia",
+            "publishedAt": "2026-09-07T02:05:38Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Sensex Today | Nifty 50 | Stock Market Live Updates: GIFT Nifty signals a negative start; Asian shares trade higher",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-09-07T02:05:23Z",
+            "sentiment": "Positive",
+            "compound": 0.76
+          },
+          {
+            "title": "Dollar gets little lift from boost in Fed hike expectations",
             "source": "The Times of India",
-            "publishedAt": "2026-09-07T01:51:40Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "CNBC Daily Open: Trump's ‘little excursion’ becomes an uphill battle as Iran war continues",
-            "source": "CNBC",
-            "publishedAt": "2026-09-07T01:29:19Z",
-            "sentiment": "Negative",
-            "compound": -0.758
-          },
-          {
-            "title": "Sensex today | Stock Market LIVE: Stock to buy today: HEG (₹729.05)",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-07T01:09:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-09-07T02:04:11Z",
+            "sentiment": "Positive",
+            "compound": 0.348
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.3,
-  "trade_probability": 44.78,
+  "confirmation_score": 41.83,
+  "trade_probability": 45.1,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
