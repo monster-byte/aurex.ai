@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T09:01:19.558594+00:00",
+  "generated_at": "2026-09-08T09:07:18.177608+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.66,
+      "score": 53.59,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.97,
-        "change_5d_pct": -0.458
+        "current_dxy": 98.98,
+        "change_5d_pct": -0.449
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.01,
+      "score": 55.88,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.14,
+        "avg_compound": 0.118,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "New Medium-Term Program focuses on maintaining disinflation momentum",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-09-07T09:07:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "International Petroleum Corporation Announces Results of Normal Course Issuer Bid",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-07T09:04:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Weekly Climate and Energy News Roundup #704",
             "source": "Wattsupwiththat.com",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-07T08:55:23Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Jobs report fails to boost Fed rate hike odds, analysts say",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-07T08:45:38Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
-          },
-          {
-            "title": "U.S. inflation, Coinbase’s Deribit switch: Crypto Week Ahead",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-07T08:45:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.42,
-  "trade_probability": 45.45,
+  "confirmation_score": 42.3,
+  "trade_probability": 45.38,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
