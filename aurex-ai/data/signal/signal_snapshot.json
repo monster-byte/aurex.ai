@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T03:45:47.456690+00:00",
+  "generated_at": "2026-09-08T04:01:15.865728+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.9,
+      "score": 57.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.178,
+        "avg_compound": 0.142,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "ETMarkets Smart Talk | Don't dismiss 7.8% GDP growth as a statistical upgrade; the acceleration is real: Garima Kapoor",
+            "title": "Exclusive | How Vijay Kedia turned a Rs 250 Neuland Labs bet into nearly 100x returns",
             "source": "The Times of India",
-            "publishedAt": "2026-09-07T03:42:18Z",
-            "sentiment": "Positive",
-            "compound": 0.649
+            "publishedAt": "2026-09-07T04:01:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
           },
           {
-            "title": "Lululemon founder Chip Wilson files for divorce from wife Shannon Wilson: How much of his $6.1 billion wealth could ‘Summer’ get?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T03:37:39Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "GIFT Nifty signals cautious start as oil prices, Fed bets weigh on sentiment",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-07T03:34:28Z",
-            "sentiment": "Positive",
-            "compound": 0.713
-          },
-          {
-            "title": "Nifty 30,000 target still on track; why Elara’s Harendra Kumar prefers IT, power and smallcaps",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T03:32:32Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Tech firms rally on mixed day for Asian markets, with eyes on US inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-07T03:30:48Z",
+            "title": "The Real Elites vs. The Ruling Elites",
+            "source": "Lewrockwell.com",
+            "publishedAt": "2026-09-07T04:01:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bitcoin drops below $80,000 as US jobs data spurs Fed-hike bets",
-            "source": "Bloomberg",
-            "publishedAt": "2026-09-07T03:29:51Z",
+            "title": "Louis Navellier delivers hot take on rising bond yields",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-07T04:00:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "4 killed, over two dozen injured as bus overturns after hitting divider in UP's Baghpat",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T04:00:22Z",
+            "sentiment": "Negative",
+            "compound": -0.802
+          },
+          {
+            "title": "State must hold firm on carbon tax, which helps protect the most vulnerable",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-07T04:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.46
+          },
+          {
+            "title": "What’s in a Name – Trump Style",
+            "source": "Americanthinker.com",
+            "publishedAt": "2026-09-07T04:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 42.45,
-  "trade_probability": 45.47,
+  "confirmation_score": 42.27,
+  "trade_probability": 45.36,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
