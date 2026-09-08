@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T03:01:15.943832+00:00",
+  "generated_at": "2026-09-08T03:15:50.152529+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.92,
+      "score": 51.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.078,
+        "avg_compound": 0.027,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Tech firms rally on mixed day for Asian markets, with eyes on US inflation",
+            "source": "Digital Journal",
+            "publishedAt": "2026-09-07T03:15:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "It’s a Concentrated World",
+            "source": "Awealthofcommonsense.com",
+            "publishedAt": "2026-09-07T03:09:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Federal Government Warns Against One Nation Plan Enabling Australians to Access Superannuation Early",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-07T03:05:18Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Crypto vs gold vs stocks: Where should investors put money? Experts answer",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-07T03:01:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
             "source": "Biztoc.com",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-07T02:58:47Z",
             "sentiment": "Neutral",
             "compound": -0.128
-          },
-          {
-            "title": "Purple Style Labs shares to list today; Check GMP ahead of debut",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T02:26:04Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Stock Market LIVE: GIFT Nifty signals negative open; Asian markets rise; Brent near $97",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-07T02:24:11Z",
-            "sentiment": "Positive",
-            "compound": 0.389
-          },
-          {
-            "title": "Flat opening seen for Indian stocks amid global tension",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-07T02:23:22Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Reserve Bank of Australia faces inflation risks from data center boom",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-07T02:15:02Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.95,
-  "trade_probability": 45.17,
+  "confirmation_score": 41.7,
+  "trade_probability": 45.02,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
