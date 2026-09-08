@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T08:45:52.756617+00:00",
+  "generated_at": "2026-09-08T09:01:19.558594+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.03,
+      "score": 53.66,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.93,
-        "change_5d_pct": -0.504
+        "current_dxy": 98.97,
+        "change_5d_pct": -0.458
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.39,
+      "score": 57.01,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.168,
-        "articles_analyzed": 23,
+        "avg_compound": 0.14,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Weekly Climate and Energy News Roundup #704",
+            "source": "Wattsupwiththat.com",
+            "publishedAt": "2026-09-07T09:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Nifty IT tumbles 3% as Fed rate hike bets rise; Infosys leads losses",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-07T08:56:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Worried About a Stock Market Crash? History Says This Mistake Could Cost You Tens of Thousands of Dollars.",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-07T08:56:00Z",
+            "sentiment": "Negative",
+            "compound": -0.768
+          },
+          {
+            "title": "Global Market: European stocks subdued as oil surge fuels inflation, ECB rate hike bets",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T08:55:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Jobs report fails to boost Fed rate hike odds, analysts say",
             "source": "Crypto Briefing",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-07T08:45:37Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "History Says There Are $8.3 Trillion Reasons the Trump Bull Market Is on Thin Ice",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-07T08:45:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "CLARITY Act Faces September 15 Senate Test as Crypto Braces for a Decisive Week",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-09-07T08:44:53Z",
-            "sentiment": "Positive",
-            "compound": 0.652
-          },
-          {
-            "title": "Your sweet tooth craving may get a little more expensive",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T08:43:57Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Kevin Warsh’s Best Move Is to Do Nothing",
-            "source": "Project Syndicate",
-            "publishedAt": "2026-09-07T08:43:05Z",
-            "sentiment": "Positive",
-            "compound": 0.637
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.6,
-  "trade_probability": 45.56,
+  "confirmation_score": 42.42,
+  "trade_probability": 45.45,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
