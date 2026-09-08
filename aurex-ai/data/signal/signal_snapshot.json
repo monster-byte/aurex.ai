@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T04:01:15.865728+00:00",
+  "generated_at": "2026-09-08T04:15:51.881620+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.04,
+      "score": 54.85,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.18,
-        "change_5d_pct": -0.255
+        "current_dxy": 98.83,
+        "change_5d_pct": -0.606
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.1,
+      "score": 53.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.142,
+        "avg_compound": 0.079,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Exclusive | How Vijay Kedia turned a Rs 250 Neuland Labs bet into nearly 100x returns",
+            "title": "4 months after marriage, couple found dead in Kerala Lake",
             "source": "The Times of India",
-            "publishedAt": "2026-09-07T04:01:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "The Real Elites vs. The Ruling Elites",
-            "source": "Lewrockwell.com",
-            "publishedAt": "2026-09-07T04:01:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Louis Navellier delivers hot take on rising bond yields",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-07T04:00:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "4 killed, over two dozen injured as bus overturns after hitting divider in UP's Baghpat",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T04:00:22Z",
+            "publishedAt": "2026-09-07T04:15:46Z",
             "sentiment": "Negative",
-            "compound": -0.802
+            "compound": -0.649
           },
           {
-            "title": "State must hold firm on carbon tax, which helps protect the most vulnerable",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-07T04:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.46
-          },
-          {
-            "title": "What’s in a Name – Trump Style",
-            "source": "Americanthinker.com",
-            "publishedAt": "2026-09-07T04:00:00Z",
+            "title": "Ascletis Announces Inclusion in the Hong Kong Stock Connect List under the Shanghai-Hong Kong Stock Connect and the Shenzhen-Hong Kong Stock Connect Programs",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-07T04:15:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Air New Zealand has not asked to stop regional routes or get subsidies, minister says, but is it too powerful?",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-07T04:13:42Z",
+            "sentiment": "Positive",
+            "compound": 0.63
+          },
+          {
+            "title": "Markets open lower as strong US jobs data revives rate hike fears; IT stocks drag",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-07T04:12:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US Stock Market: Wall Street braces for CPI test as Fed rate-hike bets hang in balance",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T04:10:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Europe wrestles with impact of historic regional gains for Germany's AfD",
+            "source": "BBC News",
+            "publishedAt": "2026-09-07T04:07:23Z",
+            "sentiment": "Positive",
+            "compound": 0.34
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.27,
-  "trade_probability": 45.36,
+  "confirmation_score": 42.24,
+  "trade_probability": 45.34,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
