@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T09:15:48.529031+00:00",
+  "generated_at": "2026-09-08T09:31:05.271224+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.69,
+      "score": 53.64,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.97,
-        "change_5d_pct": -0.461
+        "current_dxy": 98.98,
+        "change_5d_pct": -0.455
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.03,
+      "score": 57.89,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.121,
+        "avg_compound": 0.158,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "New Chancellor, same empty hopes for growth: Healey echoes Reeves as he desperately tries to calm market jitters by insisting Labour can control Britain's debt",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-07T09:28:30Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Brad Garlinghouse Says US Crypto Capital Is “Within Reach”: Is the CLARITY Act About to Change Crypto Forever?",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-09-07T09:27:08Z",
+            "sentiment": "Positive",
+            "compound": 0.532
+          },
+          {
+            "title": "SpaceX Stock Is Down 34% From Its High. History Suggests a $10,000 Investment Will Be Worth This Much by Mid-2027",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-07T09:16:57Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Sharon AI signs five-year Rafay Systems orchestration agreement",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-07T09:16:09Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
           {
             "title": "Labor Day 2026: Record-High Popularity, Record-Low Power for America’s Unions",
             "source": "The American Prospect",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-07T09:07:09Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "International Petroleum Corporation Announces Results of Normal Course Issuer Bid",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-07T09:04:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Weekly Climate and Energy News Roundup #704",
-            "source": "Wattsupwiththat.com",
-            "publishedAt": "2026-09-07T09:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Nifty IT tumbles 3% as Fed rate hike bets rise; Infosys leads losses",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-07T08:56:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Worried About a Stock Market Crash? History Says This Mistake Could Cost You Tens of Thousands of Dollars.",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-07T08:56:00Z",
-            "sentiment": "Negative",
-            "compound": -0.768
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.33,
-  "trade_probability": 45.4,
+  "confirmation_score": 42.51,
+  "trade_probability": 45.51,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
