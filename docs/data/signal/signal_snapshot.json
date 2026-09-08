@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T08:31:08.435459+00:00",
+  "generated_at": "2026-09-08T08:45:52.756617+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.69,
+      "score": 54.03,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.97,
-        "change_5d_pct": -0.462
+        "current_dxy": 98.93,
+        "change_5d_pct": -0.504
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.89,
+      "score": 58.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.138,
-        "articles_analyzed": 22,
+        "avg_compound": 0.168,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Housing Week Ahead: Hottest Markets, Ultraluxury, and Home Sales Data",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-07T08:30:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nikkei Jumps 1,378 Points as Chip Shares Lead Rebound",
-            "source": "Newsonjapan.com",
-            "publishedAt": "2026-09-07T08:29:18Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "18 SME stocks at new highs; BSE SME IPO up 57% since Apr, nears record high",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-07T08:28:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Applied Industrial (AIT) Smashed Records, Then Guided For Less",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-07T08:27:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Yen strengthens to highest level since May after US intervention",
+            "title": "Jobs report fails to boost Fed rate hike odds, analysts say",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-07T08:25:02Z",
+            "publishedAt": "2026-09-07T08:45:38Z",
+            "sentiment": "Neutral",
+            "compound": -0.026
+          },
+          {
+            "title": "U.S. inflation, Coinbase’s Deribit switch: Crypto Week Ahead",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-07T08:45:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "History Says There Are $8.3 Trillion Reasons the Trump Bull Market Is on Thin Ice",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-07T08:45:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "CLARITY Act Faces September 15 Senate Test as Crypto Braces for a Decisive Week",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-09-07T08:44:53Z",
+            "sentiment": "Positive",
+            "compound": 0.652
+          },
+          {
+            "title": "Your sweet tooth craving may get a little more expensive",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T08:43:57Z",
             "sentiment": "Positive",
             "compound": 0.459
           },
           {
-            "title": "XRP Defies $1.38 Billion Ripple Unlock as Institutional Demand Rewrites the Market",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-09-07T08:23:40Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
+            "title": "Kevin Warsh’s Best Move Is to Do Nothing",
+            "source": "Project Syndicate",
+            "publishedAt": "2026-09-07T08:43:05Z",
+            "sentiment": "Positive",
+            "compound": 0.637
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.42,
-  "trade_probability": 45.45,
+  "confirmation_score": 42.6,
+  "trade_probability": 45.56,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
