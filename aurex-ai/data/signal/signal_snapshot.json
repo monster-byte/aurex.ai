@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T03:15:50.152529+00:00",
+  "generated_at": "2026-09-08T03:31:01.732431+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.34,
+      "score": 57.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.027,
+        "avg_compound": 0.157,
         "articles_analyzed": 25,
         "top_headlines": [
           {
             "title": "Tech firms rally on mixed day for Asian markets, with eyes on US inflation",
-            "source": "Digital Journal",
-            "publishedAt": "2026-09-07T03:15:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "It’s a Concentrated World",
-            "source": "Awealthofcommonsense.com",
-            "publishedAt": "2026-09-07T03:09:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Federal Government Warns Against One Nation Plan Enabling Australians to Access Superannuation Early",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-07T03:05:18Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Crypto vs gold vs stocks: Where should investors put money? Experts answer",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-07T03:01:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-07T03:00:26Z",
-            "sentiment": "Positive",
-            "compound": 0.612
+            "publishedAt": "2026-09-07T03:30:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Can gold & crypto sustain recent momentum amid looming US Fed rate hikes?",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-07T02:58:47Z",
+            "title": "Bitcoin drops below $80,000 as US jobs data spurs Fed-hike bets",
+            "source": "Bloomberg",
+            "publishedAt": "2026-09-07T03:29:51Z",
             "sentiment": "Neutral",
-            "compound": -0.128
+            "compound": 0.0
+          },
+          {
+            "title": "Stock Market Live Today: Sensex falls over 200 points, Nifty slips below 23,855 in early trade",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T03:26:06Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "New stock market pre-open session rules from today: What changes for you?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T03:24:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "A Scottish clan kept a human skull for centuries because legend said removing it would bring ruin; now scientists are testing the story",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T03:24:02Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
+          {
+            "title": "Gold eases as robust US payrolls boost rate-hike bets; inflation data in focus",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T03:23:47Z",
+            "sentiment": "Positive",
+            "compound": 0.751
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.7,
-  "trade_probability": 45.02,
+  "confirmation_score": 42.35,
+  "trade_probability": 45.41,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
