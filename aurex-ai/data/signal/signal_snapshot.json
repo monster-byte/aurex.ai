@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T10:01:23.722372+00:00",
+  "generated_at": "2026-09-08T10:15:50.480674+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.97,
+      "score": 53.77,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.94,
-        "change_5d_pct": -0.497
+        "current_dxy": 98.96,
+        "change_5d_pct": -0.471
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.68,
+      "score": 52.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.114,
+        "avg_compound": 0.055,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Labor Day 2026: What’s open and closed on Monday, from banks and post offices to Walmart and Costco",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T10:15:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gold Falls Below $4,400 as U.S. Jobs Data Keeps Fed Rate Hike Expectations Elevated",
+            "source": "Advfn.com",
+            "publishedAt": "2026-09-07T10:14:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "UK food supply chain at risk from hostile attacks",
+            "source": "Theregister.com",
+            "publishedAt": "2026-09-07T10:06:10Z",
+            "sentiment": "Negative",
+            "compound": -0.765
+          },
+          {
+            "title": "ECB rate decision: Five key questions for markets as energy prices fuel inflation fears",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T10:05:46Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
           {
             "title": "Germany’s Long Winter Begins",
             "source": "Nakedcapitalism.com",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-07T10:00:00Z",
             "sentiment": "Positive",
             "compound": 0.802
-          },
-          {
-            "title": "Working for Our Wages?",
-            "source": "Answersingenesis.org",
-            "publishedAt": "2026-09-07T10:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Baby Boomer executives aren’t leaving the C-suites – and that’s setting up a crisis for corporate America",
-            "source": "New York Post",
-            "publishedAt": "2026-09-07T10:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "Best CD rates today, Monday, September 7, 2026: Lock in up to 4.35% APY",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-07T10:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Classic car owners want MOTs for older vehicles - even with talk of test price doubling",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-07T09:58:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.32,
-  "trade_probability": 45.39,
+  "confirmation_score": 42.01,
+  "trade_probability": 45.21,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
