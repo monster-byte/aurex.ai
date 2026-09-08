@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T03:31:01.732431+00:00",
+  "generated_at": "2026-09-08T03:45:47.456690+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.87,
+      "score": 58.9,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.157,
+        "avg_compound": 0.178,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "ETMarkets Smart Talk | Don't dismiss 7.8% GDP growth as a statistical upgrade; the acceleration is real: Garima Kapoor",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T03:42:18Z",
+            "sentiment": "Positive",
+            "compound": 0.649
+          },
+          {
+            "title": "Lululemon founder Chip Wilson files for divorce from wife Shannon Wilson: How much of his $6.1 billion wealth could ‘Summer’ get?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T03:37:39Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "GIFT Nifty signals cautious start as oil prices, Fed bets weigh on sentiment",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-07T03:34:28Z",
+            "sentiment": "Positive",
+            "compound": 0.713
+          },
+          {
+            "title": "Nifty 30,000 target still on track; why Elara’s Harendra Kumar prefers IT, power and smallcaps",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T03:32:32Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "Tech firms rally on mixed day for Asian markets, with eyes on US inflation",
             "source": "Biztoc.com",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-07T03:29:51Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Stock Market Live Today: Sensex falls over 200 points, Nifty slips below 23,855 in early trade",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T03:26:06Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "New stock market pre-open session rules from today: What changes for you?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T03:24:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "A Scottish clan kept a human skull for centuries because legend said removing it would bring ruin; now scientists are testing the story",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T03:24:02Z",
-            "sentiment": "Negative",
-            "compound": -0.586
-          },
-          {
-            "title": "Gold eases as robust US payrolls boost rate-hike bets; inflation data in focus",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T03:23:47Z",
-            "sentiment": "Positive",
-            "compound": 0.751
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.35,
-  "trade_probability": 45.41,
+  "confirmation_score": 42.45,
+  "trade_probability": 45.47,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
