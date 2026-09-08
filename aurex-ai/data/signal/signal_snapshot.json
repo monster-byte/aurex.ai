@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T06:15:48.560962+00:00",
+  "generated_at": "2026-09-08T06:31:06.043484+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.71,
+      "score": 54.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.72,
-        "change_5d_pct": -0.714
+        "current_dxy": 98.83,
+        "change_5d_pct": -0.599
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.51,
+      "score": 46.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.07,
+        "avg_compound": -0.066,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "NZ sharemarket starts week trading light, down 0.2% – Market close",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-07T06:29:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nifty below 23,800 level; IT shares under pressure",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-07T06:22:58Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "ECB set to hike interest rates as Iran war flares anew",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-09-07T06:20:40Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Claret Capital closes €575M Fund IV for European growth debt",
+            "source": "The Next Web",
+            "publishedAt": "2026-09-07T06:18:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
           {
             "title": "Can gold hit US$5,000? Wall Street turns bullish despite US job growth fuelling rate fears",
             "source": "Biztoc.com",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-07T06:05:11Z",
             "sentiment": "Negative",
             "compound": -0.34
-          },
-          {
-            "title": "Another rate hike - for insurance: 5 questions for ECB",
-            "source": "RTE",
-            "publishedAt": "2026-09-07T06:03:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Infosys, HCLTech, TCS, other IT stocks drop up to 3% as Fed rate hike worries return. Here's why",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T06:02:21Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "U.S. Diesel Pump Prices Reach Record High as Refined-Products Supply Tightens",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-09-07T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "Trump Says Tariff-Free Beef Imports Coming From Brazil, Argentina",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-09-07T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.58,
-  "trade_probability": 44.95,
+  "confirmation_score": 41.5,
+  "trade_probability": 44.9,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
