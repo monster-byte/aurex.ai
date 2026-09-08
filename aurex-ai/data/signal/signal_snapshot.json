@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T02:15:49.289406+00:00",
+  "generated_at": "2026-09-08T02:31:05.949514+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -92,6 +92,27 @@
         "articles_analyzed": 25,
         "top_headlines": [
           {
+            "title": "Purple Style Labs shares to list today; Check GMP ahead of debut",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T02:26:04Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Stock Market LIVE: GIFT Nifty signals negative open; Asian markets rise; Brent near $97",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-07T02:24:11Z",
+            "sentiment": "Positive",
+            "compound": 0.389
+          },
+          {
+            "title": "Flat opening seen for Indian stocks amid global tension",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-07T02:23:22Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
             "title": "Reserve Bank of Australia faces inflation risks from data center boom",
             "source": "Crypto Briefing",
             "publishedAt": "2026-09-07T02:15:02Z",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-09-07T02:09:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "These ASX shares benefit from a high Aussie dollar",
-            "source": "Motley Fool Australia",
-            "publishedAt": "2026-09-07T02:05:38Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Sensex Today | Nifty 50 | Stock Market Live Updates: GIFT Nifty signals a negative start; Asian shares trade higher",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-09-07T02:05:23Z",
-            "sentiment": "Positive",
-            "compound": 0.76
-          },
-          {
-            "title": "Dollar gets little lift from boost in Fed hike expectations",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T02:04:11Z",
-            "sentiment": "Positive",
-            "compound": 0.348
           }
         ]
       }
