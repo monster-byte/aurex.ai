@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T07:15:46.179951+00:00",
+  "generated_at": "2026-09-08T07:31:14.678744+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.48,
+      "score": 54.3,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.87,
-        "change_5d_pct": -0.56
+        "current_dxy": 98.9,
+        "change_5d_pct": -0.537
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.71,
+      "score": 55.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.054,
-        "articles_analyzed": 24,
+        "avg_compound": 0.1,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Europe opens mostly lower with data coming up",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-07T07:15:37Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Iran says to announce new restricted zone in the Gulf in the coming days",
-            "source": "CNA",
-            "publishedAt": "2026-09-07T07:12:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Before he heads to Ireland, Republicans are hosting 'Trumpapalooza' in Texas",
-            "source": "TheJournal.ie",
-            "publishedAt": "2026-09-07T07:10:30Z",
+            "title": "Ninja Nutri Personal & Countertop Blender, 1200W Auto-iQ, Black, BL642 $119.99",
+            "source": "Slickdeals.net",
+            "publishedAt": "2026-09-07T07:30:45Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Ajit Ranade: RBI owes the public an explanation for its exorbitant dollar deposit scheme",
-            "source": "Livemint",
-            "publishedAt": "2026-09-07T07:09:50Z",
+            "title": "Humain hires team to prepare for IPO as Saudi AI ambitions accelerate",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-07T07:30:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Global Markets: 5 things investors need to watch this week",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-09-07T07:05:00Z",
+            "title": "Average UK house price falls for first time since 2023",
+            "source": "RTE",
+            "publishedAt": "2026-09-07T07:28:25Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Iran says to announce new restricted zone in the Gulf in the coming days",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-07T07:04:47Z",
+            "title": "US CPI report looms large as inflation remains stubbornly above Fed target",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-07T07:24:43Z",
             "sentiment": "Negative",
-            "compound": -0.382
+            "compound": -0.459
+          },
+          {
+            "title": "Investors gain N3.7trn ahead of Nigeria’s climb to frontier status",
+            "source": "Vanguard",
+            "publishedAt": "2026-09-07T07:22:32Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "Stocks to buy: What's the outlook for Nifty for September 7-September 11 week? Check list of top stock recommendations",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T07:21:38Z",
+            "sentiment": "Positive",
+            "compound": 0.542
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.08,
-  "trade_probability": 45.25,
+  "confirmation_score": 42.29,
+  "trade_probability": 45.37,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
