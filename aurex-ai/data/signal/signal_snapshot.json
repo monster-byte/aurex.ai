@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T00:31:06.225371+00:00",
+  "generated_at": "2026-09-08T00:45:47.764004+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -92,6 +92,13 @@
         "articles_analyzed": 25,
         "top_headlines": [
           {
+            "title": "The economy is stabilising",
+            "source": "Vanguard",
+            "publishedAt": "2026-09-07T00:37:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
             "title": "Japan forex reserves drop below $1 trillion for first time in recent memory after record yen intervention",
             "source": "Crypto Briefing",
             "publishedAt": "2026-09-07T00:30:18Z",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-09-07T00:24:59Z",
             "sentiment": "Negative",
             "compound": -0.511
-          },
-          {
-            "title": "Bessent: U.S. Waging ‘Greatest Economic Isolation Operation in History’ Against Iran — ‘Strangling’ Economy to Force Change",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-07T00:23:57Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
