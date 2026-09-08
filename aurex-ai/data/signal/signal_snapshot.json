@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T01:31:05.673201+00:00",
+  "generated_at": "2026-09-08T01:45:49.856616+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -120,18 +120,18 @@
             "compound": 0.25
           },
           {
-            "title": "“You can either remain rational or outperform”: DSP CIO Anish Tawakley explains his contrarian approach to stocks, bonds and market irrationality",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T01:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
             "title": "Indian economy growing faster than it looks? World Bank’s Neelkanth Mishra pushes back on doubts over 7.8% growth",
             "source": "The Times of India",
             "publishedAt": "2026-09-07T01:00:00Z",
             "sentiment": "Positive",
             "compound": 0.273
+          },
+          {
+            "title": "“You can either remain rational or outperform”: DSP CIO Anish Tawakley explains his contrarian approach to stocks, bonds and market irrationality",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T01:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.402
           }
         ]
       }
