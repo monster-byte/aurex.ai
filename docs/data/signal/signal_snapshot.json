@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T00:45:47.764004+00:00",
+  "generated_at": "2026-09-08T01:01:18.111319+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.14,
+      "score": 52.11,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.017,
+        "avg_compound": 0.042,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The economy is stabilising",
-            "source": "Vanguard",
-            "publishedAt": "2026-09-07T00:37:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Japan forex reserves drop below $1 trillion for first time in recent memory after record yen intervention",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-07T00:30:18Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Gold declines as stronger US payrolls data raises rate hike prospects",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-07T00:30:12Z",
+            "title": "Indian retirees missed out on equity wealth: How decades of pension-led retirement saving left portfolios stock-light",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T01:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.586
+            "compound": 0.25
           },
           {
-            "title": "Japan's August foreign reserves post largest-ever drop after record intervention",
-            "source": "CNA",
-            "publishedAt": "2026-09-07T00:28:37Z",
-            "sentiment": "Negative",
-            "compound": -0.273
+            "title": "Indian economy growing faster than it looks? World Bank’s Neelkanth Mishra pushes back on doubts over 7.8% growth",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T01:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           },
           {
-            "title": "Japan's August foreign reserves post largest-ever drop after record intervention",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-07T00:28:37Z",
+            "title": "“You can either remain rational or outperform”: DSP CIO Anish Tawakley explains his contrarian approach to stocks, bonds and market irrationality",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T01:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.402
           },
           {
-            "title": "Poverty: Politics of stomach versus physical infrastructure",
-            "source": "The Punch",
-            "publishedAt": "2026-09-07T00:24:59Z",
-            "sentiment": "Negative",
-            "compound": -0.511
+            "title": "Global Shipping Carbon Tax Negotiations Stall thanks to President Trump",
+            "source": "Wattsupwiththat.com",
+            "publishedAt": "2026-09-07T01:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Gold vs equity in 2026: Which asset delivered higher returns? 10-year returns of precious metals, debt, and equity compared",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T01:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "Should homemakers buy a term plan? Here’s why their unpaid work has real financial value",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T01:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.34
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.48,
-  "trade_probability": 44.89,
+  "confirmation_score": 41.77,
+  "trade_probability": 45.06,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
