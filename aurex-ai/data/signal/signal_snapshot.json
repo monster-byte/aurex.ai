@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T04:45:51.986150+00:00",
+  "generated_at": "2026-09-08T05:01:19.399247+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.73,
+      "score": 54.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.84,
-        "change_5d_pct": -0.591
+        "current_dxy": 98.83,
+        "change_5d_pct": -0.598
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.95,
+      "score": 49.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.019,
+        "avg_compound": -0.017,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Govt stated Mt. Anak Krakatau's 25-hour eruption episode ends",
+            "source": "Antaranews.com",
+            "publishedAt": "2026-09-07T04:54:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Hold on to your hat: the scandal turning Brazil’s election upside down",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-07T04:51:00Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
           {
             "title": "Weaponized Interdependence",
             "source": "Biztoc.com",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-07T04:35:33Z",
             "sentiment": "Negative",
             "compound": -0.649
-          },
-          {
-            "title": "Trust Measurement",
-            "source": "Jlhuie.com",
-            "publishedAt": "2026-09-07T04:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "US Stock Market: Equity funds see second straight week of outflows as investors turn cautious",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T04:24:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.92,
-  "trade_probability": 45.15,
+  "confirmation_score": 41.75,
+  "trade_probability": 45.05,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
