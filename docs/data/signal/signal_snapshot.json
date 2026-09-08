@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T02:45:46.835533+00:00",
+  "generated_at": "2026-09-08T03:01:15.943832+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.66,
+      "score": 53.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.053,
+        "avg_compound": 0.078,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-07T03:00:26Z",
+            "sentiment": "Positive",
+            "compound": 0.612
+          },
+          {
+            "title": "Can gold & crypto sustain recent momentum amid looming US Fed rate hikes?",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-07T02:58:47Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
           {
             "title": "Purple Style Labs shares to list today; Check GMP ahead of debut",
             "source": "The Times of India",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-07T02:15:02Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "Takaichi’s aide projects Bank of Japan rate hike in September",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-07T02:14:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Record high in sight? Decoding Bitcoin's 24% rally in a month & outlook",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-07T02:09:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.83,
-  "trade_probability": 45.1,
+  "confirmation_score": 41.95,
+  "trade_probability": 45.17,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
