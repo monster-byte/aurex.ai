@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T06:01:17.971219+00:00",
+  "generated_at": "2026-09-08T06:15:48.560962+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.03,
+      "score": 55.71,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.81,
-        "change_5d_pct": -0.629
+        "current_dxy": 98.72,
+        "change_5d_pct": -0.714
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.17,
+      "score": 46.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.017,
+        "avg_compound": -0.07,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Can gold hit US$5,000? Wall Street turns bullish despite US job growth fuelling rate fears",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-07T06:15:43Z",
+            "sentiment": "Negative",
+            "compound": -0.61
+          },
+          {
+            "title": "European Central Bank plans another rate hike for insurance as inflation stays stubbornly above target",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-07T06:05:11Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Another rate hike - for insurance: 5 questions for ECB",
+            "source": "RTE",
+            "publishedAt": "2026-09-07T06:03:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Infosys, HCLTech, TCS, other IT stocks drop up to 3% as Fed rate hike worries return. Here's why",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-07T06:02:21Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
           {
             "title": "U.S. Diesel Pump Prices Reach Record High as Refined-Products Supply Tightens",
             "source": "Naturalnews.com",
@@ -99,46 +127,18 @@
             "compound": 0.026
           },
           {
-            "title": "Global food prices surge to highest level since 2022 as multiple crises converge",
+            "title": "Trump Says Tariff-Free Beef Imports Coming From Brazil, Argentina",
             "source": "Naturalnews.com",
             "publishedAt": "2026-09-07T06:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "8th Pay Commission salary calculator: ₹9,700-₹15,800 extra HRA possible for Level 1-5 employees? Check salary impact",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-09-07T05:57:09Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "What we learned from the TIF: the giant giveaway package, the PM’s inevitable comparison with the other two, and the “we’re all one big family” culture of ministers, Maximos and backroom dealings",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-09-07T05:41:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US stocks slip modestly",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-07T05:34:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Asia-Pacific mixed as Iran crisis continues",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-07T05:30:50Z",
-            "sentiment": "Negative",
-            "compound": -0.625
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.78,
-  "trade_probability": 45.07,
+  "confirmation_score": 41.58,
+  "trade_probability": 44.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
