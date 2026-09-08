@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T08:16:08.752115+00:00",
+  "generated_at": "2026-09-08T08:31:08.435459+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.01,
+      "score": 53.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.93,
-        "change_5d_pct": -0.502
+        "current_dxy": 98.97,
+        "change_5d_pct": -0.462
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.33,
+      "score": 56.89,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.087,
+        "avg_compound": 0.138,
         "articles_analyzed": 22,
         "top_headlines": [
           {
-            "title": "Sharon AI signs five-year Rafay Systems orchestration agreement",
-            "source": "Verdict",
-            "publishedAt": "2026-09-07T08:15:34Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "China insurer capital injections could boost stock investments, analysts say",
+            "title": "Housing Week Ahead: Hottest Markets, Ultraluxury, and Home Sales Data",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-07T08:15:27Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Global Market: Japanese bond yields rise as BOJ rate hike bets keep markets on edge",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T08:15:16Z",
+            "publishedAt": "2026-09-07T08:30:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Manufacturing GDP rises 3.3% to N4.13trn amid renewed optimism",
-            "source": "Vanguard",
-            "publishedAt": "2026-09-07T08:08:32Z",
+            "title": "Nikkei Jumps 1,378 Points as Chip Shares Lead Rebound",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-09-07T08:29:18Z",
             "sentiment": "Positive",
-            "compound": 0.542
+            "compound": 0.296
           },
           {
-            "title": "Watts Water (WTS) Hits Record Sales While Margins Quietly Slip",
+            "title": "18 SME stocks at new highs; BSE SME IPO up 57% since Apr, nears record high",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-07T08:28:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Applied Industrial (AIT) Smashed Records, Then Guided For Less",
             "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-07T08:07:07Z",
+            "publishedAt": "2026-09-07T08:27:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Smallest Businesses Fall Behind as Main Street Goes Digital",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-07T08:03:42Z",
+            "title": "Yen strengthens to highest level since May after US intervention",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-07T08:25:02Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "XRP Defies $1.38 Billion Ripple Unlock as Institutional Demand Rewrites the Market",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-09-07T08:23:40Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.128
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.19,
-  "trade_probability": 45.31,
+  "confirmation_score": 42.42,
+  "trade_probability": 45.45,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
