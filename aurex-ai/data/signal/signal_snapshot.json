@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T00:15:48.631598+00:00",
+  "generated_at": "2026-09-08T00:31:06.225371+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.09,
+      "score": 49.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.022,
+        "avg_compound": -0.017,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Harbour BioMed Successfully Included in the Stock Connect, Reinforcing Capital Market Recognition",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-07T00:01:00Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Diagnosing patulous Eustachian tube dysfunction using the nine-step and inflation tests",
-            "source": "Nature.com",
-            "publishedAt": "2026-09-07T00:00:00Z",
+            "title": "Japan forex reserves drop below $1 trillion for first time in recent memory after record yen intervention",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-07T00:30:18Z",
             "sentiment": "Negative",
-            "compound": -0.421
+            "compound": -0.273
           },
           {
-            "title": "Multiancestry genome-wide association and multiomics analyses elucidate spatiocellular features of multiple sclerosis genetics",
-            "source": "Nature.com",
-            "publishedAt": "2026-09-07T00:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "itch-book 0.2.1",
-            "source": "Pypi.org",
-            "publishedAt": "2026-09-06T23:57:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What's open on Labor Day? Most retailers. Closed? Government, banks and the stock market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-06T23:44:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "One Nation pushes for early super access for renters and mortgage holders",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-09-06T23:27:49Z",
+            "title": "Gold declines as stronger US payrolls data raises rate hike prospects",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-07T00:30:12Z",
             "sentiment": "Positive",
-            "compound": 0.599
+            "compound": 0.586
+          },
+          {
+            "title": "Japan's August foreign reserves post largest-ever drop after record intervention",
+            "source": "CNA",
+            "publishedAt": "2026-09-07T00:28:37Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Japan's August foreign reserves post largest-ever drop after record intervention",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-07T00:28:37Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Poverty: Politics of stomach versus physical infrastructure",
+            "source": "The Punch",
+            "publishedAt": "2026-09-07T00:24:59Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "Bessent: U.S. Waging ‘Greatest Economic Isolation Operation in History’ Against Iran — ‘Strangling’ Economy to Force Change",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-07T00:23:57Z",
+            "sentiment": "Negative",
+            "compound": -0.402
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.67,
-  "trade_probability": 45.0,
+  "confirmation_score": 41.48,
+  "trade_probability": 44.89,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
