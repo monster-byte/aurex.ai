@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T23:45:48.547564+00:00",
+  "generated_at": "2026-09-08T00:01:20.854221+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.18,
+      "score": 51.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.024,
+        "avg_compound": 0.022,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Harbour BioMed Successfully Included in the Stock Connect, Reinforcing Capital Market Recognition",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-07T00:01:00Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Diagnosing patulous Eustachian tube dysfunction using the nine-step and inflation tests",
+            "source": "Nature.com",
+            "publishedAt": "2026-09-07T00:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Multiancestry genome-wide association and multiomics analyses elucidate spatiocellular features of multiple sclerosis genetics",
+            "source": "Nature.com",
+            "publishedAt": "2026-09-07T00:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "itch-book 0.2.1",
+            "source": "Pypi.org",
+            "publishedAt": "2026-09-06T23:57:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "What's open on Labor Day? Most retailers. Closed? Government, banks and the stock market",
             "source": "Biztoc.com",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-06T23:27:49Z",
             "sentiment": "Positive",
             "compound": 0.599
-          },
-          {
-            "title": "Warren Buffett has a stark message for stock market investors",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-06T23:17:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "China’s export shock is pushing the global economy to a breaking point, and the U.S. may have to clean up the mess, former trade official says",
-            "source": "Fortune",
-            "publishedAt": "2026-09-06T23:04:53Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "China’s export shock is pushing the global economy to a breaking point, and the U.S. may have to clean up the mess, former trade official says",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-06T23:04:53Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Rent Control—Still Doesn’t Work",
-            "source": "Daily Signal",
-            "publishedAt": "2026-09-06T23:02:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.68,
-  "trade_probability": 45.01,
+  "confirmation_score": 41.67,
+  "trade_probability": 45.0,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
