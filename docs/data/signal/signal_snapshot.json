@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T09:07:18.177608+00:00",
+  "generated_at": "2026-09-08T09:15:48.529031+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.59,
+      "score": 53.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.98,
-        "change_5d_pct": -0.449
+        "current_dxy": 98.97,
+        "change_5d_pct": -0.461
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.88,
+      "score": 56.03,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.118,
+        "avg_compound": 0.121,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Labor Day 2026: Record-High Popularity, Record-Low Power for America’s Unions",
+            "source": "The American Prospect",
+            "publishedAt": "2026-09-07T09:15:00Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
           {
             "title": "New Medium-Term Program focuses on maintaining disinflation momentum",
             "source": "Hurriyet Daily News",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-07T08:56:00Z",
             "sentiment": "Negative",
             "compound": -0.768
-          },
-          {
-            "title": "Global Market: European stocks subdued as oil surge fuels inflation, ECB rate hike bets",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T08:55:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.3,
-  "trade_probability": 45.38,
+  "confirmation_score": 42.33,
+  "trade_probability": 45.4,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
