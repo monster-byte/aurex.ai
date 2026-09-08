@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T01:15:59.154715+00:00",
+  "generated_at": "2026-09-08T01:31:05.673201+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.32,
+      "score": 49.8,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.026,
+        "avg_compound": -0.004,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "CNBC Daily Open: Trump's ‘little excursion’ becomes an uphill battle as Iran war continues",
+            "source": "CNBC",
+            "publishedAt": "2026-09-07T01:29:19Z",
+            "sentiment": "Negative",
+            "compound": -0.758
+          },
           {
             "title": "Sensex today | Stock Market LIVE: Stock to buy today: HEG (₹729.05)",
             "source": "BusinessLine",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-07T01:00:00Z",
             "sentiment": "Positive",
             "compound": 0.273
-          },
-          {
-            "title": "Global Shipping Carbon Tax Negotiations Stall thanks to President Trump",
-            "source": "Wattsupwiththat.com",
-            "publishedAt": "2026-09-07T01:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.69,
-  "trade_probability": 45.01,
+  "confirmation_score": 41.54,
+  "trade_probability": 44.92,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
