@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T14:15:55.245769+00:00",
+  "generated_at": "2026-09-11T14:31:09.219125+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,63 +12,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0904,
-          "up": true
-        },
-        "MSFT": {
-          "change_pct": -0.0232,
+          "change_pct": -0.1781,
           "up": false
         },
+        "MSFT": {
+          "change_pct": 0.0858,
+          "up": true
+        },
         "NVDA": {
-          "change_pct": 0.0,
+          "change_pct": -0.0857,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0195,
-          "up": true
+          "change_pct": -0.1251,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 71.85,
+      "score": 72.29,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29378.1,
-        "sma50": 29197.74,
-        "sma200": 27129.36
+        "last_price": 29421.33,
+        "sma50": 29198.61,
+        "sma200": 27129.57
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.51,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 21.58,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 22.45,
+      "score": 21.44,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.926,
-        "change_5d_pct": 3.444
+        "current_yield_pct": 4.932,
+        "change_5d_pct": 3.57
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.16,
+      "score": 49.97,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.98,
-        "change_5d_pct": -0.02
+        "current_dxy": 99.0,
+        "change_5d_pct": 0.004
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.73,
+      "score": 52.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.175,
+        "avg_compound": 0.043,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Iran, USA Brace for Long War",
-            "source": "Rigzone",
-            "publishedAt": "2026-09-10T14:15:08Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Where investors are finding income outside traditional bonds as rates rise",
-            "source": "CNBC",
-            "publishedAt": "2026-09-10T14:15:01Z",
+            "title": "Articulate and Thinkific Announce Partnership and Articulate’s First Native Third-Party LMS Integration",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-10T14:30:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Pomerantz Law Firm Announces the Filing of a Class Action Against Fractyl Health, Inc. and Certain Officers - GUTS",
+            "title": "European Central Bank raises rates, projects euro area GDP growth of 0.9% for 2026",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T14:30:18Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in PROCEPT BioRobotics Corporation of Class Action Lawsuit and Upcoming Deadlines - PRCT",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-10T14:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.273
+            "publishedAt": "2026-09-10T14:30:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.17
           },
           {
-            "title": "Pomerantz Law Firm Announces the Filing of a Class Action Against Aardvark Therapeutics, Inc. and Certain Officers and Directors - AARD",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T14:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.273
+            "title": "Wall Street dips, oil continues climb ahead of US inflation data",
+            "source": "CNA",
+            "publishedAt": "2026-09-10T14:29:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Opendoor Sinks 7% as Yield Spike Meets Delayed Profit Timeline, Offerpad and Zillow Group Trail",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T14:13:24Z",
-            "sentiment": "Positive",
-            "compound": 0.25
+            "title": "'MAGA fatigue' crashes on deep-red state as voters flip on Trump for the first time",
+            "source": "Raw Story",
+            "publishedAt": "2026-09-10T14:27:04Z",
+            "sentiment": "Negative",
+            "compound": -0.25
           },
           {
-            "title": "Trump promises $5,000 payouts if GOP wins midterms: Can the US afford it?",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-09-10T14:13:03Z",
-            "sentiment": "Positive",
-            "compound": 0.743
+            "title": "European Central Bank’s Lagarde calls French debt plan financially dangerous",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T14:27:03Z",
+            "sentiment": "Negative",
+            "compound": -0.681
           }
         ]
       }
     }
   },
-  "confirmation_score": 51.03,
-  "trade_probability": 50.62,
+  "confirmation_score": 41.77,
+  "trade_probability": 45.06,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
