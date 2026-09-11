@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T15:45:50.022671+00:00",
+  "generated_at": "2026-09-11T16:01:25.276924+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 100.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0134,
+          "change_pct": 0.0172,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0383,
-          "up": false
+          "change_pct": 0.1567,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 0.0091,
+          "change_pct": 0.0296,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0235,
-          "up": false
+          "change_pct": 0.0352,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.6,
+      "score": 72.49,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29451.9,
-        "sma50": 29199.22,
-        "sma200": 27129.73
+        "last_price": 29441.31,
+        "sma50": 29199.01,
+        "sma200": 27129.67
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 21.1,
+      "score": 20.43,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.934,
-        "change_5d_pct": 3.612
+        "current_yield_pct": 4.938,
+        "change_5d_pct": 3.696
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.39,
+      "score": 49.33,
       "status": "yellow",
       "details": {
         "current_dxy": 99.08,
-        "change_5d_pct": 0.077
+        "change_5d_pct": 0.084
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.38,
+      "score": 47.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.052,
+        "avg_compound": -0.05,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Nvidia and Palantir Launch New AI Stack for Supply Chains",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T15:43:44Z",
+            "title": "T-Bills and Chill? Try Munis & Chill Instead",
+            "source": "Ritholtz.com",
+            "publishedAt": "2026-09-10T16:00:39Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "GoPro Spikes 11% as Lumentum Eases and Coherent Holds Flat: Is This a Merger Trade or a Meme Trade?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T15:42:50Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "More than 27% of Credit Bank of Moscow’s corporate loans are now classified as problematic",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T15:40:16Z",
+            "title": "SpaceX stock rises with data center overhaul, budding UK defense deal in focus",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-10T16:00:39Z",
             "sentiment": "Neutral",
-            "compound": -0.077
+            "compound": 0.128
           },
           {
-            "title": "Disability benefit claimants should keep getting paid in cash and face only 'light touch' assessment of their claims - review",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-10T15:40:08Z",
-            "sentiment": "Positive",
-            "compound": 0.459
+            "title": "Nvidia Has the AI Hype. AMD Has the Valuation. I’d Buy This Stock.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T16:00:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "ECB raises interest rates as Iran war fans inflation fears",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-10T15:40:03Z",
+            "title": "CCOI 11-DAY DEADLINE ALERT: Cogent Communications Holdings, Inc. Investors Alerted to September 21, 2026 Lead Plaintiff Deadline in Securities Fraud Class Action",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T16:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.086
+          },
+          {
+            "title": "Bronstein, Gewirtz & Grossman LLC Urges Celsius Holdings, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T16:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.572
+            "compound": -0.542
           },
           {
-            "title": "Trump’s $5,000 ‘dividend’ is really a $1.15 trillion hole in the deficit, top economist estimates",
-            "source": "Fortune",
-            "publishedAt": "2026-09-10T15:39:29Z",
+            "title": "Bronstein, Gewirtz & Grossman LLC Urges Beta Bionics, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T16:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.226
+            "compound": -0.542
           }
         ]
       }
     }
   },
-  "confirmation_score": 49.73,
-  "trade_probability": 49.84,
+  "confirmation_score": 64.62,
+  "trade_probability": 58.77,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "REJECT",
-    "directional_bias": "AVOID"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
