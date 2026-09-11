@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T23:31:05.540523+00:00",
+  "generated_at": "2026-09-11T23:45:52.131569+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.44,
+      "score": 55.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.089,
+        "avg_compound": 0.109,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "SUJA ALERT: Investigation Launched into Suja Life, Inc., RGRD Law Attorneys Encourage Investors and Potential Witnesses to Contact Law Firm",
+            "title": "PHH, BYAH Deadline: PHH, BYAH Investors with Losses in Excess of $100K Have Opportunity to Lead Park Ha Biological Technology Co., Ltd. Securities Lawsuit",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-10T23:25:00Z",
+            "publishedAt": "2026-09-10T23:45:00Z",
             "sentiment": "Positive",
-            "compound": 0.774
+            "compound": 0.421
           },
           {
-            "title": "ECB raises interest rates to fight off inflation jump",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T23:22:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "Obi: Why I can’t step down for Atiku",
-            "source": "The Punch",
-            "publishedAt": "2026-09-10T23:20:43Z",
+            "title": "Gold prices subdued as oil, inflation bolster Fed rate hike bets",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T23:43:55Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Tyra Biosciences, Inc. - TYRA",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T23:20:00Z",
-            "sentiment": "Positive",
-            "compound": 0.447
-          },
-          {
-            "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Beam Therapeutics Inc. - BEAM",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T23:20:00Z",
-            "sentiment": "Positive",
-            "compound": 0.447
-          },
-          {
-            "title": "In this ever-nationalized midterm environment, swing-district Republicans brace for a storm",
+            "title": "The midterms ARE about Trump — and what he offers for America’s future",
             "source": "New York Post",
-            "publishedAt": "2026-09-10T23:18:23Z",
+            "publishedAt": "2026-09-10T23:38:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "HIVE brings in enterprise veteran to scale BUZZ HPC's AI cloud business",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-10T23:36:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Are interest rates on the way up again?",
+            "source": "BBC News",
+            "publishedAt": "2026-09-10T23:34:38Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Thomson Reuters Announces Pricing of Public Offering of US$1,300,000,000 Notes and Canadian Private Placement of C$1,000,000,000 Notes",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T23:34:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 34.76,
-  "trade_probability": 40.86,
+  "confirmation_score": 34.86,
+  "trade_probability": 40.92,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
