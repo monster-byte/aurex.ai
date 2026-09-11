@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T17:01:23.367163+00:00",
+  "generated_at": "2026-09-11T17:15:54.596524+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -16,32 +16,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0403,
+          "change_pct": 0.0,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0688,
+          "change_pct": 0.0061,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0228,
+          "change_pct": 0.0068,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0489,
+          "change_pct": 0.0507,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.26,
+      "score": 72.29,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29418.9,
-        "sma50": 29198.56,
-        "sma200": 27129.56
+        "last_price": 29421.3,
+        "sma50": 29198.61,
+        "sma200": 27129.57
       }
     },
     "vxn": {
@@ -49,26 +49,26 @@
       "score": 65.0,
       "status": "green",
       "details": {
-        "current_vxn": 21.11,
+        "current_vxn": 21.06,
         "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 18.92,
+      "score": 18.42,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.947,
-        "change_5d_pct": 3.885
+        "current_yield_pct": 4.95,
+        "change_5d_pct": 3.948
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.18,
+      "score": 49.02,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.1,
-        "change_5d_pct": 0.103
+        "current_dxy": 99.12,
+        "change_5d_pct": 0.122
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.49,
+      "score": 45.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.05,
+        "avg_compound": -0.095,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "CoreWeave Sinks 5% Despite Burry Pulling In His AI Short, Oracle Eases Into Earnings, Cloudflare Holds Steady",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T17:01:02Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "PRCT 12-DAY DEADLINE ALERT: PROCEPT BioRobotics Corporation Investors Alerted to September 22, 2026 Lead Plaintiff Deadline in Class Action Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T17:01:00Z",
-            "sentiment": "Positive",
-            "compound": 0.258
-          },
-          {
-            "title": "Prediction: ServiceNow Will be Worth This in 2028",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T17:00:50Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "New Documentary ‘Capturing Bigfoot’ Blows the Legend of the Sasquatch Wide Open — Watch Trailer",
-            "source": "IndieWire",
-            "publishedAt": "2026-09-10T17:00:00Z",
+            "title": "Mortgage rates climb: Average rate on 30-year home loan hits highest level in months",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-10T17:15:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "T. ROWE PRICE WORKS WITH ANTHROPIC TO BRING CLAUDE TO MORE OF ITS INVESTMENT PROCESS",
+            "title": "Rackspace Technology, Inc. Investors: September 28, 2026, Deadline in Securities Fraud Class Action Lawsuit",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-10T17:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Northlanders question ‘excuseflation’ as cost-of-living pressures grow",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-10T17:00:00Z",
+            "publishedAt": "2026-09-10T17:15:00Z",
             "sentiment": "Negative",
-            "compound": -0.318
+            "compound": -0.542
+          },
+          {
+            "title": "Nvidia Just Gave Its Dividend a Massive Raise but Does It Even Matter?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T17:14:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.039
+          },
+          {
+            "title": "Stock Market Today: Dow, S&P 500 and Nasdaq fall as U.S. oil prices surge to $100 a barrel and Treasury yields jump; stocks on track for weekly losses; Orac",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-10T17:13:25Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Lyft Stock Pullback Could Be Short-Lived Says Signal",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-10T17:13:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Aardvark Therapeutics (AARD) Investors: Securities Fraud Class Action Filed, Contact Hagens Berman Before October 13, 2026 Lead Plaintiff Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T17:10:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
           }
         ]
       }
     }
   },
-  "confirmation_score": 57.84,
-  "trade_probability": 54.7,
+  "confirmation_score": 57.03,
+  "trade_probability": 54.22,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
