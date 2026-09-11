@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T16:15:56.693894+00:00",
+  "generated_at": "2026-09-11T16:31:09.105642+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,63 +12,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0179,
+          "change_pct": 0.0194,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0182,
+          "change_pct": 0.0091,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0774,
-          "up": false
+          "change_pct": 0.0121,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0156,
+          "change_pct": -0.0176,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.31,
+      "score": 72.0,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29423.6,
-        "sma50": 29198.65,
-        "sma200": 27129.59
+        "last_price": 29392.7,
+        "sma50": 29198.04,
+        "sma200": 27129.43
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
-      "status": "yellow",
+      "score": 65.0,
+      "status": "green",
       "details": {
-        "current_vxn": 21.14,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 21.1,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 18.92,
+      "score": 17.58,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.947,
-        "change_5d_pct": 3.885
+        "current_yield_pct": 4.955,
+        "change_5d_pct": 4.053
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.45,
+      "score": 49.49,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.07,
-        "change_5d_pct": 0.069
+        "current_dxy": 99.06,
+        "change_5d_pct": 0.064
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.09,
+      "score": 48.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.018,
+        "avg_compound": -0.02,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "AI Agents Are About to Start Spending Your Money. 5 Stocks Sitting in the Line of Fire.",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T16:15:13Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Ethereum’s 37% Rally Meets Rising Bond Yields: Why Is ETH Holding Up?",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-09-10T16:13:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why is the bond market so important?",
-            "source": "Ncspin.com",
-            "publishedAt": "2026-09-10T16:13:00Z",
-            "sentiment": "Positive",
-            "compound": 0.333
-          },
-          {
-            "title": "Diesel Sets a Record $5.90 a Gallon as the Generator Market Heads Toward $25.6 Billion",
+            "title": "SEPTEMBER 28, 2026 CAPR INVESTOR DEADLINE: Capricor Therapeutics, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-10T16:10:00Z",
+            "publishedAt": "2026-09-10T16:30:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "3 Shaky Consumer Dividend Stocks Flashing Warning Signs",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T16:08:45Z",
-            "sentiment": "Negative",
-            "compound": -0.511
+            "title": "30-year fixed mortgage rate tops 7% for the first time in over a year",
+            "source": "CNBC",
+            "publishedAt": "2026-09-10T16:29:28Z",
+            "sentiment": "Positive",
+            "compound": 0.511
           },
           {
-            "title": "Trump's tech guru demands Anthropic is investigated and their $2trillion IPO is paused after researcher warned AI will wipe out humanity",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-10T16:08:34Z",
+            "title": "More than 70% of new solar is being built in states that voted for Trump",
+            "source": "Grist",
+            "publishedAt": "2026-09-10T16:26:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US oil jumps above $100 and stock futures slump",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-10T16:25:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Camden National Bank Employees Volunteer at 62 Nonprofits in a Single Afternoon",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T16:24:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stocks retreat as U.S. oil prices top $100, threatening economy",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-10T16:23:57Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.202
           }
         ]
       }
     }
   },
-  "confirmation_score": 49.54,
-  "trade_probability": 49.72,
+  "confirmation_score": 57.28,
+  "trade_probability": 54.37,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "REJECT",
-    "directional_bias": "AVOID"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
