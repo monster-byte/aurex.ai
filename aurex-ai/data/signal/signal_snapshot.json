@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T11:22:47.304712+00:00",
+  "generated_at": "2026-09-11T11:31:06.306885+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.72,
+      "score": 48.65,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.16,
-        "change_5d_pct": 0.161
+        "current_dxy": 99.17,
+        "change_5d_pct": 0.169
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.65,
+      "score": 50.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.047,
+        "avg_compound": 0.006,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Brent crude surpasses $102 amid Middle East tensions, HSBC raises forecast",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T11:22:21Z",
-            "sentiment": "Negative",
-            "compound": -0.751
-          },
-          {
-            "title": "USOR vs USCR Crypto: Which Token Has More Trading Potential in 2026?",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-09-10T11:18:58Z",
+            "title": "Bitcoin and ethereum prices today, Thursday, September 10, 2026: Crypto prices slide back with inflation data on tap",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-10T11:30:18Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Japan’s Ministry of Finance says it is not considering government bond buybacks as BOJ winds down QE",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T11:17:47Z",
+            "title": "W. P. Carey Provides Business Update on Investment Activity and Tenant Credit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T11:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Nasdaq Invests $100M in Kraken Parent Payward at $21B Valuation",
+            "source": "Decrypt",
+            "publishedAt": "2026-09-10T11:28:55Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "European Central Bank expected to raise rates",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T11:16:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Faruqi & Faruqi, LLP Urges Wix.com (NASDAQ: WIX) Investors to Seek Counsel Before the September 22, 2026 Lead Plaintiff Deadline in the Securities Class Action",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T11:28:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           },
           {
-            "title": "Chinese inflation accelerates for first time in months",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T11:16:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Trump promises Americans $5K if GOP wins. And, Kirk supporters reflect on his death",
+            "source": "NPR",
+            "publishedAt": "2026-09-10T11:27:14Z",
+            "sentiment": "Positive",
+            "compound": 0.649
           },
           {
-            "title": "Sensex, Nifty snap 3-session losing streak as CAS recovery lifts indices",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-10T11:16:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
+            "title": "Sensex, Nifty stage late recovery to end higher after three-day slide",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-10T11:22:42Z",
+            "sentiment": "Positive",
+            "compound": 0.402
           }
         ]
       }
     }
   },
-  "confirmation_score": 48.43,
-  "trade_probability": 49.06,
+  "confirmation_score": 48.69,
+  "trade_probability": 49.21,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
