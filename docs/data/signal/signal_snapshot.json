@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T22:31:08.106223+00:00",
+  "generated_at": "2026-09-11T22:45:50.477635+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.53,
+      "score": 46.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.009,
+        "avg_compound": -0.061,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Southern California woman allegedly stole over $400,000 from high school football team",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-10T22:30:02Z",
+            "title": "News Wrap: Supreme Court again rejects GOP push for new congressional map in Missouri",
+            "source": "PBS",
+            "publishedAt": "2026-09-10T22:45:29Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.103
           },
           {
-            "title": "Axon beats Palantir by 36 Roundtable 100 spots",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T22:23:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Don’t Be Fooled By Trump’s False Claims About Tax Cuts",
-            "source": "HuffPost",
-            "publishedAt": "2026-09-10T22:18:40Z",
-            "sentiment": "Negative",
-            "compound": -0.586
-          },
-          {
-            "title": "Laura Ingraham Challenges Trump On Promised $5,000 Checks: 'Why Not Give It Now?'",
-            "source": "HuffPost",
-            "publishedAt": "2026-09-10T22:13:48Z",
+            "title": "Trump keeps telling voters he doesn’t care much about affordability",
+            "source": "Vox",
+            "publishedAt": "2026-09-10T22:42:38Z",
             "sentiment": "Positive",
-            "compound": 0.421
+            "compound": 0.494
           },
           {
-            "title": "Judge Demands Answers From DOJ For Refusing To Dismiss Reflecting Pool Case With Prejudice",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-10T22:13:41Z",
+            "title": "D-Wave, Rigetti, and Quantinuum Just Got $300 Million From Washington. Here's What That Changes for Investors",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T22:38:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "High school football mom arrested by the FBI after 'embezzling $400k from team's fundraiser' to pay her mortgage",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-10T22:38:06Z",
             "sentiment": "Negative",
-            "compound": -0.718
+            "compound": -0.542
           },
           {
-            "title": "Stock market today: Live updates",
-            "source": "CNBC",
-            "publishedAt": "2026-09-10T22:11:38Z",
+            "title": "Wynn Resorts Announces Pricing of Private Offering of $900 Million of Wynn Resorts Finance 6.875% Senior Notes due 2035",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T22:38:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stripe’s founder factory and the AI governance boom",
+            "source": "Cbinsights.com",
+            "publishedAt": "2026-09-10T22:35:34Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 34.27,
-  "trade_probability": 40.56,
+  "confirmation_score": 34.01,
+  "trade_probability": 40.41,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
