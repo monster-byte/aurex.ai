@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T13:01:27.169452+00:00",
+  "generated_at": "2026-09-11T13:15:58.118054+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 19.42,
+      "score": 25.14,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.944,
-        "change_5d_pct": 3.822
+        "current_yield_pct": 4.91,
+        "change_5d_pct": 3.108
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.35,
+      "score": 49.88,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.08,
-        "change_5d_pct": 0.081
+        "current_dxy": 99.01,
+        "change_5d_pct": 0.015
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.5,
+      "score": 57.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.05,
-        "articles_analyzed": 24,
+        "avg_compound": 0.146,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Core Producer Prices Rise Less Than Expected",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-10T13:00:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Palantir’s Stock Has Soared More Than 1,700% Since Its IPO. How High Can PLTR Go From Here?",
+            "title": "AMD Stock’s 10-Year, 6,800% Rally Was Just the Beginning. Here’s Where AMD Could Be Headed Next",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T13:00:43Z",
+            "publishedAt": "2026-09-10T13:15:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Solana sees record 263K tokens issued in a single day",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-09-10T13:00:00Z",
+            "title": "Trump’s $5,000 dividend: Who could receive the payment, how much the plan could cost, where the money may come from and what happens next",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-10T13:15:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
-            "source": "Europa.eu",
-            "publishedAt": "2026-09-10T13:00:00Z",
+            "title": "Flip Electronics Announces Authorized Distribution Partnership with Littelfuse",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T13:15:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "MEDIA ALERT: Global Industry Leaders Join Cisco's WebexOne to Showcase What's Next for AI-Powered Work",
-            "source": "Cisco.com",
-            "publishedAt": "2026-09-10T13:00:00Z",
+            "title": "European Central Bank’s Lagarde clarifies no debate on future rate path",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T13:14:17Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
+          {
+            "title": "Tetra Tech Announces $500 Million Increase to its Share Repurchase Program",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-10T13:14:10Z",
             "sentiment": "Positive",
-            "compound": 0.629
+            "compound": 0.542
           },
           {
-            "title": "Wholesale prices moved higher last month in latest sign of stubborn inflation",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-10T12:57:04Z",
-            "sentiment": "Negative",
-            "compound": -0.402
+            "title": "Copper, FCX Stock Plunge On Tariff Report, Surging Yields; Silver, Gold Also Fall",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-10T13:13:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 48.1,
-  "trade_probability": 48.86,
+  "confirmation_score": 49.49,
+  "trade_probability": 49.69,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
