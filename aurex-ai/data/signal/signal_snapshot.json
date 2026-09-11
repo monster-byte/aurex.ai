@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T20:15:53.438520+00:00",
+  "generated_at": "2026-09-11T20:31:06.799041+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.07,
+      "score": 49.01,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.11,
-        "change_5d_pct": 0.116
+        "current_dxy": 99.12,
+        "change_5d_pct": 0.123
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.68,
+      "score": 54.12,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.134,
+        "avg_compound": 0.082,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "U.S. equities fall as Wall Street digests the latest PPI report",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T20:21:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Brent crude tops $107, US stocks and bonds dip amid inflation fears",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T20:21:53Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "August CPI report could spark the Fed's first rate hike in over 3 years",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T20:20:08Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "US stocks today: US stocks end lower as rising oil, Treasury yields lift Fed hike bets",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-10T20:18:47Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Hadron Energy to Participate in the H.C. Wainwright 28th Annual Global Investment Conference",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-10T20:17:37Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
           {
             "title": "What a Fed rate hike actually means for the U.S. economy and inflation",
             "source": "Financial Post",
             "publishedAt": "2026-09-10T20:14:10Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "TransCode Therapeutics Announces Leadership Transition",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T20:10:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "August's inflation report will be crucial for the Fed's interest rate decision",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T20:08:30Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "XORTX Announces Initiation of Clinical and Commercial Manufacturing of XORLO™",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-10T20:07:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Is Trump's $5,000 pledge legal and what will it cost?",
-            "source": "RTE",
-            "publishedAt": "2026-09-10T20:05:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Sales of Existing Single-Family Homes Sag Further, Supply Spikes to Decade High. Condo Sales Drop to Data-Low, Supply Spikes to 14-Year High",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T20:05:34Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.97,
-  "trade_probability": 40.98,
+  "confirmation_score": 34.71,
+  "trade_probability": 40.83,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
