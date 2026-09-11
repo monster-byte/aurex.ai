@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T21:20:43.144315+00:00",
+  "generated_at": "2026-09-11T21:31:11.573102+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.94,
+      "score": 50.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.019,
+        "avg_compound": 0.014,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Equinix Names DD Dasgupta as Chief Marketing Officer",
+            "source": "Crweworld.com",
+            "publishedAt": "2026-09-10T21:27:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trading Day: Inflation palpitations",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T21:23:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Small CPI surprise could trigger big Fed rate decision",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T21:21:04Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Moment Fox News star Laura Ingraham grills Trump over his $5K checks to Americans",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-10T21:17:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
             "source": "Biztoc.com",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-10T21:04:58Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Trump's 'bad idea' thrills MAGA fans — but lands like a lead balloon with his party",
-            "source": "Raw Story",
-            "publishedAt": "2026-09-10T21:04:48Z",
-            "sentiment": "Positive",
-            "compound": 0.743
-          },
-          {
-            "title": "AI becomes the first stop for financial questions people are too embarrassed to ask",
-            "source": "Digital Journal",
-            "publishedAt": "2026-09-10T21:04:13Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "A Client Put $30K Into a Managed Amazon Storefront She Hardly Logged Into. It Now Clears 6 Figures a Month.",
-            "source": "Entrepreneur",
-            "publishedAt": "2026-09-10T21:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "The political risk behind Trump’s $5,000 pledge: From the Politics Desk",
-            "source": "NBC News",
-            "publishedAt": "2026-09-10T21:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.41,
-  "trade_probability": 40.65,
+  "confirmation_score": 34.39,
+  "trade_probability": 40.63,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
