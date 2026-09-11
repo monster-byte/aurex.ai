@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T10:01:17.473007+00:00",
+  "generated_at": "2026-09-11T10:15:53.184737+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.93,
+      "score": 49.01,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.13,
-        "change_5d_pct": 0.134
+        "current_dxy": 99.12,
+        "change_5d_pct": 0.123
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.25,
+      "score": 52.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.085,
+        "avg_compound": 0.055,
         "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "CEO of an automation platform explains how he wrote a 168-page book with AI: ‘It was like a Socratic dialogue’",
+            "title": "Stocks Tick Higher Ahead of ECB, Tech Earnings: Markets Wrap - Bloomberg.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-10T10:13:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "'Communal politics': Akhilesh Yadav attacks BJP over inflation, Muzaffarnagar riots",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-10T10:09:39Z",
+            "sentiment": "Negative",
+            "compound": -0.735
+          },
+          {
+            "title": "Satya Niketan building collapse: Can a 'no-responsibility' clause shield a PG owner?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-10T10:07:18Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "SEPTEMBER 21, 2026 INVESTOR DEADLINE: Robbins Geller Rudman & Dowd LLP Files Class Action Lawsuit Against Cogent Communications Holdings, Inc. and Announces that Investors with Substantial Losses Have Opportunity to Lead Securities Class Action Lawsuit - CCOI",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T10:07:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Oil Closes at Highest Level in 4 Months",
+            "source": "Rigzone",
+            "publishedAt": "2026-09-10T10:03:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Here's Where Wall Street Analysts See Nvidia's Share Price Going",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T10:00:54Z",
+            "publishedAt": "2026-09-10T10:03:10Z",
             "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "The US Federal Reserve should forget electoral calendars and focus on what's best for the economy",
-            "source": "Livemint",
-            "publishedAt": "2026-09-10T10:00:41Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Best CD rates today, Thursday, September 10, 2026: Lock in up to 4.35% APY with an 18-month CD",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-10T10:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "ChipMOS REPORTS 33.3% YoY INCREASE IN AUGUST 2026 REVENUE",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T10:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.465
-          },
-          {
-            "title": "Realtor.com® August Luxury Housing Report: National Luxury Threshold Falls as Local Markets Diverge",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T10:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Can the US battery market untangle from China?",
-            "source": "MIT Technology Review",
-            "publishedAt": "2026-09-10T10:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.296
           }
         ]
       }
     }
   },
-  "confirmation_score": 49.11,
-  "trade_probability": 49.47,
+  "confirmation_score": 48.97,
+  "trade_probability": 49.38,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
