@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T14:01:26.315880+00:00",
+  "generated_at": "2026-09-11T14:15:55.245769+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -16,32 +16,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.1278,
-          "up": false
+          "change_pct": 0.0904,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.1244,
+          "change_pct": -0.0232,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0451,
-          "up": true
+          "change_pct": 0.0,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.1659,
+          "change_pct": 0.0195,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.43,
+      "score": 71.85,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29435.75,
-        "sma50": 29198.9,
-        "sma200": 27129.65
+        "last_price": 29378.1,
+        "sma50": 29197.74,
+        "sma200": 27129.36
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 23.79,
+      "score": 22.45,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.918,
-        "change_5d_pct": 3.276
+        "current_yield_pct": 4.926,
+        "change_5d_pct": 3.444
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.86,
+      "score": 50.16,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.02,
-        "change_5d_pct": 0.017
+        "current_dxy": 98.98,
+        "change_5d_pct": -0.02
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.14,
+      "score": 58.73,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.023,
+        "avg_compound": 0.175,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "U.S. crude oil hits $100 for the first time since May",
-            "source": "NBC News",
-            "publishedAt": "2026-09-10T14:01:12Z",
+            "title": "Iran, USA Brace for Long War",
+            "source": "Rigzone",
+            "publishedAt": "2026-09-10T14:15:08Z",
             "sentiment": "Negative",
-            "compound": -0.572
+            "compound": -0.599
           },
           {
-            "title": "AI Companies’ Debt Now Equals 68% of New Long-Term U.S. Treasury Borrowing This Year, JPMorgan Finds",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T14:00:30Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "US producer inflation tops expectations as diesel costs jump",
-            "source": "CNA",
-            "publishedAt": "2026-09-10T14:00:29Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Dollar gains, euro slips after expected ECB rate increase",
-            "source": "CNA",
-            "publishedAt": "2026-09-10T14:00:27Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Micron Could Be the Next Nvidia For Patient Investors",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T14:00:27Z",
+            "title": "Where investors are finding income outside traditional bonds as rates rise",
+            "source": "CNBC",
+            "publishedAt": "2026-09-10T14:15:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The Surprising Pockmarks On Cooper's Earnings That Caused Its Stock To Dive",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-10T14:00:21Z",
+            "title": "Pomerantz Law Firm Announces the Filing of a Class Action Against Fractyl Health, Inc. and Certain Officers - GUTS",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T14:15:00Z",
             "sentiment": "Positive",
             "compound": 0.273
+          },
+          {
+            "title": "Pomerantz Law Firm Announces the Filing of a Class Action Against Aardvark Therapeutics, Inc. and Certain Officers and Directors - AARD",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T14:15:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Opendoor Sinks 7% as Yield Spike Meets Delayed Profit Timeline, Offerpad and Zillow Group Trail",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T14:13:24Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Trump promises $5,000 payouts if GOP wins midterms: Can the US afford it?",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-10T14:13:03Z",
+            "sentiment": "Positive",
+            "compound": 0.743
           }
         ]
       }
     }
   },
-  "confirmation_score": 50.53,
-  "trade_probability": 50.32,
+  "confirmation_score": 51.03,
+  "trade_probability": 50.62,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
