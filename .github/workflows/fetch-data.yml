@@ -39,8 +39,9 @@ jobs:
 
       - name: Run track record engine
         working-directory: aurex-ai
+        continue-on-error: true
         run: python -m src.track_record.engine
-
+        
       - name: Copy data for dashboard
         run: |
           mkdir -p docs/data/prices docs/data/signal docs/data/risk docs/data/track_record
