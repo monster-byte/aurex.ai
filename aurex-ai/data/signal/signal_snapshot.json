@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T20:31:06.799041+00:00",
+  "generated_at": "2026-09-11T20:45:51.395713+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.01,
+      "score": 48.82,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.12,
-        "change_5d_pct": 0.123
+        "current_dxy": 99.15,
+        "change_5d_pct": 0.147
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.12,
+      "score": 51.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.082,
+        "avg_compound": 0.023,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "U.S. equities fall as Wall Street digests the latest PPI report",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T20:21:54Z",
+            "title": "The GOP Midterm Convention Is the Campiest Apocalypse I've Ever Seen",
+            "source": "Reason",
+            "publishedAt": "2026-09-10T20:42:52Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Brent crude tops $107, US stocks and bonds dip amid inflation fears",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T20:21:53Z",
-            "sentiment": "Negative",
-            "compound": -0.494
+            "title": "Budget 2027: Simon Harris seeks to reassure middle-income earners on tax cuts",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-10T20:39:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
           },
           {
-            "title": "August CPI report could spark the Fed's first rate hike in over 3 years",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T20:20:08Z",
+            "title": "Clover Health (CLOV) Shares Skyrocket, What You Need To Know",
+            "source": "Financialcontent.com",
+            "publishedAt": "2026-09-10T20:38:28Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Dow Jones fecha em queda, com alta de yields de Treasuries e preocupação com inflação",
+            "source": "InfoMoney",
+            "publishedAt": "2026-09-10T20:35:56Z",
             "sentiment": "Positive",
             "compound": 0.226
           },
           {
-            "title": "US stocks today: US stocks end lower as rising oil, Treasury yields lift Fed hike bets",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-10T20:18:47Z",
+            "title": "Trump Wants to Give Out $5,000 Checks. It Would Cost More Than $1 Trillion.",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-10T20:35:34Z",
             "sentiment": "Neutral",
-            "compound": -0.103
+            "compound": 0.0
           },
           {
-            "title": "Hadron Energy to Participate in the H.C. Wainwright 28th Annual Global Investment Conference",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-10T20:17:37Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "What a Fed rate hike actually means for the U.S. economy and inflation",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-10T20:14:10Z",
+            "title": "Trump's $5,000 payment would reignite inflation, economists say",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T20:35:33Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 34.71,
-  "trade_probability": 40.83,
+  "confirmation_score": 34.4,
+  "trade_probability": 40.64,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
