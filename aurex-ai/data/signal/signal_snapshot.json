@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T21:01:20.215107+00:00",
+  "generated_at": "2026-09-11T21:15:53.801312+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.01,
+      "score": 49.23,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.12,
-        "change_5d_pct": 0.123
+        "current_dxy": 99.1,
+        "change_5d_pct": 0.096
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.24,
+      "score": 50.94,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.025,
+        "avg_compound": 0.019,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T21:06:42Z",
+            "sentiment": "Positive",
+            "compound": 0.272
+          },
+          {
+            "title": "Trading Day: Inflation palpitations",
+            "source": "CNA",
+            "publishedAt": "2026-09-10T21:04:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump's 'bad idea' thrills MAGA fans — but lands like a lead balloon with his party",
+            "source": "Raw Story",
+            "publishedAt": "2026-09-10T21:04:48Z",
+            "sentiment": "Positive",
+            "compound": 0.743
+          },
+          {
+            "title": "AI becomes the first stop for financial questions people are too embarrassed to ask",
+            "source": "Digital Journal",
+            "publishedAt": "2026-09-10T21:04:13Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
           {
             "title": "A Client Put $30K Into a Managed Amazon Storefront She Hardly Logged Into. It Now Clears 6 Figures a Month.",
             "source": "Entrepreneur",
@@ -104,40 +132,12 @@
             "publishedAt": "2026-09-10T21:00:00Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "Cardiol Therapeutics Files US$150 Million Preliminary Base Shelf Prospectus Including Additional Disclosure Following Review by Staff of the Ontario Securities Commission",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T21:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "THOR INDUSTRIES ANNOUNCES ADDITIONAL LEADERSHIP CHANGES PERTAINING TO THE STRATEGIC EVOLUTION OF ITS NORTH AMERICAN RV OPERATING MODEL",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T21:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump wants to send Americans money. Congress and economists don't seem thrilled with the idea",
-            "source": "Associated Press",
-            "publishedAt": "2026-09-10T20:57:42Z",
-            "sentiment": "Negative",
-            "compound": -0.341
-          },
-          {
-            "title": "The one problem Trump can’t afford",
-            "source": "Vox",
-            "publishedAt": "2026-09-10T20:50:04Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.42,
+  "confirmation_score": 34.41,
   "trade_probability": 40.65,
   "market_regime": "BULLISH",
   "final_decision": {
