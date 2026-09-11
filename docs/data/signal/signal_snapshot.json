@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:01:26.500879+00:00",
+  "generated_at": "2026-09-11T19:15:51.151684+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -16,59 +16,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0105,
+          "change_pct": 0.0153,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0121,
+          "change_pct": 0.0292,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0319,
+          "change_pct": 0.0548,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0117,
+          "change_pct": 0.0033,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.19,
+      "score": 72.06,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29411.9,
-        "sma50": 29198.42,
-        "sma200": 27129.53
+        "last_price": 29399.14,
+        "sma50": 29198.16,
+        "sma200": 27129.46
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 70.0,
+      "score": 65.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.75,
-        "percentile_vs_20d": 30.0
+        "current_vxn": 20.82,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 14.55,
+      "score": 14.22,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.973,
-        "change_5d_pct": 4.431
+        "current_yield_pct": 4.975,
+        "change_5d_pct": 4.473
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.86,
+      "score": 48.91,
       "status": "yellow",
       "details": {
         "current_dxy": 99.14,
-        "change_5d_pct": 0.142
+        "change_5d_pct": 0.136
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.89,
+      "score": 45.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.122,
+        "avg_compound": -0.089,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "WWII Coastal Command Losses, Michigan Cold Cases, Google, More: Thursday Afternoon ResearchBuzz, September 10, 2026",
-            "source": "Researchbuzz.me",
-            "publishedAt": "2026-09-10T18:57:26Z",
+            "title": "Iran-US war threatens to raise UK consumer prices and rates",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T19:14:20Z",
             "sentiment": "Negative",
-            "compound": -0.402
+            "compound": -0.758
           },
           {
-            "title": "Critics Sure Seem Skeptical Of Trump's $5K Voter Bribe",
-            "source": "HuffPost",
-            "publishedAt": "2026-09-10T18:50:30Z",
-            "sentiment": "Negative",
-            "compound": -0.459
-          },
-          {
-            "title": "Weekly Mortgage Rates Climb as Inflation Anxiety Builds",
-            "source": "NerdWallet",
-            "publishedAt": "2026-09-10T18:50:02Z",
+            "title": "Stock Market Today: Dow Drops As Oil, Yields Surge; Tech Titan Oracle's Earnings On Deck (Live Coverage) - Investor's Business Daily",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-10T19:12:36Z",
             "sentiment": "Neutral",
-            "compound": -0.178
+            "compound": 0.0
           },
           {
-            "title": "Global bond sell-off resumes as surging oil prices stoke fears about inflation",
+            "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Investigates the Looming Merger Shareholder Vote - AUUD, TECH, CZR and CBAN",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T19:12:00Z",
+            "sentiment": "Positive",
+            "compound": 0.347
+          },
+          {
+            "title": "ECB prepares for ‘longer-lasting’ inflation as it lifts interest rates to 2.5%",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T18:49:33Z",
-            "sentiment": "Negative",
-            "compound": -0.421
+            "publishedAt": "2026-09-10T19:06:35Z",
+            "sentiment": "Positive",
+            "compound": 0.459
           },
           {
-            "title": "Republicans face 'perfect storm' in key race as voter frustrations boil over: analyst",
-            "source": "Raw Story",
-            "publishedAt": "2026-09-10T18:46:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
+            "title": "Free money and lower rates: Trump's latest ideas are a recipe for more inflation",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-10T19:06:29Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           },
           {
-            "title": "Why American Currency Can Only Feature Images of Dead People",
-            "source": "Military.com",
-            "publishedAt": "2026-09-10T18:46:20Z",
+            "title": "Anger Over Health Costs Clouds Midterms",
+            "source": "Kffhealthnews.org",
+            "publishedAt": "2026-09-10T19:05:00Z",
             "sentiment": "Negative",
-            "compound": -0.649
+            "compound": -0.572
           }
         ]
       }
     }
   },
-  "confirmation_score": 64.29,
-  "trade_probability": 58.57,
+  "confirmation_score": 63.89,
+  "trade_probability": 58.33,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
