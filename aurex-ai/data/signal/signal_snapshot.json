@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T11:01:19.144683+00:00",
+  "generated_at": "2026-09-11T11:15:51.631470+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.55,
+      "score": 48.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.18,
-        "change_5d_pct": 0.182
+        "current_dxy": 99.15,
+        "change_5d_pct": 0.149
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.08,
+      "score": 49.69,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.002,
+        "avg_compound": -0.006,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Shock Top and Auntie Anne’s® Take Over Tailgate Season with the Return of Shock Top Twisted Pretzel Wheat and the Limited-Edition TWIST Vest",
+            "title": "OMNI-LITE INDUSTRIES ANNOUNCES THE GRANT OF STOCK OPTIONS AND RSUs",
             "source": "Financial Post",
-            "publishedAt": "2026-09-10T11:00:58Z",
-            "sentiment": "Negative",
-            "compound": -0.382
+            "publishedAt": "2026-09-10T11:10:31Z",
+            "sentiment": "Positive",
+            "compound": 0.499
           },
           {
-            "title": "JPMorgan Announces Cash Distributions for the JPMorgan ETFs",
+            "title": "2027: Obi pledges to retain Tinubu’s naira float policy if elected",
+            "source": "The Punch",
+            "publishedAt": "2026-09-10T11:10:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Definium Therapeutics to Present Topline Data from Phase 3 Emerge and Voyage Trials Across Major Depressive Disorder and Generalized Anxiety Disorder at Psych Congress 2026",
             "source": "Financial Post",
-            "publishedAt": "2026-09-10T11:00:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bitcoin consolidates near $78,000 as investors await key US inflation, Fed cues",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-10T11:00:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "Carlyle, Insight Partners, and JMI Equity Unveil Exiger's Complete AI-Built Transformation",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T11:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Carlyle, Insight Partners, and JMI Equity Unveil Exiger's Complete AI-Built Transformation",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T11:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "CAS chaos continues on F&O expiry day: Sensex calls zoom in mere minutes amid 1,000-point swing",
-            "source": "Moneycontrol",
-            "publishedAt": "2026-09-10T11:00:00Z",
+            "publishedAt": "2026-09-10T11:08:01Z",
             "sentiment": "Negative",
-            "compound": -0.572
+            "compound": -0.851
+          },
+          {
+            "title": "Silver price today, Thursday, September 10, 2026: Silver prices back off ahead of inflation data",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-10T11:07:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gold price today, Thursday, September 10, 2026: Gold prices steady ahead of inflation data and the Fed",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T11:04:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anfield Advances Velvet-Wood Toward Active Dewatering with Utah Concept Approval and Outfall Reactivation Request",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-10T11:03:28Z",
+            "sentiment": "Positive",
+            "compound": 0.7
           }
         ]
       }
     }
   },
-  "confirmation_score": 48.66,
-  "trade_probability": 49.2,
+  "confirmation_score": 48.65,
+  "trade_probability": 49.19,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
