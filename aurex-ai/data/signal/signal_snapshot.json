@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T16:01:25.276924+00:00",
+  "generated_at": "2026-09-11T16:15:56.693894+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0172,
+          "change_pct": 0.0179,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.1567,
+          "change_pct": 0.0182,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0296,
-          "up": true
+          "change_pct": -0.0774,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0352,
-          "up": true
+          "change_pct": -0.0156,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.49,
+      "score": 72.31,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29441.31,
-        "sma50": 29199.01,
-        "sma200": 27129.67
+        "last_price": 29423.6,
+        "sma50": 29198.65,
+        "sma200": 27129.59
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 20.43,
+      "score": 18.92,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.938,
-        "change_5d_pct": 3.696
+        "current_yield_pct": 4.947,
+        "change_5d_pct": 3.885
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.33,
+      "score": 49.45,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.08,
-        "change_5d_pct": 0.084
+        "current_dxy": 99.07,
+        "change_5d_pct": 0.069
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.52,
+      "score": 49.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.05,
-        "articles_analyzed": 25,
+        "avg_compound": -0.018,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "T-Bills and Chill? Try Munis & Chill Instead",
-            "source": "Ritholtz.com",
-            "publishedAt": "2026-09-10T16:00:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "SpaceX stock rises with data center overhaul, budding UK defense deal in focus",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-10T16:00:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Nvidia Has the AI Hype. AMD Has the Valuation. I’d Buy This Stock.",
+            "title": "AI Agents Are About to Start Spending Your Money. 5 Stocks Sitting in the Line of Fire.",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T16:00:04Z",
+            "publishedAt": "2026-09-10T16:15:13Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Ethereum’s 37% Rally Meets Rising Bond Yields: Why Is ETH Holding Up?",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-09-10T16:13:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "CCOI 11-DAY DEADLINE ALERT: Cogent Communications Holdings, Inc. Investors Alerted to September 21, 2026 Lead Plaintiff Deadline in Securities Fraud Class Action",
+            "title": "Why is the bond market so important?",
+            "source": "Ncspin.com",
+            "publishedAt": "2026-09-10T16:13:00Z",
+            "sentiment": "Positive",
+            "compound": 0.333
+          },
+          {
+            "title": "Diesel Sets a Record $5.90 a Gallon as the Generator Market Heads Toward $25.6 Billion",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-10T16:00:00Z",
+            "publishedAt": "2026-09-10T16:10:00Z",
             "sentiment": "Neutral",
-            "compound": 0.086
+            "compound": 0.0
           },
           {
-            "title": "Bronstein, Gewirtz & Grossman LLC Urges Celsius Holdings, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T16:00:00Z",
+            "title": "3 Shaky Consumer Dividend Stocks Flashing Warning Signs",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T16:08:45Z",
             "sentiment": "Negative",
-            "compound": -0.542
+            "compound": -0.511
           },
           {
-            "title": "Bronstein, Gewirtz & Grossman LLC Urges Beta Bionics, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T16:00:00Z",
+            "title": "Trump's tech guru demands Anthropic is investigated and their $2trillion IPO is paused after researcher warned AI will wipe out humanity",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-10T16:08:34Z",
             "sentiment": "Negative",
-            "compound": -0.542
+            "compound": -0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 64.62,
-  "trade_probability": 58.77,
+  "confirmation_score": 49.54,
+  "trade_probability": 49.72,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }

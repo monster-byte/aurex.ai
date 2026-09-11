@@ -102,5 +102,18 @@
     "price_after": null,
     "price_change_pct": null,
     "verified_at": null
+  },
+  {
+    "timestamp": "2026-09-11T16:15:58.603670+00:00",
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID",
+    "confirmation_score": 49.54,
+    "trade_probability": 49.72,
+    "entry_price": 29482.5,
+    "verified": false,
+    "outcome": null,
+    "price_after": null,
+    "price_change_pct": null,
+    "verified_at": null
   }
 ]
