@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T12:15:52.983680+00:00",
+  "generated_at": "2026-09-11T12:31:07.009218+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.69,
+      "score": 48.77,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.16,
-        "change_5d_pct": 0.164
+        "current_dxy": 99.15,
+        "change_5d_pct": 0.154
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.23,
+      "score": 48.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.085,
+        "avg_compound": -0.031,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Mortgages in the firing line as ECB increases interest rates by 0.25%",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-10T12:15:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
-          },
-          {
-            "title": "Monetary policy decisions",
-            "source": "Europa.eu",
-            "publishedAt": "2026-09-10T12:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "American Industrial Technologies Expects Revenue of Approximately $45 Million and Continued Profitability for Third Quarter 2026",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T12:15:00Z",
+            "title": "Why Analysts Are Bearish On This Tesla Energy Rival",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-10T12:30:49Z",
             "sentiment": "Positive",
             "compound": 0.273
           },
           {
-            "title": "Trump, hoping to salvage midterms, makes a dubious pledge to give every US adult $5,000 if GOP wins",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-10T12:13:18Z",
-            "sentiment": "Positive",
-            "compound": 0.612
-          },
-          {
-            "title": "Disney CFO says this one sector is critical for driving customer lifetime value: ‘It’s just on fire’",
-            "source": "Fortune",
-            "publishedAt": "2026-09-10T12:12:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "Trump Is Preparing for a Long War",
-            "source": "The Atlantic",
-            "publishedAt": "2026-09-10T12:12:02Z",
+            "title": "Intel May Raise Chip Prices 10% and the Stock Took Off. Why Most Analysts Still Refuse to Buy.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T12:30:27Z",
             "sentiment": "Negative",
-            "compound": -0.599
+            "compound": -0.353
+          },
+          {
+            "title": "Prediction: Apple Stock Could Be Headed for a Big Move After Yesterday’s Event",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T12:30:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Wealthy investors seek oil and gas assets, but bargains are scarce",
+            "source": "CNBC",
+            "publishedAt": "2026-09-10T12:30:01Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Heavy Investment Sustains NVIDIA’s (NVDA) AI Leadership",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-10T12:28:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Kevin Warsh's Fed strategy risks 'unproductive volatility' in markets: Jan Hatzius",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-10T12:27:27Z",
+            "sentiment": "Negative",
+            "compound": -0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 49.09,
-  "trade_probability": 49.45,
+  "confirmation_score": 48.52,
+  "trade_probability": 49.11,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
