@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T15:31:10.603714+00:00",
+  "generated_at": "2026-09-11T15:45:50.022671+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,63 +12,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.1371,
-          "up": false
+          "change_pct": 0.0134,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.014,
+          "change_pct": -0.0383,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0227,
+          "change_pct": 0.0091,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0956,
+          "change_pct": -0.0235,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.73,
+      "score": 72.6,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29465.11,
-        "sma50": 29199.48,
-        "sma200": 27129.79
+        "last_price": 29451.9,
+        "sma50": 29199.22,
+        "sma200": 27129.73
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 65.0,
-      "status": "green",
+      "score": 60.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 21.26,
-        "percentile_vs_20d": 35.0
+        "current_vxn": 21.14,
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 20.43,
+      "score": 21.1,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.938,
-        "change_5d_pct": 3.696
+        "current_yield_pct": 4.934,
+        "change_5d_pct": 3.612
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.69,
+      "score": 49.39,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.04,
-        "change_5d_pct": 0.038
+        "current_dxy": 99.08,
+        "change_5d_pct": 0.077
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.11,
+      "score": 47.38,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.098,
+        "avg_compound": -0.052,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Cathie Wood Buys Meta, Sells Alphabet. Is She Buying High and Selling Low?",
+            "title": "Nvidia and Palantir Launch New AI Stack for Supply Chains",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T15:30:59Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Nasdaq invests $100M in Kraken parent company Payward to advance tokenized equities",
-            "source": "SiliconANGLE News",
-            "publishedAt": "2026-09-10T15:30:58Z",
+            "publishedAt": "2026-09-10T15:43:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "JPMorgan’s Aliaga predicts rate hike will bolster Fed credibility",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T15:30:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Prediction: Broadcom Could Become One of the World’s Most Valuable Tech Companies",
+            "title": "GoPro Spikes 11% as Lumentum Eases and Coherent Holds Flat: Is This a Merger Trade or a Meme Trade?",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T15:30:32Z",
+            "publishedAt": "2026-09-10T15:42:50Z",
             "sentiment": "Positive",
-            "compound": 0.526
+            "compound": 0.318
           },
           {
-            "title": "Newsmax Host Flat-Out Asks House Republican If Trump’s $5,000 Check Is ‘Basically a Bribe’",
-            "source": "Mediaite",
-            "publishedAt": "2026-09-10T15:30:32Z",
+            "title": "More than 27% of Credit Bank of Moscow’s corporate loans are now classified as problematic",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T15:40:16Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.077
           },
           {
-            "title": "FTG Bets That Investors Overreact. Here Is How to Tell If the Thesis Is Working",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T15:30:20Z",
+            "title": "Disability benefit claimants should keep getting paid in cash and face only 'light touch' assessment of their claims - review",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-10T15:40:08Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "ECB raises interest rates as Iran war fans inflation fears",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-10T15:40:03Z",
             "sentiment": "Negative",
-            "compound": -0.25
+            "compound": -0.572
+          },
+          {
+            "title": "Trump’s $5,000 ‘dividend’ is really a $1.15 trillion hole in the deficit, top economist estimates",
+            "source": "Fortune",
+            "publishedAt": "2026-09-10T15:39:29Z",
+            "sentiment": "Negative",
+            "compound": -0.226
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.45,
-  "trade_probability": 45.47,
+  "confirmation_score": 49.73,
+  "trade_probability": 49.84,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
