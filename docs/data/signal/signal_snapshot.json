@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T17:15:54.596524+00:00",
+  "generated_at": "2026-09-11T17:31:14.847553+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,63 +12,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0,
-          "up": false
+          "change_pct": 0.0509,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.0061,
+          "change_pct": 0.0193,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0068,
+          "change_pct": 0.0091,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0507,
+          "change_pct": 0.1188,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.29,
+      "score": 72.58,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29421.3,
-        "sma50": 29198.61,
-        "sma200": 27129.57
+        "last_price": 29450.11,
+        "sma50": 29199.18,
+        "sma200": 27129.72
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 65.0,
+      "score": 70.0,
       "status": "green",
       "details": {
-        "current_vxn": 21.06,
-        "percentile_vs_20d": 35.0
+        "current_vxn": 20.94,
+        "percentile_vs_20d": 30.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 18.42,
+      "score": 17.91,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.95,
-        "change_5d_pct": 3.948
+        "current_yield_pct": 4.953,
+        "change_5d_pct": 4.011
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.02,
+      "score": 49.18,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.12,
-        "change_5d_pct": 0.122
+        "current_dxy": 99.1,
+        "change_5d_pct": 0.102
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.25,
+      "score": 45.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.095,
+        "avg_compound": -0.086,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Mortgage rates climb: Average rate on 30-year home loan hits highest level in months",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-10T17:15:31Z",
+            "title": "Stanley Druckenmiller says US borrowing costs are still low, predicts 10-year yield will hit 5.50%",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T17:30:07Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Public sector bank services likely to be hit by Friday strike",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-10T17:29:31Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "'Clean' Energy And Tech Spending Slides 17%. New Report Blames China, But Doesn't Tell The Whole Story.",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-10T17:28:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.141
+          },
+          {
+            "title": "Apple, IBD Stock Of The Day, Rebounds Bullishly After iPhone Duo Debut",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-10T17:24:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Rackspace Technology, Inc. Investors: September 28, 2026, Deadline in Securities Fraud Class Action Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T17:15:00Z",
+            "title": "Barclays traders flying blind as internal risk platform Beowulf keeps crashing during peak markets",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T17:24:11Z",
             "sentiment": "Negative",
-            "compound": -0.542
+            "compound": -0.586
           },
           {
-            "title": "Nvidia Just Gave Its Dividend a Massive Raise but Does It Even Matter?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T17:14:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.039
-          },
-          {
-            "title": "Stock Market Today: Dow, S&P 500 and Nasdaq fall as U.S. oil prices surge to $100 a barrel and Treasury yields jump; stocks on track for weekly losses; Orac",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-10T17:13:25Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Lyft Stock Pullback Could Be Short-Lived Says Signal",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-10T17:13:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Aardvark Therapeutics (AARD) Investors: Securities Fraud Class Action Filed, Contact Hagens Berman Before October 13, 2026 Lead Plaintiff Deadline",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T17:10:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
+            "title": "People raised in the 60s, 70s & 80s usually nostalgic for these 8 things about life that younger generations are glad have disappeared",
+            "source": "Stylegirlfriend.com",
+            "publishedAt": "2026-09-10T17:23:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 57.03,
-  "trade_probability": 54.22,
+  "confirmation_score": 65.06,
+  "trade_probability": 59.04,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
