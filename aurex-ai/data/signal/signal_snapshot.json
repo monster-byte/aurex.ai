@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T13:45:50.986811+00:00",
+  "generated_at": "2026-09-11T14:01:26.315880+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,63 +12,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.174,
+          "change_pct": -0.1278,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0404,
+          "change_pct": -0.1244,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0841,
-          "up": false
+          "change_pct": 0.0451,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0312,
-          "up": false
+          "change_pct": 0.1659,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.15,
+      "score": 72.43,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29407.77,
-        "sma50": 29198.34,
-        "sma200": 27129.51
+        "last_price": 29435.75,
+        "sma50": 29198.9,
+        "sma200": 27129.65
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
-      "status": "red",
+      "score": 60.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 23.45,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 21.51,
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 22.78,
+      "score": 23.79,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.924,
-        "change_5d_pct": 3.402
+        "current_yield_pct": 4.918,
+        "change_5d_pct": 3.276
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.77,
+      "score": 49.86,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.03,
-        "change_5d_pct": 0.028
+        "current_dxy": 99.02,
+        "change_5d_pct": 0.017
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.97,
+      "score": 51.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.099,
-        "articles_analyzed": 24,
+        "avg_compound": 0.023,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Wells Fargo Analyst: SpaceX Wireless Will Crush Carriers While Tower REITs “Quietly” Profit",
+            "title": "U.S. crude oil hits $100 for the first time since May",
+            "source": "NBC News",
+            "publishedAt": "2026-09-10T14:01:12Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "AI Companies’ Debt Now Equals 68% of New Long-Term U.S. Treasury Borrowing This Year, JPMorgan Finds",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T13:45:30Z",
+            "publishedAt": "2026-09-10T14:00:30Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "US producer inflation tops expectations as diesel costs jump",
+            "source": "CNA",
+            "publishedAt": "2026-09-10T14:00:29Z",
             "sentiment": "Positive",
             "compound": 0.511
           },
           {
-            "title": "Prosper Stars & Stripes Closed Ambiq Micro (AMBQ) as Bullish Target Achieved",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-10T13:44:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today (Sept. 10, 2026): Dow futures edge higher ahead of inflation reports",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-10T13:42:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Applied Aerospace & Defense (AADX) is Positioned for Accelerated Growth",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-10T13:42:09Z",
+            "title": "Dollar gains, euro slips after expected ECB rate increase",
+            "source": "CNA",
+            "publishedAt": "2026-09-10T14:00:27Z",
             "sentiment": "Positive",
-            "compound": 0.477
+            "compound": 0.572
           },
           {
-            "title": "Oil surges past $100 as Saudi production falls to 36-year low",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-09-10T13:41:31Z",
-            "sentiment": "Negative",
-            "compound": -0.273
+            "title": "Micron Could Be the Next Nvidia For Patient Investors",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T14:00:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Trump is angry about the loonie ‘imbalance’: But what does he mean and what can he do about it?",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-10T13:40:52Z",
-            "sentiment": "Negative",
-            "compound": -0.285
+            "title": "The Surprising Pockmarks On Cooper's Earnings That Caused Its Stock To Dive",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-10T14:00:21Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 29.71,
-  "trade_probability": 37.83,
+  "confirmation_score": 50.53,
+  "trade_probability": 50.32,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "REJECT",
-    "directional_bias": "AVOID"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
