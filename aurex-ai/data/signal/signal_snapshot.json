@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T12:45:52.724133+00:00",
+  "generated_at": "2026-09-11T13:01:27.169452+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 14.22,
+      "score": 19.42,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.975,
-        "change_5d_pct": 4.473
+        "current_yield_pct": 4.944,
+        "change_5d_pct": 3.822
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.14,
+      "score": 49.35,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.23,
-        "change_5d_pct": 0.232
+        "current_dxy": 99.08,
+        "change_5d_pct": 0.081
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.91,
+      "score": 52.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.002,
-        "articles_analyzed": 25,
+        "avg_compound": 0.05,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Pennsylvania’s aging levees are under pressure from scarce funding and severe weather",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-09-10T12:45:35Z",
-            "sentiment": "Negative",
-            "compound": -0.548
-          },
-          {
-            "title": "Mines Do Not Usually Fail on Geology. They Stall on Land Access",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T12:45:00Z",
-            "sentiment": "Positive",
-            "compound": 0.262
-          },
-          {
-            "title": "Thursday, September 10, 2026",
-            "source": "Kffhealthnews.org",
-            "publishedAt": "2026-09-10T12:44:27Z",
+            "title": "Core Producer Prices Rise Less Than Expected",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-10T13:00:56Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Producer prices jump 0.4% in August as energy costs surge, keeping inflation pressure alive",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T12:44:22Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "10Y yield surpasses 4.90% as rising fuel costs elevate US producer prices",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T12:43:43Z",
+            "title": "Palantir’s Stock Has Soared More Than 1,700% Since Its IPO. How High Can PLTR Go From Here?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T13:00:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US producer prices rise less than forecast, putting Fed rate hike in doubt",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T12:43:27Z",
+            "title": "Solana sees record 263K tokens issued in a single day",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-09-10T13:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
+            "source": "Europa.eu",
+            "publishedAt": "2026-09-10T13:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "MEDIA ALERT: Global Industry Leaders Join Cisco's WebexOne to Showcase What's Next for AI-Powered Work",
+            "source": "Cisco.com",
+            "publishedAt": "2026-09-10T13:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.629
+          },
+          {
+            "title": "Wholesale prices moved higher last month in latest sign of stubborn inflation",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-10T12:57:04Z",
             "sentiment": "Negative",
-            "compound": -0.361
+            "compound": -0.402
           }
         ]
       }
     }
   },
-  "confirmation_score": 46.94,
-  "trade_probability": 48.16,
+  "confirmation_score": 48.1,
+  "trade_probability": 48.86,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
