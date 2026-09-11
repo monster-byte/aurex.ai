@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T13:15:58.118054+00:00",
+  "generated_at": "2026-09-11T13:31:14.169440+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.301,
+          "change_pct": 0.7395,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0183,
+          "change_pct": 0.3066,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0366,
-          "up": false
+          "change_pct": 0.8014,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.2029,
+          "change_pct": 0.9488,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 71.47,
+      "status": "green",
       "details": {
-        "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29103.51,
-        "sma50": 29206.36,
-        "sma200": 27103.66
+        "regime": "BULLISH",
+        "last_price": 29340.0,
+        "sma50": 29196.98,
+        "sma200": 27129.17
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 25.14,
+      "score": 23.46,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.91,
-        "change_5d_pct": 3.108
+        "current_yield_pct": 4.92,
+        "change_5d_pct": 3.318
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.88,
+      "score": 49.39,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.01,
-        "change_5d_pct": 0.015
+        "current_dxy": 99.08,
+        "change_5d_pct": 0.077
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.29,
+      "score": 58.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.146,
-        "articles_analyzed": 25,
+        "avg_compound": 0.175,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "AMD Stock’s 10-Year, 6,800% Rally Was Just the Beginning. Here’s Where AMD Could Be Headed Next",
+            "title": "Prediction: One of the World’s Biggest Stocks Could Still Have Room to Run",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T13:15:06Z",
+            "publishedAt": "2026-09-10T13:30:51Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Trump’s $5,000 dividend: Who could receive the payment, how much the plan could cost, where the money may come from and what happens next",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-10T13:15:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Flip Electronics Announces Authorized Distribution Partnership with Littelfuse",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T13:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "European Central Bank’s Lagarde clarifies no debate on future rate path",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T13:14:17Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
-          },
-          {
-            "title": "Tetra Tech Announces $500 Million Increase to its Share Repurchase Program",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-10T13:14:10Z",
-            "sentiment": "Positive",
-            "compound": 0.542
-          },
-          {
-            "title": "Copper, FCX Stock Plunge On Tariff Report, Surging Yields; Silver, Gold Also Fall",
+            "title": "Elon Musk Raises $3 Billion For Tunneling Startup The Boring Company",
             "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-10T13:13:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-09-10T13:30:30Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Some Bribes, as a Treat",
+            "source": "Reason",
+            "publishedAt": "2026-09-10T13:30:15Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "HealthWell Foundation Announces Panel Session at the NASP inSPire 2026 Specialty Pharmacy Conference",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T13:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "The Next Big Drone Opportunity: A Potential $200 Billion-Plus Global Services Market Takes Shape",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T13:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Even MAGA World Isn’t Buying Trump’s Free Money Promise",
+            "source": "The New Republic",
+            "publishedAt": "2026-09-10T13:27:29Z",
+            "sentiment": "Positive",
+            "compound": 0.681
           }
         ]
       }
     }
   },
-  "confirmation_score": 49.49,
-  "trade_probability": 49.69,
-  "market_regime": "NEUTRAL / TRANSITIONAL",
+  "confirmation_score": 60.05,
+  "trade_probability": 56.03,
+  "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "REJECT",
-    "directional_bias": "AVOID"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
