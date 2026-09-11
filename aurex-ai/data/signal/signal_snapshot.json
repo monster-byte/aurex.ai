@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T15:16:00.226008+00:00",
+  "generated_at": "2026-09-11T15:31:10.603714+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,63 +12,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.1311,
-          "up": true
+          "change_pct": -0.1371,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0516,
-          "up": true
+          "change_pct": -0.014,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.2545,
+          "change_pct": 0.0227,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.1094,
-          "up": true
+          "change_pct": -0.0956,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.11,
+      "score": 72.73,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29403.4,
-        "sma50": 29198.25,
-        "sma200": 27129.48
+        "last_price": 29465.11,
+        "sma50": 29199.48,
+        "sma200": 27129.79
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 55.0,
-      "status": "yellow",
+      "score": 65.0,
+      "status": "green",
       "details": {
-        "current_vxn": 21.53,
-        "percentile_vs_20d": 45.0
+        "current_vxn": 21.26,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 20.1,
+      "score": 20.43,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.94,
-        "change_5d_pct": 3.738
+        "current_yield_pct": 4.938,
+        "change_5d_pct": 3.696
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.82,
+      "score": 49.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.02,
-        "change_5d_pct": 0.022
+        "current_dxy": 99.04,
+        "change_5d_pct": 0.038
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.41,
+      "score": 45.11,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.152,
+        "avg_compound": -0.098,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Leaked Warning From Panicked Top Trump Aides Spells BAD News About Iran",
-            "source": "Crooksandliars.com",
-            "publishedAt": "2026-09-10T15:15:20Z",
+            "title": "Cathie Wood Buys Meta, Sells Alphabet. Is She Buying High and Selling Low?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T15:30:59Z",
             "sentiment": "Negative",
-            "compound": -0.879
+            "compound": -0.273
           },
           {
-            "title": "Meta Stock Scores Wall Street Upgrade After Muse AI App Launch",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-10T15:14:27Z",
+            "title": "Nasdaq invests $100M in Kraken parent company Payward to advance tokenized equities",
+            "source": "SiliconANGLE News",
+            "publishedAt": "2026-09-10T15:30:58Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Taiwan Semiconductor September Revenue Surges 53% and Can’t Keep Up With Demand",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T15:12:24Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "An AI stock crash would spark a US recession and global economic stagnation, Fitch warns",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-10T15:11:37Z",
-            "sentiment": "Negative",
-            "compound": -0.612
-          },
-          {
-            "title": "5 High-Yield Dividend Stocks Built for Reliable Retirement Income",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T15:11:02Z",
+            "title": "JPMorgan’s Aliaga predicts rate hike will bolster Fed credibility",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T15:30:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US home sales weaken to slowest pace in more than a year",
-            "source": "Medianewsgroup.com",
-            "publishedAt": "2026-09-10T15:09:40Z",
+            "title": "Prediction: Broadcom Could Become One of the World’s Most Valuable Tech Companies",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T15:30:32Z",
+            "sentiment": "Positive",
+            "compound": 0.526
+          },
+          {
+            "title": "Newsmax Host Flat-Out Asks House Republican If Trump’s $5,000 Check Is ‘Basically a Bribe’",
+            "source": "Mediaite",
+            "publishedAt": "2026-09-10T15:30:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "FTG Bets That Investors Overreact. Here Is How to Tell If the Thesis Is Working",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T15:30:20Z",
             "sentiment": "Negative",
-            "compound": -0.421
+            "compound": -0.25
           }
         ]
       }
     }
   },
-  "confirmation_score": 63.55,
-  "trade_probability": 58.13,
+  "confirmation_score": 42.45,
+  "trade_probability": 45.47,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
