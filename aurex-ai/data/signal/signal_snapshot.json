@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T16:45:58.387978+00:00",
+  "generated_at": "2026-09-11T17:01:23.367163+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,63 +12,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0165,
+          "change_pct": -0.0403,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0141,
-          "up": false
+          "change_pct": 0.0688,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 0.0115,
+          "change_pct": 0.0228,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0205,
-          "up": false
+          "change_pct": 0.0489,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.14,
+      "score": 72.26,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29406.97,
-        "sma50": 29198.32,
-        "sma200": 27129.5
+        "last_price": 29418.9,
+        "sma50": 29198.56,
+        "sma200": 27129.56
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
-      "status": "yellow",
+      "score": 65.0,
+      "status": "green",
       "details": {
-        "current_vxn": 21.24,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 21.11,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 17.58,
+      "score": 18.92,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.955,
-        "change_5d_pct": 4.053
+        "current_yield_pct": 4.947,
+        "change_5d_pct": 3.885
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.4,
+      "score": 49.18,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.07,
-        "change_5d_pct": 0.075
+        "current_dxy": 99.1,
+        "change_5d_pct": 0.103
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.96,
+      "score": 52.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.041,
+        "avg_compound": 0.05,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The latest worry about Mamdani — as investors fret over NYC’s financial health",
-            "source": "New York Post",
-            "publishedAt": "2026-09-10T16:45:33Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Republicans turn on Trump's $5,000 voter 'bribe' desperately trying to avoid election 'circus act'",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-10T16:44:17Z",
-            "sentiment": "Negative",
-            "compound": -0.681
-          },
-          {
-            "title": "Oil Jumps Above $107, Bond Yields Surge Higher, Stocks Fall",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-10T16:44:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump’s Iran war now has a midterm election problem",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-09-10T16:43:34Z",
-            "sentiment": "Negative",
-            "compound": -0.765
-          },
-          {
-            "title": "Interest Rates and Stock Prices: An Old Debate Flares up!",
-            "source": "Blogger.com",
-            "publishedAt": "2026-09-10T16:37:37Z",
+            "title": "CoreWeave Sinks 5% Despite Burry Pulling In His AI Short, Oracle Eases Into Earnings, Cloudflare Holds Steady",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T17:01:02Z",
             "sentiment": "Positive",
-            "compound": 0.509
+            "compound": 0.318
           },
           {
-            "title": "ECB officials expect rate hikes, next one possible next month - Bloomberg",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T16:37:30Z",
+            "title": "PRCT 12-DAY DEADLINE ALERT: PROCEPT BioRobotics Corporation Investors Alerted to September 22, 2026 Lead Plaintiff Deadline in Class Action Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T17:01:00Z",
+            "sentiment": "Positive",
+            "compound": 0.258
+          },
+          {
+            "title": "Prediction: ServiceNow Will be Worth This in 2028",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T17:00:50Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "New Documentary ‘Capturing Bigfoot’ Blows the Legend of the Sasquatch Wide Open — Watch Trailer",
+            "source": "IndieWire",
+            "publishedAt": "2026-09-10T17:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "T. ROWE PRICE WORKS WITH ANTHROPIC TO BRING CLAUDE TO MORE OF ITS INVESTMENT PROCESS",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T17:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Northlanders question ‘excuseflation’ as cost-of-living pressures grow",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-10T17:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.318
           }
         ]
       }
     }
   },
-  "confirmation_score": 41.69,
-  "trade_probability": 45.01,
+  "confirmation_score": 57.84,
+  "trade_probability": 54.7,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "REJECT",
-    "directional_bias": "AVOID"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }

@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-09-11T16:46:00.469618+00:00",
-  "total_signals_logged": 11,
+  "generated_at": "2026-09-11T17:01:25.469218+00:00",
+  "total_signals_logged": 12,
   "graded_signals": 0,
   "correct_signals": 0,
   "win_rate_pct": null,
   "recent_entries": [
+    {
+      "timestamp": "2026-09-11T17:01:25.468708+00:00",
+      "ai_status": "HOLD / MONITOR",
+      "directional_bias": "NEUTRAL",
+      "confirmation_score": 57.84,
+      "trade_probability": 54.7,
+      "entry_price": 29419.25,
+      "verified": false,
+      "outcome": null,
+      "price_after": null,
+      "price_change_pct": null,
+      "verified_at": null
+    },
     {
       "timestamp": "2026-09-11T16:46:00.469150+00:00",
       "ai_status": "REJECT",
