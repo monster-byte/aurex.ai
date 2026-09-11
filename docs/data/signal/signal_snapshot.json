@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T21:31:11.573102+00:00",
+  "generated_at": "2026-09-11T21:45:53.493578+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.68,
+      "score": 52.59,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.014,
+        "avg_compound": 0.052,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Equinix Names DD Dasgupta as Chief Marketing Officer",
-            "source": "Crweworld.com",
-            "publishedAt": "2026-09-10T21:27:12Z",
+            "title": "What a Fed Rate Hike Would Mean for Investors and Savers",
+            "source": "NerdWallet",
+            "publishedAt": "2026-09-10T21:45:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Trading Day: Inflation palpitations",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T21:23:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Small CPI surprise could trigger big Fed rate decision",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T21:21:04Z",
+            "title": "Prince William’s charity cause could make millions from late mother’s ‘revenge dress,’ new docs reveal",
+            "source": "New York Post",
+            "publishedAt": "2026-09-10T21:39:20Z",
             "sentiment": "Positive",
-            "compound": 0.273
+            "compound": 0.421
           },
           {
-            "title": "Moment Fox News star Laura Ingraham grills Trump over his $5K checks to Americans",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-10T21:17:43Z",
+            "title": "Thursday’s Mini-Report, 9.10.26",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T21:36:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "title": "What a Fed rate hike actually means for the U.S. economy and inflation",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T21:06:42Z",
-            "sentiment": "Positive",
-            "compound": 0.272
+            "publishedAt": "2026-09-10T21:35:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Trading Day: Inflation palpitations",
-            "source": "CNA",
-            "publishedAt": "2026-09-10T21:04:58Z",
+            "title": "The Unrelenting Bond Selloff Puts the 10-Year Yield on the Cusp of 5%",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T21:35:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nu Partners With Lead Bank to Launch Full US Banking Suite",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-10T21:35:27Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 34.39,
-  "trade_probability": 40.63,
+  "confirmation_score": 34.58,
+  "trade_probability": 40.75,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
