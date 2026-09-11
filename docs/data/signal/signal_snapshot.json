@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T12:01:23.058669+00:00",
+  "generated_at": "2026-09-11T12:15:52.983680+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.7,
+      "score": 48.69,
       "status": "yellow",
       "details": {
         "current_dxy": 99.16,
-        "change_5d_pct": 0.163
+        "change_5d_pct": 0.164
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.64,
+      "score": 54.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.153,
-        "articles_analyzed": 24,
+        "avg_compound": 0.085,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Increasing Power Demand Amid AI Boom Strengthens Bloom Energy (BE)",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-10T12:01:02Z",
-            "sentiment": "Positive",
-            "compound": 0.557
+            "title": "Mortgages in the firing line as ECB increases interest rates by 0.25%",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-10T12:15:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
           },
           {
-            "title": "Faruqi & Faruqi, LLP Urges Microvast Holdings, Inc. (NASDAQ: MVST) Investors to Seek Counsel Before September 21, 2026 Lead Plaintiff Deadline in the Securities Class Action",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T12:01:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Equinix Names DD Dasgupta as Chief Marketing Officer",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T12:01:00Z",
+            "title": "Monetary policy decisions",
+            "source": "Europa.eu",
+            "publishedAt": "2026-09-10T12:15:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "How Stocks Perform After Fed Rate Decisions",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-10T12:00:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "FirstService Residential Expands Presence in Philadelphia, Welcomes Back The Grandview Condominium Unit Owners Association",
+            "title": "American Industrial Technologies Expects Revenue of Approximately $45 Million and Continued Profitability for Third Quarter 2026",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-10T12:00:00Z",
+            "publishedAt": "2026-09-10T12:15:00Z",
             "sentiment": "Positive",
-            "compound": 0.477
+            "compound": 0.273
           },
           {
-            "title": "UN climate chief warns political division is undermining fight against 'economic security emergency'",
-            "source": "Globalsecurity.org",
-            "publishedAt": "2026-09-10T12:00:00Z",
+            "title": "Trump, hoping to salvage midterms, makes a dubious pledge to give every US adult $5,000 if GOP wins",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-10T12:13:18Z",
+            "sentiment": "Positive",
+            "compound": 0.612
+          },
+          {
+            "title": "Disney CFO says this one sector is critical for driving customer lifetime value: ‘It’s just on fire’",
+            "source": "Fortune",
+            "publishedAt": "2026-09-10T12:12:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Trump Is Preparing for a Long War",
+            "source": "The Atlantic",
+            "publishedAt": "2026-09-10T12:12:02Z",
             "sentiment": "Negative",
-            "compound": -0.691
+            "compound": -0.599
           }
         ]
       }
     }
   },
-  "confirmation_score": 49.43,
-  "trade_probability": 49.66,
+  "confirmation_score": 49.09,
+  "trade_probability": 49.45,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
