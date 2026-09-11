@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T15:08:38.027780+00:00",
+  "generated_at": "2026-09-11T15:16:00.226008+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0447,
-          "up": false
+          "change_pct": 0.1311,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.2465,
+          "change_pct": 0.0516,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0817,
+          "change_pct": 0.2545,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.2135,
+          "change_pct": 0.1094,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.03,
+      "score": 72.11,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29395.84,
-        "sma50": 29198.1,
-        "sma200": 27129.45
+        "last_price": 29403.4,
+        "sma50": 29198.25,
+        "sma200": 27129.48
       }
     },
     "vxn": {
@@ -49,26 +49,26 @@
       "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.49,
+        "current_vxn": 21.53,
         "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 21.78,
+      "score": 20.1,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.93,
-        "change_5d_pct": 3.528
+        "current_yield_pct": 4.94,
+        "change_5d_pct": 3.738
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.08,
+      "score": 49.82,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.99,
-        "change_5d_pct": -0.01
+        "current_dxy": 99.02,
+        "change_5d_pct": 0.022
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.49,
+      "score": 42.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.05,
+        "avg_compound": -0.152,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Inflation Is About to Hit Hard as Diesel Prices Soar to Record Near $6 a Gallon",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T15:06:40Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
+            "title": "Leaked Warning From Panicked Top Trump Aides Spells BAD News About Iran",
+            "source": "Crooksandliars.com",
+            "publishedAt": "2026-09-10T15:15:20Z",
+            "sentiment": "Negative",
+            "compound": -0.879
           },
           {
-            "title": "Oil, gas and borrowing costs surge as fears over Middle East escalate",
-            "source": "BBC News",
-            "publishedAt": "2026-09-10T15:06:19Z",
+            "title": "Meta Stock Scores Wall Street Upgrade After Muse AI App Launch",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-10T15:14:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Taiwan Semiconductor September Revenue Surges 53% and Can’t Keep Up With Demand",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T15:12:24Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "An AI stock crash would spark a US recession and global economic stagnation, Fitch warns",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-10T15:11:37Z",
+            "sentiment": "Negative",
+            "compound": -0.612
+          },
+          {
+            "title": "5 High-Yield Dividend Stocks Built for Reliable Retirement Income",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T15:11:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US home sales weaken to slowest pace in more than a year",
+            "source": "Medianewsgroup.com",
+            "publishedAt": "2026-09-10T15:09:40Z",
             "sentiment": "Negative",
             "compound": -0.421
-          },
-          {
-            "title": "Why Did Sandisk Stock Slump Today?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T15:06:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Check Point Named a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T15:05:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Shoe Carnival Q2 Earnings Call Highlights",
-            "source": "MarketBeat",
-            "publishedAt": "2026-09-10T15:03:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Lovesac Q2 Earnings Call Highlights",
-            "source": "MarketBeat",
-            "publishedAt": "2026-09-10T15:03:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 56.83,
-  "trade_probability": 54.1,
+  "confirmation_score": 63.55,
+  "trade_probability": 58.13,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
