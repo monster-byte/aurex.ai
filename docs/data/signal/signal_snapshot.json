@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T10:15:50.480674+00:00",
+  "generated_at": "2026-09-11T09:40:25.755141+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,63 +12,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.2276,
-          "up": false
+          "change_pct": 0.301,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.1758,
-          "up": false
+          "change_pct": 0.0183,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.2749,
+          "change_pct": -0.0366,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1911,
-          "up": false
+          "change_pct": 0.2029,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 73.23,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
-        "regime": "BULLISH",
-        "last_price": 29544.15,
-        "sma50": 29229.1,
-        "sma200": 27029.49
+        "regime": "NEUTRAL / TRANSITIONAL",
+        "last_price": 29103.51,
+        "sma50": 29206.36,
+        "sma200": 27103.66
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 95.0,
-      "status": "green",
+      "score": 0.0,
+      "status": "red",
       "details": {
-        "current_vxn": 20.0,
-        "percentile_vs_20d": 5.0
+        "current_vxn": 23.45,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 39.15,
+      "score": 25.31,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.784,
-        "change_5d_pct": 1.356
+        "current_yield_pct": 4.944,
+        "change_5d_pct": 3.086
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.77,
+      "score": 48.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 98.96,
-        "change_5d_pct": -0.471
+        "current_dxy": 99.13,
+        "change_5d_pct": 0.127
       }
     },
     "macro": {
@@ -84,62 +84,62 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.77,
+      "score": 50.32,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.055,
-        "articles_analyzed": 23,
+        "avg_compound": 0.006,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Labor Day 2026: What’s open and closed on Monday, from banks and post offices to Walmart and Costco",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T10:15:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gold Falls Below $4,400 as U.S. Jobs Data Keeps Fed Rate Hike Expectations Elevated",
-            "source": "Advfn.com",
-            "publishedAt": "2026-09-07T10:14:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "UK food supply chain at risk from hostile attacks",
-            "source": "Theregister.com",
-            "publishedAt": "2026-09-07T10:06:10Z",
-            "sentiment": "Negative",
-            "compound": -0.765
-          },
-          {
-            "title": "ECB rate decision: Five key questions for markets as energy prices fuel inflation fears",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-07T10:05:46Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Germany’s Long Winter Begins",
-            "source": "Nakedcapitalism.com",
-            "publishedAt": "2026-09-07T10:00:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Best high-yield savings interest rates today, Monday, September 7, 2026: Earn up to 4.10% APY",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-07T10:00:00Z",
+            "title": "CEO of an automation platform explains how he wrote a 168-page book with AI: ‘It was like a Socratic dialogue’",
+            "source": "Fortune",
+            "publishedAt": "2026-09-10T09:38:16Z",
             "sentiment": "Positive",
-            "compound": 0.802
+            "compound": 0.361
+          },
+          {
+            "title": "Japanese stocks recover as oil and bond yields ease",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-10T09:34:21Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Chinese stocks fall as oil prices and inflation concerns rise",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-10T09:34:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The best fixed rate mortgage offers may soon disappear",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-10T09:32:37Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Portuguese economist Ricardo Reis dropped by IMF after criticising Trump tariffs",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T09:31:02Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Investors share their top investment advice with AI-apocalypse fears on the rise",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-10T09:30:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
           }
         ]
       }
     }
   },
-  "confirmation_score": 42.01,
-  "trade_probability": 45.21,
-  "market_regime": "BULLISH",
+  "confirmation_score": 48.73,
+  "trade_probability": 49.24,
+  "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
     "directional_bias": "AVOID"

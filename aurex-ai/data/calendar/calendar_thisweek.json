@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-08T10:15:49.441824+00:00",
+  "fetched_at": "2026-09-11T09:40:24.489534+00:00",
   "source": "forexfactory (unofficial public feed)",
   "events": [
     {
@@ -320,7 +320,7 @@
     {
       "title": "German 10-y Bond Auction",
       "country": "EUR",
-      "date": "2026-09-09T05:42:00-04:00",
+      "date": "2026-09-09T05:33:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "3.26|1.1",
@@ -329,32 +329,32 @@
     {
       "title": "ADP Weekly Employment Change",
       "country": "USD",
-      "date": "2026-09-09T08:15:00-04:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "",
-      "actual": null
-    },
-    {
-      "title": "ADP Weekly Employment Change",
-      "country": "USD",
-      "date": "2026-09-09T08:16:00-04:00",
+      "date": "2026-09-09T08:14:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "11.8K",
       "actual": null
     },
     {
-      "title": "ECB President Lagarde Speaks",
+      "title": "ADP Weekly Employment Change",
+      "country": "USD",
+      "date": "2026-09-09T08:15:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "10.0K",
+      "actual": null
+    },
+    {
+      "title": "German Buba President Nagel Speaks",
       "country": "EUR",
       "date": "2026-09-09T13:00:00-04:00",
-      "impact": "Medium",
+      "impact": "Low",
       "forecast": "",
       "previous": "",
       "actual": null
     },
     {
-      "title": "German Buba President Nagel Speaks",
+      "title": "ECB President Lagarde Speaks",
       "country": "EUR",
       "date": "2026-09-09T13:00:00-04:00",
       "impact": "Low",
@@ -396,6 +396,15 @@
       "impact": "Low",
       "forecast": "",
       "previous": "4.9%",
+      "actual": null
+    },
+    {
+      "title": "President Trump Speaks",
+      "country": "USD",
+      "date": "2026-09-09T21:15:00-04:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": "",
       "actual": null
     },
     {
@@ -493,7 +502,7 @@
       "country": "USD",
       "date": "2026-09-10T10:30:00-04:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "35B",
       "previous": "30B",
       "actual": null
     },
@@ -502,7 +511,7 @@
       "country": "USD",
       "date": "2026-09-10T12:00:00-04:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "-1.4M",
       "previous": "-4.5M",
       "actual": null
     },
@@ -707,7 +716,7 @@
     {
       "title": "ECB President Lagarde Speaks",
       "country": "EUR",
-      "date": "2026-09-12T03:30:00-04:00",
+      "date": "2026-09-12T04:00:00-04:00",
       "impact": "Medium",
       "forecast": "",
       "previous": "",
