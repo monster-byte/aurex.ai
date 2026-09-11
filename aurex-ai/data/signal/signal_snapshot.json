@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T13:31:14.169440+00:00",
+  "generated_at": "2026-09-11T13:45:50.986811+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 0.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.7395,
-          "up": true
+          "change_pct": -0.174,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.3066,
-          "up": true
+          "change_pct": -0.0404,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.8014,
-          "up": true
+          "change_pct": -0.0841,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.9488,
-          "up": true
+          "change_pct": -0.0312,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 71.47,
+      "score": 72.15,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29340.0,
-        "sma50": 29196.98,
-        "sma200": 27129.17
+        "last_price": 29407.77,
+        "sma50": 29198.34,
+        "sma200": 27129.51
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 23.46,
+      "score": 22.78,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.92,
-        "change_5d_pct": 3.318
+        "current_yield_pct": 4.924,
+        "change_5d_pct": 3.402
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.39,
+      "score": 49.77,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.08,
-        "change_5d_pct": 0.077
+        "current_dxy": 99.03,
+        "change_5d_pct": 0.028
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.76,
+      "score": 54.97,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.175,
+        "avg_compound": 0.099,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Prediction: One of the World’s Biggest Stocks Could Still Have Room to Run",
+            "title": "Wells Fargo Analyst: SpaceX Wireless Will Crush Carriers While Tower REITs “Quietly” Profit",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T13:30:51Z",
+            "publishedAt": "2026-09-10T13:45:30Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Prosper Stars & Stripes Closed Ambiq Micro (AMBQ) as Bullish Target Achieved",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-10T13:44:22Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Elon Musk Raises $3 Billion For Tunneling Startup The Boring Company",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-10T13:30:30Z",
+            "title": "Stock Market Today (Sept. 10, 2026): Dow futures edge higher ahead of inflation reports",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-10T13:42:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Applied Aerospace & Defense (AADX) is Positioned for Accelerated Growth",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-10T13:42:09Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Oil surges past $100 as Saudi production falls to 36-year low",
+            "source": "Protothema.gr",
+            "publishedAt": "2026-09-10T13:41:31Z",
             "sentiment": "Negative",
-            "compound": -0.318
+            "compound": -0.273
           },
           {
-            "title": "Some Bribes, as a Treat",
-            "source": "Reason",
-            "publishedAt": "2026-09-10T13:30:15Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "HealthWell Foundation Announces Panel Session at the NASP inSPire 2026 Specialty Pharmacy Conference",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T13:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "The Next Big Drone Opportunity: A Potential $200 Billion-Plus Global Services Market Takes Shape",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T13:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Even MAGA World Isn’t Buying Trump’s Free Money Promise",
-            "source": "The New Republic",
-            "publishedAt": "2026-09-10T13:27:29Z",
-            "sentiment": "Positive",
-            "compound": 0.681
+            "title": "Trump is angry about the loonie ‘imbalance’: But what does he mean and what can he do about it?",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-10T13:40:52Z",
+            "sentiment": "Negative",
+            "compound": -0.285
           }
         ]
       }
     }
   },
-  "confirmation_score": 60.05,
-  "trade_probability": 56.03,
+  "confirmation_score": 29.71,
+  "trade_probability": 37.83,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
