@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T22:45:50.477635+00:00",
+  "generated_at": "2026-09-11T23:01:14.806553+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.93,
+      "score": 45.84,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.061,
+        "avg_compound": -0.083,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "News Wrap: Supreme Court again rejects GOP push for new congressional map in Missouri",
-            "source": "PBS",
-            "publishedAt": "2026-09-10T22:45:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "Trump keeps telling voters he doesn’t care much about affordability",
-            "source": "Vox",
-            "publishedAt": "2026-09-10T22:42:38Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "D-Wave, Rigetti, and Quantinuum Just Got $300 Million From Washington. Here's What That Changes for Investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T22:38:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "High school football mom arrested by the FBI after 'embezzling $400k from team's fundraiser' to pay her mortgage",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-10T22:38:06Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "Wynn Resorts Announces Pricing of Private Offering of $900 Million of Wynn Resorts Finance 6.875% Senior Notes due 2035",
+            "title": "Meta Announces Quarterly Cash Dividend",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-10T22:38:00Z",
+            "publishedAt": "2026-09-10T23:01:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Stripe’s founder factory and the AI governance boom",
-            "source": "Cbinsights.com",
-            "publishedAt": "2026-09-10T22:35:34Z",
+            "title": "Trump Offers $5K Bribe To Save Republicans In 2026 Midterms",
+            "source": "Crooksandliars.com",
+            "publishedAt": "2026-09-10T23:00:01Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "NUTEX HEALTH PROVIDES UPDATE REGARDING CYBERSECURITY EVENT",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T23:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Rosen Law Firm Encourages TruBridge, Inc. Investors to Inquire About Securities Class Action Investigation - TBRG",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T22:58:00Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Trump's vow of $5,000 payments to Americans faces bipartisan criticism",
+            "source": "PBS",
+            "publishedAt": "2026-09-10T22:55:04Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "GOP Rep. Buddy Carter: 'We Need the Stimulus' of $5K Check, 'People Are Hurting'",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-10T22:50:24Z",
+            "sentiment": "Negative",
+            "compound": -0.402
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.01,
-  "trade_probability": 40.41,
+  "confirmation_score": 33.9,
+  "trade_probability": 40.34,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
