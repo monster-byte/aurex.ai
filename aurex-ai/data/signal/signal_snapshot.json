@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:15:51.151684+00:00",
+  "generated_at": "2026-09-11T19:31:07.578115+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,45 +12,45 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0153,
+          "change_pct": 0.0345,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0292,
-          "up": true
+          "change_pct": -0.004,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.0548,
-          "up": true
+          "change_pct": -0.0504,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0033,
+          "change_pct": 0.0272,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.06,
+      "score": 72.02,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29399.14,
-        "sma50": 29198.16,
-        "sma200": 27129.46
+        "last_price": 29394.88,
+        "sma50": 29198.08,
+        "sma200": 27129.44
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 65.0,
+      "score": 70.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.82,
-        "percentile_vs_20d": 35.0
+        "current_vxn": 20.92,
+        "percentile_vs_20d": 30.0
       }
     },
     "us10y": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.91,
+      "score": 49.01,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.14,
-        "change_5d_pct": 0.136
+        "current_dxy": 99.12,
+        "change_5d_pct": 0.123
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.55,
+      "score": 41.3,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.089,
-        "articles_analyzed": 24,
+        "avg_compound": -0.174,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Iran-US war threatens to raise UK consumer prices and rates",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T19:14:20Z",
+            "title": "MAGA star lobs grenade at Trump over 'shameless' election-year 'bribery'",
+            "source": "Raw Story",
+            "publishedAt": "2026-09-10T19:28:06Z",
             "sentiment": "Negative",
-            "compound": -0.758
+            "compound": -0.34
           },
           {
-            "title": "Stock Market Today: Dow Drops As Oil, Yields Surge; Tech Titan Oracle's Earnings On Deck (Live Coverage) - Investor's Business Daily",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-10T19:12:36Z",
+            "title": "Focus should be on price stability as supply shocks rise, says BIS chief Pablo Hernández de Cos",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-10T19:23:32Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Global bond selloff resumes as surging oil prices stokes fears about inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T19:21:14Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Wholesale Inflation Is Rising Again",
+            "source": "Newser",
+            "publishedAt": "2026-09-10T19:20:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Investigates the Looming Merger Shareholder Vote - AUUD, TECH, CZR and CBAN",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T19:12:00Z",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "source": "CNBC",
+            "publishedAt": "2026-09-10T19:18:05Z",
             "sentiment": "Positive",
-            "compound": 0.347
+            "compound": 0.272
           },
           {
-            "title": "ECB prepares for ‘longer-lasting’ inflation as it lifts interest rates to 2.5%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T19:06:35Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Free money and lower rates: Trump's latest ideas are a recipe for more inflation",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-10T19:06:29Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Anger Over Health Costs Clouds Midterms",
-            "source": "Kffhealthnews.org",
-            "publishedAt": "2026-09-10T19:05:00Z",
+            "title": "GOP Congressman Who Argued Against Biden Covid Checks Grilled Over Trump $5K Proposal",
+            "source": "Mediaite",
+            "publishedAt": "2026-09-10T19:16:57Z",
             "sentiment": "Negative",
-            "compound": -0.572
+            "compound": -0.361
           }
         ]
       }
     }
   },
-  "confirmation_score": 63.89,
-  "trade_probability": 58.33,
+  "confirmation_score": 48.97,
+  "trade_probability": 49.38,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
