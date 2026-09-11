@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T22:16:28.423251+00:00",
+  "generated_at": "2026-09-11T22:31:08.106223+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.24,
+      "score": 49.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.025,
+        "avg_compound": -0.009,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Southern California woman allegedly stole over $400,000 from high school football team",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-10T22:30:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Axon beats Palantir by 36 Roundtable 100 spots",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T22:23:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Don’t Be Fooled By Trump’s False Claims About Tax Cuts",
+            "source": "HuffPost",
+            "publishedAt": "2026-09-10T22:18:40Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
           {
             "title": "Laura Ingraham Challenges Trump On Promised $5,000 Checks: 'Why Not Give It Now?'",
             "source": "HuffPost",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-10T22:11:38Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Judge Demands Answers From DOJ For Refusing To Dismiss Reflecting Pool Case With Prejudice",
-            "source": "Techdirt",
-            "publishedAt": "2026-09-10T22:10:23Z",
-            "sentiment": "Negative",
-            "compound": -0.718
-          },
-          {
-            "title": "Trump's $5,000 payments would reignite inflation, economists say",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T22:08:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today, Sept. 10: Grab Holdings Slips on Atome Fintech Acquisition Reports",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T22:08:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.44,
-  "trade_probability": 40.66,
+  "confirmation_score": 34.27,
+  "trade_probability": 40.56,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
