@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T16:31:09.105642+00:00",
+  "generated_at": "2026-09-11T16:45:58.387978+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,45 +12,45 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0194,
-          "up": true
+          "change_pct": -0.0165,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0091,
-          "up": true
+          "change_pct": -0.0141,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.0121,
+          "change_pct": 0.0115,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0176,
+          "change_pct": -0.0205,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.0,
+      "score": 72.14,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29392.7,
-        "sma50": 29198.04,
-        "sma200": 27129.43
+        "last_price": 29406.97,
+        "sma50": 29198.32,
+        "sma200": 27129.5
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 65.0,
-      "status": "green",
+      "score": 60.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 21.1,
-        "percentile_vs_20d": 35.0
+        "current_vxn": 21.24,
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.49,
+      "score": 49.4,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.06,
-        "change_5d_pct": 0.064
+        "current_dxy": 99.07,
+        "change_5d_pct": 0.075
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.99,
+      "score": 47.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.02,
-        "articles_analyzed": 24,
+        "avg_compound": -0.041,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "SEPTEMBER 28, 2026 CAPR INVESTOR DEADLINE: Capricor Therapeutics, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T16:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "30-year fixed mortgage rate tops 7% for the first time in over a year",
-            "source": "CNBC",
-            "publishedAt": "2026-09-10T16:29:28Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "More than 70% of new solar is being built in states that voted for Trump",
-            "source": "Grist",
-            "publishedAt": "2026-09-10T16:26:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US oil jumps above $100 and stock futures slump",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-10T16:25:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Camden National Bank Employees Volunteer at 62 Nonprofits in a Single Afternoon",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T16:24:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stocks retreat as U.S. oil prices top $100, threatening economy",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-10T16:23:57Z",
+            "title": "The latest worry about Mamdani — as investors fret over NYC’s financial health",
+            "source": "New York Post",
+            "publishedAt": "2026-09-10T16:45:33Z",
             "sentiment": "Negative",
-            "compound": -0.202
+            "compound": -0.44
+          },
+          {
+            "title": "Republicans turn on Trump's $5,000 voter 'bribe' desperately trying to avoid election 'circus act'",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-10T16:44:17Z",
+            "sentiment": "Negative",
+            "compound": -0.681
+          },
+          {
+            "title": "Oil Jumps Above $107, Bond Yields Surge Higher, Stocks Fall",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-10T16:44:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump’s Iran war now has a midterm election problem",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-10T16:43:34Z",
+            "sentiment": "Negative",
+            "compound": -0.765
+          },
+          {
+            "title": "Interest Rates and Stock Prices: An Old Debate Flares up!",
+            "source": "Blogger.com",
+            "publishedAt": "2026-09-10T16:37:37Z",
+            "sentiment": "Positive",
+            "compound": 0.509
+          },
+          {
+            "title": "ECB officials expect rate hikes, next one possible next month - Bloomberg",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T16:37:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 57.28,
-  "trade_probability": 54.37,
+  "confirmation_score": 41.69,
+  "trade_probability": 45.01,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
