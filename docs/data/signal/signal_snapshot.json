@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T09:40:25.755141+00:00",
+  "generated_at": "2026-09-11T09:45:48.044810+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.98,
+      "score": 48.9,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.13,
-        "change_5d_pct": 0.127
+        "current_dxy": 99.14,
+        "change_5d_pct": 0.137
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.32,
+      "score": 49.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.006,
-        "articles_analyzed": 25,
+        "avg_compound": -0.009,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Bessent Threatens ‘I Am The House’: Bond Traders Should Listen",
+            "source": "Realinvestmentadvice.com",
+            "publishedAt": "2026-09-10T09:44:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
           {
             "title": "CEO of an automation platform explains how he wrote a 168-page book with AI: ‘It was like a Socratic dialogue’",
             "source": "Fortune",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-10T09:31:02Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "Investors share their top investment advice with AI-apocalypse fears on the rise",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-10T09:30:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
           }
         ]
       }
     }
   },
-  "confirmation_score": 48.73,
-  "trade_probability": 49.24,
+  "confirmation_score": 48.64,
+  "trade_probability": 49.18,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
