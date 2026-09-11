@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T17:31:14.847553+00:00",
+  "generated_at": "2026-09-11T17:45:52.038409+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,63 +12,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0509,
+          "change_pct": 0.0302,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0193,
-          "up": true
+          "change_pct": -0.0344,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.0091,
+          "change_pct": 0.0205,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.1188,
+          "change_pct": 0.0008,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.58,
+      "score": 72.51,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29450.11,
-        "sma50": 29199.18,
-        "sma200": 27129.72
+        "last_price": 29443.42,
+        "sma50": 29199.05,
+        "sma200": 27129.68
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 70.0,
+      "score": 65.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.94,
-        "percentile_vs_20d": 30.0
+        "current_vxn": 20.89,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 17.91,
+      "score": 18.58,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.953,
-        "change_5d_pct": 4.011
+        "current_yield_pct": 4.949,
+        "change_5d_pct": 3.927
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.18,
+      "score": 49.21,
       "status": "yellow",
       "details": {
         "current_dxy": 99.1,
-        "change_5d_pct": 0.102
+        "change_5d_pct": 0.099
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.68,
+      "score": 49.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.086,
+        "avg_compound": -0.004,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Stanley Druckenmiller says US borrowing costs are still low, predicts 10-year yield will hit 5.50%",
+            "title": "Yields on US government bonds rise as traders expect Fed rate hike",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T17:30:07Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Public sector bank services likely to be hit by Friday strike",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-10T17:29:31Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "'Clean' Energy And Tech Spending Slides 17%. New Report Blames China, But Doesn't Tell The Whole Story.",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-10T17:28:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.141
-          },
-          {
-            "title": "Apple, IBD Stock Of The Day, Rebounds Bullishly After iPhone Duo Debut",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-10T17:24:41Z",
+            "publishedAt": "2026-09-10T17:44:37Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Barclays traders flying blind as internal risk platform Beowulf keeps crashing during peak markets",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T17:24:11Z",
+            "title": "AI is losing its stranglehold on the U.S. stock market. Here's why",
+            "source": "CNBC",
+            "publishedAt": "2026-09-10T17:42:24Z",
             "sentiment": "Negative",
-            "compound": -0.586
+            "compound": -0.382
           },
           {
-            "title": "People raised in the 60s, 70s & 80s usually nostalgic for these 8 things about life that younger generations are glad have disappeared",
-            "source": "Stylegirlfriend.com",
-            "publishedAt": "2026-09-10T17:23:00Z",
+            "title": "Workday Names Sarah Kennedy Ellis Chief Marketing Officer",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T17:41:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nuclear Stocks Slide as Piper Sandler Splits the Sector: Oklo, NuScale Power and X-Energy All Drop 5%",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T17:39:46Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Trump Promises Americans $5K Checks If GOP Wins Midterms, Raising Legal Questions",
+            "source": "Truthout",
+            "publishedAt": "2026-09-10T17:39:40Z",
             "sentiment": "Positive",
-            "compound": 0.273
+            "compound": 0.778
+          },
+          {
+            "title": "Scott Bessent dared the $32 trillion bond market with ‘I am the house now’ statement. It didn’t listen",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-10T17:37:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 65.06,
-  "trade_probability": 59.04,
+  "confirmation_score": 57.56,
+  "trade_probability": 54.54,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
