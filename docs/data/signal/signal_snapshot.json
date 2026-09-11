@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T11:47:01.369130+00:00",
+  "generated_at": "2026-09-11T12:01:23.058669+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.72,
+      "score": 48.7,
       "status": "yellow",
       "details": {
         "current_dxy": 99.16,
-        "change_5d_pct": 0.161
+        "change_5d_pct": 0.163
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.59,
+      "score": 57.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.132,
-        "articles_analyzed": 23,
+        "avg_compound": 0.153,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Here’s Why Alnylam Pharmaceuticals (ALNY) Declined",
+            "title": "Increasing Power Demand Amid AI Boom Strengthens Bloom Energy (BE)",
             "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-10T11:44:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-09-10T12:01:02Z",
+            "sentiment": "Positive",
+            "compound": 0.557
           },
           {
-            "title": "Faruqi & Faruqi, LLP Urges Rackspace Technology, Inc. (NASDAQ: RXT) Investors to Seek Counsel Before the September 28, 2026 Lead Plaintiff Deadline in the Securities Class Action",
+            "title": "Faruqi & Faruqi, LLP Urges Microvast Holdings, Inc. (NASDAQ: MVST) Investors to Seek Counsel Before September 21, 2026 Lead Plaintiff Deadline in the Securities Class Action",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-10T11:44:00Z",
+            "publishedAt": "2026-09-10T12:01:00Z",
             "sentiment": "Positive",
             "compound": 0.296
           },
           {
-            "title": "Nasdaq invests $100M in Kraken parent at $21B valuation: Report",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-09-10T11:39:43Z",
+            "title": "Equinix Names DD Dasgupta as Chief Marketing Officer",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T12:01:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "In A SpaceX-Tesla Merger, Elon Musk May Be The Big Winner. What It May Mean For Other Investors.",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-10T11:37:02Z",
+            "title": "How Stocks Perform After Fed Rate Decisions",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-10T12:00:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "FirstService Residential Expands Presence in Philadelphia, Welcomes Back The Grandview Condominium Unit Owners Association",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T12:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.586
+            "compound": 0.477
           },
           {
-            "title": "Silver price today, Thursday, September 10, 2026: Silver prices back off ahead of inflation data",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T11:33:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nasdaq invests $100 million in Kraken parent company Payward at $21 billion valuation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T11:31:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "UN climate chief warns political division is undermining fight against 'economic security emergency'",
+            "source": "Globalsecurity.org",
+            "publishedAt": "2026-09-10T12:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.691
           }
         ]
       }
     }
   },
-  "confirmation_score": 49.33,
-  "trade_probability": 49.6,
+  "confirmation_score": 49.43,
+  "trade_probability": 49.66,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
