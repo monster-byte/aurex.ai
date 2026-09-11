@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T15:01:36.865090+00:00",
+  "generated_at": "2026-09-11T15:08:38.027780+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -16,32 +16,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0997,
-          "up": true
-        },
-        "MSFT": {
-          "change_pct": -0.0655,
+          "change_pct": -0.0447,
           "up": false
         },
+        "MSFT": {
+          "change_pct": 0.2465,
+          "up": true
+        },
         "NVDA": {
-          "change_pct": 0.1002,
+          "change_pct": 0.0817,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0471,
+          "change_pct": 0.2135,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 71.65,
+      "score": 72.03,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29357.48,
-        "sma50": 29197.33,
-        "sma200": 27129.25
+        "last_price": 29395.84,
+        "sma50": 29198.1,
+        "sma200": 27129.45
       }
     },
     "vxn": {
@@ -49,26 +49,26 @@
       "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.54,
+        "current_vxn": 21.49,
         "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 22.11,
+      "score": 21.78,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.928,
-        "change_5d_pct": 3.486
+        "current_yield_pct": 4.93,
+        "change_5d_pct": 3.528
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.99,
+      "score": 50.08,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.0,
-        "change_5d_pct": 0.001
+        "current_dxy": 98.99,
+        "change_5d_pct": -0.01
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.5,
+      "score": 47.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.01,
+        "avg_compound": -0.05,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Drake’s OVO Faces Unpaid C$5 Million Claim Detailed by A.R.I. Before Sale to Authentic Brands Group and Vince (Nasdaq: VNCE)",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-10T15:01:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What's Open, What's Closed on 9/11? Is September 11 Federal Holiday? Will U.S Stock Markets, NYSE, Nasdaq, UPS, Mail Services, offices function?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-10T15:00:25Z",
-            "sentiment": "Positive",
-            "compound": 0.501
-          },
-          {
-            "title": "Are we trapped in a high interest rate cycle?",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-10T15:00:07Z",
+            "title": "Inflation Is About to Hit Hard as Diesel Prices Soar to Record Near $6 a Gallon",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-10T15:06:40Z",
             "sentiment": "Neutral",
             "compound": -0.103
           },
           {
-            "title": "Home sales tumble to lowest level in over a year as high mortgage rates scare off buyers",
-            "source": "New York Post",
-            "publishedAt": "2026-09-10T15:00:00Z",
+            "title": "Oil, gas and borrowing costs surge as fears over Middle East escalate",
+            "source": "BBC News",
+            "publishedAt": "2026-09-10T15:06:19Z",
             "sentiment": "Negative",
-            "compound": -0.7
+            "compound": -0.421
           },
           {
-            "title": "Home sales tumble to lowest level in over a year as high mortgage rates scare off buyers",
-            "source": "New York Post",
-            "publishedAt": "2026-09-10T15:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.7
+            "title": "Why Did Sandisk Stock Slump Today?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T15:06:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Retirement planning: Is your corpus enough if you live beyond India's average lifespan? Run this 5-step longevity check",
-            "source": "Livemint",
-            "publishedAt": "2026-09-10T14:57:17Z",
+            "title": "Check Point Named a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T15:05:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Shoe Carnival Q2 Earnings Call Highlights",
+            "source": "MarketBeat",
+            "publishedAt": "2026-09-10T15:03:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Lovesac Q2 Earnings Call Highlights",
+            "source": "MarketBeat",
+            "publishedAt": "2026-09-10T15:03:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 57.01,
-  "trade_probability": 54.21,
+  "confirmation_score": 56.83,
+  "trade_probability": 54.1,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
