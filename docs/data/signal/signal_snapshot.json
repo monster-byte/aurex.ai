@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:45:51.529127+00:00",
+  "generated_at": "2026-09-11T20:01:18.999287+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 0.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.021,
+          "change_pct": -0.0587,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0121,
-          "up": true
+          "change_pct": -0.2375,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.0019,
-          "up": true
+          "change_pct": -0.2377,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.0039,
+          "change_pct": -0.1905,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.13,
+      "score": 71.76,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29405.28,
-        "sma50": 29198.29,
-        "sma200": 27129.49
+        "last_price": 29368.44,
+        "sma50": 29197.55,
+        "sma200": 27129.31
       }
     },
     "vxn": {
@@ -49,7 +49,7 @@
       "score": 70.0,
       "status": "green",
       "details": {
-        "current_vxn": 21.03,
+        "current_vxn": 21.01,
         "percentile_vs_20d": 30.0
       }
     },
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.05,
+      "score": 48.97,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.12,
-        "change_5d_pct": 0.118
+        "current_dxy": 99.13,
+        "change_5d_pct": 0.128
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.14,
+      "score": 51.43,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.117,
+        "avg_compound": 0.029,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "CPI report: Prices rose 3.4% in August, matching inflation expectations and raising Fed rate hike odds",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-10T19:45:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "I Went Looking for a Libertarian Miracle in Argentina. I Found Something Messier.",
-            "source": "Reason",
-            "publishedAt": "2026-09-10T19:42:27Z",
-            "sentiment": "Positive",
-            "compound": 0.691
-          },
-          {
-            "title": "Trump and Vance's Plan To Bribe Voters With $5,000 Checks Shows MAGA Is Out of Ideas",
-            "source": "Reason",
-            "publishedAt": "2026-09-10T19:41:01Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T19:35:18Z",
-            "sentiment": "Positive",
-            "compound": 0.272
-          },
-          {
-            "title": "MAGA star lobs grenade at Trump over 'shameless' election-year 'bribery'",
-            "source": "Raw Story",
-            "publishedAt": "2026-09-10T19:28:06Z",
+            "title": "Copper Stocks Sink as White House Tariff Uncertainty Spooks Traders",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-09-10T20:00:00Z",
             "sentiment": "Negative",
             "compound": -0.34
           },
           {
-            "title": "Focus should be on price stability as supply shocks rise, says BIS chief Pablo Hernández de Cos",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-10T19:23:32Z",
+            "title": "Stock Takes: Radius Residential Care and Oceania Healthcare set to gain the most from proposed aged care shake-up",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-10T20:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.869
+          },
+          {
+            "title": "Can Trump Really Give Every Adult American $5K Check?",
+            "source": "Daily Signal",
+            "publishedAt": "2026-09-10T19:57:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Here's how much interest a $150,000 18-month CD can earn now (and why it's worth opening)",
+            "source": "CBS News",
+            "publishedAt": "2026-09-10T19:57:56Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "INVESTOR ACTION NOTICE: Moore Law PLLC Encourages Investors in Aardvark Therapeutics, Inc. (AARD) to Contact Law Firm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T19:57:00Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Oil Soars as Hormuz Risks Rattle Markets",
+            "source": "Rigzone",
+            "publishedAt": "2026-09-10T19:56:15Z",
             "sentiment": "Negative",
-            "compound": -0.382
+            "compound": -0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 49.27,
-  "trade_probability": 49.56,
+  "confirmation_score": 34.94,
+  "trade_probability": 40.96,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
