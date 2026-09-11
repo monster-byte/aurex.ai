@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T12:31:07.009218+00:00",
+  "generated_at": "2026-09-11T12:45:52.724133+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 25.31,
+      "score": 14.22,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.944,
-        "change_5d_pct": 3.086
+        "current_yield_pct": 4.975,
+        "change_5d_pct": 4.473
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.77,
+      "score": 48.14,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.15,
-        "change_5d_pct": 0.154
+        "current_dxy": 99.23,
+        "change_5d_pct": 0.232
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.44,
+      "score": 49.91,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.031,
+        "avg_compound": -0.002,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Why Analysts Are Bearish On This Tesla Energy Rival",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-10T12:30:49Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Intel May Raise Chip Prices 10% and the Stock Took Off. Why Most Analysts Still Refuse to Buy.",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T12:30:27Z",
+            "title": "Pennsylvania’s aging levees are under pressure from scarce funding and severe weather",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-09-10T12:45:35Z",
             "sentiment": "Negative",
-            "compound": -0.353
+            "compound": -0.548
           },
           {
-            "title": "Prediction: Apple Stock Could Be Headed for a Big Move After Yesterday’s Event",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T12:30:03Z",
+            "title": "Mines Do Not Usually Fail on Geology. They Stall on Land Access",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T12:45:00Z",
+            "sentiment": "Positive",
+            "compound": 0.262
+          },
+          {
+            "title": "Thursday, September 10, 2026",
+            "source": "Kffhealthnews.org",
+            "publishedAt": "2026-09-10T12:44:27Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Wealthy investors seek oil and gas assets, but bargains are scarce",
-            "source": "CNBC",
-            "publishedAt": "2026-09-10T12:30:01Z",
+            "title": "Producer prices jump 0.4% in August as energy costs surge, keeping inflation pressure alive",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T12:44:22Z",
             "sentiment": "Positive",
-            "compound": 0.273
+            "compound": 0.361
           },
           {
-            "title": "Heavy Investment Sustains NVIDIA’s (NVDA) AI Leadership",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-10T12:28:51Z",
+            "title": "10Y yield surpasses 4.90% as rising fuel costs elevate US producer prices",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T12:43:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Kevin Warsh's Fed strategy risks 'unproductive volatility' in markets: Jan Hatzius",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-10T12:27:27Z",
+            "title": "US producer prices rise less than forecast, putting Fed rate hike in doubt",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T12:43:27Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.361
           }
         ]
       }
     }
   },
-  "confirmation_score": 48.52,
-  "trade_probability": 49.11,
+  "confirmation_score": 46.94,
+  "trade_probability": 48.16,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
