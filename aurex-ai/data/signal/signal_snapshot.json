@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:31:07.578115+00:00",
+  "generated_at": "2026-09-11T19:45:51.529127+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -16,32 +16,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0345,
-          "up": true
+          "change_pct": -0.021,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.004,
-          "up": false
+          "change_pct": 0.0121,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.0504,
-          "up": false
+          "change_pct": 0.0019,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0272,
-          "up": true
+          "change_pct": -0.0039,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.02,
+      "score": 72.13,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29394.88,
-        "sma50": 29198.08,
-        "sma200": 27129.44
+        "last_price": 29405.28,
+        "sma50": 29198.29,
+        "sma200": 27129.49
       }
     },
     "vxn": {
@@ -49,7 +49,7 @@
       "score": 70.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.92,
+        "current_vxn": 21.03,
         "percentile_vs_20d": 30.0
       }
     },
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.01,
+      "score": 49.05,
       "status": "yellow",
       "details": {
         "current_dxy": 99.12,
-        "change_5d_pct": 0.123
+        "change_5d_pct": 0.118
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 41.3,
+      "score": 44.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.174,
+        "avg_compound": -0.117,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "CPI report: Prices rose 3.4% in August, matching inflation expectations and raising Fed rate hike odds",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-10T19:45:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "I Went Looking for a Libertarian Miracle in Argentina. I Found Something Messier.",
+            "source": "Reason",
+            "publishedAt": "2026-09-10T19:42:27Z",
+            "sentiment": "Positive",
+            "compound": 0.691
+          },
+          {
+            "title": "Trump and Vance's Plan To Bribe Voters With $5,000 Checks Shows MAGA Is Out of Ideas",
+            "source": "Reason",
+            "publishedAt": "2026-09-10T19:41:01Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
+          {
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T19:35:18Z",
+            "sentiment": "Positive",
+            "compound": 0.272
+          },
           {
             "title": "MAGA star lobs grenade at Trump over 'shameless' election-year 'bribery'",
             "source": "Raw Story",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-10T19:23:32Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "Global bond selloff resumes as surging oil prices stokes fears about inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T19:21:14Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Wholesale Inflation Is Rising Again",
-            "source": "Newser",
-            "publishedAt": "2026-09-10T19:20:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
-            "source": "CNBC",
-            "publishedAt": "2026-09-10T19:18:05Z",
-            "sentiment": "Positive",
-            "compound": 0.272
-          },
-          {
-            "title": "GOP Congressman Who Argued Against Biden Covid Checks Grilled Over Trump $5K Proposal",
-            "source": "Mediaite",
-            "publishedAt": "2026-09-10T19:16:57Z",
-            "sentiment": "Negative",
-            "compound": -0.361
           }
         ]
       }
     }
   },
-  "confirmation_score": 48.97,
-  "trade_probability": 49.38,
+  "confirmation_score": 49.27,
+  "trade_probability": 49.56,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
