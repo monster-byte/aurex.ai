@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T22:01:21.083864+00:00",
+  "generated_at": "2026-09-11T22:16:28.423251+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.34,
+      "score": 51.24,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.087,
-        "articles_analyzed": 24,
+        "avg_compound": 0.025,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Dr. Oz Straight Up Admits to Newsmax: ‘Medicare Costs Are Gonna Increase’",
-            "source": "Mediaite",
-            "publishedAt": "2026-09-10T21:56:54Z",
+            "title": "Laura Ingraham Challenges Trump On Promised $5,000 Checks: 'Why Not Give It Now?'",
+            "source": "HuffPost",
+            "publishedAt": "2026-09-10T22:13:48Z",
             "sentiment": "Positive",
-            "compound": 0.477
+            "compound": 0.421
           },
           {
-            "title": "Trump officials scramble to manage fallout after his $5K check pledge to all Americans",
-            "source": "CNN",
-            "publishedAt": "2026-09-10T21:56:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Belron seeks investment banks for potential major IPO in Europe",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T21:55:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "FactChecking Trump’s Midterm Convention Speech",
-            "source": "FactCheck.org",
-            "publishedAt": "2026-09-10T21:52:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Canadian home prices have not fallen enough to restore affordability",
-            "source": "The Globe And Mail",
-            "publishedAt": "2026-09-10T21:50:33Z",
-            "sentiment": "Positive",
-            "compound": 0.512
-          },
-          {
-            "title": "QQQI’s 14% Yield Loses Its Only Tax Break Inside an IRA: Every Dollar Comes Out as Ordinary Income",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-10T21:50:30Z",
+            "title": "Judge Demands Answers From DOJ For Refusing To Dismiss Reflecting Pool Case With Prejudice",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-10T22:13:41Z",
             "sentiment": "Negative",
-            "compound": -0.318
+            "compound": -0.718
+          },
+          {
+            "title": "Stock market today: Live updates",
+            "source": "CNBC",
+            "publishedAt": "2026-09-10T22:11:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Judge Demands Answers From DOJ For Refusing To Dismiss Reflecting Pool Case With Prejudice",
+            "source": "Techdirt",
+            "publishedAt": "2026-09-10T22:10:23Z",
+            "sentiment": "Negative",
+            "compound": -0.718
+          },
+          {
+            "title": "Trump's $5,000 payments would reignite inflation, economists say",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T22:08:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock Market Today, Sept. 10: Grab Holdings Slips on Atome Fintech Acquisition Reports",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T22:08:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.75,
-  "trade_probability": 40.85,
+  "confirmation_score": 34.44,
+  "trade_probability": 40.66,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
