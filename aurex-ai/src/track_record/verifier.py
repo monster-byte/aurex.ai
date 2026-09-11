@@ -5,6 +5,7 @@ AUREX AI - Track Record Verifier
 
 from datetime import datetime, timezone, timedelta
 
+import numpy as np
 import yfinance as yf
 
 from .config import VERIFICATION_HOURS, PRICE_SYMBOL
@@ -17,7 +18,8 @@ def find_price_near(target_time) -> float:
         return None
 
     hist.index = hist.index.tz_convert("UTC") if hist.index.tz is not None else hist.index.tz_localize("UTC")
-    closest_idx = (hist.index - target_time).abs().argmin()
+    diffs = np.abs((hist.index - target_time).total_seconds())
+    closest_idx = int(np.argmin(diffs))
     return float(hist["Close"].iloc[closest_idx])
 
 
