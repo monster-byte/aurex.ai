@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T23:15:48.869236+00:00",
+  "generated_at": "2026-09-11T23:29:36.938189+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.82,
+      "score": 54.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.004,
+        "avg_compound": 0.089,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Stock Market Today: Dow, Nasdaq Open Lower; Bond Yields Jump as Oil Prices Climb — Live Updates - WSJ",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-10T23:12:58Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Fox Biz Host: Biden Was Bad, Trump Is Good, And $5K Bribe Is 'Golden'",
-            "source": "Crooksandliars.com",
-            "publishedAt": "2026-09-10T23:11:35Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "LULU INVESTOR ALERT: Bronstein, Gewirtz and Grossman, LLC Announces an Investigation into lululemon athletica inc. and Encourages Investors to Contact the Firm",
+            "title": "SUJA ALERT: Investigation Launched into Suja Life, Inc., RGRD Law Attorneys Encourage Investors and Potential Witnesses to Contact Law Firm",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-10T23:11:00Z",
+            "publishedAt": "2026-09-10T23:25:00Z",
             "sentiment": "Positive",
-            "compound": 0.703
+            "compound": 0.774
           },
           {
-            "title": "The Taoiseach is quibbling with how child poverty is measured - here's the exact incomes involved",
-            "source": "TheJournal.ie",
-            "publishedAt": "2026-09-10T23:10:05Z",
-            "sentiment": "Negative",
-            "compound": -0.511
+            "title": "ECB raises interest rates to fight off inflation jump",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T23:22:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
           },
           {
-            "title": "Trump pledged $5K 'dividend' to every US adult if GOP wins midterms. Can he do that?",
-            "source": "Snopes.com",
-            "publishedAt": "2026-09-10T23:09:00Z",
+            "title": "Obi: Why I can’t step down for Atiku",
+            "source": "The Punch",
+            "publishedAt": "2026-09-10T23:20:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Tyra Biosciences, Inc. - TYRA",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T23:20:00Z",
             "sentiment": "Positive",
-            "compound": 0.572
+            "compound": 0.447
           },
           {
-            "title": "A year after Charlie Kirk’s death, are young voters turning on Trump?",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-09-10T23:08:55Z",
-            "sentiment": "Negative",
-            "compound": -0.599
+            "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Beam Therapeutics Inc. - BEAM",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T23:20:00Z",
+            "sentiment": "Positive",
+            "compound": 0.447
+          },
+          {
+            "title": "In this ever-nationalized midterm environment, swing-district Republicans brace for a storm",
+            "source": "New York Post",
+            "publishedAt": "2026-09-10T23:18:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.3,
-  "trade_probability": 40.58,
+  "confirmation_score": 34.76,
+  "trade_probability": 40.86,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
