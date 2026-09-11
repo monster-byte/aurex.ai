@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T18:01:23.835138+00:00",
+  "generated_at": "2026-09-11T18:15:57.368411+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0375,
-          "up": true
+          "change_pct": -0.0078,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0134,
+          "change_pct": 0.0041,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0297,
-          "up": false
+          "change_pct": 0.0023,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0273,
-          "up": true
+          "change_pct": -0.0312,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.38,
+      "score": 72.24,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29430.9,
-        "sma50": 29198.8,
-        "sma200": 27129.62
+        "last_price": 29416.82,
+        "sma50": 29198.52,
+        "sma200": 27129.55
       }
     },
     "vxn": {
@@ -49,26 +49,26 @@
       "score": 65.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.88,
+        "current_vxn": 20.82,
         "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 17.58,
+      "score": 17.24,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.955,
-        "change_5d_pct": 4.053
+        "current_yield_pct": 4.957,
+        "change_5d_pct": 4.095
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.18,
+      "score": 49.21,
       "status": "yellow",
       "details": {
         "current_dxy": 99.1,
-        "change_5d_pct": 0.102
+        "change_5d_pct": 0.099
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.08,
+      "score": 49.91,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.018,
+        "avg_compound": -0.002,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Russian Mobilization Rumors Ripple Across Central Asia",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-09-10T18:00:00Z",
+            "title": "The Irish Times view on interest rates: a slow squeeze on borrowers",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-10T18:15:00Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Momentum Meets Mission: Twenty-Six Defense Unveils Advanced Capabilities at AFA",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T18:13:00Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Bitcoin declines for fourth consecutive session, falls below $80,000",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T18:09:52Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bessent Warns of ‘Socialist Hellscape’ if Democrats Take Power",
-            "source": "Daily Signal",
-            "publishedAt": "2026-09-10T18:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
+            "title": "Federal Reserve ally criticizes officials’ views on rate restrictiveness",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T18:05:43Z",
+            "sentiment": "Negative",
+            "compound": -0.34
           },
           {
-            "title": "NRF Walks Back Peak Season Slowdown Call as September Set to Top 2026 Imports",
-            "source": "WWD",
-            "publishedAt": "2026-09-10T17:57:59Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "US bond yields climb to multi-year highs as oil surge revives bets on higher Fed rates",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-10T17:57:37Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "2027: I’ll retain Naira float policy — Obi",
-            "source": "Vanguard",
-            "publishedAt": "2026-09-10T17:57:27Z",
+            "title": "What to know about Trump’s $5,000 ‘dividend’ pledge",
+            "source": "The Punch",
+            "publishedAt": "2026-09-10T18:05:05Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "U.S. Wholesale Inflation Hits 5.4% as Markets Await CPI, MoneySimpler Expands AI Automated Trading",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-10T17:54:16Z",
-            "sentiment": "Positive",
-            "compound": 0.202
+            "title": "Fed ally criticizes officials’ views on rate restrictiveness, hints at internal dissent",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-10T18:05:05Z",
+            "sentiment": "Negative",
+            "compound": -0.34
           }
         ]
       }
     }
   },
-  "confirmation_score": 57.32,
-  "trade_probability": 54.39,
+  "confirmation_score": 49.83,
+  "trade_probability": 49.9,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
