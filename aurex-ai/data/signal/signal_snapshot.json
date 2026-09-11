@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T10:45:57.996697+00:00",
+  "generated_at": "2026-09-11T11:01:19.144683+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.62,
+      "score": 48.55,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.17,
-        "change_5d_pct": 0.173
+        "current_dxy": 99.18,
+        "change_5d_pct": 0.182
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.14,
+      "score": 50.08,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.057,
-        "articles_analyzed": 23,
+        "avg_compound": 0.002,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Trump's $5k 'bribe' bombs on Fox & Friends: 'It's gonna run up the debt'",
-            "source": "Raw Story",
-            "publishedAt": "2026-09-10T10:44:01Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Rising retail prices help Mars Ireland to record revenues",
-            "source": "RTE",
-            "publishedAt": "2026-09-10T10:43:58Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "SSC CPO 2026 notification released: Apply online for 2,018 Sub-Inspector posts, check eligibility, vacancies and dates",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-10T10:43:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nasdaq invests $100 million in Kraken parent Payward at $21 billion valuation: Report",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T10:42:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Benchmarks snap three-day losses; media shares climb",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-10T10:42:55Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Beyond the syllabus preparing for an uncertain future",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-10T10:42:52Z",
+            "title": "Shock Top and Auntie Anne’s® Take Over Tailgate Season with the Return of Shock Top Twisted Pretzel Wheat and the Limited-Edition TWIST Vest",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-10T11:00:58Z",
             "sentiment": "Negative",
-            "compound": -0.296
+            "compound": -0.382
+          },
+          {
+            "title": "JPMorgan Announces Cash Distributions for the JPMorgan ETFs",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-10T11:00:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bitcoin consolidates near $78,000 as investors await key US inflation, Fed cues",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-10T11:00:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "Carlyle, Insight Partners, and JMI Equity Unveil Exiger's Complete AI-Built Transformation",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T11:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Carlyle, Insight Partners, and JMI Equity Unveil Exiger's Complete AI-Built Transformation",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-10T11:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "CAS chaos continues on F&O expiry day: Sensex calls zoom in mere minutes amid 1,000-point swing",
+            "source": "Moneycontrol",
+            "publishedAt": "2026-09-10T11:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.572
           }
         ]
       }
     }
   },
-  "confirmation_score": 48.37,
-  "trade_probability": 49.02,
+  "confirmation_score": 48.66,
+  "trade_probability": 49.2,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
