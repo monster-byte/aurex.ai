@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T18:15:57.368411+00:00",
+  "generated_at": "2026-09-11T18:31:12.929096+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -12,36 +12,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0078,
-          "up": false
+          "change_pct": 0.0255,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.0041,
+          "change_pct": 0.0056,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0023,
+          "change_pct": 0.0364,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0312,
+          "change_pct": -0.0117,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.24,
+      "score": 72.3,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29416.82,
-        "sma50": 29198.52,
-        "sma200": 27129.55
+        "last_price": 29422.33,
+        "sma50": 29198.63,
+        "sma200": 27129.58
       }
     },
     "vxn": {
@@ -49,26 +49,26 @@
       "score": 65.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.82,
+        "current_vxn": 20.8,
         "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 17.24,
+      "score": 16.9,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.957,
-        "change_5d_pct": 4.095
+        "current_yield_pct": 4.959,
+        "change_5d_pct": 4.137
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.21,
+      "score": 49.07,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.1,
-        "change_5d_pct": 0.099
+        "current_dxy": 99.11,
+        "change_5d_pct": 0.116
       }
     },
     "macro": {
@@ -84,64 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.91,
+      "score": 49.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.002,
-        "articles_analyzed": 25,
+        "avg_compound": -0.01,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "The Irish Times view on interest rates: a slow squeeze on borrowers",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-10T18:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Momentum Meets Mission: Twenty-Six Defense Unveils Advanced Capabilities at AFA",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T18:13:00Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Bitcoin declines for fourth consecutive session, falls below $80,000",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T18:09:52Z",
+            "title": "NSE Downsizes India IPO, Showing Mounting Valuation Concern",
+            "source": "Livemint",
+            "publishedAt": "2026-09-10T18:30:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Federal Reserve ally criticizes officials’ views on rate restrictiveness",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T18:05:43Z",
+            "title": "EU Demands Female Mobilization-Russia Hits Kyiv Gas Stations-Kharkiv Front Collapses MS 2026.09.10",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-10T18:29:32Z",
             "sentiment": "Negative",
-            "compound": -0.34
+            "compound": -0.296
           },
           {
-            "title": "What to know about Trump’s $5,000 ‘dividend’ pledge",
-            "source": "The Punch",
-            "publishedAt": "2026-09-10T18:05:05Z",
+            "title": "A Short History of Trend-Following and Momentum",
+            "source": "Awealthofcommonsense.com",
+            "publishedAt": "2026-09-10T18:28:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Fed ally criticizes officials’ views on rate restrictiveness, hints at internal dissent",
+            "title": "America's supply of homes for sale is at a 10-year high. Buyers aren't biting.",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-10T18:23:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US oil prices surpass $103/barrel, up 20% this month",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-10T18:05:05Z",
-            "sentiment": "Negative",
-            "compound": -0.34
+            "publishedAt": "2026-09-10T18:19:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "10-Year Treasury Yield Tops 4.9%, Highest Since 2023, As Oil Prices Surge",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-10T18:19:24Z",
+            "sentiment": "Positive",
+            "compound": 0.625
           }
         ]
       }
     }
   },
-  "confirmation_score": 49.83,
-  "trade_probability": 49.9,
+  "confirmation_score": 57.24,
+  "trade_probability": 54.34,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "REJECT",
-    "directional_bias": "AVOID"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
