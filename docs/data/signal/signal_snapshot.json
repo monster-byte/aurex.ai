@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T14:45:53.413088+00:00",
+  "generated_at": "2026-09-11T15:01:36.865090+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -16,59 +16,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0104,
+          "change_pct": 0.0997,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0,
+          "change_pct": -0.0655,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0054,
+          "change_pct": 0.1002,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0039,
+          "change_pct": 0.0471,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 71.64,
+      "score": 71.65,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29356.45,
-        "sma50": 29197.31,
+        "last_price": 29357.48,
+        "sma50": 29197.33,
         "sma200": 27129.25
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.33,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 21.54,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 20.77,
+      "score": 22.11,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.936,
-        "change_5d_pct": 3.654
+        "current_yield_pct": 4.928,
+        "change_5d_pct": 3.486
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.8,
+      "score": 49.99,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.03,
-        "change_5d_pct": 0.025
+        "current_dxy": 99.0,
+        "change_5d_pct": 0.001
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.76,
+      "score": 49.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.045,
+        "avg_compound": -0.01,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "MAGA Celebrates After Fetterman’s Surprise Video at GOP Convention",
-            "source": "The New Republic",
-            "publishedAt": "2026-09-10T14:45:21Z",
-            "sentiment": "Positive",
-            "compound": 0.7
-          },
-          {
-            "title": "The Thing to Watch With AXTQ Is Not AXT. It Is How Long You Hold It",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T14:45:20Z",
+            "title": "Drake’s OVO Faces Unpaid C$5 Million Claim Detailed by A.R.I. Before Sale to Authentic Brands Group and Vince (Nasdaq: VNCE)",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-10T15:01:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Multi-Billion Dollar Luxury and Lifestyle Apparel Market Set for Forecasted Gain and Industry Growth",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T14:45:00Z",
+            "title": "What's Open, What's Closed on 9/11? Is September 11 Federal Holiday? Will U.S Stock Markets, NYSE, Nasdaq, UPS, Mail Services, offices function?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-10T15:00:25Z",
             "sentiment": "Positive",
-            "compound": 0.718
+            "compound": 0.501
           },
           {
-            "title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in Regeneron Pharmaceuticals, Inc. of Class Action Lawsuit and Upcoming Deadlines - REGN",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-10T14:45:00Z",
+            "title": "Are we trapped in a high interest rate cycle?",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-10T15:00:07Z",
             "sentiment": "Neutral",
-            "compound": -0.17
+            "compound": -0.103
           },
           {
-            "title": "Copper Stocks Tumble as Tariff Doubt Reverses Record Rally: Freeport-McMoRan Sinks 8%, Teck Resources and Southern Copper Drop 7%",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T14:43:21Z",
+            "title": "Home sales tumble to lowest level in over a year as high mortgage rates scare off buyers",
+            "source": "New York Post",
+            "publishedAt": "2026-09-10T15:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.557
+            "compound": -0.7
           },
           {
-            "title": "Tomorrow’s CPI Report Could Send Rate-Hike Odds Even Higher",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-10T14:41:45Z",
+            "title": "Home sales tumble to lowest level in over a year as high mortgage rates scare off buyers",
+            "source": "New York Post",
+            "publishedAt": "2026-09-10T15:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.7
+          },
+          {
+            "title": "Retirement planning: Is your corpus enough if you live beyond India's average lifespan? Run this 5-step longevity check",
+            "source": "Livemint",
+            "publishedAt": "2026-09-10T14:57:17Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 57.12,
-  "trade_probability": 54.27,
+  "confirmation_score": 57.01,
+  "trade_probability": 54.21,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
