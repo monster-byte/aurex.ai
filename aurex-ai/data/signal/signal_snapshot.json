@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T06:15:48.290522+00:00",
+  "generated_at": "2026-09-12T06:31:06.466209+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.65,
+      "score": 48.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.087,
-        "articles_analyzed": 23,
+        "avg_compound": -0.028,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "In 1962, Kolkata began pumping dredged material from the Hooghly into its Salt Water Lakes, reclaiming wetlands to build a planned township that became Bidhannagar, or Salt Lake",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T06:15:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "UK economy grew by 0.4% in July - ONS",
-            "source": "RTE",
-            "publishedAt": "2026-09-11T06:14:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Is investing in stock market an art or science? What Peter Lynch says in 'One Up on Wall Street'",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T06:11:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rohit Saraf's 10-month physical transformation for ‘The Revolutionaries’: ‘Gym gave me size and strength, Kalaripayattu gave me agility’",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T06:10:32Z",
+            "title": "U.S. Diesel Prices Top $6 a Gallon for First Time Ever",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-09-11T06:30:00Z",
             "sentiment": "Positive",
-            "compound": 0.494
+            "compound": 0.202
           },
           {
-            "title": "CAPR Investors Have Opportunity to Lead Capricor Therapeutics, Inc. Securities Fraud Lawsuit with SBS Law",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T06:10:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "SBICAP Securities partners with Appreciate for global market access via India INX GA, NSEIXGA",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T06:07:43Z",
+            "title": "Supplyco advances Keralam’s SDG goals through affordable food, farmer support: Study",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-11T06:27:01Z",
             "sentiment": "Positive",
-            "compound": 0.599
+            "compound": 0.402
+          },
+          {
+            "title": "Watch: Fed up over poor network, villagers tie technician with mobile tower",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T06:27:00Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "‘Rs 10 per student’: 2 Odisha auditors held with Rs 14.38 lakh ‘unaccounted’ cash",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T06:25:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Wall Street wary of sustained Fed rate hikes impacting market rally",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-11T06:25:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "After 9/11, Gander sheltered 7,000 Americans as 38 planes landed after attack",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T06:24:47Z",
+            "sentiment": "Negative",
+            "compound": -0.477
           }
         ]
       }
     }
   },
-  "confirmation_score": 33.86,
-  "trade_probability": 40.32,
+  "confirmation_score": 34.16,
+  "trade_probability": 40.5,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
