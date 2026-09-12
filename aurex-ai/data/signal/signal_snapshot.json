@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T19:01:23.457727+00:00",
+  "generated_at": "2026-09-12T19:15:48.314678+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.59,
+      "score": 45.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.128,
+        "avg_compound": -0.099,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Big banks finally blink and hike fixed mortgage rates",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-11T19:00:26Z",
+            "title": "Sentiment Declines as Inflation Expectations Rise",
+            "source": "Econbrowser.com",
+            "publishedAt": "2026-09-11T19:15:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Self Custody Is Dead. Long Live Self Custody",
-            "source": "Activistpost.com",
-            "publishedAt": "2026-09-11T19:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.649
-          },
-          {
-            "title": "Former football booster club treasurer is accused of stealing $400K",
-            "source": "NBC News",
-            "publishedAt": "2026-09-11T18:53:43Z",
+            "title": "Why America’s bond problem could become your mortgage problem",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-11T19:11:14Z",
             "sentiment": "Negative",
             "compound": -0.66
           },
           {
-            "title": "INV Investors Have Opportunity to Lead Innventure, Inc. Securities Fraud Lawsuit",
+            "title": "Rosen Law Firm Encourages Disc Medicine, Inc. Investors to Inquire About Securities Class Action Investigation - IRON",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-11T18:53:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
+            "publishedAt": "2026-09-11T19:11:00Z",
+            "sentiment": "Positive",
+            "compound": 0.625
           },
           {
-            "title": "FIR on Azam is BJP ploy to shift focus from real issues: Akhilesh",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T18:47:23Z",
+            "title": "Inflation Not Going Back into the Bottle: CPI, Core CPI, and Core Services CPI Bounce Back",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T19:10:13Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The United States of Propaganda",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-09-11T18:40:21Z",
-            "sentiment": "Positive",
-            "compound": 0.202
+            "title": "California diesel prices skyrocket so high drivers can’t see how much they’re paying: ‘What happens then?’",
+            "source": "New York Post",
+            "publishedAt": "2026-09-11T19:10:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Streaming Prices Continue to Balloon: Is ‘Streamflation’ at a Breaking Point?",
+            "source": "Variety",
+            "publishedAt": "2026-09-11T19:01:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 33.66,
-  "trade_probability": 40.2,
+  "confirmation_score": 33.81,
+  "trade_probability": 40.29,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
