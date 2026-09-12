@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T00:31:15.636508+00:00",
+  "generated_at": "2026-09-12T00:45:52.090720+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.99,
+      "score": 49.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.0,
+        "avg_compound": -0.004,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Stocks in news: Canara Bank, Vodafone Idea, Premier Energies and ACME Solar",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T00:30:00Z",
+            "title": "Best of BS Opinion: India must address trade barriers, open up for business",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-11T00:45:01Z",
             "sentiment": "Positive",
-            "compound": 0.226
+            "compound": 0.637
           },
           {
-            "title": "Trump Tussles With Fox’s Laura Ingraham Over Iran: ‘I Thought We Decimated Them’",
-            "source": "Mediaite",
-            "publishedAt": "2026-09-11T00:29:10Z",
+            "title": "Robbins LLP Urges TBLA Stockholders Who Lost Money Investing in Taboola.com Ltd. to Contact the Firm for Information About Leading the Class Action",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T00:45:00Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "FinTechs Are Shopping for Very Different Charters",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-11T00:42:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Gavin Newsom calls Trump’s $5K voter payout ‘bulls—’ and a ‘desperate’ power grab",
-            "source": "New York Post",
-            "publishedAt": "2026-09-11T00:28:50Z",
+            "title": "Small CPI surprise could trigger big Fed rate decision",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T00:38:31Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "The CPI report arrives tomorrow. It could determine whether the Fed hikes rates next week",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T00:38:17Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Equity MF inflows rise 19% to Rs 29,329 crore in August; SIPs hit record high",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-09-11T00:27:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Japan's wholesale inflation stays elevated in August, boosts case for rate hike",
-            "source": "CNA",
-            "publishedAt": "2026-09-11T00:27:20Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "California’s Landmark Tire Efficiency Standards Are a Win for Consumers, Climate, and Public Health",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-09-11T00:26:48Z",
-            "sentiment": "Positive",
-            "compound": 0.765
+            "title": "Robbins LLP Urges GUTS Stockholders Who Lost Money Investing in Fractyl Health, Inc. to Contact the Firm for Information About Leading the Class Action",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T00:33:00Z",
+            "sentiment": "Negative",
+            "compound": -0.318
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.32,
-  "trade_probability": 40.59,
+  "confirmation_score": 34.3,
+  "trade_probability": 40.58,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
