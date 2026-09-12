@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T03:15:55.638610+00:00",
+  "generated_at": "2026-09-12T03:31:04.648371+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.03,
+      "score": 49.23,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.12,
-        "change_5d_pct": 0.121
+        "current_dxy": 99.1,
+        "change_5d_pct": 0.096
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.53,
+      "score": 52.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.051,
+        "avg_compound": 0.043,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Japanese money moving home could impact global risk assets: ICICI Pru AMC's Manish Banthia",
+            "source": "Livemint",
+            "publishedAt": "2026-09-11T03:30:18Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Prasol Chemicals IPO allotment likely today: Check status, GMP and other details",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T03:30:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Vance brands Democrats 'party of hatred' ahead of midterm",
+            "source": "RTE",
+            "publishedAt": "2026-09-11T03:20:25Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Is Trump's $5,000 'dividend' legal and how would it work?",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-11T03:16:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
           {
             "title": "August CPI report to influence Fed rate decision at September meeting",
             "source": "Crypto Briefing",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-11T03:06:40Z",
             "sentiment": "Negative",
             "compound": -0.832
-          },
-          {
-            "title": "Watch Nifty, Sensex fall together on iPhone Duo: Harsh Goenka joins Rs 3 lakh foldable iPhone debate",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T03:04:58Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Active large-cap funds can outperform in next 3-5 years: Ashwini Shami",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T03:00:53Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "ASX 200 tumbles to a 2-month low and wipes out its 2026 gains. What on earth is going on?",
-            "source": "Motley Fool Australia",
-            "publishedAt": "2026-09-11T02:58:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "Gold, Silver Rate Today Live Updates: Gold heads for third weekly loss as US rate hike bets strengthen",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T02:52:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.55,
-  "trade_probability": 40.73,
+  "confirmation_score": 34.54,
+  "trade_probability": 40.72,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
