@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T14:45:49.918809+00:00",
+  "generated_at": "2026-09-12T15:01:25.248257+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.87,
+      "score": 54.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.117,
-        "articles_analyzed": 25,
+        "avg_compound": 0.097,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Reserve Bank of India drains 1 trillion rupees through bond sales",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-11T14:45:38Z",
+            "title": "Heather Cox Richardson: Houthis Seize Key Port, Prices Will Rise",
+            "source": "Dianeravitch.net",
+            "publishedAt": "2026-09-11T15:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "ECB Puts Europe Back on the Rate-Hike Treadmill",
-            "source": "Moby.co",
-            "publishedAt": "2026-09-11T14:45:31Z",
+            "title": "FII index futures shorts hit 5-month high, bearish positioning raises odds of sharp market move",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-11T14:59:47Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Fed rate hike odds surge to 90% after core inflation surprises to the upside",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-11T14:43:48Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Here’s the inflation breakdown for August 2026 — in one chart",
-            "source": "CNBC",
-            "publishedAt": "2026-09-11T14:41:29Z",
+            "title": "Vicor acquires sites for additional ChiP fabs",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-11T14:56:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Gold Miner's Luster Lures Funds; Stock Trades Around Buy Point",
+            "title": "Filing of NI 43-101 Technical Report for the Nalunaq Property, Vesting of RSUs and Total Voting Rights",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-11T14:55:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "With Just 5 Days to Next FOMC Meeting, Odds of Fed Rate Hike Surge to Over 85%",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T14:41:20Z",
+            "publishedAt": "2026-09-11T14:53:48Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bitmine Surges 8% on Ethereum Strength After Cantor Fitzgerald Doubles Its Target, SharpLink Advances 9%, Strategy Gains 4%",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-11T14:41:17Z",
+            "title": "U.S. core CPI tops forecasts, bolstering case for rate hike",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T14:53:46Z",
             "sentiment": "Positive",
-            "compound": 0.681
+            "compound": 0.511
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.89,
-  "trade_probability": 40.93,
+  "confirmation_score": 34.78,
+  "trade_probability": 40.87,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
