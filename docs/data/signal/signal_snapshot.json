@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T01:01:22.051217+00:00",
+  "generated_at": "2026-09-12T01:15:50.095182+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.38,
+      "score": 49.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.012,
+        "avg_compound": -0.009,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "DVLT Investors Have Opportunity to Lead Datavault AI Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T01:15:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "Global Market Today: Asian stocks, bonds fall on oil, inflation concern",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T01:06:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Global bonds fall as surging oil prices inflame inflation risks",
             "source": "CNA",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-11T00:45:01Z",
             "sentiment": "Positive",
             "compound": 0.637
-          },
-          {
-            "title": "Robbins LLP Urges TBLA Stockholders Who Lost Money Investing in Taboola.com Ltd. to Contact the Firm for Information About Leading the Class Action",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T00:45:00Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "FinTechs Are Shopping for Very Different Charters",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-11T00:42:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.26,
-  "trade_probability": 40.56,
+  "confirmation_score": 34.28,
+  "trade_probability": 40.57,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
