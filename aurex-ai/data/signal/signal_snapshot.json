@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T21:31:08.318110+00:00",
+  "generated_at": "2026-09-12T21:45:48.509145+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.43,
+      "score": 51.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.009,
+        "avg_compound": 0.025,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The retirement home of your dreams: Chats with Celia Imrie and Ralph Fiennes, private chefs and a stunning pool - if you have £1million to spare",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-11T21:41:00Z",
+            "sentiment": "Positive",
+            "compound": 0.649
+          },
+          {
+            "title": "chronoguard added to PyPI",
+            "source": "Pypi.org",
+            "publishedAt": "2026-09-11T21:38:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Breitbart Business Digest: Dividends, Coins, and 9/11",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-11T21:35:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Halifax residential water rates could go up by up to nine per cent in 2027 and 2028",
             "source": "CBC News",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-11T21:16:02Z",
             "sentiment": "Positive",
             "compound": 0.586
-          },
-          {
-            "title": "DOGE Facing Uncertainty After Bitwise Orders Shutdown Of Dogecoin ETF; Here’s Why",
-            "source": "ZyCrypto",
-            "publishedAt": "2026-09-11T21:16:00Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Why SPS Commerce Rallied on Friday",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T21:12:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Record diesel prices stoke food inflation, transportation costs",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T21:10:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.34,
-  "trade_probability": 40.6,
+  "confirmation_score": 34.43,
+  "trade_probability": 40.66,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
