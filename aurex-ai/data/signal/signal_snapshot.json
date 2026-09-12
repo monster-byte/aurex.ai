@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T17:46:08.848953+00:00",
+  "generated_at": "2026-09-12T18:01:34.785385+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.15,
+      "score": 47.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.023,
-        "articles_analyzed": 24,
+        "avg_compound": -0.046,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "He had ₹15 lakh in savings but still lost money. Here’s how a 32-year-old fixed his portfolio",
-            "source": "Livemint",
-            "publishedAt": "2026-09-11T17:43:49Z",
-            "sentiment": "Negative",
-            "compound": -0.45
+            "title": "UK Interest Rates Could Rise Four Times Over the Next Year",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-09-11T18:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.459
           },
           {
-            "title": "Facts don’t do what I want them to",
-            "source": "Lawyersgunsmoneyblog.com",
-            "publishedAt": "2026-09-11T17:41:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
+            "title": "ChoiceOne Bank Receives Habitat for Humanity of Kent County Opportunity Award",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T18:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.743
           },
           {
             "title": "Is gold really a hedge against inflation?",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-11T17:41:22Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T17:57:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "European stock edge higher as oil prices retreat from five-month peak",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-11T17:39:08Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Fed Chair Kevin Warsh under presssure to hike rates as inflation fails to cool: ‘Time to put up or shut up’",
-            "source": "New York Post",
-            "publishedAt": "2026-09-11T17:38:21Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "The Doomsday Cult Finds Its Latest Boogeyman",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-11T17:34:11Z",
+            "title": "GOP Rep Gives Lamest Hypocritical Excuse Yet For Trump's Bribe Attempt",
+            "source": "Crooksandliars.com",
+            "publishedAt": "2026-09-11T17:56:24Z",
             "sentiment": "Negative",
-            "compound": -0.586
+            "compound": -0.718
+          },
+          {
+            "title": "Bitcoin, ether rise as inflation data does little to alter Fed interest rate outlook",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T17:54:57Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Oraclum Capital founder Vuk Vukovic charged with fraud for allegedly inflating hedge fund returns",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-11T17:54:33Z",
+            "sentiment": "Negative",
+            "compound": -0.681
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.42,
-  "trade_probability": 40.65,
+  "confirmation_score": 34.07,
+  "trade_probability": 40.44,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
