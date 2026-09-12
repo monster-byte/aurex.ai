@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T20:31:04.623829+00:00",
+  "generated_at": "2026-09-12T20:45:49.721654+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.01,
+      "score": 55.47,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.04,
+        "avg_compound": 0.109,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Millionaires Everywhere",
-            "source": "Awealthofcommonsense.com",
-            "publishedAt": "2026-09-11T20:30:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How major US stock indexes fared Friday 9/11/2026",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-11T20:20:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "ARES DYNAMIC CREDIT ALLOCATION FUND DECLARES A MONTHLY DISTRIBUTION OF $0.1125 PER SHARE",
+            "title": "Robbins LLP Urges SMPL Stockholders to Contact the Firm for Information About the Class Action Against The Simply Good Foods Company",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-11T20:15:00Z",
+            "publishedAt": "2026-09-11T20:45:00Z",
             "sentiment": "Positive",
-            "compound": 0.862
+            "compound": 0.44
           },
           {
-            "title": "US stocks today: US stocks end higher as strong inflation data cements rate-hike bets",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T20:14:25Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Wall Street thought the Powell hike was over. Now Kevin Warsh has his ‘back against the wall’ - Fortune",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-11T20:12:29Z",
+            "title": "FactChecking Day Two of the GOP Midterm Convention",
+            "source": "FactCheck.org",
+            "publishedAt": "2026-09-11T20:44:29Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Here’s the inflation breakdown for August 2026 — in one chart",
+            "title": "HIVE crosses $1 million in daily revenue from mining and AI cloud",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T20:10:21Z",
+            "publishedAt": "2026-09-11T20:42:35Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Inflation Comes In Hot",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T20:39:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stocks Bounce Back After Oil Prices Ease",
+            "source": "Newser",
+            "publishedAt": "2026-09-11T20:39:00Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "RYDE Stockholder Notice: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Class Action Lawsuit Against Ryde Group Ltd",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T20:38:00Z",
+            "sentiment": "Negative",
+            "compound": -0.226
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.5,
-  "trade_probability": 40.7,
+  "confirmation_score": 34.85,
+  "trade_probability": 40.91,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
