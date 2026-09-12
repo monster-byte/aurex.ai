@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T00:01:23.107300+00:00",
+  "generated_at": "2026-09-12T00:15:54.795740+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.16,
+      "score": 48.94,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
+        "avg_compound": -0.021,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Maven Robotics launches with $100M to scale its industrial robots",
+            "source": "SiliconANGLE News",
+            "publishedAt": "2026-09-11T00:12:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump: I have no regrets over Iran war, I'd do it again",
+            "source": "Israelnationalnews.com",
+            "publishedAt": "2026-09-11T00:11:26Z",
+            "sentiment": "Negative",
+            "compound": -0.419
+          },
           {
             "title": "Real History: After 9/11, the ‘War on Terror’ Was a War of Terror",
             "source": "Antiwar.com",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-10T23:53:10Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "New Zealand bond yields hit highest level since April 2024 as oil prices surge",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-10T23:52:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gross SIP flows, fund industry assets at record high",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-10T23:52:34Z",
-            "sentiment": "Negative",
-            "compound": -0.34
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.34,
-  "trade_probability": 40.6,
+  "confirmation_score": 34.21,
+  "trade_probability": 40.53,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
