@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T05:01:20.594079+00:00",
+  "generated_at": "2026-09-12T05:15:48.604485+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.94,
+      "score": 44.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.121,
+        "avg_compound": -0.119,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The CPI report arrives tomorrow. It could determine whether the Fed hikes rates next week. - CBS News",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-11T05:13:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "iPhone's surprise price twist for old models exposes smartphone price pain",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T05:08:31Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "From gas pumps to bond markets: stocks are getting squeezed",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T05:07:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Meta’s (META) Muse Launch Turns the AI Debate toward Subscription Economics",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T05:07:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Star Bulk Carriers: Strong demand for €100 million Euronext Athens share offering",
+            "source": "Naftemporiki.gr",
+            "publishedAt": "2026-09-11T05:01:38Z",
+            "sentiment": "Positive",
+            "compound": 0.612
+          },
           {
             "title": "Rupee falls 27 paise to 95.79 against US dollar in early trade",
             "source": "The Times of India",
             "publishedAt": "2026-09-11T04:58:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Trump steps on Vance’s primetime moment and other takeaways from RNC convention’s second night",
-            "source": "CNN",
-            "publishedAt": "2026-09-11T04:49:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "INR struggles at one and half month low amid soaring oil prices",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T04:47:22Z",
-            "sentiment": "Negative",
-            "compound": -0.557
-          },
-          {
-            "title": "Rocket Lab Successfully Launches 16th Electron Mission Of The Year, Solidifies Status as World’s Leading Small Launch Provider",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-11T04:44:18Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "US Market: Rising US debt, inflation keep pressure on long-term Treasury yields",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T04:43:58Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Cement shares under pressure; ACC, Ambuja, Shree Cement crack to 52-wk lows",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T04:40:44Z",
-            "sentiment": "Negative",
-            "compound": -0.202
           }
         ]
       }
     }
   },
-  "confirmation_score": 33.69,
-  "trade_probability": 40.21,
+  "confirmation_score": 33.71,
+  "trade_probability": 40.23,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
