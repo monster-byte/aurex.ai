@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T09:01:18.689748+00:00",
+  "generated_at": "2026-09-12T09:15:49.222135+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.65,
+      "score": 52.3,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.013,
+        "avg_compound": 0.046,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Inflation heated up last month, boosting the case for a Fed rate hike | CNN Business",
-            "source": "CNN",
-            "publishedAt": "2026-09-11T09:00:29Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Trump issues blunt midterm warning, Vance greeted with ‘48’ chants: Top takeaways from GOP convention",
-            "source": "Fox News",
-            "publishedAt": "2026-09-11T09:00:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "August inflation report could set the path for interest rates, affordability",
-            "source": "NBC News",
-            "publishedAt": "2026-09-11T09:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "The Cameras That Tell the Story of 9/11",
-            "source": "Thephoblographer.com",
-            "publishedAt": "2026-09-11T09:00:00Z",
+            "title": "America’s Sixth-Largest Bank Launches Dollar-Backed Stablecoin for Cross-Border Transfers",
+            "source": "The Daily Hodl",
+            "publishedAt": "2026-09-11T09:15:29Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "These Michigan swing voters are bracing for higher prices from trade war with Canada",
-            "source": "NPR",
-            "publishedAt": "2026-09-11T09:00:00Z",
+            "title": "Why stocks could weather coming rate hikes just fine",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-11T09:15:01Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Trump’s Disastrous Reign Will Cost You More Than $5,000",
+            "source": "The American Prospect",
+            "publishedAt": "2026-09-11T09:15:00Z",
             "sentiment": "Negative",
             "compound": -0.599
           },
           {
-            "title": "Trump Tailspins as His New Plot to Rig Midterms Is Mocked Even on Fox",
-            "source": "The New Republic",
-            "publishedAt": "2026-09-11T09:00:00Z",
+            "title": "ESDS, Milky Mist, Dhoot Transmission zoom up to 300% vs IPO price in 1-mth",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-11T09:12:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US rate rise fears ripple through global bond markets - ft.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-11T09:12:27Z",
             "sentiment": "Negative",
             "compound": -0.421
+          },
+          {
+            "title": "Minister: French economy to grow 0.5% in 2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T09:07:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.36,
-  "trade_probability": 40.62,
+  "confirmation_score": 34.53,
+  "trade_probability": 40.72,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
