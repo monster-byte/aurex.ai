@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T11:15:51.804948+00:00",
+  "generated_at": "2026-09-12T11:31:07.427731+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,7 +84,7 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.15,
+      "score": 47.16,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
@@ -92,46 +92,46 @@
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Nasdaq Just Put $100M Into Kraken: Is Tokenized Stock Trading About to Go Mainstream?",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-09-11T11:11:24Z",
+            "title": "AMC Global Media Greenlights \"Point Break\"",
+            "source": "Thefutoncritic.com",
+            "publishedAt": "2026-09-11T11:31:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Weekly Lab Notes: The Week the Compute Landlord Thesis Went Global",
-            "source": "Forkast.news",
-            "publishedAt": "2026-09-11T11:11:15Z",
+            "title": "Eloxx Pharmaceuticals Announces First Patients Dosed in Phase 2b EXACT Study of Exaluren in Nonsense Mutation Alport Syndrome",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T11:30:00Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "OLIN and HUNTSMAN Announce Expiration of Hart-Scott-Rodino Waiting Period for Proposed Merger",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T11:30:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Gold price today, Friday, September 11, 2026: Gold opens at lowest level in over a month ahead of CPI data",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-11T11:10:16Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Treasury Yields Soar to Almost 5% On Inflation Fears",
-            "source": "Politicalwire.com",
-            "publishedAt": "2026-09-11T11:08:49Z",
-            "sentiment": "Negative",
-            "compound": -0.25
-          },
-          {
-            "title": "Polymath and High Ridge Trust Partner to Advance Institutional Infrastructure for Tokenized Securities",
+            "title": "Vision Marine Technologies Invited to Suntex Marinas National Conference Following Lake Berryessa Electric Boating Activation",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-11T11:07:00Z",
+            "publishedAt": "2026-09-11T11:30:00Z",
             "sentiment": "Positive",
-            "compound": 0.67
+            "compound": 0.25
           },
           {
-            "title": "Polymath and High Ridge Trust Partner to Advance Institutional Infrastructure for Tokenized Securities",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T11:07:00Z",
-            "sentiment": "Positive",
-            "compound": 0.67
+            "title": "August CPI expected to exceed 3.3% with 62% probability, Kalshi markets show",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-11T11:27:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T11:22:59Z",
+            "sentiment": "Negative",
+            "compound": -0.273
           }
         ]
       }
