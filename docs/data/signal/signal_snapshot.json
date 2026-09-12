@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T17:31:06.783315+00:00",
+  "generated_at": "2026-09-12T17:46:08.848953+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.4,
+      "score": 51.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.088,
+        "avg_compound": 0.023,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Apple Stock Has Returned Nearly 1,200% in 10 Years. How High Can AAPL Go From Here?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-11T17:30:40Z",
+            "title": "He had ₹15 lakh in savings but still lost money. Here’s how a 32-year-old fixed his portfolio",
+            "source": "Livemint",
+            "publishedAt": "2026-09-11T17:43:49Z",
+            "sentiment": "Negative",
+            "compound": -0.45
+          },
+          {
+            "title": "Facts don’t do what I want them to",
+            "source": "Lawyersgunsmoneyblog.com",
+            "publishedAt": "2026-09-11T17:41:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Is gold really a hedge against inflation?",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-11T17:41:22Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Greenland Mines Provides Progress Update on 2026 Field Programs at Skaergaard and Sarfartoq",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-11T17:29:00Z",
+            "title": "European stock edge higher as oil prices retreat from five-month peak",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-11T17:39:08Z",
             "sentiment": "Positive",
-            "compound": 0.421
+            "compound": 0.202
           },
           {
-            "title": "Rising petrol costs drive sharp inflation increase in US in August",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-09-11T17:28:11Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "California Football Mom Allegedly Stole $400k from Team's Nonprofit",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-11T17:26:48Z",
+            "title": "Fed Chair Kevin Warsh under presssure to hike rates as inflation fails to cool: ‘Time to put up or shut up’",
+            "source": "New York Post",
+            "publishedAt": "2026-09-11T17:38:21Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.128
           },
           {
-            "title": "Why a shrinking population doesn’t have to be the kiss of death for an economy or stock market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T17:24:27Z",
+            "title": "The Doomsday Cult Finds Its Latest Boogeyman",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-11T17:34:11Z",
             "sentiment": "Negative",
-            "compound": -0.612
-          },
-          {
-            "title": "Treasury yields soar to almost 5% on inflation fears",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T17:24:23Z",
-            "sentiment": "Negative",
-            "compound": -0.25
+            "compound": -0.586
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.74,
-  "trade_probability": 40.84,
+  "confirmation_score": 34.42,
+  "trade_probability": 40.65,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
