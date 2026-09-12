@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T13:31:09.151727+00:00",
+  "generated_at": "2026-09-12T13:45:53.398324+00:00",
   "total_signals_logged": 17,
   "graded_signals": 0,
   "correct_signals": 0,
@@ -194,11 +194,11 @@
       "confirmation_score": 29.71,
       "trade_probability": 37.83,
       "entry_price": 29412.0,
-      "verified": false,
-      "outcome": null,
-      "price_after": null,
-      "price_change_pct": null,
-      "verified_at": null
+      "verified": true,
+      "outcome": "not_graded",
+      "price_after": 29387.0,
+      "price_change_pct": -0.085,
+      "verified_at": "2026-09-12T13:45:53.152356+00:00"
     }
   ]
 }

@@ -19,11 +19,11 @@
     "confirmation_score": 60.05,
     "trade_probability": 56.03,
     "entry_price": 29432.25,
-    "verified": false,
-    "outcome": null,
-    "price_after": null,
-    "price_change_pct": null,
-    "verified_at": null
+    "verified": true,
+    "outcome": "not_graded",
+    "price_after": 29387.0,
+    "price_change_pct": -0.154,
+    "verified_at": "2026-09-12T13:45:53.152356+00:00"
   },
   {
     "timestamp": "2026-09-11T13:45:52.675590+00:00",
@@ -32,11 +32,11 @@
     "confirmation_score": 29.71,
     "trade_probability": 37.83,
     "entry_price": 29412.0,
-    "verified": false,
-    "outcome": null,
-    "price_after": null,
-    "price_change_pct": null,
-    "verified_at": null
+    "verified": true,
+    "outcome": "not_graded",
+    "price_after": 29387.0,
+    "price_change_pct": -0.085,
+    "verified_at": "2026-09-12T13:45:53.152356+00:00"
   },
   {
     "timestamp": "2026-09-11T14:01:28.116411+00:00",
