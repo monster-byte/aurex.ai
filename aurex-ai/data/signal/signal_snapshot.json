@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T09:15:49.222135+00:00",
+  "generated_at": "2026-09-12T09:31:06.819347+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.3,
+      "score": 47.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.046,
-        "articles_analyzed": 24,
+        "avg_compound": -0.059,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "America’s Sixth-Largest Bank Launches Dollar-Backed Stablecoin for Cross-Border Transfers",
-            "source": "The Daily Hodl",
-            "publishedAt": "2026-09-11T09:15:29Z",
+            "title": "Rising Bond Yields Are Driving US Stocks Toward Correction Territory: Markets Pulse",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-11T09:31:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Why stocks could weather coming rate hikes just fine",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-11T09:15:01Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Trump’s Disastrous Reign Will Cost You More Than $5,000",
-            "source": "The American Prospect",
-            "publishedAt": "2026-09-11T09:15:00Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "ESDS, Milky Mist, Dhoot Transmission zoom up to 300% vs IPO price in 1-mth",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T09:12:31Z",
+            "title": "US diesel prices soar past $6 a gallon, deepening strain for hauling everyday goods",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-11T09:25:19Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.052
           },
           {
-            "title": "US rate rise fears ripple through global bond markets - ft.com",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-11T09:12:27Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Minister: French economy to grow 0.5% in 2026",
+            "title": "European stocks rise but head for sharp weekly declines",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T09:07:55Z",
+            "publishedAt": "2026-09-11T09:24:18Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "August inflation report could set the path for interest rates, affordability",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T09:22:31Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Treasury yields steady as traders await consumer inflation data amid oil price pressure",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T09:22:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "FTSE 100 Rebounds 0.36% Friday, Snapping Five-Day Losing Streak As Oil Prices Weigh On Global Markets",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-11T09:17:15Z",
+            "sentiment": "Negative",
+            "compound": -0.382
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.53,
-  "trade_probability": 40.72,
+  "confirmation_score": 34.01,
+  "trade_probability": 40.41,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
