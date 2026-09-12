@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T07:31:09.337953+00:00",
+  "generated_at": "2026-09-12T08:01:24.487120+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.61,
+      "score": 52.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.048,
+        "avg_compound": 0.053,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Performing Sensitivity: Wokeism, Turkish, and the Class Origins of Linguistic Imperialism",
-            "source": "Substack.com",
-            "publishedAt": "2026-09-11T07:24:56Z",
+            "title": "Would a $20 minimum wage in Quebec actually be a 'big blow' to the economy?",
+            "source": "CBC News",
+            "publishedAt": "2026-09-11T08:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "GomSpace receives order for fast-deployment satellite solution valued at 2.4 MUSD",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T07:23:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
+            "title": "Oil Prices Could Top $120 as Middle East Conflict Escalates",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-09-11T08:00:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
           },
           {
-            "title": "Nestle CEO says Middle East conflict driving inflation",
-            "source": "RTE",
-            "publishedAt": "2026-09-11T07:22:25Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Dollar index holds near 99 mark ahead of US CPI report",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T07:20:38Z",
+            "title": "「銀座マキシム・ド・パリ」幻の名品“苺のミルフィーユ”がクリスマスケーキで登場　ペストリーシェフ 佐藤が贈る新作2種を含む全5種を販売",
+            "source": "Prtimes.jp",
+            "publishedAt": "2026-09-11T08:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "GomSpace receives order for fast-deployment satellite solution valued at 2.4 MUSD",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T07:20:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "UK economy beats expectations in July with 0.4% growth",
+            "title": "Gold rate today (September 11, 2026): Check 24k, 22k, 20k, 18k gold jewellery prices from IBJA, Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers and Tanishq",
             "source": "The Times of India",
-            "publishedAt": "2026-09-11T07:18:11Z",
+            "publishedAt": "2026-09-11T07:54:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "TORM plc capital increase in connection with exercise of Restricted Share Units as part of TORM's incentive program",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T07:52:00Z",
             "sentiment": "Positive",
-            "compound": 0.382
+            "compound": 0.527
+          },
+          {
+            "title": "US listing could put Japan's Kioxia in global AI spotlight, Voya's Thomas says",
+            "source": "CNA",
+            "publishedAt": "2026-09-11T07:47:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.06,
-  "trade_probability": 40.44,
+  "confirmation_score": 34.57,
+  "trade_probability": 40.74,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
