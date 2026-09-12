@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:01:20.606019+00:00",
+  "generated_at": "2026-09-12T10:15:50.466350+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.06,
+      "score": 52.91,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.061,
+        "avg_compound": 0.058,
         "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Osama Bin Laden Won",
-            "source": "The Intercept",
-            "publishedAt": "2026-09-11T10:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.572
+            "title": "BNP Paribas economist suggests US may need three Fed rate hikes",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-11T10:14:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Transcript: How to Stop Trumpism From Rising in Germany and Europe",
-            "source": "The New Republic",
-            "publishedAt": "2026-09-11T10:00:00Z",
+            "title": "Reproducible Builds: Reproducible Builds in August 2026",
+            "source": "Reproducible-builds.org",
+            "publishedAt": "2026-09-11T10:12:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Brent Oil Trades Near $107 as Houthi-Saudi Fighting Escalates - Bloomberg.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-11T10:12:35Z",
             "sentiment": "Negative",
-            "compound": -0.296
+            "compound": -0.361
           },
           {
-            "title": "Accelevate Solutions and Brand Engagement Network Launch AI-Powered Passenger Engagement Platform for LAX Off-Airport Shuttle Providers",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T10:00:00Z",
+            "title": "India FX deposits to help earn more revenue: RBI Governor Sanjay Malhotra",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-11T10:12:11Z",
             "sentiment": "Positive",
-            "compound": 0.772
+            "compound": 0.402
           },
           {
-            "title": "A New Study Suggests That Robots Aren’t Taking Your Job Anytime Soon",
-            "source": "The New Republic",
-            "publishedAt": "2026-09-11T09:59:00Z",
+            "title": "Aswath Damodaran calls Fed rate debate pointless, says stock market adapts quickly to higher rates",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T10:10:38Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US diesel prices soar past $6 a gallon",
-            "source": "New York Post",
-            "publishedAt": "2026-09-11T09:51:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump’s latest affordability plan comes with a trillion-dollar catch",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-11T09:50:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "China’s young investors embrace risk. So why are their portfolios so safe?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T10:07:40Z",
+            "sentiment": "Positive",
+            "compound": 0.605
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.61,
-  "trade_probability": 40.77,
+  "confirmation_score": 34.59,
+  "trade_probability": 40.75,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
