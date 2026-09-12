@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T03:46:34.551109+00:00",
+  "generated_at": "2026-09-12T04:01:23.506031+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.23,
+      "score": 49.03,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.1,
-        "change_5d_pct": 0.096
+        "current_dxy": 99.12,
+        "change_5d_pct": 0.121
       }
     },
     "macro": {
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.53,
+      "score": 54.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.111,
+        "avg_compound": 0.086,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "This Week’s Most Popular Articles",
-            "source": "Globalresearch.ca",
-            "publishedAt": "2026-09-11T03:44:56Z",
-            "sentiment": "Positive",
-            "compound": 0.475
-          },
-          {
-            "title": "China to inject up to $54 billion into insurers and banks: What it means",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-11T03:44:15Z",
+            "title": "India inflation may continue to rise in the near term, says OPEC",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-11T04:01:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US 10-year yield flirts with 5% as higher oil, rate hike worries swirl",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T03:40:12Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "JD Vance asks voters to stick with Republican party, nods to Iran war angst",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T03:37:19Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Indian stocks set for mild gains as GIFT Nifty rises 20 points",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T03:34:09Z",
+            "title": "Future of Marketing Briefing: One more helping, for gluttons still hungry for Publicis and PepsiCo takes",
+            "source": "Digiday",
+            "publishedAt": "2026-09-11T04:01:00Z",
             "sentiment": "Positive",
-            "compound": 0.829
+            "compound": 0.36
           },
           {
-            "title": "Japanese money moving home could impact global risk assets: ICICI Pru AMC's Manish Banthia",
-            "source": "Livemint",
-            "publishedAt": "2026-09-11T03:30:18Z",
+            "title": "Japan Is Telling You To Run to Gold",
+            "source": "Lewrockwell.com",
+            "publishedAt": "2026-09-11T04:01:00Z",
             "sentiment": "Neutral",
-            "compound": -0.103
+            "compound": 0.0
+          },
+          {
+            "title": "Club Offers for Travel Enthusiasts in Germany",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T04:01:00Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Capacity Crowd Goes Wild for Trump, Vance at Midterm Convention Closing",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-11T03:49:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock market holiday: Are BSE, NSE closed on Sept 14 for Ganesh Chaturthi?",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-11T03:48:07Z",
+            "sentiment": "Positive",
+            "compound": 0.402
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.87,
-  "trade_probability": 40.92,
+  "confirmation_score": 34.73,
+  "trade_probability": 40.84,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
