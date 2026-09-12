@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T13:15:50.165643+00:00",
+  "generated_at": "2026-09-12T13:31:07.380228+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.81,
+      "score": 53.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.056,
+        "avg_compound": 0.063,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Thinking about investing in gold bars and coins? Here's where prices could be headed this fall.",
-            "source": "CBS News",
-            "publishedAt": "2026-09-11T13:15:26Z",
+            "title": "In Memoriam",
+            "source": "Reason",
+            "publishedAt": "2026-09-11T13:30:52Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Rented Fleets Are Winning the Infrastructure Buildout as Mega Projects Multiply",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T13:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Stock futures edge higher as key consumer inflation report looms ahead: Live updates - CNBC",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-11T13:13:25Z",
+            "title": "Trading stocks against BONER is the latest trend for DeFi degens",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-09-11T13:30:00Z",
             "sentiment": "Neutral",
-            "compound": -0.153
+            "compound": 0.0
           },
           {
-            "title": "Global bond selloff sends 10-year treasury yields to cusp of 5%",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-11T13:13:04Z",
+            "title": "Rupee falls 5 paise to close at 95.57 against US dollar on Friday",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-11T13:27:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Instant View: August core inflation reading boosts rate-hike expectations",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T13:25:58Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.318
+          },
+          {
+            "title": "CPI rose at 3.4% pace in August, raising odds of Fed rate hike this month",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T13:25:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
             "title": "Fed rate hike odds surge to 90% on monthly jump in core prices",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-11T13:12:06Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T13:25:48Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "MPC will reassess growth-inflation dynamics at next meeting: RBI Governor",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T13:09:46Z",
-            "sentiment": "Positive",
-            "compound": 0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.58,
-  "trade_probability": 40.75,
+  "confirmation_score": 34.61,
+  "trade_probability": 40.77,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
