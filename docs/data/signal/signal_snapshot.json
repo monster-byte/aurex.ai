@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T04:45:49.851272+00:00",
+  "generated_at": "2026-09-12T05:01:20.594079+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.45,
+      "score": 43.94,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.071,
+        "avg_compound": -0.121,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Rupee falls 27 paise to 95.79 against US dollar in early trade",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T04:58:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump steps on Vance’s primetime moment and other takeaways from RNC convention’s second night",
+            "source": "CNN",
+            "publishedAt": "2026-09-11T04:49:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "INR struggles at one and half month low amid soaring oil prices",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-11T04:47:22Z",
+            "sentiment": "Negative",
+            "compound": -0.557
+          },
           {
             "title": "Rocket Lab Successfully Launches 16th Electron Mission Of The Year, Solidifies Status as World’s Leading Small Launch Provider",
             "source": "Financial Post",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-11T04:40:44Z",
             "sentiment": "Negative",
             "compound": -0.202
-          },
-          {
-            "title": "Rupee tumbles 27 paise against US dollar as crude prices hold firm above $108 per barrel",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T04:40:23Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "Costly war far from over even as US loosens Iran's grip on Strait of Hormuz",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T04:37:20Z",
-            "sentiment": "Negative",
-            "compound": -0.649
-          },
-          {
-            "title": "US Market: Wall Street brokerages see S&P 500 extending rally in 2026 on AI, earnings",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T04:36:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 33.95,
-  "trade_probability": 40.37,
+  "confirmation_score": 33.69,
+  "trade_probability": 40.21,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
