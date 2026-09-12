@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T22:01:20.003532+00:00",
+  "generated_at": "2026-09-12T22:15:49.130478+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.76,
+      "score": 47.88,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.025,
+        "avg_compound": -0.042,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Nasdaq plans tokenized stocks with shareholder rights by 2027",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-11T22:04:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Global Food Prices Will Soar And Acute Hunger Will Spike Thanks To A Shocking Confluence Of Disastrous Events",
             "source": "Activistpost.com",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-11T21:41:00Z",
             "sentiment": "Positive",
             "compound": 0.649
-          },
-          {
-            "title": "chronoguard added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-09-11T21:38:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.18,
-  "trade_probability": 40.51,
+  "confirmation_score": 34.09,
+  "trade_probability": 40.45,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
