@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T19:45:59.499918+00:00",
+  "generated_at": "2026-09-12T20:01:23.804100+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.92,
+      "score": 46.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.122,
+        "avg_compound": -0.075,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Ether rallies as bearish liquidations drive market surge",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-11T19:58:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Kimberly Clark is Down 20% From Its 52-Week High. Is the Dip Worth Buying?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T19:57:22Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Greens call for €2.5bn to fund solar panels in homes and for ‘targeted’ energy credits",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-11T19:51:26Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
           {
             "title": "See how your income tax bracket could change for 2027",
             "source": "Biztoc.com",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-11T19:33:55Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "SPRY Investors Have Opportunity to Lead ARS Pharmaceuticals, Inc. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T19:30:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Strive reportedly targets 500 Bitcoin purchase this week funded by preferred stock sales",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-11T19:25:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gulf states weigh rare meeting with Iran next week on Hormuz",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T19:25:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 33.69,
-  "trade_probability": 40.21,
+  "confirmation_score": 33.93,
+  "trade_probability": 40.36,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
