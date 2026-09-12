@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T00:45:52.090720+00:00",
+  "generated_at": "2026-09-12T01:01:22.051217+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.79,
+      "score": 49.38,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.004,
+        "avg_compound": -0.012,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Global bonds fall as surging oil prices inflame inflation risks",
+            "source": "CNA",
+            "publishedAt": "2026-09-11T00:56:01Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Global bonds buckle as surging oil prices inflame inflation risks",
+            "source": "CNA",
+            "publishedAt": "2026-09-11T00:56:01Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Trump: 'Maybe I Don't' Go After Iran Fully 'Because of the Election'",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-11T00:51:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Best of BS Opinion: India must address trade barriers, open up for business",
             "source": "Business Standard",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-11T00:42:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Small CPI surprise could trigger big Fed rate decision",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T00:38:31Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "The CPI report arrives tomorrow. It could determine whether the Fed hikes rates next week",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T00:38:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Robbins LLP Urges GUTS Stockholders Who Lost Money Investing in Fractyl Health, Inc. to Contact the Firm for Information About Leading the Class Action",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T00:33:00Z",
-            "sentiment": "Negative",
-            "compound": -0.318
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.3,
-  "trade_probability": 40.58,
+  "confirmation_score": 34.26,
+  "trade_probability": 40.56,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
