@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T11:01:22.981757+00:00",
+  "generated_at": "2026-09-12T11:15:51.804948+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.51,
+      "score": 47.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.15,
-        "articles_analyzed": 25,
+        "avg_compound": -0.057,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "The White House has an AI problem — and it may worry Wall Street even more than Iran",
-            "source": "New York Post",
-            "publishedAt": "2026-09-11T11:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.681
-          },
-          {
-            "title": "The oil shock is testing private credit borrowers already burdened by high debt costs",
-            "source": "CNBC",
-            "publishedAt": "2026-09-11T10:55:21Z",
-            "sentiment": "Negative",
-            "compound": -0.637
-          },
-          {
-            "title": "Transcript: As Trump Unravels, Even Fox Cringes at His $5,000 Giveaway",
-            "source": "The New Republic",
-            "publishedAt": "2026-09-11T10:54:56Z",
+            "title": "Nasdaq Just Put $100M Into Kraken: Is Tokenized Stock Trading About to Go Mainstream?",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-09-11T11:11:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Trump's proposal to tie trade policy to Federal Reserve rate cuts could face long-term economic challenges",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T10:54:07Z",
-            "sentiment": "Negative",
-            "compound": -0.226
+            "title": "Weekly Lab Notes: The Week the Compute Landlord Thesis Went Global",
+            "source": "Forkast.news",
+            "publishedAt": "2026-09-11T11:11:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Treasury yields soar to almost 5% on inflation fears",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T10:52:40Z",
+            "title": "Gold price today, Friday, September 11, 2026: Gold opens at lowest level in over a month ahead of CPI data",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-11T11:10:16Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Treasury Yields Soar to Almost 5% On Inflation Fears",
+            "source": "Politicalwire.com",
+            "publishedAt": "2026-09-11T11:08:49Z",
             "sentiment": "Negative",
             "compound": -0.25
           },
           {
-            "title": "Chip competition heats up for Nvidia",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T10:52:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Polymath and High Ridge Trust Partner to Advance Institutional Infrastructure for Tokenized Securities",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T11:07:00Z",
+            "sentiment": "Positive",
+            "compound": 0.67
+          },
+          {
+            "title": "Polymath and High Ridge Trust Partner to Advance Institutional Infrastructure for Tokenized Securities",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T11:07:00Z",
+            "sentiment": "Positive",
+            "compound": 0.67
           }
         ]
       }
     }
   },
-  "confirmation_score": 33.55,
-  "trade_probability": 40.13,
+  "confirmation_score": 34.02,
+  "trade_probability": 40.41,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
