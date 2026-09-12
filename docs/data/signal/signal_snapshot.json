@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T22:45:51.244631+00:00",
+  "generated_at": "2026-09-12T23:01:19.808576+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.79,
+      "score": 57.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.036,
+        "avg_compound": 0.142,
         "articles_analyzed": 25,
         "top_headlines": [
           {
+            "title": "Senate Republicans Introduce Clarity Act Changes Ahead Of Key Vote",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T22:55:38Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
             "title": "News Wrap: August inflation report shows consumer prices up 3.4%",
-            "source": "PBS",
-            "publishedAt": "2026-09-11T22:45:43Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T22:55:37Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
             "title": "Cramer’s week ahead: Falling oil could help stocks but Fed is the next big test",
-            "source": "CNBC",
-            "publishedAt": "2026-09-11T22:35:09Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T22:55:30Z",
             "sentiment": "Neutral",
             "compound": 0.141
           },
           {
-            "title": "Inflation trumps wage gains",
-            "source": "Marketplace.org",
-            "publishedAt": "2026-09-11T22:35:00Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "2 Nasdaq 100 Stocks with Exciting Potential and 1 We Brush Off",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T22:27:27Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Cooper Companies Investigation Notice: Levi & Korsinsky Notifies Investors of Pending Investigation Into Cooper Companies (COO)",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T22:26:00Z",
+            "title": "Raleigh restaurants feel the impacts of all-time high diesel prices - WRAL",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-11T22:52:18Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "WSE Deadline: WSE Investors with Losses in Excess of $100K Have Opportunity to Lead Wise Group plc Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+            "title": "GOOLOO A3 12V 3000A Portable Jump Starter & Air Compressor $45 + Free S&H",
+            "source": "Slickdeals.net",
+            "publishedAt": "2026-09-11T22:51:47Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "SHAREHOLDER ALERT: Levi & Korsinsky, LLP Notifies Shareholders of an Investigation Concerning Possible Breaches of Fiduciary Duties by Certain Officers and Directors of Meridian Corporation (NASDAQ: MRBK).",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-11T22:26:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
+            "publishedAt": "2026-09-11T22:48:00Z",
+            "sentiment": "Positive",
+            "compound": 0.617
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.48,
-  "trade_probability": 40.69,
+  "confirmation_score": 35.01,
+  "trade_probability": 41.01,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
