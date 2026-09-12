@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T16:15:51.833058+00:00",
+  "generated_at": "2026-09-12T16:31:14.589497+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.39,
+      "score": 47.86,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.112,
+        "avg_compound": -0.043,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Contract worker dies at project site",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T16:13:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "DRDO defence project in East Midnapore on track: CM",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T16:12:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "US consumer inflation picks up in August - Reuters",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-11T16:12:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Dividend Stocks That Generate $6,400 Tax-Free Inside a Roth (And What They Cost You in a Taxable Account)",
+            "title": "Prediction: This Could Be an Unexpected AI Winner Through 2030",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-11T16:12:07Z",
+            "publishedAt": "2026-09-11T16:30:56Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "Wall Street Just Erased $57 Billion From Micron. The Shortage Behind Its Boom Is Getting Worse.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-11T16:30:04Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Are LNTH, ITGR, CZR Obtaining Fair Deals for their Shareholders?",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T16:28:00Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Why CPI Card Group Stock Just Crashed",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T16:26:36Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Transport minister and MLA Pratap Sarnaik seeks action against developers delaying SRA projects in Thane",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T16:11:58Z",
+            "title": "Jack Chambers rules out equalising inheritance thresholds in budget",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-11T16:25:57Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Thane Coastal Road-1 crosses 40% completion mark in 14 months, says Mumbai Metropolitan Region Development Authority",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T16:11:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
+            "title": "Don’t Blame Ukraine for High Gas Prices",
+            "source": "Foreign Policy",
+            "publishedAt": "2026-09-11T16:24:29Z",
+            "sentiment": "Negative",
+            "compound": -0.34
           }
         ]
       }
     }
   },
-  "confirmation_score": 33.74,
-  "trade_probability": 40.24,
+  "confirmation_score": 34.09,
+  "trade_probability": 40.45,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
