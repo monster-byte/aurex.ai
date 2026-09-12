@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T15:31:10.864518+00:00",
+  "generated_at": "2026-09-12T15:45:51.548382+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.8,
+      "score": 52.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.076,
+        "avg_compound": 0.043,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "TSMC Price Prediction: One Number Could Define the Stock’s Next Move",
+            "title": "US stocks today: Wall Street inches higher as oil prices ease, inflation data calms markets",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T15:45:50Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "Microsoft Vs. Alphabet: The Enterprise Fight No One Saw Coming",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-11T15:30:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
+            "publishedAt": "2026-09-11T15:45:43Z",
+            "sentiment": "Negative",
+            "compound": -0.586
           },
           {
-            "title": "Elon Musk dismisses Bernie Sanders's 5% wealth tax, says 99% of his trillion-dollar fortune is in stock — not cash",
+            "title": "Fed’s Rate Decision May Have Come Down to Phone Plan Changes",
             "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-11T15:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "US futures rise as Oracle’s earnings boost tech sector sentiment",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-11T15:29:45Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "SpaceX signs another AI computing deal, with $100 billion in ARR 'on track,' CFO says",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-11T15:29:33Z",
+            "publishedAt": "2026-09-11T15:43:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Accuray and RaySearch Agree to Collaboration Integrating RayStation Software with Accuray Platforms to Accelerate Accuray's Online Adaptive Capabilities",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T15:28:00Z",
+            "title": "Britain Just Admitted It Uses SpaceX’s Secret Military Network. The Contracts Already Top $6 Billion.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-11T15:42:00Z",
             "sentiment": "Positive",
-            "compound": 0.361
+            "compound": 0.296
           },
           {
-            "title": "Forget AMD. Here's Who Nvidia Really Needs to Be Worried About",
+            "title": "Social Security recipients may see largest pay raise in 3 years in 2027",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T15:25:49Z",
-            "sentiment": "Negative",
-            "compound": -0.477
+            "publishedAt": "2026-09-11T15:41:26Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Why Micron Stock Just Sank",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T15:40:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.68,
-  "trade_probability": 40.81,
+  "confirmation_score": 34.52,
+  "trade_probability": 40.71,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",

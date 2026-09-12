@@ -84,11 +84,11 @@
     "confirmation_score": 42.45,
     "trade_probability": 45.47,
     "entry_price": 29438.5,
-    "verified": false,
-    "outcome": null,
-    "price_after": null,
-    "price_change_pct": null,
-    "verified_at": null
+    "verified": true,
+    "outcome": "not_graded",
+    "price_after": 29387.0,
+    "price_change_pct": -0.175,
+    "verified_at": "2026-09-12T15:45:53.240884+00:00"
   },
   {
     "timestamp": "2026-09-11T16:01:27.189564+00:00",
