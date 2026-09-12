@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T03:31:04.648371+00:00",
+  "generated_at": "2026-09-12T03:46:34.551109+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.17,
+      "score": 55.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.043,
+        "avg_compound": 0.111,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "This Week’s Most Popular Articles",
+            "source": "Globalresearch.ca",
+            "publishedAt": "2026-09-11T03:44:56Z",
+            "sentiment": "Positive",
+            "compound": 0.475
+          },
+          {
+            "title": "China to inject up to $54 billion into insurers and banks: What it means",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-11T03:44:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US 10-year yield flirts with 5% as higher oil, rate hike worries swirl",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T03:40:12Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "JD Vance asks voters to stick with Republican party, nods to Iran war angst",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-11T03:37:19Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Indian stocks set for mild gains as GIFT Nifty rises 20 points",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-11T03:34:09Z",
+            "sentiment": "Positive",
+            "compound": 0.829
+          },
           {
             "title": "Japanese money moving home could impact global risk assets: ICICI Pru AMC's Manish Banthia",
             "source": "Livemint",
             "publishedAt": "2026-09-11T03:30:18Z",
             "sentiment": "Neutral",
             "compound": -0.103
-          },
-          {
-            "title": "Prasol Chemicals IPO allotment likely today: Check status, GMP and other details",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T03:30:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Vance brands Democrats 'party of hatred' ahead of midterm",
-            "source": "RTE",
-            "publishedAt": "2026-09-11T03:20:25Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Is Trump's $5,000 'dividend' legal and how would it work?",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-11T03:16:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "August CPI report to influence Fed rate decision at September meeting",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-11T03:07:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "BRICS 2026: India's chairship and Global South's push for 'endless war to end of war'",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T03:06:40Z",
-            "sentiment": "Negative",
-            "compound": -0.832
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.54,
-  "trade_probability": 40.72,
+  "confirmation_score": 34.87,
+  "trade_probability": 40.92,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
