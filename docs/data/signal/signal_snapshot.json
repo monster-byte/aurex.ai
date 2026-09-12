@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T17:15:48.293728+00:00",
+  "generated_at": "2026-09-12T17:31:06.783315+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.81,
+      "score": 54.4,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.136,
-        "articles_analyzed": 25,
+        "avg_compound": 0.088,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Apple’s $164 Billion Rally Hinges on iPhone Duo Adoption Among 6 Million Premium Buyers",
+            "title": "Apple Stock Has Returned Nearly 1,200% in 10 Years. How High Can AAPL Go From Here?",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-11T17:15:05Z",
+            "publishedAt": "2026-09-11T17:30:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "How Messi Stepped Out of Maradona’s Shadow and Defied the Prophecy of 1928",
-            "source": "Urbanpitch.com",
-            "publishedAt": "2026-09-11T17:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wall Street thought the Powell hike was over. Now Kevin Warsh has his ‘back against the wall’",
-            "source": "Fortune",
-            "publishedAt": "2026-09-11T17:14:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "AMC Gains 5% on Tokenization Truce Signal, Robinhood Barely Budges; Cinemark Treads Water",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-11T17:13:25Z",
+            "title": "Greenland Mines Provides Progress Update on 2026 Field Programs at Skaergaard and Sarfartoq",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-11T17:29:00Z",
             "sentiment": "Positive",
-            "compound": 0.34
+            "compound": 0.421
           },
           {
-            "title": "Tech stocks rally as oil prices fall, inflation remains sticky: AlphaCheck - Yahoo Finance",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-11T17:13:05Z",
+            "title": "Rising petrol costs drive sharp inflation increase in US in August",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-11T17:28:11Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "California Football Mom Allegedly Stole $400k from Team's Nonprofit",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-11T17:26:48Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "August Inflation Came in Hot, and the Odds of a September Rate Hike Are Now 85%. But There's a Silver Lining Driving Stocks Higher",
+            "title": "Why a shrinking population doesn’t have to be the kiss of death for an economy or stock market",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T17:11:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-09-11T17:24:27Z",
+            "sentiment": "Negative",
+            "compound": -0.612
+          },
+          {
+            "title": "Treasury yields soar to almost 5% on inflation fears",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T17:24:23Z",
+            "sentiment": "Negative",
+            "compound": -0.25
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.98,
-  "trade_probability": 40.99,
+  "confirmation_score": 34.74,
+  "trade_probability": 40.84,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
