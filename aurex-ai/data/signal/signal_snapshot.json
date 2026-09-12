@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T15:45:51.548382+00:00",
+  "generated_at": "2026-09-12T16:01:22.719580+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.17,
+      "score": 47.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.043,
+        "avg_compound": -0.041,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "US stocks today: Wall Street inches higher as oil prices ease, inflation data calms markets",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T15:45:50Z",
-            "sentiment": "Positive",
-            "compound": 0.586
+            "title": "My Agentic AI Capital Is Going One Place Over and Over",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-11T16:00:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Microsoft Vs. Alphabet: The Enterprise Fight No One Saw Coming",
+            "title": "The Next Growth Cycle Could Take Qualcomm to New Highs",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-11T15:45:43Z",
+            "publishedAt": "2026-09-11T16:00:52Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "The US Had a Choice After 9/11. It Chose Wrong.",
+            "source": "Thenation.com",
+            "publishedAt": "2026-09-11T16:00:18Z",
             "sentiment": "Negative",
-            "compound": -0.586
+            "compound": -0.477
           },
           {
-            "title": "Fed’s Rate Decision May Have Come Down to Phone Plan Changes",
+            "title": "CPI and PPI climb, crushing hopes for cheap money and leaving Bitcoin traders with an expensive dilemma",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-11T16:00:02Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Supertanker Rates Hit $800,000 a Day as Gulf Tensions Escalate",
             "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-11T15:43:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-09-11T16:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.402
           },
           {
-            "title": "Britain Just Admitted It Uses SpaceX’s Secret Military Network. The Contracts Already Top $6 Billion.",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-11T15:42:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Social Security recipients may see largest pay raise in 3 years in 2027",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T15:41:26Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "Why Micron Stock Just Sank",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T15:40:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Supertanker Rates Hit $800,000 a Day as Gulf Tensions Escalate",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-09-11T16:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.402
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.52,
-  "trade_probability": 40.71,
+  "confirmation_score": 34.1,
+  "trade_probability": 40.46,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
