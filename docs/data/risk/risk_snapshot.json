@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T01:45:47.800029+00:00",
+  "generated_at": "2026-09-12T02:01:23.252423+00:00",
   "position_sizing": {
     "tradeable": false,
     "reason": "لا توجد صفقة قابلة للتنفيذ حالياً (directional_bias=AVOID)",
@@ -15,7 +15,7 @@
     "var_95_usd": 1919.79,
     "portfolio_beta": 1.423,
     "correlation_risk": "LOW",
-    "avg_mega_cap_correlation": 0.434,
+    "avg_mega_cap_correlation": 0.435,
     "liquidity": "HIGH"
   }
 }
