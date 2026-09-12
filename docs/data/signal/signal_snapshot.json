@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T01:15:50.095182+00:00",
+  "generated_at": "2026-09-12T01:29:00.248493+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.56,
+      "score": 48.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.009,
+        "avg_compound": -0.027,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "DVLT Investors Have Opportunity to Lead Datavault AI Inc. Securities Fraud Lawsuit",
+            "title": "Nikkei Falls More Than 2,000 Points in Friday Morning Session",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-09-11T01:27:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "XTIA Investors Have Opportunity to Lead XTI Aerospace, Inc. Securities Fraud Lawsuit",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-11T01:15:00Z",
+            "publishedAt": "2026-09-11T01:26:00Z",
             "sentiment": "Neutral",
             "compound": -0.178
           },
           {
-            "title": "Global Market Today: Asian stocks, bonds fall on oil, inflation concern",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T01:06:20Z",
+            "title": "PRCT Deadline: PRCT Investors with Losses in Excess of $100K Have Opportunity to Lead PROCEPT BioRobotics Corporation Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T01:24:00Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Nasdaq Invests $100 Million in Kraken Parent Payward to Accelerate Tokenized Stock Push",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-11T01:18:54Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Global bonds fall as surging oil prices inflame inflation risks",
-            "source": "CNA",
-            "publishedAt": "2026-09-11T00:56:01Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Global bonds buckle as surging oil prices inflame inflation risks",
-            "source": "CNA",
-            "publishedAt": "2026-09-11T00:56:01Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Trump: 'Maybe I Don't' Go After Iran Fully 'Because of the Election'",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-11T00:51:32Z",
+            "title": "Sensex today | Stock Market Live: Stock to buy today: Raymond (₹853.50)",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-11T01:18:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Best of BS Opinion: India must address trade barriers, open up for business",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T00:45:01Z",
-            "sentiment": "Positive",
-            "compound": 0.637
+            "title": "WIX Deadline: WIX Investors with Losses in Excess of $100K Have Opportunity to Lead Wix.com Ltd. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T01:18:00Z",
+            "sentiment": "Negative",
+            "compound": -0.527
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.28,
-  "trade_probability": 40.57,
+  "confirmation_score": 34.19,
+  "trade_probability": 40.51,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
