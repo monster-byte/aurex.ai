@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T11:31:07.427731+00:00",
+  "generated_at": "2026-09-12T11:45:48.879882+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.16,
+      "score": 50.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.057,
-        "articles_analyzed": 24,
+        "avg_compound": 0.0,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "AMC Global Media Greenlights \"Point Break\"",
-            "source": "Thefutoncritic.com",
-            "publishedAt": "2026-09-11T11:31:00Z",
+            "title": "Your Bitcoin trade can now get liquidated because a stock crashed",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-11T11:40:27Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Eloxx Pharmaceuticals Announces First Patients Dosed in Phase 2b EXACT Study of Exaluren in Nonsense Mutation Alport Syndrome",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T11:30:00Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "OLIN and HUNTSMAN Announce Expiration of Hart-Scott-Rodino Waiting Period for Proposed Merger",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T11:30:00Z",
+            "title": "USA Diesel Hits $6 Per Gallon for First Time Ever",
+            "source": "Rigzone",
+            "publishedAt": "2026-09-11T11:40:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Vision Marine Technologies Invited to Suntex Marinas National Conference Following Lake Berryessa Electric Boating Activation",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T11:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "August CPI expected to exceed 3.3% with 62% probability, Kalshi markets show",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-11T11:27:07Z",
+            "title": "Bitcoin and ethereum prices today, Friday, September 11, 2026: Bitcoin falls below $77,000 with key inflation data on deck",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-11T11:39:05Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
+            "title": "August inflation report could set the course for interest rates, affordability crisis",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T11:22:59Z",
+            "publishedAt": "2026-09-11T11:38:38Z",
             "sentiment": "Negative",
             "compound": -0.273
+          },
+          {
+            "title": "Economists Raise Red Flags Over Trump’s $5,000 Cash Proposal",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T11:37:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "'He doesn't say that!' CNN host cackles as conservative tries to defend Trump's promise",
+            "source": "Raw Story",
+            "publishedAt": "2026-09-11T11:32:32Z",
+            "sentiment": "Positive",
+            "compound": 0.38
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.02,
-  "trade_probability": 40.41,
+  "confirmation_score": 34.3,
+  "trade_probability": 40.58,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
