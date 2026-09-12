@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T14:15:53.209220+00:00",
+  "generated_at": "2026-09-12T14:31:04.351578+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.89,
+      "score": 49.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.082,
+        "avg_compound": -0.009,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "USA Crude Oil Stocks Drop Week on Week",
-            "source": "Rigzone",
-            "publishedAt": "2026-09-11T14:14:38Z",
-            "sentiment": "Negative",
-            "compound": -0.7
-          },
-          {
-            "title": "Crude oil price dips to $104, world shares mixed following Wall Street losses",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-11T14:13:29Z",
-            "sentiment": "Negative",
-            "compound": -0.637
-          },
-          {
-            "title": "US inflation held steady at 3.4% in August as high fuel prices persist - Financial Times",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-11T14:12:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today: Dow Rallies On Surprise Inflation Data; Nvidia Rebounds, Oracle Jumps (Live Coverage)",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T14:11:10Z",
+            "title": "U.S. core CPI tops forecasts, bolstering case for rate hike",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-11T14:30:49Z",
             "sentiment": "Positive",
-            "compound": 0.273
+            "compound": 0.511
           },
           {
-            "title": "Skyworks Rises 7%, Qorvo Gains 5% as CEO Says $22B Merger Is in Final Stages; Qualcomm Ticks Up",
+            "title": "The hard physics and complex economics of AI’s insatiable hunger for power",
+            "source": "SiliconANGLE News",
+            "publishedAt": "2026-09-11T14:30:29Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Treasury buys $5.2 billion of bonds as Bitcoin ETF flows stay negative",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-11T14:30:12Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "Alphabet vs. Meta: One Magnificent Seven Stock Is the Better Buy",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-11T14:11:01Z",
+            "publishedAt": "2026-09-11T14:30:03Z",
             "sentiment": "Positive",
-            "compound": 0.34
+            "compound": 0.778
           },
           {
-            "title": "Dow rises 622 points as oil prices fall after August CPI report",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T14:10:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Stock Market Leaders Often Shine, Helped By This Sign Of Liquidity Strength",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-11T14:28:59Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Consumer outlook plunges in September as inflation outlook worsens",
+            "source": "CNBC",
+            "publishedAt": "2026-09-11T14:28:54Z",
+            "sentiment": "Negative",
+            "compound": -0.477
           }
         ]
       }
     }
   },
-  "confirmation_score": 33.89,
-  "trade_probability": 40.33,
+  "confirmation_score": 34.25,
+  "trade_probability": 40.55,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
