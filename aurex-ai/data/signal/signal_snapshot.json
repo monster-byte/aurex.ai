@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T04:15:52.658804+00:00",
+  "generated_at": "2026-09-12T04:31:07.986279+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.6,
+      "score": 52.94,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.052,
+        "avg_compound": 0.059,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Rupee falls 27 paise to 95.79 against US dollar in early trade",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-11T04:28:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Global Market: Japan's Nikkei falls 3% as oil surge, US rate hike fears weigh",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T04:24:33Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "US rate rise fears ripple through global bond markets",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T04:21:35Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Nifty trade below 23,300 in early trade; breadth weak",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-11T04:20:25Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
           {
             "title": "Foreign investors may rejig allocation to Indian financials: Jefferies",
             "source": "Business Standard",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-11T04:11:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Gold, silver prices today, 11 September: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
-            "source": "Livemint",
-            "publishedAt": "2026-09-11T04:08:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why is market falling today? Sensex tumbles over 700 pts, Nifty below 23,250. Key factors behind Rs 5 lakh cr wipeout",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T04:05:50Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "How Donald Trump’s War in Iran is failing the Legitimacy Test in the Eyes of US Voters",
-            "source": "Juancole.com",
-            "publishedAt": "2026-09-11T04:04:18Z",
-            "sentiment": "Negative",
-            "compound": -0.802
-          },
-          {
-            "title": "Roll up for a look at how Royal Adelaide Show costs have changed",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-09-11T04:03:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.56,
-  "trade_probability": 40.74,
+  "confirmation_score": 34.59,
+  "trade_probability": 40.75,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
