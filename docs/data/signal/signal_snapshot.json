@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T21:01:23.362947+00:00",
+  "generated_at": "2026-09-12T21:15:49.916622+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.64,
+      "score": 51.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.073,
+        "avg_compound": 0.028,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Why SPS Commerce Rallied on Friday",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T21:12:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Record diesel prices stoke food inflation, transportation costs",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T21:10:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Investors brace for possible rate hike at uncertain Fed meeting",
+            "source": "CNA",
+            "publishedAt": "2026-09-11T21:06:00Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Investors brace for possible rate hike at uncertain Fed meeting",
+            "source": "CNA",
+            "publishedAt": "2026-09-11T21:06:00Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Outrageous operating LA city costs force popular vegan eatery to close",
+            "source": "New York Post",
+            "publishedAt": "2026-09-11T21:02:28Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
           {
             "title": "August was brutal for consumers. September could be worse",
             "source": "Salon",
             "publishedAt": "2026-09-11T20:58:37Z",
             "sentiment": "Negative",
             "compound": -0.802
-          },
-          {
-            "title": "Oil prices, US inflation stoke Fed hike worries",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T20:57:30Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "3 Reasons Investors Watch Nasdaq (NDAQ)",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T20:57:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Strive raises capital to acquire 578 Bitcoin through its SATA preferred stock instrument",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-11T20:56:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Federal Agencies Overhaul Bank Partner Rules to Drive Innovation",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-11T20:53:53Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Bitcoin Golden Cross Flickers Off as Rate-Hike Bets Firm Up",
-            "source": "Decrypt",
-            "publishedAt": "2026-09-11T20:53:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.66,
-  "trade_probability": 40.8,
+  "confirmation_score": 34.44,
+  "trade_probability": 40.66,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
