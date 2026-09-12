@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T02:45:52.213745+00:00",
+  "generated_at": "2026-09-12T03:01:23.028000+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.9,
+      "score": 55.07,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.098,
+        "avg_compound": 0.101,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Active large-cap funds can outperform in next 3-5 years: Ashwini Shami",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-11T03:00:53Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "ASX 200 tumbles to a 2-month low and wipes out its 2026 gains. What on earth is going on?",
+            "source": "Motley Fool Australia",
+            "publishedAt": "2026-09-11T02:58:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Gold, Silver Rate Today Live Updates: Gold heads for third weekly loss as US rate hike bets strengthen",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T02:52:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Commodity Talk | Gold isn't the only story: Why copper, energy and other commodities are gaining portfolio relevance, says Dr. Joseph Thomas",
             "source": "The Times of India",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-11T02:39:14Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Cheetah Mobile Announces Second Quarter 2026 Unaudited Consolidated Financial Results",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T02:36:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today Live Updates: GIFT Nifty signals cautious start for Dalal Street; where are BSE Sensex and NSE Nifty50 headed?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T02:33:30Z",
-            "sentiment": "Positive",
-            "compound": 0.713
-          },
-          {
-            "title": "CNBC Daily Open: 'Welcome to Foldables' Samsung roasts Apple for being late to party",
-            "source": "CNBC",
-            "publishedAt": "2026-09-11T02:30:44Z",
-            "sentiment": "Positive",
-            "compound": 0.691
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.81,
-  "trade_probability": 40.89,
+  "confirmation_score": 34.83,
+  "trade_probability": 40.9,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
