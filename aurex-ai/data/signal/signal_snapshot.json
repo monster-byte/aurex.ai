@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T12:15:54.296937+00:00",
+  "generated_at": "2026-09-12T12:31:06.982229+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.46,
+      "score": 54.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.069,
+        "avg_compound": 0.098,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "A four-time Fortune 500 CFO makes a huge career bet—on joining Polymarket",
-            "source": "Fortune",
-            "publishedAt": "2026-09-11T12:15:42Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "India 10-year yield tops 7% as oil rout extends losses into fourth week",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T12:13:48Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Dow Jones| Nasdaq | S&P 500 | US Stock Market Today |Live Updates: US stock futures recover as oil slides ahead of inflation test",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-09-11T12:13:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "August CPI report drops today as Fed rate hike odds climb to 70%",
+            "title": "Polymath partners with High Ridge Trust for tokenized securities custody",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-11T12:13:23Z",
+            "publishedAt": "2026-09-11T12:30:57Z",
+            "sentiment": "Positive",
+            "compound": 0.67
+          },
+          {
+            "title": "Houthis Advance on Bab al-Mandeb as Saudi Oil Route Comes Under Threat",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-09-11T12:30:00Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "T. ROWE PRICE GROUP REPORTS MONTH-END ASSETS UNDER MANAGEMENT FOR AUGUST 2026",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T12:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.347
+          },
+          {
+            "title": "Putin, Xi and Iran's Pezeshkian descend on India for high-stakes BRICS summit amid escalating global tensions",
+            "source": "Fox News",
+            "publishedAt": "2026-09-11T12:25:59Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Wholesale Inflation Came In Hot Again and Here’s What It Means for Your Wallet",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T12:22:38Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Stock Market Today: Dow Futures Tick Up, Yields Edge Lower as Investors Await CPI Report — Live Updates - WSJ",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-11T12:12:38Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "Morning Minute: AI Agents Cut BTC Quantum Attack Benchmark by 86%",
-            "source": "Decrypt",
-            "publishedAt": "2026-09-11T12:10:23Z",
-            "sentiment": "Negative",
-            "compound": -0.637
+            "title": "Oracle stock trims gains as AI cloud demand outpaces supply",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-11T12:21:03Z",
+            "sentiment": "Positive",
+            "compound": 0.226
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.65,
-  "trade_probability": 40.79,
+  "confirmation_score": 34.79,
+  "trade_probability": 40.87,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
