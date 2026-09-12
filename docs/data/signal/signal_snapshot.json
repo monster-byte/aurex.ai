@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T13:01:20.568969+00:00",
+  "generated_at": "2026-09-12T13:15:50.165643+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.3,
+      "score": 52.81,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.054,
+        "avg_compound": 0.056,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "US consumer inflation picks up in August, up 3.4% YoY",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T12:57:58Z",
+            "title": "Thinking about investing in gold bars and coins? Here's where prices could be headed this fall.",
+            "source": "CBS News",
+            "publishedAt": "2026-09-11T13:15:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US CPI data triggers volatile market reaction as yields surge and stocks rebound",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-11T12:57:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "American consumers are getting zero relief from inflation as price increases just keep on rolling and gasoline becomes even more expensive",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-11T12:57:09Z",
+            "title": "Rented Fleets Are Winning the Infrastructure Buildout as Mega Projects Multiply",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T13:15:00Z",
             "sentiment": "Positive",
-            "compound": 0.477
+            "compound": 0.527
           },
           {
-            "title": "Uber leaves two key African markets — and their drivers in despair",
-            "source": "DW (English)",
-            "publishedAt": "2026-09-11T12:57:00Z",
-            "sentiment": "Negative",
-            "compound": -0.318
+            "title": "Stock futures edge higher as key consumer inflation report looms ahead: Live updates - CNBC",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-11T13:13:25Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
           },
           {
-            "title": "US inflation data shows record cell phone price jump, boosts core CPI",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-11T12:54:52Z",
+            "title": "Global bond selloff sends 10-year treasury yields to cusp of 5%",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-11T13:13:04Z",
             "sentiment": "Positive",
-            "compound": 0.318
+            "compound": 0.202
           },
           {
-            "title": "Consumer prices rose 0.4% in August, as expected; core inflation was higher than estimated",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T12:54:44Z",
+            "title": "Fed rate hike odds surge to 90% on monthly jump in core prices",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-11T13:12:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "MPC will reassess growth-inflation dynamics at next meeting: RBI Governor",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-11T13:09:46Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.03,
-  "trade_probability": 40.42,
+  "confirmation_score": 34.58,
+  "trade_probability": 40.75,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
