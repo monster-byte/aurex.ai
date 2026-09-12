@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T09:45:52.753069+00:00",
+  "generated_at": "2026-09-12T10:01:20.606019+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.46,
+      "score": 53.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
-        "articles_analyzed": 24,
+        "avg_compound": 0.061,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Treasury Yields Pause After Sharp Sell-Off As Oil Tops $100",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T09:37:16Z",
+            "title": "Osama Bin Laden Won",
+            "source": "The Intercept",
+            "publishedAt": "2026-09-11T10:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.625
+            "compound": 0.572
           },
           {
-            "title": "Global Market: European stocks gain ahead of key US inflation data",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T09:36:58Z",
-            "sentiment": "Positive",
-            "compound": 0.527
+            "title": "Transcript: How to Stop Trumpism From Rising in Germany and Europe",
+            "source": "The New Republic",
+            "publishedAt": "2026-09-11T10:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.296
           },
           {
-            "title": "Rising Bond Yields Are Driving US Stocks Toward Correction Territory: Markets Pulse",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-11T09:31:00Z",
+            "title": "Accelevate Solutions and Brand Engagement Network Launch AI-Powered Passenger Engagement Platform for LAX Off-Airport Shuttle Providers",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T10:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.772
+          },
+          {
+            "title": "A New Study Suggests That Robots Aren’t Taking Your Job Anytime Soon",
+            "source": "The New Republic",
+            "publishedAt": "2026-09-11T09:59:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US diesel prices soar past $6 a gallon, deepening strain for hauling everyday goods",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-11T09:25:19Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "European stocks rise but head for sharp weekly declines",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T09:24:18Z",
+            "title": "US diesel prices soar past $6 a gallon",
+            "source": "New York Post",
+            "publishedAt": "2026-09-11T09:51:51Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "August inflation report could set the path for interest rates, affordability",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T09:22:31Z",
-            "sentiment": "Positive",
-            "compound": 0.459
+            "title": "Trump’s latest affordability plan comes with a trillion-dollar catch",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-11T09:50:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.45,
-  "trade_probability": 40.67,
+  "confirmation_score": 34.61,
+  "trade_probability": 40.77,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
