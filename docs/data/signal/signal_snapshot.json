@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:15:50.466350+00:00",
+  "generated_at": "2026-09-12T10:31:04.685869+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.91,
+      "score": 49.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.058,
-        "articles_analyzed": 23,
+        "avg_compound": -0.012,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "BNP Paribas economist suggests US may need three Fed rate hikes",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-11T10:14:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Reproducible Builds: Reproducible Builds in August 2026",
-            "source": "Reproducible-builds.org",
-            "publishedAt": "2026-09-11T10:12:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Brent Oil Trades Near $107 as Houthi-Saudi Fighting Escalates - Bloomberg.com",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-11T10:12:35Z",
+            "title": "Taking Stock: Nifty at 23,400, Sensex down 121 pts after sharp recovery; metal, realty worst hit",
+            "source": "Moneycontrol",
+            "publishedAt": "2026-09-11T10:26:51Z",
             "sentiment": "Negative",
-            "compound": -0.361
+            "compound": -0.34
           },
           {
-            "title": "India FX deposits to help earn more revenue: RBI Governor Sanjay Malhotra",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T10:12:11Z",
+            "title": "Households saved nearly €1 in €5 of disposable income",
+            "source": "RTE",
+            "publishedAt": "2026-09-11T10:24:43Z",
             "sentiment": "Positive",
-            "compound": 0.402
+            "compound": 0.421
           },
           {
-            "title": "Aswath Damodaran calls Fed rate debate pointless, says stock market adapts quickly to higher rates",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T10:10:38Z",
+            "title": "Stock Market Today (Sept. 11, 2026): Nasdaq futures edge higher ahead of key inflation report",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T10:22:57Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "China’s young investors embrace risk. So why are their portfolios so safe?",
+            "title": "The Corporate Name Game Could Cost You",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T10:07:40Z",
+            "publishedAt": "2026-09-11T10:22:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "BNP Paribas economist calls for three Fed rate hikes as inflation refuses to cool",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-11T10:19:14Z",
             "sentiment": "Positive",
-            "compound": 0.605
+            "compound": 0.318
+          },
+          {
+            "title": "What if the Assumptions Embedded in the Oil Curve Are Wrong?",
+            "source": "Rigzone",
+            "publishedAt": "2026-09-11T10:19:14Z",
+            "sentiment": "Negative",
+            "compound": -0.477
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.59,
-  "trade_probability": 40.75,
+  "confirmation_score": 34.24,
+  "trade_probability": 40.54,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
