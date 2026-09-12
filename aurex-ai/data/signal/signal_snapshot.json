@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T06:31:06.466209+00:00",
+  "generated_at": "2026-09-12T06:45:50.113643+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.58,
+      "score": 45.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.028,
+        "avg_compound": -0.098,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "U.S. Diesel Prices Top $6 a Gallon for First Time Ever",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-09-11T06:30:00Z",
+            "title": "US home sales weaken to slowest pace in more than a year as mortgage rates, home prices climb",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-11T06:42:53Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "SML Mahindra expects margin recovery by Q4FY27, plans electric bus launch",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-11T06:42:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "CCOI Investors Have Opportunity to Lead Cogent Communications Holdings, Inc. Securities Fraud Lawsuit with SBS Law",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T06:40:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "Trump wants to send Americans money. Congress and economists don't seem thrilled with the idea",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-11T06:39:26Z",
+            "sentiment": "Negative",
+            "compound": -0.341
+          },
+          {
+            "title": "Markets today: Wall Street falls as oil hits highest since May, ASX set to slump",
+            "source": "The Sydney Morning Herald",
+            "publishedAt": "2026-09-11T06:37:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "High Treasury yields aren't breaking the stock market yet, economists say",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-11T06:34:57Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Supplyco advances Keralam’s SDG goals through affordable food, farmer support: Study",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-11T06:27:01Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Watch: Fed up over poor network, villagers tie technician with mobile tower",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T06:27:00Z",
-            "sentiment": "Negative",
-            "compound": -0.477
-          },
-          {
-            "title": "‘Rs 10 per student’: 2 Odisha auditors held with Rs 14.38 lakh ‘unaccounted’ cash",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T06:25:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wall Street wary of sustained Fed rate hikes impacting market rally",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-11T06:25:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "After 9/11, Gander sheltered 7,000 Americans as 38 planes landed after attack",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T06:24:47Z",
-            "sentiment": "Negative",
-            "compound": -0.477
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.16,
-  "trade_probability": 40.5,
+  "confirmation_score": 33.81,
+  "trade_probability": 40.29,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
