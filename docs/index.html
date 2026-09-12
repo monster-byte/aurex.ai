@@ -1,4 +1,494 @@
-document.getElementById('nq-main-price').innerText = data.nqPrice;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nascope - AI-Powered Trading Intelligence</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Google Font (Inter) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body class="text-slate-800 p-4 md:p-6 min-h-screen">
+
+    <!-- Header -->
+    <header class="flex flex-col md:flex-row md:items-center justify-between pb-6 border-b border-slate-200 mb-6 gap-4">
+        <div class="flex items-center gap-3">
+            <div class="bg-blue-600 text-white p-2.5 rounded-2xl flex items-center justify-center font-bold text-2xl w-12 h-12 shadow-md shadow-blue-500/20">
+                <i>N</i>
+            </div>
+            <div>
+                <h1 class="text-2xl font-bold tracking-tight text-slate-900">nascope</h1>
+                <p class="text-xs text-slate-500 font-medium">Smarter Analysis. Better Decisions.</p>
+            </div>
+        </div>
+
+        <div class="flex items-center gap-8">
+            <div class="hidden lg:flex items-center gap-6 text-xs font-semibold text-slate-500">
+                <div class="flex items-center gap-1 text-blue-600 font-bold bg-blue-50 px-3 py-1.5 rounded-lg">
+                    <span>AI-Powered Trading Intelligence</span>
+                    <i data-lucide="chevron-down" class="w-4 h-4"></i>
+                </div>
+                <span class="hover:text-slate-800 cursor-pointer">Market Analysis</span>
+                <span class="text-slate-300">•</span>
+                <span class="hover:text-slate-800 cursor-pointer">Risk Management</span>
+                <span class="text-slate-300">•</span>
+                <span class="hover:text-slate-800 cursor-pointer">Real-Time Insights</span>
+            </div>
+            
+            <div class="text-right border-l border-slate-200 pl-6 hidden sm:block">
+                <div id="live-date" class="text-xs font-semibold text-slate-700">-- --, ----</div>
+                <div class="text-xs text-slate-500 font-mono"><span id="live-clock">00:00:00</span> <span class="text-[10px] text-slate-400">(UTC)</span></div>
+                <div class="flex items-center justify-end gap-1.5 mt-0.5">
+                    <span id="market-status-dot" class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                    <span id="market-status-text" class="text-[11px] font-medium text-emerald-600">Market Open</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Top Ticker Bar -->
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-6">
+        <!-- NQ -->
+        <div class="bg-white p-3.5 rounded-xl border border-slate-200/80 shadow-sm flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+                <div class="w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-xs flex items-center justify-center">NQ</div>
+                <div>
+                    <div class="text-xs font-bold text-slate-800">NASDAQ 100</div>
+                    <div id="ticker-nq-price" class="text-sm font-semibold">--.--</div>
+                </div>
+            </div>
+            <div class="text-right">
+                <span id="ticker-nq-change" class="text-xs font-semibold text-emerald-500 bg-emerald-50 px-1.5 py-0.5 rounded">+0.00%</span>
+            </div>
+        </div>
+
+        <!-- AAPL -->
+        <div class="bg-white p-3.5 rounded-xl border border-slate-200/80 shadow-sm flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+                <div class="w-8 h-8 rounded-full bg-slate-100 text-slate-800 font-bold text-xs flex items-center justify-center">
+                    <i data-lucide="apple" class="w-4 h-4"></i>
+                </div>
+                <div>
+                    <div class="text-xs font-bold text-slate-800">AAPL</div>
+                    <div id="ticker-aapl-price" class="text-sm font-semibold">--.--</div>
+                </div>
+            </div>
+            <div class="text-right">
+                <span id="ticker-aapl-change" class="text-xs font-semibold text-emerald-500 bg-emerald-50 px-1.5 py-0.5 rounded">+0.00%</span>
+            </div>
+        </div>
+
+        <!-- MSFT -->
+        <div class="bg-white p-3.5 rounded-xl border border-slate-200/80 shadow-sm flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+                <div class="w-8 h-8 rounded-full bg-slate-100 text-slate-800 font-bold text-xs flex items-center justify-center">
+                    <i data-lucide="layout-grid" class="w-4 h-4 text-blue-500"></i>
+                </div>
+                <div>
+                    <div class="text-xs font-bold text-slate-800">MSFT</div>
+                    <div id="ticker-msft-price" class="text-sm font-semibold">--.--</div>
+                </div>
+            </div>
+            <div class="text-right">
+                <span id="ticker-msft-change" class="text-xs font-semibold text-emerald-500 bg-emerald-50 px-1.5 py-0.5 rounded">+0.00%</span>
+            </div>
+        </div>
+
+        <!-- NVDA -->
+        <div class="bg-white p-3.5 rounded-xl border border-slate-200/80 shadow-sm flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+                <div class="w-8 h-8 rounded-full bg-slate-100 font-bold text-xs flex items-center justify-center">
+                    <i data-lucide="cpu" class="w-4 h-4 text-emerald-600"></i>
+                </div>
+                <div>
+                    <div class="text-xs font-bold text-slate-800">NVDA</div>
+                    <div id="ticker-nvda-price" class="text-sm font-semibold">--.--</div>
+                </div>
+            </div>
+            <div class="text-right">
+                <span id="ticker-nvda-change" class="text-xs font-semibold text-emerald-500 bg-emerald-50 px-1.5 py-0.5 rounded">+0.00%</span>
+            </div>
+        </div>
+
+        <!-- VXN -->
+        <div class="bg-white p-3.5 rounded-xl border border-slate-200/80 shadow-sm flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+                <div class="w-8 h-8 rounded-full bg-slate-800 text-white font-bold text-xs flex items-center justify-center">VXN</div>
+                <div>
+                    <div class="text-xs font-bold text-slate-800">VXN</div>
+                    <div id="ticker-vxn-price" class="text-sm font-semibold">--.--</div>
+                </div>
+            </div>
+            <div class="text-right">
+                <span id="ticker-vxn-change" class="text-xs font-semibold text-emerald-500 bg-emerald-50 px-1.5 py-0.5 rounded">+0.00%</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Area Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+        <!-- Left Column: Chart & Bottom Details -->
+        <div class="lg:col-span-2 space-y-6">
+            
+            <!-- Main Chart Card -->
+            <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm">
+                <div class="flex flex-wrap items-center justify-between gap-4 mb-4">
+                    <div class="flex items-center gap-3">
+                        <h2 class="text-lg font-bold text-slate-900">NASDAQ 100 (NQ)</h2>
+                        <div class="bg-slate-100 text-slate-600 px-2.5 py-1 rounded-md text-xs font-semibold flex items-center gap-1 cursor-pointer">
+                            1m <i data-lucide="chevron-down" class="w-3 h-3"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center gap-2">
+                        <button class="p-1.5 rounded-lg bg-blue-50 text-blue-600 hover:bg-blue-100"><i data-lucide="trending-up" class="w-4 h-4"></i></button>
+                        <button class="p-1.5 rounded-lg text-slate-400 hover:bg-slate-100"><i data-lucide="activity" class="w-4 h-4"></i></button>
+                        <button class="p-1.5 rounded-lg text-slate-400 hover:bg-slate-100"><i data-lucide="settings" class="w-4 h-4"></i></button>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <span id="nq-main-price" class="text-2xl font-bold text-slate-900">20,153.42</span>
+                    <span id="nq-main-change" class="text-sm font-semibold text-emerald-500 ml-2">+248.67 (+1.24%)</span>
+                </div>
+
+                <!-- Chart Canvas -->
+                <div class="h-[360px] w-full relative">
+                    <canvas id="mainChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Bottom 3 Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                
+                <!-- Key Engines -->
+                <div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xs font-bold text-slate-700 mb-3">Key Engines (Nasdaq)</h3>
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between text-xs">
+                                <div class="flex items-center gap-2">
+                                    <i data-lucide="apple" class="w-3.5 h-3.5"></i>
+                                    <span class="font-semibold">AAPL</span>
+                                </div>
+                                <div class="text-right">
+                                    <div id="engine-aapl-price" class="font-semibold">227.48</div>
+                                    <div id="engine-aapl-change" class="text-[10px] text-emerald-500 font-medium">+1.32%</div>
+                                </div>
+                                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i>
+                            </div>
+
+                            <div class="flex items-center justify-between text-xs">
+                                <div class="flex items-center gap-2">
+                                    <i data-lucide="layout-grid" class="w-3.5 h-3.5 text-blue-500"></i>
+                                    <span class="font-semibold">MSFT</span>
+                                </div>
+                                <div class="text-right">
+                                    <div id="engine-msft-price" class="font-semibold">412.76</div>
+                                    <div id="engine-msft-change" class="text-[10px] text-emerald-500 font-medium">+0.98%</div>
+                                </div>
+                                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i>
+                            </div>
+
+                            <div class="flex items-center justify-between text-xs">
+                                <div class="flex items-center gap-2">
+                                    <i data-lucide="cpu" class="w-3.5 h-3.5 text-emerald-600"></i>
+                                    <span class="font-semibold">NVDA</span>
+                                </div>
+                                <div class="text-right">
+                                    <div id="engine-nvda-price" class="font-semibold">176.32</div>
+                                    <div id="engine-nvda-change" class="text-[10px] text-emerald-500 font-medium">+2.41%</div>
+                                </div>
+                                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i>
+                            </div>
+
+                            <div class="flex items-center justify-between text-xs">
+                                <div class="flex items-center gap-2">
+                                    <span class="font-bold text-[10px] text-blue-600">G</span>
+                                    <span class="font-semibold">GOOGL</span>
+                                </div>
+                                <div class="text-right">
+                                    <div id="engine-googl-price" class="font-semibold">248.17</div>
+                                    <div id="engine-googl-change" class="text-[10px] text-emerald-500 font-medium">+1.12%</div>
+                                </div>
+                                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-[10px] text-slate-400 mt-4">All major Nasdaq leaders are aligned with the index.</p>
+                </div>
+
+                <!-- News & Analysis -->
+                <div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xs font-bold text-slate-700 mb-3">Economic News & Analysis</h3>
+                        <div id="news-container" class="space-y-3">
+                            <div class="flex gap-2 text-[11px]">
+                                <span class="text-slate-400 font-mono">14:12</span>
+                                <div>
+                                    <p class="font-semibold text-slate-800 leading-tight">US CPI comes in line with expectations</p>
+                                    <p class="text-[10px] text-slate-400">Markets remain risk-on.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="text-[11px] font-semibold text-blue-600 flex items-center gap-1 mt-3 hover:underline">
+                        View all news <i data-lucide="arrow-right" class="w-3 h-3"></i>
+                    </a>
+                </div>
+
+                <!-- Risk Management -->
+                <div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-1.5 mb-3">
+                            <i data-lucide="shield-check" class="w-4 h-4 text-blue-600"></i>
+                            <h3 class="text-xs font-bold text-slate-700">Risk Management</h3>
+                        </div>
+                        
+                        <div class="space-y-3 text-xs">
+                            <div>
+                                <div class="flex justify-between text-[11px] mb-1">
+                                    <span class="text-slate-500">Position Size</span>
+                                    <span id="risk-pos-size" class="font-semibold">2.5%</span>
+                                </div>
+                                <div class="w-full bg-slate-100 h-1.5 rounded-full">
+                                    <div id="risk-pos-bar" class="bg-emerald-500 h-1.5 rounded-full" style="width: 25%"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-between text-[11px] mb-1">
+                                    <span class="text-slate-500">Account Risk</span>
+                                    <span id="risk-acc-risk" class="font-semibold">0.8%</span>
+                                </div>
+                                <div class="w-full bg-slate-100 h-1.5 rounded-full">
+                                    <div id="risk-acc-bar" class="bg-emerald-500 h-1.5 rounded-full" style="width: 15%"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-between text-[11px] mb-1">
+                                    <span class="text-slate-500">Max Drawdown (Daily)</span>
+                                    <span id="risk-max-dd" class="font-semibold">1.2%</span>
+                                </div>
+                                <div class="w-full bg-slate-100 h-1.5 rounded-full">
+                                    <div id="risk-dd-bar" class="bg-blue-500 h-1.5 rounded-full" style="width: 30%"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-between text-[11px] mb-1">
+                                    <span class="text-slate-500">VaR (1D)</span>
+                                    <span id="risk-var" class="font-semibold">1.6%</span>
+                                </div>
+                                <div class="w-full bg-slate-100 h-1.5 rounded-full">
+                                    <div id="risk-var-bar" class="bg-emerald-500 h-1.5 rounded-full" style="width: 40%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Right Column: AI Signals & Sentiment -->
+        <div class="space-y-6">
+
+            <!-- Nascope Decision Card -->
+            <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-base font-bold text-slate-900">Nascope Decision</h3>
+                    <span id="signal-badge" class="bg-emerald-100 text-emerald-700 text-xs font-bold px-2.5 py-0.5 rounded-full">GO</span>
+                </div>
+                
+                <h4 id="signal-title" class="text-sm font-bold text-slate-800">High Probability Trade</h4>
+                <p id="signal-desc" class="text-xs text-slate-500 mb-4">All key engines are aligned. Market conditions are favorable.</p>
+
+                <!-- Buy Action Box -->
+                <div class="bg-slate-50 border border-slate-200/60 rounded-xl p-4 mb-4">
+                    <div class="flex items-center justify-between mb-3">
+                        <div class="flex items-center gap-2">
+                            <div id="action-icon-bg" class="w-8 h-8 bg-emerald-500 text-white rounded-full flex items-center justify-center">
+                                <i id="action-icon" data-lucide="arrow-up" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <span id="action-type" class="font-bold text-emerald-600 text-lg leading-none">BUY</span>
+                                <div class="text-xs text-slate-500">Nasdaq 100 (NQ)</div>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <div id="action-price" class="text-base font-bold text-slate-900">20,153.42</div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-3 gap-2 text-center pt-2 border-t border-slate-200/60 text-xs">
+                        <div>
+                            <div class="text-[10px] text-slate-400">Entry Zone</div>
+                            <div id="action-entry" class="font-semibold text-slate-700">20,130 – 20,180</div>
+                        </div>
+                        <div>
+                            <div class="text-[10px] text-slate-400">Target 1</div>
+                            <div id="action-tp1" class="font-semibold text-slate-700">20,320</div>
+                        </div>
+                        <div>
+                            <div class="text-[10px] text-slate-400">Target 2</div>
+                            <div id="action-tp2" class="font-semibold text-slate-700">20,480</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Win Rate / Risk Reward -->
+                <div class="grid grid-cols-2 gap-4 mb-4 text-xs">
+                    <div>
+                        <div class="text-slate-400 text-[11px] mb-1">Win Rate (AI)</div>
+                        <div id="win-rate-text" class="text-lg font-bold text-slate-900 mb-1">72%</div>
+                        <div class="w-full bg-slate-100 h-2 rounded-full">
+                            <div id="win-rate-bar" class="bg-emerald-500 h-2 rounded-full" style="width: 72%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="text-slate-400 text-[11px] mb-1">Risk / Reward</div>
+                        <div id="risk-reward-text" class="text-lg font-bold text-slate-900">1 : 2.1</div>
+                    </div>
+                </div>
+
+                <!-- Execute Button -->
+                <button class="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-4 rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/20 transition-all">
+                    <i data-lucide="play" class="w-4 h-4 fill-white"></i>
+                    Execute / Monitor
+                </button>
+            </div>
+
+            <!-- Trade Efficiency Gauge -->
+            <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm">
+                <h3 class="text-xs font-bold text-slate-800 mb-4">Trade Efficiency</h3>
+                <div class="flex items-center justify-between">
+                    <div class="w-28 h-28 relative flex items-center justify-center">
+                        <canvas id="gaugeChart"></canvas>
+                        <div class="absolute text-center">
+                            <span id="efficiency-score" class="text-lg font-bold text-slate-900">82%</span>
+                            <div class="text-[9px] text-slate-400">Signal Quality</div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2 text-xs">
+                        <div class="flex items-center gap-2">
+                            <i data-lucide="check-circle" class="w-4 h-4 text-emerald-500"></i>
+                            <span class="text-slate-600">Trend Alignment</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i data-lucide="check-circle" class="w-4 h-4 text-emerald-500"></i>
+                            <span class="text-slate-600">Volume Confirmation</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i data-lucide="check-circle" class="w-4 h-4 text-emerald-500"></i>
+                            <span class="text-slate-600">Momentum</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i data-lucide="check-circle" class="w-4 h-4 text-emerald-500"></i>
+                            <span class="text-slate-600">Risk Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Market Sentiment & Overview -->
+            <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm space-y-5">
+                <div>
+                    <h3 class="text-xs font-bold text-slate-800 mb-3">Market Sentiment</h3>
+                    <div class="w-full h-2.5 bg-slate-100 rounded-full flex overflow-hidden mb-2">
+                        <div id="sentiment-bullish-bar" class="bg-emerald-500 h-full" style="width: 68%"></div>
+                        <div id="sentiment-neutral-bar" class="bg-slate-300 h-full" style="width: 22%"></div>
+                        <div id="sentiment-bearish-bar" class="bg-rose-500 h-full" style="width: 10%"></div>
+                    </div>
+                    <div class="flex justify-between text-[11px]">
+                        <span id="sentiment-bullish-text" class="text-emerald-600 font-semibold">Bullish 68%</span>
+                        <span id="sentiment-neutral-text" class="text-slate-500 font-semibold">Neutral 22%</span>
+                        <span id="sentiment-bearish-text" class="text-rose-500 font-semibold">Bearish 10%</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        lucide.createIcons();
+
+        // UTC Live Clock
+        function updateClock() {
+            const now = new Date();
+            document.getElementById('live-clock').innerText = now.toUTCString().slice(17, 25);
+            document.getElementById('live-date').innerText = now.toUTCString().slice(5, 16);
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        // Main Chart Setup
+        const ctx = document.getElementById('mainChart').getContext('2d');
+        const gradient = ctx.createLinearGradient(0, 0, 0, 300);
+        gradient.addColorStop(0, 'rgba(16, 185, 129, 0.15)');
+        gradient.addColorStop(1, 'rgba(16, 185, 129, 0)');
+
+        const mainChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['09:00', '11:00', '13:00', '15:00', '17:00', '19:00', '21:00'],
+                datasets: [{
+                    data: [19300, 19450, 19400, 19600, 19550, 19700, 20153],
+                    borderColor: '#10b981',
+                    borderWidth: 2,
+                    fill: true,
+                    backgroundColor: gradient,
+                    tension: 0.3,
+                    pointRadius: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { grid: { display: false } },
+                    y: { position: 'right', grid: { color: '#f1f5f9' } }
+                }
+            }
+        });
+
+        // Gauge Chart Setup
+        const gaugeCtx = document.getElementById('gaugeChart').getContext('2d');
+        const gaugeChart = new Chart(gaugeCtx, {
+            type: 'doughnut',
+            data: {
+                datasets: [{
+                    data: [82, 18],
+                    backgroundColor: ['#10b981', '#f1f5f9'],
+                    borderWidth: 0
+                }]
+            },
+            options: { responsive: true, cutout: '80%', plugins: { tooltip: { enabled: false } } }
+        });
+
+        // Global API Functions for dynamic integration
+        window.updateNascopeData = function(data) {
+            if (data.nqPrice) {
+                document.getElementById('ticker-nq-price').innerText = data.nqPrice;
+                document.getElementById('nq-main-price').innerText = data.nqPrice;
             }
             if (data.nqChange) {
                 document.getElementById('ticker-nq-change').innerText = data.nqChange;
