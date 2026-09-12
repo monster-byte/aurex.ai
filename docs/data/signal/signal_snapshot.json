@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T04:31:07.986279+00:00",
+  "generated_at": "2026-09-12T04:45:49.851272+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.94,
+      "score": 46.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.059,
+        "avg_compound": -0.071,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Rupee falls 27 paise to 95.79 against US dollar in early trade",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-11T04:28:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Rocket Lab Successfully Launches 16th Electron Mission Of The Year, Solidifies Status as World’s Leading Small Launch Provider",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-11T04:44:18Z",
+            "sentiment": "Positive",
+            "compound": 0.494
           },
           {
-            "title": "Global Market: Japan's Nikkei falls 3% as oil surge, US rate hike fears weigh",
+            "title": "US Market: Rising US debt, inflation keep pressure on long-term Treasury yields",
             "source": "The Times of India",
-            "publishedAt": "2026-09-11T04:24:33Z",
+            "publishedAt": "2026-09-11T04:43:58Z",
             "sentiment": "Negative",
-            "compound": -0.421
+            "compound": -0.44
           },
           {
-            "title": "US rate rise fears ripple through global bond markets",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T04:21:35Z",
+            "title": "Cement shares under pressure; ACC, Ambuja, Shree Cement crack to 52-wk lows",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-11T04:40:44Z",
             "sentiment": "Negative",
-            "compound": -0.421
+            "compound": -0.202
           },
           {
-            "title": "Nifty trade below 23,300 in early trade; breadth weak",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T04:20:25Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
+            "title": "Rupee tumbles 27 paise against US dollar as crude prices hold firm above $108 per barrel",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T04:40:23Z",
+            "sentiment": "Negative",
+            "compound": -0.572
           },
           {
-            "title": "Foreign investors may rejig allocation to Indian financials: Jefferies",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T04:12:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Costly war far from over even as US loosens Iran's grip on Strait of Hormuz",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T04:37:20Z",
+            "sentiment": "Negative",
+            "compound": -0.649
           },
           {
-            "title": "Market crash explained: Sensex dives 700 pts intraday; Nifty below 23,250",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T04:11:12Z",
+            "title": "US Market: Wall Street brokerages see S&P 500 extending rally in 2026 on AI, earnings",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T04:36:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 34.59,
-  "trade_probability": 40.75,
+  "confirmation_score": 33.95,
+  "trade_probability": 40.37,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
