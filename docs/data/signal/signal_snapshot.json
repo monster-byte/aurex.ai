@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T13:45:51.551691+00:00",
+  "generated_at": "2026-09-12T14:01:25.519867+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.4,
+      "score": 53.31,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.048,
+        "avg_compound": 0.066,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "People Are Using AI Agents to Manage Their Investments ‘Without Lifting a Finger’: Is it Safe?",
-            "source": "Entrepreneur",
-            "publishedAt": "2026-09-11T13:45:00Z",
-            "sentiment": "Positive",
-            "compound": 0.44
+            "title": "AI’s existential crisis explodes but AI companies plunge ahead anyway",
+            "source": "SiliconANGLE News",
+            "publishedAt": "2026-09-11T14:00:28Z",
+            "sentiment": "Negative",
+            "compound": -0.372
           },
           {
-            "title": "SpaceX CFO Touts New $13 Billion AI Deal, Upcoming Starship Milestones",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-11T13:41:44Z",
+            "title": "Therapeutic plasma exchange across multiple organ systems in an Egyptian tertiary center: A seven-year real-world cohort study",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-11T14:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Functional acuity score as a surrogate of reading performance in low vision: A Japanese disability evaluation cohort study",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-11T14:00:00Z",
             "sentiment": "Neutral",
             "compound": -0.026
           },
           {
-            "title": "US inflation holds steady as diesel prices pass $6 a gallon",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T13:40:31Z",
+            "title": "Body mass index modifies the association between occupational noise exposure duration and ultrasound‑detected hepatic steatosis: A cross-sectional study among male factory workers",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-11T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "RBI to drain ₹1 trillion through bond sales to tackle surplus cash",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T13:40:29Z",
+            "title": "Uber Freight warns tight capacity could fuel Q4 freight rate surge",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-11T14:00:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.172
           },
           {
-            "title": "US stocks today: US stocks open higher after August inflation report",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T13:39:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Analysis: Hot CPI puts Kevin Warsh’s Fed credibility on the line before rate decision",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T13:37:56Z",
+            "title": "MongoDB, Inc. to Host Investor Day in New York City",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 34.54,
-  "trade_probability": 40.72,
+  "confirmation_score": 34.63,
+  "trade_probability": 40.78,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
