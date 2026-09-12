@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T08:31:07.791326+00:00",
+  "generated_at": "2026-09-12T08:45:48.379378+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.06,
+      "score": 45.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.001,
+        "avg_compound": -0.081,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Market inflation expectations edge higher",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-09-11T08:26:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Steamhouse IPO Day 3: Subscription hit 8.36x, GMP signals 28% listing gain",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T08:45:40Z",
+            "sentiment": "Positive",
+            "compound": 0.527
           },
           {
-            "title": "Gulf States Mull Hormuz Talks with Iran",
-            "source": "Rigzone",
-            "publishedAt": "2026-09-11T08:26:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock futures edge higher as key consumer inflation report looms ahead: Live updates",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T08:22:23Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "\"Old Economy Is Taking Revenge\": Jeff Currie Warns Fuel Squeeze Is Driving Structural Inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T08:22:17Z",
-            "sentiment": "Negative",
-            "compound": -0.586
-          },
-          {
-            "title": "Stock market today: Dow, S&P 500, Nasdaq rise as CPI remains sticky",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-11T08:22:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "RXT Investors Have Opportunity to Lead Rackspace Technology, Inc. Securities Fraud Lawsuit with SBS Law",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T08:22:00Z",
+            "title": "Global Market: Eurozone bonds slide as energy prices stoke inflation fears",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T08:45:04Z",
             "sentiment": "Neutral",
             "compound": -0.178
+          },
+          {
+            "title": "BofA Strategists Warn of Stock Volatility as Outflows Hit US",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-11T08:45:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Stock market today: Dow, S&P 500, Nasdaq head for losing week with key inflation report on deck",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T08:38:31Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "8th Pay Commission news: Pensioners demand 67% of last pay drawn, Rs 69,000 minimum pay, 3.83 fitment factor",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T08:38:26Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "BBC Stokes Anger By Curbing Cab Rides For Night Shift Workers… As Senior Managers Spend $17,000 On Taxis In Three Months",
+            "source": "Deadline",
+            "publishedAt": "2026-09-11T08:37:55Z",
+            "sentiment": "Negative",
+            "compound": -0.572
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.31,
-  "trade_probability": 40.59,
+  "confirmation_score": 33.9,
+  "trade_probability": 40.34,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
