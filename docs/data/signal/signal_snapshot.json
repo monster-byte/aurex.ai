@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T05:31:10.326925+00:00",
+  "generated_at": "2026-09-12T05:45:49.759540+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.69,
+      "score": 45.85,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.066,
+        "avg_compound": -0.083,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Global bond sell-off resumes as surging oil prices stoke fears about inflation - The Guardian",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-11T05:32:46Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
           {
             "title": "DeSantis Slams Trump's $5K Checks as Inflation Fuel",
             "source": "Newser",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-11T05:17:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Why are European banks moving gold out of United States?",
-            "source": "DW (English)",
-            "publishedAt": "2026-09-11T05:17:00Z",
-            "sentiment": "Positive",
-            "compound": 0.421
           }
         ]
       }
     }
   },
-  "confirmation_score": 33.97,
-  "trade_probability": 40.38,
+  "confirmation_score": 33.89,
+  "trade_probability": 40.33,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
