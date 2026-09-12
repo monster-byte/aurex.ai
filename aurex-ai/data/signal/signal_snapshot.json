@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T14:31:04.351578+00:00",
+  "generated_at": "2026-09-12T14:45:49.918809+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.53,
+      "score": 55.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.009,
+        "avg_compound": 0.117,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "U.S. core CPI tops forecasts, bolstering case for rate hike",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-11T14:30:49Z",
+            "title": "Reserve Bank of India drains 1 trillion rupees through bond sales",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-11T14:45:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "ECB Puts Europe Back on the Rate-Hike Treadmill",
+            "source": "Moby.co",
+            "publishedAt": "2026-09-11T14:45:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fed rate hike odds surge to 90% after core inflation surprises to the upside",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-11T14:43:48Z",
             "sentiment": "Positive",
-            "compound": 0.511
+            "compound": 0.226
           },
           {
-            "title": "The hard physics and complex economics of AI’s insatiable hunger for power",
-            "source": "SiliconANGLE News",
-            "publishedAt": "2026-09-11T14:30:29Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Treasury buys $5.2 billion of bonds as Bitcoin ETF flows stay negative",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-11T14:30:12Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Alphabet vs. Meta: One Magnificent Seven Stock Is the Better Buy",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-11T14:30:03Z",
-            "sentiment": "Positive",
-            "compound": 0.778
-          },
-          {
-            "title": "Stock Market Leaders Often Shine, Helped By This Sign Of Liquidity Strength",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-11T14:28:59Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Consumer outlook plunges in September as inflation outlook worsens",
+            "title": "Here’s the inflation breakdown for August 2026 — in one chart",
             "source": "CNBC",
-            "publishedAt": "2026-09-11T14:28:54Z",
-            "sentiment": "Negative",
-            "compound": -0.477
+            "publishedAt": "2026-09-11T14:41:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gold Miner's Luster Lures Funds; Stock Trades Around Buy Point",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T14:41:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bitmine Surges 8% on Ethereum Strength After Cantor Fitzgerald Doubles Its Target, SharpLink Advances 9%, Strategy Gains 4%",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-11T14:41:17Z",
+            "sentiment": "Positive",
+            "compound": 0.681
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.25,
-  "trade_probability": 40.55,
+  "confirmation_score": 34.89,
+  "trade_probability": 40.93,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
