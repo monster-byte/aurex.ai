@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T16:45:50.447591+00:00",
+  "generated_at": "2026-09-12T17:01:18.089080+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.45,
+      "score": 55.01,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.011,
+        "avg_compound": 0.1,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "US consumer inflation rises in August, bolstering Fed rate hike bets",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T16:43:23Z",
+            "title": "Rosen Law Firm Encourages Elauwit Connection, Inc. Investors to Inquire About Securities Class Action Investigation - ELWT",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-11T17:01:00Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Nasdaq deepens Kraken ties with proposed $100 million Payward investment",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-11T17:00:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Kevin Mahn sees S&P 500 pullbacks as chances to stay invested",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T16:41:13Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Stock Market Today: Dow Rallies On Surprise Inflation Data; These Tech Names Lead This List (Live Coverage)",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T16:39:42Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "This Oil Stock Sails Near Entry, Profits Soar 452% As Strait of Hormuz Crisis Flares Up",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-11T16:39:42Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "CoinShares says latest CPI print offers no support for Bitcoin",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-11T16:39:17Z",
-            "sentiment": "Negative",
-            "compound": -0.309
-          },
-          {
-            "title": "Russia's inflation rises from 5.98% to 6.33% in August",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T16:39:12Z",
+            "title": "Prediction: Tesla’s Biggest Catalyst May Still Be Ahead",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-11T17:00:25Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Zep AI (YC W24) Is Hiring a Head of Forward Deployed Engineering",
+            "source": "Getzep.com",
+            "publishedAt": "2026-09-11T17:00:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Average Cost Of NFL Ticket, Beer, Hot Dog, Parking Nearly DOUBLES Over Past Decade...",
+            "source": "Studyfinds.com",
+            "publishedAt": "2026-09-11T17:00:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Strong Imports Push Port of Long Beach to Busiest August on Record",
+            "source": "gcaptain.com",
+            "publishedAt": "2026-09-11T17:00:05Z",
+            "sentiment": "Positive",
+            "compound": 0.511
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.25,
-  "trade_probability": 40.55,
+  "confirmation_score": 34.8,
+  "trade_probability": 40.88,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
