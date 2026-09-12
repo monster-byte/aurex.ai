@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T09:31:06.819347+00:00",
+  "generated_at": "2026-09-12T09:45:52.753069+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.06,
+      "score": 51.46,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.059,
-        "articles_analyzed": 25,
+        "avg_compound": 0.029,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Treasury Yields Pause After Sharp Sell-Off As Oil Tops $100",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T09:37:16Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Global Market: European stocks gain ahead of key US inflation data",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T09:36:58Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
           {
             "title": "Rising Bond Yields Are Driving US Stocks Toward Correction Territory: Markets Pulse",
             "source": "Yahoo Entertainment",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-11T09:22:31Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "Treasury yields steady as traders await consumer inflation data amid oil price pressure",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T09:22:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "FTSE 100 Rebounds 0.36% Friday, Snapping Five-Day Losing Streak As Oil Prices Weigh On Global Markets",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-11T09:17:15Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.01,
-  "trade_probability": 40.41,
+  "confirmation_score": 34.45,
+  "trade_probability": 40.67,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
