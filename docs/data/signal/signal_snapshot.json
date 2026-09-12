@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T18:15:59.110820+00:00",
+  "generated_at": "2026-09-12T18:31:05.673886+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.39,
+      "score": 45.11,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.032,
+        "avg_compound": -0.098,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "As China slows, global FMCG and consumer giants from L'Oreal to Nestle bet big on India",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T18:30:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gas Prices, Record Household Debt Strain U.S. Consumers",
+            "source": "WWD",
+            "publishedAt": "2026-09-11T18:24:19Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Debt settlement vs. debt consolidation: Which is right for you?",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-11T18:17:34Z",
+            "sentiment": "Negative",
+            "compound": -0.612
+          },
+          {
+            "title": "BJP and Congress at loggerheads over hosting of Brics 2026 summit",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-11T18:16:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Choose One of These 3 College Majors If You Want to Avoid Being Replaced By AI, According to Experts",
             "source": "Entrepreneur",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-11T18:13:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "1 Thing I Wish I'd Known About the Stock Market When I First Started Investing",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T18:12:52Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Trump’s ‘Golden Age’ confronts economic angst that threatens GOP",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T18:10:20Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "Sen. Jon Husted Receives Campaign Endorsement From…Steak ‘N Shake?",
-            "source": "Mediaite",
-            "publishedAt": "2026-09-11T18:05:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
-          },
-          {
-            "title": "UK Interest Rates Could Rise Four Times Over the Next Year",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-09-11T18:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.459
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.14,
-  "trade_probability": 40.48,
+  "confirmation_score": 33.81,
+  "trade_probability": 40.29,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
