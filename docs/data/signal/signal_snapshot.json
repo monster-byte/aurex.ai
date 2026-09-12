@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T18:31:05.673886+00:00",
+  "generated_at": "2026-09-12T18:45:49.825837+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.11,
+      "score": 45.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.098,
+        "avg_compound": -0.085,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The United States of Propaganda",
+            "source": "Foreign Policy",
+            "publishedAt": "2026-09-11T18:40:21Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Warner Bros’ Michael De Luca & Pamela Abdy On Gen-Z Resurge, Credibility With Filmmakers & Embracing The Unknown – TIFF",
+            "source": "Deadline",
+            "publishedAt": "2026-09-11T18:36:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Is Black Friday Losing its Glow?",
+            "source": "WWD",
+            "publishedAt": "2026-09-11T18:35:16Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Show HN: Mercator vs. UN's new Equal Earth map, synced side by side",
+            "source": "Newworldsize.com",
+            "publishedAt": "2026-09-11T18:34:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "As China slows, global FMCG and consumer giants from L'Oreal to Nestle bet big on India",
             "source": "The Times of India",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-11T18:24:19Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "Debt settlement vs. debt consolidation: Which is right for you?",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-11T18:17:34Z",
-            "sentiment": "Negative",
-            "compound": -0.612
-          },
-          {
-            "title": "BJP and Congress at loggerheads over hosting of Brics 2026 summit",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T18:16:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Choose One of These 3 College Majors If You Want to Avoid Being Replaced By AI, According to Experts",
-            "source": "Entrepreneur",
-            "publishedAt": "2026-09-11T18:14:05Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Options Greeks explained: A trader's guide to all five",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-11T18:13:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 33.81,
-  "trade_probability": 40.29,
+  "confirmation_score": 33.88,
+  "trade_probability": 40.33,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
