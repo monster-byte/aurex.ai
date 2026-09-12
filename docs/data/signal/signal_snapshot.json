@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T08:45:48.379378+00:00",
+  "generated_at": "2026-09-12T09:01:18.689748+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.95,
+      "score": 50.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.081,
-        "articles_analyzed": 25,
+        "avg_compound": 0.013,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Steamhouse IPO Day 3: Subscription hit 8.36x, GMP signals 28% listing gain",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T08:45:40Z",
+            "title": "Inflation heated up last month, boosting the case for a Fed rate hike | CNN Business",
+            "source": "CNN",
+            "publishedAt": "2026-09-11T09:00:29Z",
             "sentiment": "Positive",
-            "compound": 0.527
+            "compound": 0.34
           },
           {
-            "title": "Global Market: Eurozone bonds slide as energy prices stoke inflation fears",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T08:45:04Z",
+            "title": "Trump issues blunt midterm warning, Vance greeted with ‘48’ chants: Top takeaways from GOP convention",
+            "source": "Fox News",
+            "publishedAt": "2026-09-11T09:00:10Z",
             "sentiment": "Neutral",
-            "compound": -0.178
+            "compound": 0.128
           },
           {
-            "title": "BofA Strategists Warn of Stock Volatility as Outflows Hit US",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-11T08:45:00Z",
+            "title": "August inflation report could set the path for interest rates, affordability",
+            "source": "NBC News",
+            "publishedAt": "2026-09-11T09:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "The Cameras That Tell the Story of 9/11",
+            "source": "Thephoblographer.com",
+            "publishedAt": "2026-09-11T09:00:00Z",
             "sentiment": "Neutral",
-            "compound": -0.103
+            "compound": 0.0
           },
           {
-            "title": "Stock market today: Dow, S&P 500, Nasdaq head for losing week with key inflation report on deck",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T08:38:31Z",
+            "title": "These Michigan swing voters are bracing for higher prices from trade war with Canada",
+            "source": "NPR",
+            "publishedAt": "2026-09-11T09:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.382
+            "compound": -0.599
           },
           {
-            "title": "8th Pay Commission news: Pensioners demand 67% of last pay drawn, Rs 69,000 minimum pay, 3.83 fitment factor",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T08:38:26Z",
+            "title": "Trump Tailspins as His New Plot to Rig Midterms Is Mocked Even on Fox",
+            "source": "The New Republic",
+            "publishedAt": "2026-09-11T09:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "BBC Stokes Anger By Curbing Cab Rides For Night Shift Workers… As Senior Managers Spend $17,000 On Taxis In Three Months",
-            "source": "Deadline",
-            "publishedAt": "2026-09-11T08:37:55Z",
-            "sentiment": "Negative",
-            "compound": -0.572
+            "compound": -0.421
           }
         ]
       }
     }
   },
-  "confirmation_score": 33.9,
-  "trade_probability": 40.34,
+  "confirmation_score": 34.36,
+  "trade_probability": 40.62,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
