@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T12:45:50.191835+00:00",
+  "generated_at": "2026-09-12T13:01:20.568969+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.19,
+      "score": 47.3,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.036,
+        "avg_compound": -0.054,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "U.S. average diesel price passes $6 a gallon for the first time, GasBuddy says",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-11T12:45:09Z",
+            "title": "US consumer inflation picks up in August, up 3.4% YoY",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T12:57:58Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US inflation runs hotter than expected in August as core CPI beats forecasts",
+            "title": "US CPI data triggers volatile market reaction as yields surge and stocks rebound",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-11T12:44:50Z",
+            "publishedAt": "2026-09-11T12:57:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Rupee falls 1% in three days as crude, foreign outflows weigh on currency",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-11T12:43:03Z",
+            "title": "American consumers are getting zero relief from inflation as price increases just keep on rolling and gasoline becomes even more expensive",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-11T12:57:09Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Uber leaves two key African markets — and their drivers in despair",
+            "source": "DW (English)",
+            "publishedAt": "2026-09-11T12:57:00Z",
             "sentiment": "Negative",
-            "compound": -0.572
+            "compound": -0.318
           },
           {
-            "title": "US consumer inflation picks up in August",
-            "source": "RTE",
-            "publishedAt": "2026-09-11T12:42:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "US inflation data shows record cell phone price jump, boosts core CPI",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-11T12:54:52Z",
+            "sentiment": "Positive",
+            "compound": 0.318
           },
           {
-            "title": "Inflation rises 3.4% in August in last report before Fed’s interest-rate decision",
-            "source": "New York Post",
-            "publishedAt": "2026-09-11T12:42:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US consumer inflation picks up in August",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-11T12:41:18Z",
+            "title": "Consumer prices rose 0.4% in August, as expected; core inflation was higher than estimated",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T12:54:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -137,8 +137,8 @@
       }
     }
   },
-  "confirmation_score": 34.12,
-  "trade_probability": 40.47,
+  "confirmation_score": 34.03,
+  "trade_probability": 40.42,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
