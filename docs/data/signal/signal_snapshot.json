@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T08:05:10.784767+00:00",
+  "generated_at": "2026-09-12T08:15:55.404942+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,17 +84,45 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.65,
+      "score": 54.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.053,
-        "articles_analyzed": 24,
+        "avg_compound": 0.093,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Would a $20 minimum wage in Quebec actually be a 'big blow' to the economy?",
-            "source": "CBC News",
-            "publishedAt": "2026-09-11T08:00:00Z",
+            "title": "Global Market: Tencent-backed Enflame soars 200% in blockbuster Shanghai IPO debut",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-11T08:13:22Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "Uber exits Nigeria, Uganda: Why ride-hailing giant is pulling back from African markets | Explained",
+            "source": "Livemint",
+            "publishedAt": "2026-09-11T08:09:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Oil @$100 Not Automatically Bad for Stock Market",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T08:08:30Z",
+            "sentiment": "Positive",
+            "compound": 0.431
+          },
+          {
+            "title": "US diesel hits record $6 a gallon amid Iran supply shock",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-11T08:04:55Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Govt prepares food aid, rice subsidies to cope with dry season",
+            "source": "Antaranews.com",
+            "publishedAt": "2026-09-11T08:03:58Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-11T08:00:00Z",
             "sentiment": "Neutral",
             "compound": -0.128
-          },
-          {
-            "title": "「銀座マキシム・ド・パリ」幻の名品“苺のミルフィーユ”がクリスマスケーキで登場　ペストリーシェフ 佐藤が贈る新作2種を含む全5種を販売",
-            "source": "Prtimes.jp",
-            "publishedAt": "2026-09-11T08:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gold rate today (September 11, 2026): Check 24k, 22k, 20k, 18k gold jewellery prices from IBJA, Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers and Tanishq",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-11T07:54:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "TORM plc capital increase in connection with exercise of Restricted Share Units as part of TORM's incentive program",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T07:52:00Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "US listing could put Japan's Kioxia in global AI spotlight, Voya's Thomas says",
-            "source": "CNA",
-            "publishedAt": "2026-09-11T07:47:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.57,
-  "trade_probability": 40.74,
+  "confirmation_score": 34.76,
+  "trade_probability": 40.86,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
