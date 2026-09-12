@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T01:31:06.892012+00:00",
+  "generated_at": "2026-09-12T01:45:46.751700+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.67,
+      "score": 45.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.027,
+        "avg_compound": -0.086,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Nikkei Falls More Than 2,000 Points in Friday Morning Session",
-            "source": "Newsonjapan.com",
-            "publishedAt": "2026-09-11T01:27:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Republican skepticism arises after Trump's pledge of $5,000 payouts tied to GOP wins",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-11T01:40:12Z",
+            "sentiment": "Positive",
+            "compound": 0.402
           },
           {
-            "title": "XTIA Investors Have Opportunity to Lead XTI Aerospace, Inc. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T01:26:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "PRCT Deadline: PRCT Investors with Losses in Excess of $100K Have Opportunity to Lead PROCEPT BioRobotics Corporation Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T01:24:00Z",
+            "title": "Is Trump's $5,000 pledge a sign of panic?",
+            "source": "BBC News",
+            "publishedAt": "2026-09-11T01:38:51Z",
             "sentiment": "Negative",
-            "compound": -0.527
+            "compound": -0.511
           },
           {
-            "title": "Nasdaq Invests $100 Million in Kraken Parent Payward to Accelerate Tokenized Stock Push",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-11T01:18:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sensex today | Stock Market Live: Stock to buy today: Raymond (₹853.50)",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-11T01:18:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "WIX Deadline: WIX Investors with Losses in Excess of $100K Have Opportunity to Lead Wix.com Ltd. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-11T01:18:00Z",
+            "title": "Is Trump's $5,000 pledge a sign of panic?",
+            "source": "BBC News",
+            "publishedAt": "2026-09-11T01:38:51Z",
             "sentiment": "Negative",
-            "compound": -0.527
+            "compound": -0.511
+          },
+          {
+            "title": "Sensex Today | Nifty 50 | Stock Market Live Updates: GIFT Nifty signals a negative start; Asian shares trade lower",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-09-11T01:38:15Z",
+            "sentiment": "Positive",
+            "compound": 0.652
+          },
+          {
+            "title": "US braces for inflation report that may push Fed to hike rates",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T01:38:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Yes, it’s the economy, stupid. But One Nation is outflanking the government on messaging, too",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-09-11T01:36:50Z",
+            "sentiment": "Neutral",
+            "compound": -0.09
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.19,
-  "trade_probability": 40.51,
+  "confirmation_score": 33.89,
+  "trade_probability": 40.33,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
