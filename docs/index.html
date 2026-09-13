@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="ltr">
 <head>
@@ -517,7 +516,7 @@ function renderDecision(signal, risk) {
 
     const pos = risk ? risk.position_sizing : null;
     const isLong = bias === 'LONG';
-    const isShort = bias === 'SHORT' || bias === 'SHORT / AVOID';
+    const isShort = bias === 'SHORT';
     const actionType = document.getElementById('action-type');
     const actionIconBg = document.getElementById('action-icon-bg');
     const actionIcon = document.getElementById('action-icon');
@@ -578,6 +577,7 @@ const FACTOR_LABELS = {
     dxy: 'US Dollar (DXY)',
     macro: 'Macro Calendar',
     news_sentiment: 'News Sentiment',
+    patent_momentum: 'Patent Filing Momentum (USPTO)',
 };
 const STATUS_ICON = {
     green: '<i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-500 shrink-0"></i>',
