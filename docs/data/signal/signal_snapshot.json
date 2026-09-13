@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T06:15:54.005590+00:00",
+  "generated_at": "2026-09-13T06:31:06.874999+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.64,
+      "score": 44.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.087,
+        "avg_compound": -0.115,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "PHAM NHAT VUONG AND PHAM THU HUONG TRANSITION LEADERSHIP ROLES AT VINFAST AND GSM",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-12T06:21:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Michael Burry Is Staying Short Nvidia, Palantir, and Tesla, Warning of a Possible \"1987-Type Fall\" for AI Stocks. Should Investors Take the Bet Seriously?",
             "source": "Biztoc.com",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-12T06:00:00Z",
             "sentiment": "Neutral",
             "compound": -0.178
-          },
-          {
-            "title": "Iran Continues Using Bitcoin to Bypass Sanctions, Central Bank Looks the Other Way, Report Says",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-09-12T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 33.86,
-  "trade_probability": 40.32,
+  "confirmation_score": 33.73,
+  "trade_probability": 40.24,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
