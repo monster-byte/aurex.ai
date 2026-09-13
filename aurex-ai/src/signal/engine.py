@@ -18,6 +18,7 @@ from .price_factors import (
 )
 from .macro_factor import compute_macro_factor
 from .news_factor import compute_news_factor
+from .patent_factor import compute_patent_factor
 
 
 def load_json(path: str):
@@ -36,6 +37,7 @@ def compute_all_factors(price_snapshot: dict, calendar_payload: dict) -> dict:
         "dxy": compute_dxy_factor(),
         "macro": compute_macro_factor(calendar_payload),
         "news_sentiment": compute_news_factor(),
+        "patent_momentum": compute_patent_factor(),
     }
     return factors
 
@@ -48,11 +50,6 @@ def compute_confirmation_score(factors: dict) -> float:
 
 
 def estimate_trade_probability(confirmation_score: float) -> float:
-    """
-    تقدير مبدئي (heuristic) لاحتمالية نجاح الصفقة بالاعتماد على Confirmation Score.
-    ⚠️ هاي معايرة أولية بس — رح تُضبط بدقة أكبر لاحقاً بمرحلة الـ Backtest
-    (بمقارنة توقعات المحرك بنتائج فعلية تاريخية).
-    """
     probability = 50 + (confirmation_score - 50) * 0.6
     return round(max(5.0, min(95.0, probability)), 2)
 
@@ -66,12 +63,17 @@ def determine_final_decision(confirmation_score: float, regime_label: str) -> di
     thresholds = DECISION_THRESHOLDS
     is_bearish = "BEARISH" in regime_label
 
-    if confirmation_score >= thresholds["approve_min_score"] and not is_bearish:
+    approve_min_long = thresholds["approve_min_score"]
+    approve_max_short = 100 - approve_min_long
+
+    if confirmation_score >= approve_min_long and not is_bearish:
         status, bias = "APPROVED", "LONG"
-    elif confirmation_score >= thresholds["hold_min_score"]:
+    elif confirmation_score <= approve_max_short and is_bearish:
+        status, bias = "APPROVED", "SHORT"
+    elif approve_max_short < confirmation_score < approve_min_long:
         status, bias = "HOLD / MONITOR", "NEUTRAL"
     else:
-        status, bias = "REJECT", "SHORT / AVOID" if is_bearish else "AVOID"
+        status, bias = "REJECT", "AVOID"
 
     return {"ai_status": status, "directional_bias": bias}
 
@@ -107,9 +109,9 @@ def run():
     print("[3/3] حفظ النتيجة...")
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-                json.dump(result, f, ensure_ascii=False, indent=2)
+        json.dump(result, f, ensure_ascii=False, indent=2)
 
-    print(f"\nConfirmation Score : {confirmation_score}%")  
+    print(f"\nConfirmation Score : {confirmation_score}%")
     print(f"Trade Probability  : {trade_probability}%")
     print(f"Market Regime      : {regime_label}")
     print(f"Final Decision     : {decision['ai_status']} ({decision['directional_bias']})")
