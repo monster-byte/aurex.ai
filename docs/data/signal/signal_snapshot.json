@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T05:45:49.065593+00:00",
+  "generated_at": "2026-09-13T06:01:23.912295+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,61 +84,61 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.39,
+      "score": 46.02,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.072,
-        "articles_analyzed": 25,
+        "avg_compound": -0.08,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "VW ID.Polo driven: Can this electric car carry the weight of one of Volkswagen's most iconic names?",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-12T06:00:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Cliff Taylor: Energy price hikes are killing hopes of a feelgood budget",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-12T06:00:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Treasury Announces $6B Government Debt Buyback â Thrice The Normal Level",
+            "source": "Naturalnews.com",
+            "publishedAt": "2026-09-12T06:00:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "Iran Continues Using Bitcoin to Bypass Sanctions, Central Bank Looks the Other Way, Report Says",
+            "source": "Naturalnews.com",
+            "publishedAt": "2026-09-12T06:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "PMS Tracker: East Green, Atlas Integrated Finance, Hem Securities, 7 others deliver up to 14.7% returns in August",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-12T05:56:55Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "High oil prices could force ECB to raise rates further, warns top policymaker",
             "source": "Biztoc.com",
             "publishedAt": "2026-09-12T05:25:29Z",
             "sentiment": "Neutral",
             "compound": 0.103
-          },
-          {
-            "title": "Trump Promises Americans $5,000 Checks if Republicans Win in the Midterms. The Price Tag Could Top $1 Trillion",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-12T05:19:40Z",
-            "sentiment": "Positive",
-            "compound": 0.802
-          },
-          {
-            "title": "Stock Trades Up, Here Is Why",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-12T05:11:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Indian stock markets are losing their sheen as global funds exit. Here’s why",
-            "source": "Bloomberg",
-            "publishedAt": "2026-09-12T05:09:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Will US 10-year bond yield crossing 5% really hurt markets? Yes Securities says fears overblown",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-12T05:01:48Z",
-            "sentiment": "Negative",
-            "compound": -0.325
-          },
-          {
-            "title": "Russia, Trump and a battle over welfare loom over Sweden’s election",
-            "source": "CNBC",
-            "publishedAt": "2026-09-12T05:00:01Z",
-            "sentiment": "Negative",
-            "compound": -0.542
           }
         ]
       }
     }
   },
-  "confirmation_score": 33.94,
-  "trade_probability": 40.36,
+  "confirmation_score": 33.9,
+  "trade_probability": 40.34,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
