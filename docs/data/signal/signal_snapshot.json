@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T01:15:51.772895+00:00",
+  "generated_at": "2026-09-13T01:31:08.158245+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.22,
+      "score": 51.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.044,
+        "avg_compound": 0.024,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Can a gorilla push a car?",
+            "source": "Lifesciencesworld.com",
+            "publishedAt": "2026-09-12T01:24:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Diesel Prices Hit Record $6 Per Gallon—It Could Worsen Inflation",
             "source": "Biztoc.com",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-12T00:40:29Z",
             "sentiment": "Neutral",
             "compound": -0.103
-          },
-          {
-            "title": "WATCH: David Muir sharers 9|11 tribute of drones illuminating NYC skyline with Twin Towers",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-12T00:28:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.52,
-  "trade_probability": 40.71,
+  "confirmation_score": 34.42,
+  "trade_probability": 40.65,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
