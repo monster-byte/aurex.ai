@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T01:45:49.047194+00:00",
+  "generated_at": "2026-09-13T02:01:20.627020+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.2,
+      "score": 51.05,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.024,
+        "avg_compound": 0.021,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Beta Bionics, Inc. Notice of November 3, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-12T02:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Why Nasdaq surveillance cannot settle the fight over 24/7 tokenized markets",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-12T01:45:56Z",
+            "sentiment": "Positive",
+            "compound": 0.292
+          },
           {
             "title": "Trump scolded by WSJ conservatives for standing in the way of a key economic figure",
             "source": "Raw Story",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-12T00:57:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "WAFD SHAREHOLDER ALERT: Ademi LLP Investigates Whether Buyout Fairly Values WaFd, Inc.",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-12T00:51:00Z",
-            "sentiment": "Positive",
-            "compound": 0.684
-          },
-          {
-            "title": "Cost of living has gone up 3.4% in the last year",
-            "source": "NPR",
-            "publishedAt": "2026-09-12T00:45:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.42,
-  "trade_probability": 40.65,
+  "confirmation_score": 34.4,
+  "trade_probability": 40.64,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
