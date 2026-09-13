@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T05:01:17.244044+00:00",
+  "generated_at": "2026-09-13T05:15:52.993974+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.16,
+      "score": 46.3,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.057,
+        "avg_compound": -0.074,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stock Trades Up, Here Is Why",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-12T05:11:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Indian stock markets are losing their sheen as global funds exit. Here’s why",
+            "source": "Bloomberg",
+            "publishedAt": "2026-09-12T05:09:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Will US 10-year bond yield crossing 5% really hurt markets? Yes Securities says fears overblown",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-12T05:01:48Z",
+            "sentiment": "Negative",
+            "compound": -0.325
+          },
           {
             "title": "Russia, Trump and a battle over welfare loom over Sweden’s election",
             "source": "CNBC",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-12T05:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Irish plcs slam the brakes on share buybacks after spending record €7.2bn last year",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-12T05:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Crude shock puts RBI on watch: Governor Sanjay Malhotra says MPC will reassess growth, inflation next month",
-            "source": "Livemint",
-            "publishedAt": "2026-09-12T04:35:21Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "Bitcoin ETFs see $13M outflows while Ethereum ETFs pull in $216M in a single day",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-12T04:27:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.02,
-  "trade_probability": 40.41,
+  "confirmation_score": 33.93,
+  "trade_probability": 40.36,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
