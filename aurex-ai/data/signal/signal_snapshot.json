@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T04:31:08.866665+00:00",
+  "generated_at": "2026-09-13T04:45:52.650095+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.2,
+      "score": 47.86,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.036,
+        "avg_compound": -0.043,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Crude shock puts RBI on watch: Governor Sanjay Malhotra says MPC will reassess growth, inflation next month",
+            "source": "Livemint",
+            "publishedAt": "2026-09-12T04:35:21Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
           {
             "title": "Bitcoin ETFs see $13M outflows while Ethereum ETFs pull in $216M in a single day",
             "source": "Crypto Briefing",
@@ -125,20 +132,13 @@
             "publishedAt": "2026-09-12T04:10:06Z",
             "sentiment": "Positive",
             "compound": 0.511
-          },
-          {
-            "title": "5 world market themes for the week ahead",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-12T04:08:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.12,
-  "trade_probability": 40.47,
+  "confirmation_score": 34.09,
+  "trade_probability": 40.45,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
