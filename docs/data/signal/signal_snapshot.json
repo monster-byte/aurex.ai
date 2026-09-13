@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T01:31:08.158245+00:00",
+  "generated_at": "2026-09-13T01:45:49.047194+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -92,6 +92,13 @@
         "articles_analyzed": 25,
         "top_headlines": [
           {
+            "title": "Trump scolded by WSJ conservatives for standing in the way of a key economic figure",
+            "source": "Raw Story",
+            "publishedAt": "2026-09-12T01:43:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
             "title": "Can a gorilla push a car?",
             "source": "Lifesciencesworld.com",
             "publishedAt": "2026-09-12T01:24:36Z",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-09-12T00:45:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Morgan Stanley warns of possible stock market correction",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-12T00:40:29Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
           }
         ]
       }
