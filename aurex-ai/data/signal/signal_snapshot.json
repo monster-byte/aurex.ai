@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T00:45:48.878181+00:00",
+  "generated_at": "2026-09-13T01:01:16.058338+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.39,
+      "score": 52.22,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.068,
+        "avg_compound": 0.044,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Diesel Prices Hit Record $6 Per Gallon—It Could Worsen Inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-12T01:00:55Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "Microsoft Stock Is Flat So Far in 2026. Is a Rally Coming to End the Year?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-12T00:57:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "WAFD SHAREHOLDER ALERT: Ademi LLP Investigates Whether Buyout Fairly Values WaFd, Inc.",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-12T00:51:00Z",
+            "sentiment": "Positive",
+            "compound": 0.684
+          },
           {
             "title": "Cost of living has gone up 3.4% in the last year",
             "source": "NPR",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-12T00:28:45Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "WATCH: Phoenix art project honors children who lost loved ones on 9/11",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-12T00:27:56Z",
-            "sentiment": "Positive",
-            "compound": 0.71
-          },
-          {
-            "title": "Inflation remains elevated in August, US Bureau of Labor Statistics reports",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-12T00:27:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "N18bn paid to 2,700 ex-Nigeria Airways workers — FG",
-            "source": "The Punch",
-            "publishedAt": "2026-09-12T00:23:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.64,
-  "trade_probability": 40.78,
+  "confirmation_score": 34.52,
+  "trade_probability": 40.71,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
