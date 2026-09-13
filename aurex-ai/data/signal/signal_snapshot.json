@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T09:45:55.332815+00:00",
+  "generated_at": "2026-09-13T10:01:21.906435+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.72,
+      "score": 51.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.014,
-        "articles_analyzed": 24,
+        "avg_compound": 0.039,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Democrats Are Laughing at Trump’s Midterm Plan. They Shouldn’t.",
-            "source": "Slate Magazine",
-            "publishedAt": "2026-09-12T09:45:00Z",
+            "title": "Canada's industrial past a key advantage in next technology era",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-12T10:00:10Z",
             "sentiment": "Positive",
-            "compound": 0.494
+            "compound": 0.25
           },
           {
-            "title": "Nvidia Stock Could Reach $490 by End of 2027 Based on Current Growth Projections",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-12T09:43:33Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "A veteran economist tells us why he sees a recession and a stock crash by the end of 2027",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-12T09:40:01Z",
+            "title": "The Memo: Trump’s convention may struggle to turn tide for GOP",
+            "source": "The Hill",
+            "publishedAt": "2026-09-12T10:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.67
+            "compound": -0.318
           },
           {
-            "title": "An economist who studies business cycles explains tells us why he sees a recession and a stock crash by the end of 2027",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-12T09:40:01Z",
-            "sentiment": "Negative",
-            "compound": -0.67
-          },
-          {
-            "title": "India-EU FTA opens premium car mkt, gives Indian firms larger export quota",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-12T09:35:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jim Cramer on Simon Property (SPG) and Federal Realty (FRT): “Both of Them Are Excellent”",
+            "title": "Mortgage and refinance interest rates today, Saturday, September 12, 2026: Mortgage rates up for the second straight day",
             "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-12T09:35:16Z",
+            "publishedAt": "2026-09-12T10:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "Best CD rates today, Saturday, September 12, 2026: Lock in up to 4.35% APY with an 18-month CD",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-12T10:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Informal workers may soon open pension accounts via mobile, make contributions using UPI: PFRDA plan explained",
+            "source": "Livemint",
+            "publishedAt": "2026-09-12T09:55:10Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "The five big lies Trump is telling about Canada’s trade",
+            "source": "Toronto Star",
+            "publishedAt": "2026-09-12T09:49:14Z",
+            "sentiment": "Negative",
+            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.93,
-  "trade_probability": 41.56,
+  "confirmation_score": 36.04,
+  "trade_probability": 41.62,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
