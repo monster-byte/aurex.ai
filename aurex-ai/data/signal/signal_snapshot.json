@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T00:31:04.215251+00:00",
+  "generated_at": "2026-09-13T00:45:48.878181+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.26,
+      "score": 53.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.105,
+        "avg_compound": 0.068,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Cost of living has gone up 3.4% in the last year",
+            "source": "NPR",
+            "publishedAt": "2026-09-12T00:45:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Morgan Stanley warns of possible stock market correction",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-12T00:40:29Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "WATCH: David Muir sharers 9|11 tribute of drones illuminating NYC skyline with Twin Towers",
             "source": "Abcnews.com",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-12T00:23:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "How Energy Is Driving Inflation—and How It’s Not",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-12T00:11:01Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "ANDREW NEIL: When even Fox News can see Trump is verging on doolally, a fantasy $5,000 bribe won't save his skin in the mid-terms",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-12T00:06:20Z",
-            "sentiment": "Negative",
-            "compound": -0.531
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.83,
-  "trade_probability": 40.9,
+  "confirmation_score": 34.64,
+  "trade_probability": 40.78,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
