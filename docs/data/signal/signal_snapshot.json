@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T04:01:20.866455+00:00",
+  "generated_at": "2026-09-13T04:16:00.847140+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,60 +84,60 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.69,
+      "score": 50.57,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.014,
+        "avg_compound": 0.011,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Chainsawing: Moral, Legal, Optimal, Proven, Timely",
-            "source": "Lewrockwell.com",
-            "publishedAt": "2026-09-12T04:01:00Z",
-            "sentiment": "Positive",
-            "compound": 0.459
+            "title": "News Summary-Intelligence Report 9/11/2026*Newsdump Friday*Swedes Vote Sunday*Families Saudi Link* 9/11*Assisted Death Bill Fails UK*Irish Protest Trump Visit*Saudi Pipeline Taken Out*China Protests Taiwan Official's Italy Visit*Houthis Strategic...*",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-12T04:10:28Z",
+            "sentiment": "Negative",
+            "compound": -0.863
           },
           {
-            "title": "The Real-Life Epic of Donald Trump",
-            "source": "Americanthinker.com",
-            "publishedAt": "2026-09-12T04:00:00Z",
+            "title": "Metaplanet CEO surrenders $220 million in stock rights to rebuild trust with investors",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-12T04:10:06Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "5 world market themes for the week ahead",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-12T04:08:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The Learning Recession",
-            "source": "Americanthinker.com",
-            "publishedAt": "2026-09-12T04:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Morgan Stanley warns of possible stock market correction",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-12T03:56:21Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Consumer outlook plunges in September as inflation outlook worsens",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-12T03:55:08Z",
-            "sentiment": "Negative",
-            "compound": -0.477
-          },
-          {
-            "title": "Trump reiterates pre-poll promise of $5,000 'dividend' for every US adult",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-12T03:22:01Z",
+            "title": "Bitcoin vs Ethereum: Which crypto asset could deliver better returns in the next 12 months?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-12T04:07:54Z",
             "sentiment": "Positive",
-            "compound": 0.318
+            "compound": 0.66
+          },
+          {
+            "title": "US consumer prices accelerate in August, push Fed closer to rate hike",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-12T04:04:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Wall St Week Ahead-Investors brace for possible rate hike at uncertain Fed meeting",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-12T04:03:45Z",
+            "sentiment": "Negative",
+            "compound": -0.296
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.37,
+  "confirmation_score": 34.36,
   "trade_probability": 40.62,
   "market_regime": "BULLISH",
   "final_decision": {
