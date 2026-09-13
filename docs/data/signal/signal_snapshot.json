@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T04:16:00.847140+00:00",
+  "generated_at": "2026-09-13T04:31:08.866665+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.57,
+      "score": 48.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
+        "avg_compound": -0.036,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bitcoin ETFs see $13M outflows while Ethereum ETFs pull in $216M in a single day",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-12T04:27:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Iran takes defiant stance as US war deepens its isolation",
+            "source": "Bloomberg",
+            "publishedAt": "2026-09-12T04:20:20Z",
+            "sentiment": "Negative",
+            "compound": -0.818
+          },
+          {
+            "title": "NSE IPO: Market dominance vs regulatory risks; what investors should know from the RHP",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-12T04:18:55Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
           {
             "title": "News Summary-Intelligence Report 9/11/2026*Newsdump Friday*Swedes Vote Sunday*Families Saudi Link* 9/11*Assisted Death Bill Fails UK*Irish Protest Trump Visit*Saudi Pipeline Taken Out*China Protests Taiwan Official's Italy Visit*Houthis Strategic...*",
             "source": "Freerepublic.com",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-12T04:08:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Bitcoin vs Ethereum: Which crypto asset could deliver better returns in the next 12 months?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-12T04:07:54Z",
-            "sentiment": "Positive",
-            "compound": 0.66
-          },
-          {
-            "title": "US consumer prices accelerate in August, push Fed closer to rate hike",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-12T04:04:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wall St Week Ahead-Investors brace for possible rate hike at uncertain Fed meeting",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-12T04:03:45Z",
-            "sentiment": "Negative",
-            "compound": -0.296
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.36,
-  "trade_probability": 40.62,
+  "confirmation_score": 34.12,
+  "trade_probability": 40.47,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
