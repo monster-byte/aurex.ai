@@ -219,5 +219,18 @@
     "price_after": 29387.0,
     "price_change_pct": -0.108,
     "verified_at": "2026-09-12T19:46:01.089951+00:00"
+  },
+  {
+    "timestamp": "2026-09-13T08:52:00.000216+00:00",
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL",
+    "confirmation_score": 35.85,
+    "trade_probability": 41.51,
+    "entry_price": 29387.0,
+    "verified": false,
+    "outcome": null,
+    "price_after": null,
+    "price_change_pct": null,
+    "verified_at": null
   }
 ]
