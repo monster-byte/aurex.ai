@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:31:03.637289+00:00",
+  "generated_at": "2026-09-13T07:45:53.756859+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -92,6 +92,13 @@
         "articles_analyzed": 24,
         "top_headlines": [
           {
+            "title": "Inflation Not Going Back Into The Bottle: CPI, Core CPI, And Core Services CPI Bounce Back",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-12T07:42:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
             "title": "PHAM NHAT VUONG AND PHAM THU HUONG TRANSITION LEADERSHIP ROLES AT VINFAST AND GSM",
             "source": "PRNewswire",
             "publishedAt": "2026-09-12T06:21:00Z",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-09-12T06:00:00Z",
             "sentiment": "Neutral",
             "compound": -0.128
-          },
-          {
-            "title": "Treasury Announces $6B Government Debt Buyback â Thrice The Normal Level",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-09-12T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
           }
         ]
       }
