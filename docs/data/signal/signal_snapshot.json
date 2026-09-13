@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T02:31:06.314481+00:00",
+  "generated_at": "2026-09-13T02:45:47.239730+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.17,
+      "score": 51.71,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.023,
+        "avg_compound": 0.034,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Indian equities end lower for fifth week amid oil, US yields concerns",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-12T02:42:24Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "NSE IPO set to open for public on September 17; price band at 1,700-1,785",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-12T02:34:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Economic Digest: A Snapshot of Nepal’s Business News",
             "source": "Khabarhub.com",
@@ -118,27 +132,13 @@
             "publishedAt": "2026-09-12T02:00:00Z",
             "sentiment": "Negative",
             "compound": -0.226
-          },
-          {
-            "title": "Why Nasdaq surveillance cannot settle the fight over 24/7 tokenized markets",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-12T01:45:56Z",
-            "sentiment": "Positive",
-            "compound": 0.292
-          },
-          {
-            "title": "Trump scolded by WSJ conservatives for standing in the way of a key economic figure",
-            "source": "Raw Story",
-            "publishedAt": "2026-09-12T01:43:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.42,
-  "trade_probability": 40.65,
+  "confirmation_score": 34.47,
+  "trade_probability": 40.68,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
