@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T10:01:21.906435+00:00",
+  "generated_at": "2026-09-13T10:15:46.911461+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.93,
+      "score": 51.88,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.039,
+        "avg_compound": 0.038,
         "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Canada's industrial past a key advantage in next technology era",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-12T10:00:10Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "The Memo: Trump’s convention may struggle to turn tide for GOP",
-            "source": "The Hill",
-            "publishedAt": "2026-09-12T10:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Mortgage and refinance interest rates today, Saturday, September 12, 2026: Mortgage rates up for the second straight day",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-12T10:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.599
-          },
-          {
-            "title": "Best CD rates today, Saturday, September 12, 2026: Lock in up to 4.35% APY with an 18-month CD",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-12T10:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Informal workers may soon open pension accounts via mobile, make contributions using UPI: PFRDA plan explained",
-            "source": "Livemint",
-            "publishedAt": "2026-09-12T09:55:10Z",
+            "title": "Christine Lagarde: Europe seen from Normandy",
+            "source": "Europa.eu",
+            "publishedAt": "2026-09-12T10:15:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The five big lies Trump is telling about Canada’s trade",
-            "source": "Toronto Star",
-            "publishedAt": "2026-09-12T09:49:14Z",
-            "sentiment": "Negative",
-            "compound": -0.421
+            "title": "'Cash is trash': Kiyosaki says Americans stockpiling cash are 'big losers' making a huge mistake. 5 real assets he likes",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-12T10:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Best CD rates today, Saturday, September 12, 2026: Lock in up to 4.35% APY with an 18-month CD",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-12T10:14:59Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "The Austrian Blueprint: A Practical Guide for the 50 States",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-12T10:12:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stubborn inflation raises prospect of Fed rate hike - The Hill",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-12T10:12:05Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Support for Unions Is Spiking as AI Threatens Jobs",
+            "source": "Futurism",
+            "publishedAt": "2026-09-12T10:03:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
           }
         ]
       }
