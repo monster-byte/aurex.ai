@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T23:45:47.389367+00:00",
+  "generated_at": "2026-09-13T00:01:25.529287+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.62,
+      "score": 52.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.052,
+        "avg_compound": 0.056,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Core CPI Surprise and FOMC Odds",
+            "source": "Econbrowser.com",
+            "publishedAt": "2026-09-12T00:00:23Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Why Can't We Stop Eating Certain Foods?",
+            "source": "Mercola.com",
+            "publishedAt": "2026-09-12T00:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.457
+          },
+          {
+            "title": "AstraZeneca Stock Topples On Unexpected Breast Cancer Failure",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-11T23:49:04Z",
+            "sentiment": "Negative",
+            "compound": -0.827
+          },
           {
             "title": "Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now",
             "source": "Biztoc.com",
@@ -111,34 +132,13 @@
             "publishedAt": "2026-09-11T23:32:25Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "The tactics at 'Trump-a-palooza' reveal risks for Republicans",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-09-11T23:12:00Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Ethereum climbs back into global top 100 assets by market cap",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-11T23:10:26Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Cramer: This market has eerie parallels with 2018. Here's what investors should do",
-            "source": "CNBC",
-            "publishedAt": "2026-09-11T23:09:35Z",
-            "sentiment": "Negative",
-            "compound": -0.361
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.56,
-  "trade_probability": 40.74,
+  "confirmation_score": 34.58,
+  "trade_probability": 40.75,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
