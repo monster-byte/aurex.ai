@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T04:45:52.650095+00:00",
+  "generated_at": "2026-09-13T05:01:17.244044+00:00",
   "weights": {
     "mega_cap_alignment": 0.3,
     "market_regime": 0.15,
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.86,
+      "score": 47.16,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.043,
+        "avg_compound": -0.057,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Russia, Trump and a battle over welfare loom over Sweden’s election",
+            "source": "CNBC",
+            "publishedAt": "2026-09-12T05:00:01Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "Makhlouf stays on the fence on future rate hikes",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-12T05:00:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "MetroLink to build housing for up to 2,000 workers",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-12T05:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Irish plcs slam the brakes on share buybacks after spending record €7.2bn last year",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-12T05:00:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "Crude shock puts RBI on watch: Governor Sanjay Malhotra says MPC will reassess growth, inflation next month",
             "source": "Livemint",
@@ -104,41 +132,13 @@
             "publishedAt": "2026-09-12T04:27:37Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Iran takes defiant stance as US war deepens its isolation",
-            "source": "Bloomberg",
-            "publishedAt": "2026-09-12T04:20:20Z",
-            "sentiment": "Negative",
-            "compound": -0.818
-          },
-          {
-            "title": "NSE IPO: Market dominance vs regulatory risks; what investors should know from the RHP",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-12T04:18:55Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
-          },
-          {
-            "title": "News Summary-Intelligence Report 9/11/2026*Newsdump Friday*Swedes Vote Sunday*Families Saudi Link* 9/11*Assisted Death Bill Fails UK*Irish Protest Trump Visit*Saudi Pipeline Taken Out*China Protests Taiwan Official's Italy Visit*Houthis Strategic...*",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-12T04:10:28Z",
-            "sentiment": "Negative",
-            "compound": -0.863
-          },
-          {
-            "title": "Metaplanet CEO surrenders $220 million in stock rights to rebuild trust with investors",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-12T04:10:06Z",
-            "sentiment": "Positive",
-            "compound": 0.511
           }
         ]
       }
     }
   },
-  "confirmation_score": 34.09,
-  "trade_probability": 40.45,
+  "confirmation_score": 34.02,
+  "trade_probability": 40.41,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "REJECT",
